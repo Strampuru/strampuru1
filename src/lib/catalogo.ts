@@ -10,8 +10,12 @@ import hCalcas from "@/assets/h-calcas.jpg";
 import cLinho from "@/assets/c-linho.jpg";
 import cMalha from "@/assets/c-malha.jpg";
 import cCasaco from "@/assets/c-casaco.jpg";
+import catBrindes from "@/assets/cat-brindes.jpg";
+import bTote from "@/assets/b-tote.jpg";
+import bEcharpe from "@/assets/b-echarpe.jpg";
+import bCaderno from "@/assets/b-caderno.jpg";
 
-export type CategoriaId = "mulher" | "homem" | "crianca";
+export type CategoriaId = "mulher" | "homem" | "crianca" | "brindes";
 
 export type Cor = {
   nome: string;
@@ -63,6 +67,14 @@ export const categorias: Categoria[] = [
     descricao: "Liberdade de movimento com materiais orgânicos.",
     imagem: catCrianca,
     subcategorias: ["Conjuntos", "Malhas", "Casacos"],
+  },
+  {
+    id: "brindes",
+    nome: "Brindes",
+    titulo: "Objetos de Afeto",
+    descricao: "Acessórios e mimos curados em materiais naturais para oferecer e guardar.",
+    imagem: catBrindes,
+    subcategorias: ["Acessórios", "Casa", "Papelaria"],
   },
 ];
 
@@ -200,6 +212,51 @@ export const modelos: Modelo[] = [
     imagem: cCasaco,
     cores: [
       { nome: "Bege", hex: "#c9b894" },
+      { nome: "Verde Musgo", hex: "#7c8568" },
+    ],
+  },
+  {
+    id: "tote-linho",
+    nome: "Tote Bag em Linho",
+    categoria: "brindes",
+    subcategoria: "Acessórios",
+    descricao:
+      "Saco de embeiradura em linho cru com pegas em couro vegetal. Espaçoso e resistente, para o dia a dia ou a praia.",
+    composicao: "100% Linho, Couro Vegetal",
+    referencia: "#AL-B-001",
+    imagem: bTote,
+    cores: [
+      { nome: "Cru", hex: "#e6dcc6" },
+      { nome: "Preto", hex: "#1a1a1a" },
+    ],
+  },
+  {
+    id: "echarpe-la",
+    nome: "Echarpe em Lã",
+    categoria: "brindes",
+    subcategoria: "Acessórios",
+    descricao:
+      "Echarpe leve de lã merino com franja delicada. Quente e suave, em tons de terra que combinam com tudo.",
+    composicao: "100% Lã Merino",
+    referencia: "#AL-B-002",
+    imagem: bEcharpe,
+    cores: [
+      { nome: "Terracota", hex: "#a67c52" },
+      { nome: "Creme", hex: "#e8e0d2" },
+    ],
+  },
+  {
+    id: "caderno-linho",
+    nome: "Caderno Encadernado em Linho",
+    categoria: "brindes",
+    subcategoria: "Papelaria",
+    descricao:
+      "Caderno de capa dura revestida a linho com marcador em fita. Papel crem de 120g, ideal para escrever e desenhar.",
+    composicao: "Linho, Papel Reciclado",
+    referencia: "#AL-B-003",
+    imagem: bCaderno,
+    cores: [
+      { nome: "Areia", hex: "#cdbfa0" },
       { nome: "Verde Musgo", hex: "#7c8568" },
     ],
   },

@@ -48,7 +48,9 @@ function Index() {
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {categorias.map((cat, i) => (
+          {categorias
+            .filter((c) => c.id !== "brindes")
+            .map((cat, i) => (
             <Link
               key={cat.id}
               to="/categoria/$categoria"
@@ -94,6 +96,60 @@ function Index() {
           </div>
         </div>
       </section>
+
+      {/* Brindes */}
+      {(() => {
+        const cat = categorias.find((c) => c.id === "brindes");
+        if (!cat) return null;
+        const brindes = modelos.filter((m) => m.categoria === "brindes").slice(0, 3);
+        return (
+          <section className="max-w-7xl mx-auto px-6 py-32">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+              <Link
+                to="/categoria/$categoria"
+                params={{ categoria: "brindes" }}
+                className="group block"
+              >
+                <div className="w-full aspect-[4/3] bg-secondary overflow-hidden ring-1 ring-black/5">
+                  <img
+                    src={cat.imagem}
+                    alt={cat.titulo}
+                    loading="lazy"
+                    width={1024}
+                    height={768}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+              </Link>
+              <div className="md:pl-8">
+                <span className="text-[10px] uppercase tracking-widest text-muted-foreground">
+                  Novidade
+                </span>
+                <h2 className="font-display text-4xl md:text-5xl mt-3 mb-4">
+                  {cat.titulo}
+                </h2>
+                <p className="text-muted-foreground leading-relaxed text-sm max-w-sm mb-6">
+                  {cat.descricao}
+                </p>
+                <Link
+                  to="/categoria/$categoria"
+                  params={{ categoria: "brindes" }}
+                  className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest border-b border-foreground/30 pb-1 hover:border-foreground transition-colors"
+                >
+                  Ver Brindes
+                </Link>
+              </div>
+            </div>
+            {brindes.length > 0 && (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-12">
+                {brindes.map((m) => (
+                  <ModelCard key={m.id} modelo={m} />
+                ))}
+              </div>
+            )}
+          </section>
+        );
+      })()}
     </SiteLayout>
   );
 }
