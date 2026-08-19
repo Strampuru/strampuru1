@@ -1,20 +1,18 @@
-import { Link, Outlet } from "@tanstack/react-router";
+import { Link } from "@tanstack/react-router";
+import type { ReactNode } from "react";
 
 const navLinks = [
-  { to: "/categoria/$categoria", params: { categoria: "mulher" }, label: "Mulher" },
-  { to: "/categoria/$categoria", params: { categoria: "homem" }, label: "Homem" },
-  { to: "/categoria/$categoria", params: { categoria: "crianca" }, label: "Criança" },
-] as const;
+  { to: "/categoria/$categoria" as const, params: { categoria: "mulher" }, label: "Mulher" },
+  { to: "/categoria/$categoria" as const, params: { categoria: "homem" }, label: "Homem" },
+  { to: "/categoria/$categoria" as const, params: { categoria: "crianca" }, label: "Criança" },
+];
 
-export function SiteLayout() {
+export function SiteLayout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-accent/20 font-sans flex flex-col">
       <nav className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b border-border">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <Link
-            to="/"
-            className="text-2xl font-display italic tracking-tighter"
-          >
+          <Link to="/" className="text-2xl font-display italic tracking-tighter">
             Alma
           </Link>
           <div className="hidden md:flex gap-12 text-[11px] uppercase tracking-[0.2em] font-medium">
@@ -36,9 +34,7 @@ export function SiteLayout() {
         </div>
       </nav>
 
-      <main className="flex-1">
-        <Outlet />
-      </main>
+      <main className="flex-1">{children}</main>
 
       <footer className="border-t border-border py-20 bg-secondary">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start gap-12">
@@ -58,17 +54,29 @@ export function SiteLayout() {
               </h4>
               <ul className="text-[11px] uppercase tracking-[0.15em] space-y-2 text-muted-foreground">
                 <li>
-                  <Link to="/categoria/$categoria" params={{ categoria: "mulher" }} className="hover:text-foreground transition-colors">
+                  <Link
+                    to="/categoria/$categoria"
+                    params={{ categoria: "mulher" }}
+                    className="hover:text-foreground transition-colors"
+                  >
                     Mulher
                   </Link>
                 </li>
                 <li>
-                  <Link to="/categoria/$categoria" params={{ categoria: "homem" }} className="hover:text-foreground transition-colors">
+                  <Link
+                    to="/categoria/$categoria"
+                    params={{ categoria: "homem" }}
+                    className="hover:text-foreground transition-colors"
+                  >
                     Homem
                   </Link>
                 </li>
                 <li>
-                  <Link to="/categoria/$categoria" params={{ categoria: "crianca" }} className="hover:text-foreground transition-colors">
+                  <Link
+                    to="/categoria/$categoria"
+                    params={{ categoria: "crianca" }}
+                    className="hover:text-foreground transition-colors"
+                  >
                     Criança
                   </Link>
                 </li>
