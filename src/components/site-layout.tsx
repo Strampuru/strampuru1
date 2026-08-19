@@ -1,11 +1,12 @@
 import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
+import { categorias } from "@/lib/catalogo";
 
-const navLinks = [
-  { to: "/categoria/$categoria" as const, params: { categoria: "mulher" }, label: "Mulher" },
-  { to: "/categoria/$categoria" as const, params: { categoria: "homem" }, label: "Homem" },
-  { to: "/categoria/$categoria" as const, params: { categoria: "crianca" }, label: "Criança" },
-];
+const navLinks = categorias.map((c) => ({
+  to: "/categoria/$categoria" as const,
+  params: { categoria: c.id },
+  label: c.nome,
+}));
 
 export function SiteLayout({ children }: { children: ReactNode }) {
   return (
