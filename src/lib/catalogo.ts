@@ -215,6 +215,51 @@ export const modelos: Modelo[] = [
       { nome: "Verde Musgo", hex: "#7c8568" },
     ],
   },
+  {
+    id: "tote-linho",
+    nome: "Tote Bag em Linho",
+    categoria: "brindes",
+    subcategoria: "Acessórios",
+    descricao:
+      "Saco de embeiradura em linho cru com pegas em couro vegetal. Espaçoso e resistente, para o dia a dia ou a praia.",
+    composicao: "100% Linho, Couro Vegetal",
+    referencia: "#AL-B-001",
+    imagem: bTote,
+    cores: [
+      { nome: "Cru", hex: "#e6dcc6" },
+      { nome: "Preto", hex: "#1a1a1a" },
+    ],
+  },
+  {
+    id: "echarpe-la",
+    nome: "Echarpe em Lã",
+    categoria: "brindes",
+    subcategoria: "Acessórios",
+    descricao:
+      "Echarpe leve de lã merino com franja delicada. Quente e suave, em tons de terra que combinam com tudo.",
+    composicao: "100% Lã Merino",
+    referencia: "#AL-B-002",
+    imagem: bEcharpe,
+    cores: [
+      { nome: "Terracota", hex: "#a67c52" },
+      { nome: "Creme", hex: "#e8e0d2" },
+    ],
+  },
+  {
+    id: "caderno-linho",
+    nome: "Caderno Encadernado em Linho",
+    categoria: "brindes",
+    subcategoria: "Papelaria",
+    descricao:
+      "Caderno de capa dura revestida a linho com marcador em fita. Papel crem de 120g, ideal para escrever e desenhar.",
+    composicao: "Linho, Papel Reciclado",
+    referencia: "#AL-B-003",
+    imagem: bCaderno,
+    cores: [
+      { nome: "Areia", hex: "#cdbfa0" },
+      { nome: "Verde Musgo", hex: "#7c8568" },
+    ],
+  },
 ];
 
 export function getCategoria(id: string): Categoria | undefined {
