@@ -10,8 +10,12 @@ import hCalcas from "@/assets/h-calcas.jpg";
 import cLinho from "@/assets/c-linho.jpg";
 import cMalha from "@/assets/c-malha.jpg";
 import cCasaco from "@/assets/c-casaco.jpg";
+import catBrindes from "@/assets/cat-brindes.jpg";
+import bTote from "@/assets/b-tote.jpg";
+import bEcharpe from "@/assets/b-echarpe.jpg";
+import bCaderno from "@/assets/b-caderno.jpg";
 
-export type CategoriaId = "mulher" | "homem" | "crianca";
+export type CategoriaId = "mulher" | "homem" | "crianca" | "brindes";
 
 export type Cor = {
   nome: string;
@@ -63,6 +67,14 @@ export const categorias: Categoria[] = [
     descricao: "Liberdade de movimento com materiais orgânicos.",
     imagem: catCrianca,
     subcategorias: ["Conjuntos", "Malhas", "Casacos"],
+  },
+  {
+    id: "brindes",
+    nome: "Brindes",
+    titulo: "Objetos de Afeto",
+    descricao: "Acessórios e mimos curados em materiais naturais para oferecer e guardar.",
+    imagem: catBrindes,
+    subcategorias: ["Acessórios", "Casa", "Papelaria"],
   },
 ];
 
