@@ -54,33 +54,17 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                 Coleções
               </h4>
               <ul className="text-[11px] uppercase tracking-[0.15em] space-y-2 text-muted-foreground">
-                <li>
-                  <Link
-                    to="/categoria/$categoria"
-                    params={{ categoria: "mulher" }}
-                    className="hover:text-foreground transition-colors"
-                  >
-                    Mulher
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/categoria/$categoria"
-                    params={{ categoria: "homem" }}
-                    className="hover:text-foreground transition-colors"
-                  >
-                    Homem
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/categoria/$categoria"
-                    params={{ categoria: "crianca" }}
-                    className="hover:text-foreground transition-colors"
-                  >
-                    Criança
-                  </Link>
-                </li>
+                {categorias.map((c) => (
+                  <li key={c.id}>
+                    <Link
+                      to="/categoria/$categoria"
+                      params={{ categoria: c.id }}
+                      className="hover:text-foreground transition-colors"
+                    >
+                      {c.nome}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
             <div className="space-y-4">
