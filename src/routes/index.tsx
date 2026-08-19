@@ -48,7 +48,9 @@ function Index() {
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {categorias.map((cat, i) => (
+          {categorias
+            .filter((c) => c.id !== "brindes")
+            .map((cat, i) => (
             <Link
               key={cat.id}
               to="/categoria/$categoria"
