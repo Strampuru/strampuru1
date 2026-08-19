@@ -35,7 +35,7 @@ export const Route = createFileRoute("/modelo/$id")({
 function ModeloPage() {
   const { modelo, categoria } = Route.useLoaderData();
   const [ativa, setAtiva] = useState(0);
-  const cor = modelo.cores[ativa] ?? modelo.cores[0];
+  const cor = modelo.cores[ativa] ?? modelo.cores[0] ?? { nome: "", hex: "" };
 
   return (
     <SiteLayout>

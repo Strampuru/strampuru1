@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as CategoriaCategoriaRouteImport } from './routes/categoria.$categoria'
+import { Route as ModeloIdRouteImport } from './routes/modelo.$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -22,31 +23,40 @@ const CategoriaCategoriaRoute = CategoriaCategoriaRouteImport.update({
   path: '/categoria/$categoria',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ModeloIdRoute = ModeloIdRouteImport.update({
+  id: '/modelo/$id',
+  path: '/modelo/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/categoria/$categoria': typeof CategoriaCategoriaRoute
+  '/modelo/$id': typeof ModeloIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/categoria/$categoria': typeof CategoriaCategoriaRoute
+  '/modelo/$id': typeof ModeloIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/categoria/$categoria': typeof CategoriaCategoriaRoute
+  '/modelo/$id': typeof ModeloIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/categoria/$categoria'
+  fullPaths: '/' | '/categoria/$categoria' | '/modelo/$id'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/categoria/$categoria'
-  id: '__root__' | '/' | '/categoria/$categoria'
+  to: '/' | '/categoria/$categoria' | '/modelo/$id'
+  id: '__root__' | '/' | '/categoria/$categoria' | '/modelo/$id'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   CategoriaCategoriaRoute: typeof CategoriaCategoriaRoute
+  ModeloIdRoute: typeof ModeloIdRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -65,12 +75,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CategoriaCategoriaRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/modelo/$id': {
+      id: '/modelo/$id'
+      path: '/modelo/$id'
+      fullPath: '/modelo/$id'
+      preLoaderRoute: typeof ModeloIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   CategoriaCategoriaRoute: CategoriaCategoriaRoute,
+  ModeloIdRoute: ModeloIdRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
