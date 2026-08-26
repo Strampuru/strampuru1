@@ -163,7 +163,7 @@ function ModeloPage() {
               {modelo.cores.map((c, i) => (
                 <button
                   key={c.nome}
-                  onClick={() => setAtiva(i)}
+                  onClick={() => irParaCor(i)}
                   aria-label={c.nome}
                   aria-pressed={i === ativa}
                   className={`size-9 rounded-full transition-all ring-offset-2 ring-offset-background outline-none ${
