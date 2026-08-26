@@ -1,5 +1,5 @@
 import { createFileRoute, notFound, Link } from "@tanstack/react-router";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
 import { getModelo, getCategoria } from "@/lib/catalogo";
 
