@@ -66,12 +66,12 @@ function Index() {
 
           <div className="mt-12 md:mt-14 flex items-center gap-8 md:gap-12 text-center">
             <div>
-              <div className="font-display text-3xl md:text-4xl">{modelos.length}</div>
+              <div className="font-display text-3xl md:text-4xl text-accent">{modelos.length}</div>
               <div className="mt-1 text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Modelos</div>
             </div>
             <span className="h-10 w-px bg-border" />
             <div>
-              <div className="font-display text-3xl md:text-4xl">{totalCores}</div>
+              <div className="font-display text-3xl md:text-4xl text-accent">{totalCores}</div>
               <div className="mt-1 text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Cores</div>
             </div>
           </div>
