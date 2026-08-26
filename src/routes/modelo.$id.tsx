@@ -34,9 +34,32 @@ export const Route = createFileRoute("/modelo/$id")({
 
 function ModeloPage() {
   const { modelo, categoria } = Route.useLoaderData();
-  const [ativa, setAtiva] = useState(0);
+
+  // Diapositivos: foto lifestyle primeiro, depois uma imagem por cor
+  const slides = [
+    ...(modelo.lifestyle
+      ? [
+          {
+            src: modelo.lifestyle,
+            alt: `Pessoa a usar a ${modelo.nome}`,
+            legenda: "Em uso",
+            corIndex: -1,
+          },
+        ]
+      : []),
+    ...modelo.cores.map((c, i) => ({
+      src: c.imagem,
+      alt: `${modelo.nome} — ${c.nome}`,
+      legenda: `${modelo.referenciaNome} — ${c.nome}`,
+      corIndex: i,
+    })),
+  ];
+
+  const [slide, setSlide] = useState(0);
+  const atual = slides[slide] ?? slides[0]!;
+  const ativa = atual.corIndex;
   const cor =
-    modelo.cores[ativa] ??
+    (ativa >= 0 ? modelo.cores[ativa] : undefined) ??
     modelo.cores[0] ?? {
       nome: "",
       hex: "",
@@ -44,39 +67,62 @@ function ModeloPage() {
       imagem: modelo.imagem,
     };
 
+  const irParaCor = (i: number) => {
+    setAtivaSlide(i);
+  };
+  const setAtivaSlide = (i: number) => {
+    const idx = slides.findIndex((s) => s.corIndex === i);
+    if (idx >= 0) setSlide(idx);
+  };
+  const anterior = () =>
+    setSlide((s) => (s - 1 + slides.length) % slides.length);
+  const seguinte = () => setSlide((s) => (s + 1) % slides.length);
+
   const [cabecalho, ...linhas] = modelo.tamanhos;
 
   return (
     <SiteLayout>
       <section className="max-w-7xl mx-auto px-6 py-12 md:py-20 grid md:grid-cols-2 gap-12 md:gap-20 items-start">
-        {/* Imagem */}
-        <div className="md:sticky md:top-32 space-y-4">
-          {modelo.lifestyle && (
-            <div className="w-full aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden">
-              <img
-                src={modelo.lifestyle}
-                alt={`Pessoa a usar a ${modelo.nome}`}
-                width={1024}
-                height={1280}
-                className="w-full h-full object-cover"
-              />
-            </div>
-          )}
-          <figure className="space-y-2">
-            <div className="w-full aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden">
-              <img
-                src={cor.imagem}
-                alt={`${modelo.nome} — ${cor.nome}`}
-                width={800}
-                height={1000}
-                loading="lazy"
-                className="w-full h-full object-contain p-6"
-              />
-            </div>
-            <figcaption className="text-[10px] uppercase tracking-widest text-muted-foreground">
-              {modelo.referenciaNome} — {cor.nome}
-            </figcaption>
-          </figure>
+        {/* Galeria */}
+        <div className="md:sticky md:top-32 space-y-2">
+          <div className="relative w-full aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden group">
+            <img
+              key={atual.src}
+              src={atual.src}
+              alt={atual.alt}
+              width={1024}
+              height={1280}
+              className={`w-full h-full ${
+                atual.corIndex === -1
+                  ? "object-cover"
+                  : "object-contain p-6"
+              }`}
+            />
+            {slides.length > 1 && (
+              <>
+                <button
+                  onClick={anterior}
+                  aria-label="Imagem anterior"
+                  className="absolute left-3 top-1/2 -translate-y-1/2 size-10 rounded-full bg-background/80 backdrop-blur ring-1 ring-black/10 flex items-center justify-center text-lg hover:bg-background transition-colors opacity-0 group-hover:opacity-100"
+                >
+                  ←
+                </button>
+                <button
+                  onClick={seguinte}
+                  aria-label="Imagem seguinte"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 size-10 rounded-full bg-background/80 backdrop-blur ring-1 ring-black/10 flex items-center justify-center text-lg hover:bg-background transition-colors opacity-0 group-hover:opacity-100"
+                >
+                  →
+                </button>
+                <span className="absolute bottom-3 right-3 text-[10px] uppercase tracking-widest bg-background/80 backdrop-blur px-2 py-1 ring-1 ring-black/10">
+                  {slide + 1} / {slides.length}
+                </span>
+              </>
+            )}
+          </div>
+          <p className="text-[10px] uppercase tracking-widest text-muted-foreground">
+            {atual.legenda}
+          </p>
         </div>
 
 
@@ -117,7 +163,7 @@ function ModeloPage() {
               {modelo.cores.map((c, i) => (
                 <button
                   key={c.nome}
-                  onClick={() => setAtiva(i)}
+                  onClick={() => irParaCor(i)}
                   aria-label={c.nome}
                   aria-pressed={i === ativa}
                   className={`size-9 rounded-full transition-all ring-offset-2 ring-offset-background outline-none ${
