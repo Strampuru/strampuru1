@@ -86,8 +86,8 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                 className="flex items-center justify-center h-10 w-10 border border-border text-muted-foreground hover:text-accent hover:border-accent/50 transition-colors duration-300"
               >
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
-                  <rect x="3" y="3" width="18" height="18" rx="5" stroke-width="1.5" />
-                  <circle cx="12" cy="12" r="4" stroke-width="1.5" />
+                  <rect x="3" y="3" width="18" height="18" rx="5" strokeWidth="1.5" />
+                  <circle cx="12" cy="12" r="4" strokeWidth="1.5" />
                   <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none" />
                 </svg>
               </a>
@@ -100,15 +100,15 @@ export function SiteLayout({ children }: { children: ReactNode }) {
               >
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="M12 3a9 9 0 00-7.8 13.5L3 21l4.6-1.2A9 9 0 1012 3z"
                   />
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="M8.5 8.3c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.5l-.4.5c-.1.1-.2.3-.1.5.2.4.7 1.1 1.3 1.6.8.7 1.4.9 1.6 1 .2.1.4 0 .5-.1l.5-.6c.2-.2.3-.2.5-.1l1.7.8c.2.1.3.3.3.4 0 .6-.3 1.2-.7 1.4-.5.3-1.4.6-2.6.2-1.5-.5-2.9-1.4-4-2.8-.6-.8-1.2-1.8-1.3-2.6-.1-.8 0-1.4.2-1.8z"
                   />
                 </svg>
@@ -119,11 +119,11 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                 className="flex items-center justify-center h-10 w-10 border border-border text-muted-foreground hover:text-accent hover:border-accent/50 transition-colors duration-300"
               >
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
-                  <rect x="3" y="5" width="18" height="14" rx="2" stroke-width="1.5" />
+                  <rect x="3" y="5" width="18" height="14" rx="2" strokeWidth="1.5" />
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="M3.5 6.5l8.5 6 8.5-6"
                   />
                 </svg>
