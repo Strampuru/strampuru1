@@ -82,40 +82,40 @@ function ContactosPage() {
       <section className="relative overflow-hidden border-b border-border bg-card">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,var(--color-secondary),transparent_72%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,oklch(0.72_0.13_38/0.10),transparent_45%),radial-gradient(circle_at_80%_70%,oklch(0.62_0.14_240/0.08),transparent_45%)]" />
-        <div className="relative max-w-3xl mx-auto px-6 py-20 md:py-28 flex flex-col items-center text-center animate-fade-up">
-          <div className="flex items-center gap-4 mb-10">
-            <span className="h-px w-10 md:w-16 bg-accent/60" />
-            <span className="text-[10px] tracking-[0.34em] text-accent font-semibold uppercase">
+        <div className="relative max-w-3xl mx-auto px-4 sm:px-6 py-14 md:py-28 flex flex-col items-center text-center animate-fade-up">
+          <div className="flex items-center gap-3 sm:gap-4 mb-8 md:mb-10">
+            <span className="h-px w-6 sm:w-10 md:w-16 bg-accent/60" />
+            <span className="text-[9px] sm:text-[10px] tracking-[0.28em] sm:tracking-[0.34em] text-accent font-semibold uppercase">
               Estamos por perto
             </span>
-            <span className="h-px w-10 md:w-16 bg-accent/60" />
+            <span className="h-px w-6 sm:w-10 md:w-16 bg-accent/60" />
           </div>
-          <h1 className="font-display text-5xl md:text-7xl leading-[0.95]">
+          <h1 className="font-display text-4xl sm:text-5xl md:text-7xl leading-[0.95]">
             <span className="italic">Contactos</span>
           </h1>
-          <p className="mt-6 max-w-md text-muted-foreground leading-relaxed text-sm">
+          <p className="mt-5 md:mt-6 max-w-md text-muted-foreground leading-relaxed text-[13px] sm:text-sm">
             Para encomendas, personalização ou esclarecimento de dúvidas sobre
             qualquer modelo do catálogo, fala connosco pelo canal que preferires.
           </p>
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-6 py-20 md:py-28">
-        <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 py-14 md:py-28">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           {contactos.map((c) => (
             <a
               key={c.etiqueta}
               href={c.href}
               target={c.href.startsWith("http") ? "_blank" : undefined}
               rel={c.href.startsWith("http") ? "noopener noreferrer" : undefined}
-              className="group flex flex-col items-start gap-5 p-8 md:p-10 bg-card border border-border hover:border-accent/50 transition-colors duration-500"
+              className="group flex flex-col items-start gap-4 sm:gap-5 p-6 sm:p-8 md:p-10 bg-card border border-border hover:border-accent/50 transition-colors duration-500"
             >
               <span className="text-accent">{c.icon}</span>
               <div>
                 <p className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground mb-2">
                   {c.etiqueta}
                 </p>
-                <p className="font-display text-2xl md:text-3xl text-foreground group-hover:text-accent transition-colors duration-300 break-all">
+                <p className="font-display text-xl sm:text-2xl md:text-3xl text-foreground group-hover:text-accent transition-colors duration-300 break-words">
                   {c.valor}
                 </p>
               </div>
