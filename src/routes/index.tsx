@@ -128,12 +128,12 @@ function Index() {
       {/* Sobre nós */}
       <section
         id="sobre-nos"
-        className="max-w-7xl mx-auto px-6 py-24 md:py-32 grid md:grid-cols-2 gap-12 md:gap-20 items-start"
+        className="max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-32 grid md:grid-cols-2 gap-8 md:gap-20 items-start"
       >
-        <h2 className="font-display text-4xl md:text-5xl leading-tight">
+        <h2 className="font-display text-3xl sm:text-4xl md:text-5xl leading-tight">
           Sobre <span className="italic">nós</span>
         </h2>
-        <div className="space-y-6 text-sm text-muted-foreground leading-relaxed max-w-prose">
+        <div className="space-y-5 md:space-y-6 text-[13px] sm:text-sm text-muted-foreground leading-relaxed max-w-prose">
           <p>
             A STRAMPURU reúne um catálogo de vestuário pensado para
             personalização: t-shirts, polos, sweats e jaquetas em malhas de
