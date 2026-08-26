@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site-layout";
 import { ModelCard } from "@/components/model-card";
 import { categorias, modelos } from "@/lib/catalogo";
+import logo from "@/assets/strampuru-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
