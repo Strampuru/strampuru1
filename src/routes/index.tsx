@@ -34,6 +34,7 @@ function Index() {
       {/* Hero — logótipo enquadrado */}
       <section className="relative overflow-hidden border-b border-border bg-card">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,var(--color-secondary),transparent_72%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_30%,oklch(0.72_0.13_38/0.10),transparent_45%),radial-gradient(circle_at_82%_68%,oklch(0.62_0.14_240/0.08),transparent_45%)]" />
         <div className="relative max-w-6xl mx-auto px-6 py-16 md:py-24 flex flex-col items-center text-center animate-fade-up">
           <div className="flex items-center gap-4 mb-10 md:mb-12">
             <span className="h-px w-10 md:w-16 bg-accent/60" />
@@ -65,12 +66,12 @@ function Index() {
 
           <div className="mt-12 md:mt-14 flex items-center gap-8 md:gap-12 text-center">
             <div>
-              <div className="font-display text-3xl md:text-4xl">{modelos.length}</div>
+              <div className="font-display text-3xl md:text-4xl text-accent">{modelos.length}</div>
               <div className="mt-1 text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Modelos</div>
             </div>
             <span className="h-10 w-px bg-border" />
             <div>
-              <div className="font-display text-3xl md:text-4xl">{totalCores}</div>
+              <div className="font-display text-3xl md:text-4xl text-accent">{totalCores}</div>
               <div className="mt-1 text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Cores</div>
             </div>
           </div>
@@ -101,9 +102,9 @@ function Index() {
               <span className="text-[11px] tracking-widest text-muted-foreground uppercase group-hover:text-foreground transition-colors">
                 Ver Catálogo Completo
               </span>
-              <span className="relative w-12 h-12 rounded-full border border-border flex items-center justify-center group-hover:bg-foreground group-hover:border-foreground transition-all duration-500">
+              <span className="relative w-12 h-12 rounded-full bg-accent flex items-center justify-center group-hover:bg-foreground transition-all duration-500">
                 <svg
-                  className="w-4 h-4 text-foreground group-hover:text-background transition-colors duration-500"
+                  className="w-4 h-4 text-accent-foreground group-hover:text-background transition-colors duration-500"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
