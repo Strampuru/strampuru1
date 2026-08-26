@@ -92,20 +92,16 @@ function Index() {
         </div>
       </section>
 
-      {/* Destaques */}
+      {/* Destaques — imagens de modelos aleatórios em rotação */}
       <section className="bg-card py-24 md:py-32 border-y border-border">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-between items-end mb-12">
             <h2 className="font-display text-4xl">Em Destaque</h2>
             <span className="text-[11px] uppercase tracking-widest text-muted-foreground">
-              Mais procurados
+              Seleção aleatória
             </span>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-12">
-            {destaques.map((m) => (
-              <ModelCard key={m.id} modelo={m} />
-            ))}
-          </div>
+          <DestaqueRotativo />
         </div>
       </section>
 
