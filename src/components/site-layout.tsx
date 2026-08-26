@@ -111,7 +111,14 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                     Sobre nós
                   </Link>
                 </li>
-                <li>Contactos</li>
+                <li>
+                  <Link
+                    to="/contactos"
+                    className="hover:text-foreground transition-colors"
+                  >
+                    Contactos
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
