@@ -2,35 +2,48 @@ import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 import { categorias } from "@/lib/catalogo";
 
-const navLinks = categorias.map((c) => ({
-  to: "/categoria/$categoria" as const,
-  params: { categoria: c.id },
-  label: c.nome,
-}));
-
 export function SiteLayout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-accent/20 font-sans flex flex-col">
       <nav className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <Link to="/" className="text-2xl font-display italic tracking-tighter">
-            Alma
+        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between gap-6">
+          <Link
+            to="/"
+            className="text-lg md:text-2xl font-display italic tracking-tighter whitespace-nowrap"
+          >
+            Stram Puru
           </Link>
-          <div className="hidden md:flex gap-12 text-[11px] uppercase tracking-[0.2em] font-medium">
-            {navLinks.map((l) => (
+          <div className="hidden md:flex gap-10 text-[11px] uppercase tracking-[0.2em] font-medium">
+            {categorias.map((c) => (
               <Link
-                key={l.label}
-                to={l.to}
-                params={l.params}
+                key={c.id}
+                to="/categoria/$categoria"
+                params={{ categoria: c.id }}
                 className="hover:text-accent transition-colors"
                 activeProps={{ className: "text-accent" }}
               >
-                {l.label}
+                {c.nome}
               </Link>
             ))}
           </div>
-          <div className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
-            Lisboa, PT
+          <div className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground whitespace-nowrap">
+            Catálogo
+          </div>
+        </div>
+        {/* Navegação móvel */}
+        <div className="md:hidden border-t border-border overflow-x-auto">
+          <div className="flex gap-6 px-6 py-3 text-[10px] uppercase tracking-[0.2em]">
+            {categorias.map((c) => (
+              <Link
+                key={c.id}
+                to="/categoria/$categoria"
+                params={{ categoria: c.id }}
+                className="whitespace-nowrap hover:text-accent transition-colors"
+                activeProps={{ className: "text-accent" }}
+              >
+                {c.nome}
+              </Link>
+            ))}
           </div>
         </div>
       </nav>
@@ -41,17 +54,17 @@ export function SiteLayout({ children }: { children: ReactNode }) {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start gap-12">
           <div className="space-y-6">
             <div className="text-2xl font-display italic tracking-tighter">
-              Alma
+              Stram Puru
             </div>
             <p className="text-[11px] text-muted-foreground uppercase tracking-widest max-w-xs leading-loose">
-              Estúdio de design e catálogo editorial focado na simplicidade e na
-              qualidade material.
+              Catálogo de vestuário para personalização: t-shirts, polos, sweats
+              e jaquetas.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-20">
+          <div className="grid grid-cols-2 gap-12 md:gap-20">
             <div className="space-y-4">
               <h4 className="text-[11px] uppercase tracking-widest font-bold">
-                Coleções
+                Produtos
               </h4>
               <ul className="text-[11px] uppercase tracking-[0.15em] space-y-2 text-muted-foreground">
                 {categorias.map((c) => (
@@ -69,18 +82,26 @@ export function SiteLayout({ children }: { children: ReactNode }) {
             </div>
             <div className="space-y-4">
               <h4 className="text-[11px] uppercase tracking-widest font-bold">
-                Contacto
+                Informação
               </h4>
               <ul className="text-[11px] uppercase tracking-[0.15em] space-y-2 text-muted-foreground">
-                <li>Instagram</li>
-                <li>Newsletter</li>
-                <li>Press</li>
+                <li>
+                  <Link
+                    to="/"
+                    hash="sobre-nos"
+                    className="hover:text-foreground transition-colors"
+                  >
+                    Sobre nós
+                  </Link>
+                </li>
+                <li>Contactos</li>
               </ul>
             </div>
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-6 mt-20 text-[10px] uppercase tracking-widest text-muted-foreground">
-          &copy; {new Date().getFullYear()} Alma Editorial. Feito com intenção.
+          &copy; {new Date().getFullYear()} Stram Puru. Todos os direitos
+          reservados.
         </div>
       </footer>
     </div>
