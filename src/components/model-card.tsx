@@ -3,10 +3,12 @@ import { useState } from "react";
 import type { Modelo } from "@/lib/catalogo";
 
 export function ModelCard({ modelo }: { modelo: Modelo }) {
-  const [ativa, setAtiva] = useState(0);
+  const [ativa, setAtiva] = useState<number | null>(null);
   const visiveis = modelo.cores.slice(0, 6);
   const extra = modelo.cores.length - visiveis.length;
-  const corAtiva = modelo.cores[ativa];
+  const corAtiva = ativa === null ? undefined : modelo.cores[ativa];
+  const src = corAtiva?.imagem ?? modelo.lifestyle ?? modelo.imagem;
+  const emUso = !corAtiva && Boolean(modelo.lifestyle);
 
   return (
     <Link
@@ -17,12 +19,14 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
       <div className="relative overflow-hidden rounded-sm bg-card ring-1 ring-black/5 aspect-[3/4] shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow duration-500 group-hover:shadow-[0_18px_40px_-18px_rgba(0,0,0,0.28)]">
         <div className="absolute inset-0 bg-gradient-to-b from-secondary/60 to-background" />
         <img
-          src={corAtiva?.imagem ?? modelo.imagem}
+          src={src}
           alt={`${modelo.nome}${corAtiva ? ` — ${corAtiva.nome}` : ""}`}
           loading="lazy"
           width={800}
           height={1067}
-          className="relative w-full h-full object-contain p-4 transition-transform duration-700 ease-out group-hover:scale-[1.07]"
+          className={`relative w-full h-full transition-transform ${
+            emUso ? "object-cover" : "object-contain p-4"
+          } duration-700 ease-out group-hover:scale-[1.07]`}
         />
         <span className="absolute left-3 top-3 rounded-full bg-background/85 px-2.5 py-1 text-[9px] uppercase tracking-[0.18em] text-muted-foreground backdrop-blur-sm">
           {modelo.subcategoria}
@@ -64,7 +68,7 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
         )}
       </div>
       <span className="mt-2 block h-3 text-[10px] uppercase tracking-widest text-muted-foreground">
-        {corAtiva?.nome}
+        {corAtiva?.nome ?? (emUso ? "Passe o rato nas cores" : "")}
       </span>
     </Link>
   );
