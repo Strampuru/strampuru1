@@ -54,39 +54,6 @@ function Index() {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-6 py-20">
-
-
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
-          {categorias.map((cat, i) => (
-            <Link
-              key={cat.id}
-              to="/categoria/$categoria"
-              params={{ categoria: cat.id }}
-              className={`group block animate-fade-up ${i % 2 === 1 ? "md:mt-16" : ""}`}
-            >
-              <div className="w-full aspect-[3/4] bg-secondary overflow-hidden ring-1 ring-black/5">
-                <img
-                  src={cat.imagem}
-                  alt={cat.titulo}
-                  loading={i === 0 ? "eager" : "lazy"}
-                  width={800}
-                  height={1067}
-                  className="w-full h-full object-contain p-4 transition-transform duration-700 group-hover:scale-105"
-                />
-              </div>
-              <div className="mt-4 flex justify-between items-baseline">
-                <h3 className="font-display text-xl md:text-2xl italic">
-                  {cat.titulo}
-                </h3>
-                <span className="text-[10px] uppercase tracking-widest text-muted-foreground">
-                  Ver
-                </span>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
 
       {/* Destaques — imagens de modelos aleatórios em rotação */}
       <section className="bg-card py-24 md:py-32 border-y border-border">
