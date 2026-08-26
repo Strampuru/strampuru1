@@ -176,7 +176,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-6 mt-20 text-[10px] uppercase tracking-widest text-muted-foreground">
-          &copy; {new Date().getFullYear()} Stram Puru. Todos os direitos
+          &copy; {new Date().getFullYear()} Strampuru. Todos os direitos
           reservados.
         </div>
       </footer>
