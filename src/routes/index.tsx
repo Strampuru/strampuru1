@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site-layout";
 import { ModelCard } from "@/components/model-card";
+import { DestaqueRotativo } from "@/components/destaque-rotativo";
 import { categorias, modelos } from "@/lib/catalogo";
 import logo from "@/assets/strampuru-logo.png.asset.json";
 
@@ -27,10 +28,6 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  const destaques = ["arizona", "racing", "manitoba", "patrol"]
-    .map((id) => modelos.find((m) => m.id === id))
-    .filter((m): m is NonNullable<typeof m> => Boolean(m));
-
   const totalCores = modelos.reduce((n, m) => n + m.cores.length, 0);
 
   return (
@@ -91,20 +88,16 @@ function Index() {
         </div>
       </section>
 
-      {/* Destaques */}
+      {/* Destaques — imagens de modelos aleatórios em rotação */}
       <section className="bg-card py-24 md:py-32 border-y border-border">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-between items-end mb-12">
             <h2 className="font-display text-4xl">Em Destaque</h2>
             <span className="text-[11px] uppercase tracking-widest text-muted-foreground">
-              Mais procurados
+              Seleção aleatória
             </span>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-12">
-            {destaques.map((m) => (
-              <ModelCard key={m.id} modelo={m} />
-            ))}
-          </div>
+          <DestaqueRotativo />
         </div>
       </section>
 
