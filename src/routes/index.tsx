@@ -87,7 +87,7 @@ function Index() {
               <div className="flex items-center gap-3 mb-3 md:mb-4">
                 <span className="h-px w-8 bg-accent" />
                 <span className="text-[10px] tracking-[0.3em] text-accent font-semibold uppercase">
-                  Uma peça por família
+                  PEÇAS PARA TODA A FAMÍLIA
                 </span>
               </div>
               <h2 className="font-display text-4xl sm:text-5xl md:text-7xl italic leading-none">
