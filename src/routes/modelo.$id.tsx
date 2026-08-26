@@ -51,33 +51,34 @@ function ModeloPage() {
       <section className="max-w-7xl mx-auto px-6 py-12 md:py-20 grid md:grid-cols-2 gap-12 md:gap-20 items-start">
         {/* Imagem */}
         <div className="md:sticky md:top-32 space-y-4">
-          <div className="w-full aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden">
-            <img
-              src={cor.imagem}
-              alt={`${modelo.nome} — ${cor.nome}`}
-              width={800}
-              height={1000}
-              className="w-full h-full object-contain p-6"
-            />
-          </div>
           {modelo.lifestyle && (
-            <figure className="space-y-2">
-              <div className="w-full aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden">
-                <img
-                  src={modelo.lifestyle}
-                  alt={`Pessoa a usar a ${modelo.nome}`}
-                  width={1024}
-                  height={1280}
-                  loading="lazy"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <figcaption className="text-[10px] uppercase tracking-widest text-muted-foreground">
-                {modelo.referenciaNome} em uso
-              </figcaption>
-            </figure>
+            <div className="w-full aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden">
+              <img
+                src={modelo.lifestyle}
+                alt={`Pessoa a usar a ${modelo.nome}`}
+                width={1024}
+                height={1280}
+                className="w-full h-full object-cover"
+              />
+            </div>
           )}
+          <figure className="space-y-2">
+            <div className="w-full aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden">
+              <img
+                src={cor.imagem}
+                alt={`${modelo.nome} — ${cor.nome}`}
+                width={800}
+                height={1000}
+                loading="lazy"
+                className="w-full h-full object-contain p-6"
+              />
+            </div>
+            <figcaption className="text-[10px] uppercase tracking-widest text-muted-foreground">
+              {modelo.referenciaNome} — {cor.nome}
+            </figcaption>
+          </figure>
         </div>
+
 
 
         {/* Conteúdo */}
