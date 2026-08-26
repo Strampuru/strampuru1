@@ -55,13 +55,19 @@ export function DestaqueRotativo() {
               <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-700" />
             </div>
             <div className="mt-5">
-              <p className="text-[10px] uppercase tracking-[0.2em] text-accent mb-1">
+              <p
+                className="text-[10px] uppercase tracking-[0.2em] mb-1 font-semibold"
+                style={{ color: corDe(m.categoria) }}
+              >
                 {tituloCategoria(m.categoria)}
               </p>
               <h3 className="font-display text-xl md:text-2xl italic text-foreground leading-tight">
                 {m.nome}
               </h3>
-              <div className="mt-3 h-px w-6 bg-accent transition-all duration-500 group-hover:w-full" />
+              <div
+                className="mt-3 h-px w-6 transition-all duration-500 group-hover:w-full"
+                style={{ backgroundColor: corDe(m.categoria) }}
+              />
             </div>
           </Link>
         );
