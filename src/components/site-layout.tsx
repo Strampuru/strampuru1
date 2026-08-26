@@ -7,17 +7,25 @@ export function SiteLayout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-accent/20 font-sans flex flex-col">
       <nav className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between gap-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 md:h-20 flex items-center justify-between gap-4">
           <Link to="/" className="flex items-center gap-3 whitespace-nowrap">
             <img
               src={logo.url}
               alt="Logótipo Stram Puru"
               width={56}
               height={56}
-              className="h-12 w-auto md:h-14"
+              className="h-10 w-auto md:h-14"
             />
             <span className="sr-only">Strampuru</span>
           </Link>
+          <a
+            href="https://wa.me/351928253232"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="md:hidden text-[10px] uppercase tracking-[0.2em] text-muted-foreground hover:text-accent transition-colors"
+          >
+            WhatsApp
+          </a>
           <div className="hidden md:flex gap-10 text-[11px] uppercase tracking-[0.2em] font-medium">
             {categorias.map((c) => (
               <Link
@@ -43,19 +51,26 @@ export function SiteLayout({ children }: { children: ReactNode }) {
           </div>
         </div>
         {/* Navegação móvel */}
-        <div className="md:hidden border-t border-border overflow-x-auto">
-          <div className="flex gap-6 px-6 py-3 text-[10px] uppercase tracking-[0.2em]">
+        <div className="md:hidden border-t border-border overflow-x-auto [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          <div className="flex items-center gap-5 px-4 py-3 text-[10px] uppercase tracking-[0.2em]">
             {categorias.map((c) => (
               <Link
                 key={c.id}
                 to="/categoria/$categoria"
                 params={{ categoria: c.id }}
-                className="whitespace-nowrap hover:text-accent transition-colors"
+                className="whitespace-nowrap py-1 hover:text-accent transition-colors"
                 activeProps={{ className: "text-accent" }}
               >
                 {c.nome}
               </Link>
             ))}
+            <Link
+              to="/contactos"
+              className="whitespace-nowrap py-1 text-muted-foreground hover:text-accent transition-colors"
+              activeProps={{ className: "text-accent" }}
+            >
+              Contactos
+            </Link>
           </div>
         </div>
       </nav>
