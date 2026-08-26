@@ -73,11 +73,6 @@ function Index() {
               <div className="font-display text-3xl md:text-4xl">{totalCores}</div>
               <div className="mt-1 text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Cores</div>
             </div>
-            <span className="h-10 w-px bg-border" />
-            <div>
-              <div className="font-display text-3xl md:text-4xl">{categorias.length}</div>
-              <div className="mt-1 text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Famílias</div>
-            </div>
           </div>
         </div>
       </section>
