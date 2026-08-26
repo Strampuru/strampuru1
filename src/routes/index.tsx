@@ -80,29 +80,29 @@ function Index() {
 
 
       {/* Destaques — imagens de modelos aleatórios em rotação */}
-      <section className="bg-card py-24 md:py-32 border-y border-border">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 border-b border-border pb-8">
+      <section className="bg-card py-16 md:py-32 border-y border-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 md:mb-16 border-b border-border pb-6 md:pb-8">
             <div className="max-w-xl">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-3 md:mb-4">
                 <span className="h-px w-8 bg-accent" />
                 <span className="text-[10px] tracking-[0.3em] text-accent font-semibold uppercase">
                   Uma peça por família
                 </span>
               </div>
-              <h2 className="font-display text-5xl md:text-7xl italic leading-none">
+              <h2 className="font-display text-4xl sm:text-5xl md:text-7xl italic leading-none">
                 Em Destaque
               </h2>
             </div>
             <Link
               to="/categoria/$categoria"
               params={{ categoria: categorias[0]?.id ?? "tshirts" }}
-              className="group flex items-center gap-6 mt-8 md:mt-0"
+              className="group flex items-center gap-4 md:gap-6 mt-6 md:mt-0"
             >
               <span className="text-[11px] tracking-widest text-muted-foreground uppercase group-hover:text-foreground transition-colors">
                 Ver Catálogo Completo
               </span>
-              <span className="relative w-12 h-12 rounded-full bg-accent flex items-center justify-center group-hover:bg-foreground transition-all duration-500">
+              <span className="relative shrink-0 w-11 h-11 md:w-12 md:h-12 rounded-full bg-accent flex items-center justify-center group-hover:bg-foreground transition-all duration-500">
                 <svg
                   className="w-4 h-4 text-accent-foreground group-hover:text-background transition-colors duration-500"
                   fill="none"
