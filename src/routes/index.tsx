@@ -34,6 +34,7 @@ function Index() {
       {/* Hero — logótipo enquadrado */}
       <section className="relative overflow-hidden border-b border-border bg-card">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,var(--color-secondary),transparent_72%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_30%,oklch(0.72_0.13_38/0.10),transparent_45%),radial-gradient(circle_at_82%_68%,oklch(0.62_0.14_240/0.08),transparent_45%)]" />
         <div className="relative max-w-6xl mx-auto px-6 py-16 md:py-24 flex flex-col items-center text-center animate-fade-up">
           <div className="flex items-center gap-4 mb-10 md:mb-12">
             <span className="h-px w-10 md:w-16 bg-accent/60" />
