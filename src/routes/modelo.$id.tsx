@@ -248,14 +248,14 @@ function ModeloPage() {
 
       {/* Tamanhos */}
       {cabecalho && (
-        <section className="bg-card border-t border-border py-16">
-          <div className="max-w-7xl mx-auto px-6 space-y-6">
-            <h2 className="font-display text-3xl">Tamanhos</h2>
+        <section className="bg-card border-t border-border py-12 md:py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 space-y-4 md:space-y-6">
+            <h2 className="font-display text-2xl sm:text-3xl">Tamanhos</h2>
             <p className="text-[11px] uppercase tracking-widest text-muted-foreground">
-              Medidas em centímetros
+              Medidas em centímetros — desliza para ver toda a tabela
             </p>
-            <div className="overflow-x-auto">
-              <table className="min-w-full text-sm border-collapse">
+            <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+              <table className="min-w-full text-[13px] sm:text-sm border-collapse">
                 <thead>
                   <tr>
                     {cabecalho.map((h) => (
