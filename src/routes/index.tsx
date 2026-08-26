@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
         content:
           "Catálogo STRAM PURU: t-shirts, polos, sweats e jaquetas para personalizar, com todas as cores, tamanhos e escalões de preço.",
       },
-      { property: "og:title", content: "STRAM PURU — Catálogo de Vestuário" },
+      { property: "og:title", content: "Strampuru — Catálogo de Vestuário" },
       {
         property: "og:description",
         content:
