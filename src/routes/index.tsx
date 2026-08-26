@@ -1,8 +1,7 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site-layout";
-import { ModelCard } from "@/components/model-card";
 import { DestaqueRotativo } from "@/components/destaque-rotativo";
-import { categorias, modelos } from "@/lib/catalogo";
+import { modelos } from "@/lib/catalogo";
 import logo from "@/assets/strampuru-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -68,34 +67,6 @@ function Index() {
         </div>
       </section>
 
-      {/* Todos os modelos por categoria */}
-      <section className="max-w-7xl mx-auto px-6 py-24 space-y-24">
-        {categorias.map((cat) => {
-          const lista = modelos.filter((m) => m.categoria === cat.id);
-          if (lista.length === 0) return null;
-          return (
-            <div key={cat.id}>
-              <div className="flex justify-between items-end mb-10 border-b border-border pb-4">
-                <h2 className="font-display text-3xl md:text-4xl italic">
-                  {cat.titulo}
-                </h2>
-                <Link
-                  to="/categoria/$categoria"
-                  params={{ categoria: cat.id }}
-                  className="text-[10px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
-                >
-                  Ver categoria ({lista.length})
-                </Link>
-              </div>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-12">
-                {lista.map((m) => (
-                  <ModelCard key={m.id} modelo={m} />
-                ))}
-              </div>
-            </div>
-          );
-        })}
-      </section>
 
       {/* Sobre nós */}
       <section
