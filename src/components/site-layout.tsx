@@ -1,45 +1,46 @@
 import { Link } from "@tanstack/react-router";
-import type { ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 import { categorias } from "@/lib/catalogo";
+import { CatalogoSidebar } from "@/components/catalogo-sidebar";
 import logo from "@/assets/strampuru-logo.png.asset.json";
 
 export function SiteLayout({ children }: { children: ReactNode }) {
+  const [menuAberto, setMenuAberto] = useState(false);
+
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-accent/20 font-sans flex flex-col">
+      <CatalogoSidebar
+        aberta={menuAberto}
+        onFechar={() => setMenuAberto(false)}
+      />
+
       <nav className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 md:h-20 flex items-center justify-between gap-4">
+          <button
+            onClick={() => setMenuAberto(true)}
+            aria-label="Abrir categorias"
+            className="flex items-center gap-3 min-h-11 -ml-2 pl-2 pr-1 text-muted-foreground hover:text-accent transition-colors"
+          >
+            <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" stroke="currentColor">
+              <path strokeWidth="1.5" strokeLinecap="round" d="M4 7h16M4 12h16M4 17h10" />
+            </svg>
+            <span className="hidden sm:inline text-[11px] uppercase tracking-[0.25em]">
+              Categorias
+            </span>
+          </button>
+
           <Link to="/" className="flex items-center gap-3 whitespace-nowrap">
             <img
               src={logo.url}
-              alt="Logótipo Stram Puru"
+              alt="Logótipo Strampuru"
               width={56}
               height={56}
               className="h-10 w-auto md:h-14"
             />
             <span className="sr-only">Strampuru</span>
           </Link>
-          <a
-            href="https://wa.me/351928253232"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="md:hidden text-[10px] uppercase tracking-[0.2em] text-muted-foreground hover:text-accent transition-colors"
-          >
-            WhatsApp
-          </a>
-          <div className="hidden md:flex gap-10 text-[11px] uppercase tracking-[0.2em] font-medium">
-            {categorias.map((c) => (
-              <Link
-                key={c.id}
-                to="/categoria/$categoria"
-                params={{ categoria: c.id }}
-                className="hover:text-accent transition-colors"
-                activeProps={{ className: "text-accent" }}
-              >
-                {c.nome}
-              </Link>
-            ))}
-          </div>
-          <div className="hidden md:flex items-center gap-8 text-[11px] uppercase tracking-[0.2em] whitespace-nowrap">
+
+          <div className="flex items-center gap-6 text-[10px] md:text-[11px] uppercase tracking-[0.2em] whitespace-nowrap">
             <Link
               to="/contactos"
               className="text-muted-foreground hover:text-accent transition-colors"
@@ -47,30 +48,14 @@ export function SiteLayout({ children }: { children: ReactNode }) {
             >
               Contactos
             </Link>
-            <span className="text-muted-foreground">Catálogo</span>
-          </div>
-        </div>
-        {/* Navegação móvel */}
-        <div className="md:hidden border-t border-border overflow-x-auto [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-          <div className="flex items-center gap-5 px-4 py-3 text-[10px] uppercase tracking-[0.2em]">
-            {categorias.map((c) => (
-              <Link
-                key={c.id}
-                to="/categoria/$categoria"
-                params={{ categoria: c.id }}
-                className="whitespace-nowrap py-1 hover:text-accent transition-colors"
-                activeProps={{ className: "text-accent" }}
-              >
-                {c.nome}
-              </Link>
-            ))}
-            <Link
-              to="/contactos"
-              className="whitespace-nowrap py-1 text-muted-foreground hover:text-accent transition-colors"
-              activeProps={{ className: "text-accent" }}
+            <a
+              href="https://wa.me/351928253232"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden sm:inline text-muted-foreground hover:text-accent transition-colors"
             >
-              Contactos
-            </Link>
+              WhatsApp
+            </a>
           </div>
         </div>
       </nav>
@@ -101,8 +86,8 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                 className="flex items-center justify-center h-10 w-10 border border-border text-muted-foreground hover:text-accent hover:border-accent/50 transition-colors duration-300"
               >
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
-                  <rect x="3" y="3" width="18" height="18" rx="5" stroke-width="1.5" />
-                  <circle cx="12" cy="12" r="4" stroke-width="1.5" />
+                  <rect x="3" y="3" width="18" height="18" rx="5" strokeWidth="1.5" />
+                  <circle cx="12" cy="12" r="4" strokeWidth="1.5" />
                   <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none" />
                 </svg>
               </a>
@@ -115,15 +100,15 @@ export function SiteLayout({ children }: { children: ReactNode }) {
               >
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="M12 3a9 9 0 00-7.8 13.5L3 21l4.6-1.2A9 9 0 1012 3z"
                   />
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="M8.5 8.3c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.5l-.4.5c-.1.1-.2.3-.1.5.2.4.7 1.1 1.3 1.6.8.7 1.4.9 1.6 1 .2.1.4 0 .5-.1l.5-.6c.2-.2.3-.2.5-.1l1.7.8c.2.1.3.3.3.4 0 .6-.3 1.2-.7 1.4-.5.3-1.4.6-2.6.2-1.5-.5-2.9-1.4-4-2.8-.6-.8-1.2-1.8-1.3-2.6-.1-.8 0-1.4.2-1.8z"
                   />
                 </svg>
@@ -134,11 +119,11 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                 className="flex items-center justify-center h-10 w-10 border border-border text-muted-foreground hover:text-accent hover:border-accent/50 transition-colors duration-300"
               >
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-5 h-5">
-                  <rect x="3" y="5" width="18" height="14" rx="2" stroke-width="1.5" />
+                  <rect x="3" y="5" width="18" height="14" rx="2" strokeWidth="1.5" />
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="M3.5 6.5l8.5 6 8.5-6"
                   />
                 </svg>

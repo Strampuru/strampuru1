@@ -1,10 +1,12 @@
 import { createFileRoute, notFound, Link } from "@tanstack/react-router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
 import { ModelCard } from "@/components/model-card";
 import { getCategoria, getModelosPorCategoria } from "@/lib/catalogo";
 
 export const Route = createFileRoute("/categoria/$categoria")({
+  validateSearch: (search: Record<string, unknown>): { sub?: string } =>
+    typeof search["sub"] === "string" ? { sub: search["sub"] } : {},
   loader: ({ params }) => {
     const categoria = getCategoria(params.categoria);
     if (!categoria) throw notFound();
@@ -35,7 +37,13 @@ export const Route = createFileRoute("/categoria/$categoria")({
 
 function CategoriaPage() {
   const { categoria, modelos } = Route.useLoaderData();
-  const [filtro, setFiltro] = useState<string>("Todos");
+  const { sub } = Route.useSearch();
+  const [filtro, setFiltro] = useState<string>(sub ?? "Todos");
+
+  useEffect(() => {
+    setFiltro(sub ?? "Todos");
+  }, [sub, categoria.id]);
+
 
   const opcoes = ["Todos", ...categoria.subcategorias];
   const visiveis =
