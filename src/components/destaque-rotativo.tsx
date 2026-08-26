@@ -33,7 +33,7 @@ export function DestaqueRotativo() {
   const offsets = ["", "lg:mt-14", "", "lg:mt-14"];
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 md:gap-x-8 gap-y-10 md:gap-y-12 items-start">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-x-4 sm:gap-x-6 md:gap-x-8 gap-y-8 sm:gap-y-10 md:gap-y-12 items-start">
       {lista.map((m, slot) => {
         const imagem = m.lifestyle ?? m.imagem;
         return (
@@ -54,14 +54,14 @@ export function DestaqueRotativo() {
               />
               <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-700" />
             </div>
-            <div className="mt-5">
+            <div className="mt-4 sm:mt-5">
               <p
-                className="text-[10px] uppercase tracking-[0.2em] mb-1 font-semibold"
+                className="text-[9px] sm:text-[10px] uppercase tracking-[0.18em] sm:tracking-[0.2em] mb-1 font-semibold"
                 style={{ color: corDe(m.categoria) }}
               >
                 {tituloCategoria(m.categoria)}
               </p>
-              <h3 className="font-display text-xl md:text-2xl italic text-foreground leading-tight">
+              <h3 className="font-display text-lg sm:text-xl md:text-2xl italic text-foreground leading-tight">
                 {m.nome}
               </h3>
               <div
