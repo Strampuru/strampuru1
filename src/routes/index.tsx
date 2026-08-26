@@ -62,7 +62,7 @@ function Index() {
               <div className="flex items-center gap-3 mb-4">
                 <span className="h-px w-8 bg-accent" />
                 <span className="text-[10px] tracking-[0.3em] text-accent font-semibold uppercase">
-                  Seleção Aleatória
+                  Uma peça por família
                 </span>
               </div>
               <h2 className="font-display text-5xl md:text-7xl italic leading-none">

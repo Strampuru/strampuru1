@@ -1,67 +1,38 @@
-import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { categorias, modelos } from "@/lib/catalogo";
+import { categorias, modelos, type Modelo } from "@/lib/catalogo";
 
-/** Número de modelos em destaque em simultâneo. */
-const SLOTS = 4;
-/** Intervalo entre trocas de imagem (ms). */
-const INTERVALO = 3200;
-
-function indiceAleatorio(excluir: number[]): number {
-  let i = Math.floor(Math.random() * modelos.length);
-  while (excluir.includes(i)) {
-    i = Math.floor(Math.random() * modelos.length);
-  }
-  return i;
+/**
+ * Destaque fixo: um modelo por categoria, sem rotação.
+ * Escolhe o primeiro modelo de cada categoria como representante.
+ */
+function representantes(): Modelo[] {
+  return categorias
+    .map((cat) => modelos.find((m) => m.categoria === cat.id))
+    .filter((m): m is Modelo => Boolean(m));
 }
 
 function tituloCategoria(id: string): string {
   return categorias.find((c) => c.id === id)?.titulo ?? id;
 }
 
-/**
- * Grelha de destaque em que cada posição vai passando imagens de modelos
- * aleatórios, com transição suave. Cada imagem liga à página do modelo.
- */
 export function DestaqueRotativo() {
-  // Começa fixo (SSR/hidratação) e aleatoriza no cliente.
-  const [indices, setIndices] = useState<number[]>(() =>
-    Array.from({ length: SLOTS }, (_, i) => i % modelos.length),
-  );
-
-  useEffect(() => {
-    setIndices(Array.from({ length: SLOTS }, (_, i) => indiceAleatorio([i])));
-    const timer = setInterval(() => {
-      setIndices((atual) => {
-        // Troca um slot aleatório de cada vez, garantindo modelo diferente.
-        const slot = Math.floor(Math.random() * SLOTS);
-        const proximo = [...atual];
-        proximo[slot] = indiceAleatorio(atual);
-        return proximo;
-      });
-    }, INTERVALO);
-    return () => clearInterval(timer);
-  }, []);
-
+  const lista = representantes();
   // Offsets verticais para ritmo editorial (slots 1 e 3 descem).
   const offsets = ["", "lg:mt-14", "", "lg:mt-14"];
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 md:gap-x-8 gap-y-10 md:gap-y-12 items-start">
-      {indices.map((idx, slot) => {
-        const m = modelos[idx];
-        if (!m) return null;
+      {lista.map((m, slot) => {
         const imagem = m.lifestyle ?? m.imagem;
         return (
           <Link
-            key={slot}
+            key={m.id}
             to="/modelo/$id"
             params={{ id: m.id }}
             className={`group block ${offsets[slot] ?? ""}`}
           >
             <div className="relative w-full aspect-[3/4] bg-secondary overflow-hidden ring-1 ring-black/5">
               <img
-                key={`${m.id}-${idx}`}
                 src={imagem}
                 alt={`Modelo ${m.nome}`}
                 loading="lazy"
