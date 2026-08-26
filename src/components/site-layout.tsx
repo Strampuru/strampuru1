@@ -16,7 +16,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
               height={44}
               className="h-9 w-auto md:h-11"
             />
-            <span className="sr-only">Stram Puru</span>
+            <span className="sr-only">Strampuru</span>
           </Link>
           <div className="hidden md:flex gap-10 text-[11px] uppercase tracking-[0.2em] font-medium">
             {categorias.map((c) => (
