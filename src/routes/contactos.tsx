@@ -9,13 +9,13 @@ export const Route = createFileRoute("/contactos")({
       {
         name: "description",
         content:
-          "Fala com a Strampuru: Instagram, telefone e email para pedidos de personalização de t-shirts, polos, sweats e jaquetas.",
+          "Fala com a Strampuru: Instagram, WhatsApp e email para pedidos de personalização de t-shirts, polos, sweats e jaquetas.",
       },
       { property: "og:title", content: "Contactos — Strampuru" },
       {
         property: "og:description",
         content:
-          "Instagram, telefone e email para pedidos de personalização de vestuário Strampuru.",
+          "Instagram, WhatsApp e email para pedidos de personalização de vestuário Strampuru.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
