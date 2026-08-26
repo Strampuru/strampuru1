@@ -47,7 +47,7 @@ function Index() {
             className="w-56 md:w-[26rem] h-auto drop-shadow-[0_20px_45px_rgba(0,0,0,0.16)]"
           />
           <h1 className="mt-8 font-display text-4xl md:text-6xl leading-[0.95]">
-            Catálogo <span className="italic">Stram Puru</span>
+            Catálogo <span className="italic">Strampuru</span>
           </h1>
           <p className="mt-6 max-w-lg text-muted-foreground leading-relaxed text-sm">
             {modelos.length} modelos de vestuário para personalizar, num total de{" "}
@@ -147,7 +147,7 @@ function Index() {
         </h2>
         <div className="space-y-6 text-sm text-muted-foreground leading-relaxed max-w-prose">
           <p>
-            A STRAM PURU reúne um catálogo de vestuário pensado para
+            A STRAMPURU reúne um catálogo de vestuário pensado para
             personalização: t-shirts, polos, sweats e jaquetas em malhas de
             algodão e técnicas, com uma paleta de cores ampla e tabelas de
             tamanhos de criança a 3XL.
