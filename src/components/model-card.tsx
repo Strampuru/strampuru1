@@ -1,9 +1,12 @@
 import { Link } from "@tanstack/react-router";
+import { useState } from "react";
 import type { Modelo } from "@/lib/catalogo";
 
 export function ModelCard({ modelo }: { modelo: Modelo }) {
+  const [ativa, setAtiva] = useState(0);
   const visiveis = modelo.cores.slice(0, 6);
   const extra = modelo.cores.length - visiveis.length;
+  const corAtiva = modelo.cores[ativa];
 
   return (
     <Link
@@ -11,27 +14,42 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
       params={{ id: modelo.id }}
       className="group block animate-fade-up"
     >
-      <div className="relative overflow-hidden bg-secondary ring-1 ring-black/5 aspect-[3/4]">
+      <div className="relative overflow-hidden rounded-sm bg-card ring-1 ring-black/5 aspect-[3/4] shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow duration-500 group-hover:shadow-[0_18px_40px_-18px_rgba(0,0,0,0.28)]">
+        <div className="absolute inset-0 bg-gradient-to-b from-secondary/60 to-background" />
         <img
-          src={modelo.imagem}
-          alt={modelo.nome}
+          src={corAtiva?.imagem ?? modelo.imagem}
+          alt={`${modelo.nome}${corAtiva ? ` — ${corAtiva.nome}` : ""}`}
           loading="lazy"
           width={800}
           height={1067}
-          className="w-full h-full object-contain p-3 transition-transform duration-700 group-hover:scale-105"
+          className="relative w-full h-full object-contain p-4 transition-transform duration-700 ease-out group-hover:scale-[1.07]"
         />
+        <span className="absolute left-3 top-3 rounded-full bg-background/85 px-2.5 py-1 text-[9px] uppercase tracking-[0.18em] text-muted-foreground backdrop-blur-sm">
+          {modelo.subcategoria}
+        </span>
+        <span className="absolute right-3 bottom-3 rounded-full bg-foreground/85 px-2.5 py-1 text-[9px] uppercase tracking-[0.15em] text-background opacity-0 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+          Ver modelo
+        </span>
       </div>
-      <div className="mt-4 flex flex-col gap-1">
-        <span className="text-[13px] font-medium">{modelo.nome}</span>
-        <span className="text-[11px] text-muted-foreground uppercase tracking-tighter">
-          {modelo.subcategoria} · {modelo.cores.length} cores
+      <div className="mt-4 flex items-baseline justify-between gap-3">
+        <span className="font-display text-lg italic leading-none">
+          {modelo.nome}
+        </span>
+        <span className="text-[10px] text-muted-foreground uppercase tracking-widest whitespace-nowrap">
+          {modelo.cores.length} cores
         </span>
       </div>
       <div className="mt-3 flex items-center gap-2">
-        {visiveis.map((c) => (
+        {visiveis.map((c, i) => (
           <span
             key={c.nome}
-            className="size-4 rounded-full ring-1 ring-black/10"
+            onMouseEnter={() => setAtiva(i)}
+            onFocus={() => setAtiva(i)}
+            className={`size-4 rounded-full ring-1 transition-transform duration-200 ${
+              ativa === i
+                ? "ring-foreground/60 scale-125"
+                : "ring-black/10 hover:scale-110"
+            }`}
             style={{
               background:
                 c.hexes.length > 1
@@ -45,6 +63,9 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
           <span className="text-[10px] text-muted-foreground">+{extra}</span>
         )}
       </div>
+      <span className="mt-2 block h-3 text-[10px] uppercase tracking-widest text-muted-foreground">
+        {corAtiva?.nome}
+      </span>
     </Link>
   );
 }

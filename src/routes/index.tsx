@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site-layout";
 import { ModelCard } from "@/components/model-card";
 import { categorias, modelos } from "@/lib/catalogo";
+import logo from "@/assets/strampuru-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -34,19 +35,30 @@ function Index() {
 
   return (
     <SiteLayout>
-      {/* Hero */}
-      <section className="max-w-7xl mx-auto px-6 py-20">
-        <header className="mb-16 animate-fade-up">
-          <h1 className="text-5xl md:text-8xl font-display text-balance leading-[0.9] mb-6">
-            Catálogo <br />
-            <span className="italic pl-6 md:pl-12">Stram Puru</span>
+      {/* Hero — logótipo */}
+      <section className="relative overflow-hidden border-b border-border bg-card">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,var(--color-secondary),transparent_70%)]" />
+        <div className="relative max-w-7xl mx-auto px-6 py-20 md:py-28 flex flex-col items-center text-center animate-fade-up">
+          <img
+            src={logo.url}
+            alt="Logótipo Stram Puru"
+            width={520}
+            height={500}
+            className="w-56 md:w-[26rem] h-auto drop-shadow-[0_20px_45px_rgba(0,0,0,0.16)]"
+          />
+          <h1 className="mt-8 font-display text-4xl md:text-6xl leading-[0.95]">
+            Catálogo <span className="italic">Stram Puru</span>
           </h1>
-          <p className="max-w-md text-muted-foreground leading-relaxed text-sm">
+          <p className="mt-6 max-w-lg text-muted-foreground leading-relaxed text-sm">
             {modelos.length} modelos de vestuário para personalizar, num total de{" "}
             {totalCores} cores. Escolhe uma família de produto para ver as
             fichas técnicas, tamanhos e preços por quantidade.
           </p>
-        </header>
+        </div>
+      </section>
+
+      <section className="max-w-7xl mx-auto px-6 py-20">
+
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
           {categorias.map((cat, i) => (
@@ -94,6 +106,35 @@ function Index() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Todos os modelos por categoria */}
+      <section className="max-w-7xl mx-auto px-6 py-24 space-y-24">
+        {categorias.map((cat) => {
+          const lista = modelos.filter((m) => m.categoria === cat.id);
+          if (lista.length === 0) return null;
+          return (
+            <div key={cat.id}>
+              <div className="flex justify-between items-end mb-10 border-b border-border pb-4">
+                <h2 className="font-display text-3xl md:text-4xl italic">
+                  {cat.titulo}
+                </h2>
+                <Link
+                  to="/categoria/$categoria"
+                  params={{ categoria: cat.id }}
+                  className="text-[10px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
+                >
+                  Ver categoria ({lista.length})
+                </Link>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-12">
+                {lista.map((m) => (
+                  <ModelCard key={m.id} modelo={m} />
+                ))}
+              </div>
+            </div>
+          );
+        })}
       </section>
 
       {/* Sobre nós */}
