@@ -45,25 +45,25 @@ function CategoriaPage() {
 
   return (
     <SiteLayout>
-      <section className="bg-card py-16 md:py-24 border-b border-border">
-        <div className="max-w-7xl mx-auto px-6">
-          <nav className="text-[10px] uppercase tracking-widest text-muted-foreground flex gap-4 mb-8">
+      <section className="bg-card py-10 md:py-24 border-b border-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <nav className="text-[10px] uppercase tracking-widest text-muted-foreground flex gap-4 mb-6 md:mb-8">
             <Link to="/" className="hover:text-foreground transition-colors">
               Início
             </Link>
             <span>/</span>
             <span className="text-foreground">{categoria.nome}</span>
           </nav>
-          <div className="flex justify-between items-end gap-6">
-            <h1 className="font-display text-4xl md:text-6xl">
+          <div className="grid grid-cols-[minmax(0,1fr)_auto] items-end gap-4 sm:flex sm:justify-between sm:gap-6">
+            <h1 className="font-display text-3xl sm:text-4xl md:text-6xl">
               {categoria.nome}
             </h1>
-            <span className="text-[11px] uppercase tracking-widest text-muted-foreground whitespace-nowrap">
+            <span className="shrink-0 text-[10px] sm:text-[11px] uppercase tracking-widest text-muted-foreground whitespace-nowrap">
               {modelos.length} Modelos
             </span>
           </div>
 
-          <p className="mt-6 max-w-md text-muted-foreground leading-relaxed text-sm">
+          <p className="mt-5 md:mt-6 max-w-md text-muted-foreground leading-relaxed text-[13px] sm:text-sm">
             {categoria.descricao}
           </p>
         </div>
