@@ -1,17 +1,22 @@
 import { Link } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 import { categorias } from "@/lib/catalogo";
+import logo from "@/assets/strampuru-logo.png.asset.json";
 
 export function SiteLayout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-accent/20 font-sans flex flex-col">
       <nav className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b border-border">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between gap-6">
-          <Link
-            to="/"
-            className="text-lg md:text-2xl font-display italic tracking-tighter whitespace-nowrap"
-          >
-            Stram Puru
+          <Link to="/" className="flex items-center gap-3 whitespace-nowrap">
+            <img
+              src={logo.url}
+              alt="Logótipo Stram Puru"
+              width={44}
+              height={44}
+              className="h-9 w-auto md:h-11"
+            />
+            <span className="sr-only">Stram Puru</span>
           </Link>
           <div className="hidden md:flex gap-10 text-[11px] uppercase tracking-[0.2em] font-medium">
             {categorias.map((c) => (
