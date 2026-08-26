@@ -35,21 +35,25 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
           Ver modelo
         </span>
       </div>
-      <div className="mt-4 flex items-baseline justify-between gap-3">
-        <span className="font-display text-lg italic leading-none">
+      <div className="mt-3 sm:mt-4 flex items-baseline justify-between gap-2">
+        <span className="font-display text-base sm:text-lg italic leading-none">
           {modelo.nome}
         </span>
-        <span className="text-[10px] text-muted-foreground uppercase tracking-widest whitespace-nowrap">
+        <span className="text-[9px] sm:text-[10px] text-muted-foreground uppercase tracking-widest whitespace-nowrap">
           {modelo.cores.length} cores
         </span>
       </div>
-      <div className="mt-3 flex items-center gap-2">
+      <div className="mt-3 flex items-center gap-2.5 sm:gap-2">
         {visiveis.map((c, i) => (
           <span
             key={c.nome}
             onMouseEnter={() => setAtiva(i)}
             onFocus={() => setAtiva(i)}
-            className={`size-4 rounded-full ring-1 transition-transform duration-200 ${
+            onTouchStart={(e) => {
+              e.preventDefault();
+              setAtiva(i);
+            }}
+            className={`size-5 sm:size-4 rounded-full ring-1 transition-transform duration-200 ${
               ativa === i
                 ? "ring-foreground/60 scale-125"
                 : "ring-black/10 hover:scale-110"
@@ -67,8 +71,16 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
           <span className="text-[10px] text-muted-foreground">+{extra}</span>
         )}
       </div>
-      <span className="mt-2 block h-3 text-[10px] uppercase tracking-widest text-muted-foreground">
-        {corAtiva?.nome ?? (emUso ? "Passe o rato nas cores" : "")}
+      <span className="mt-2 block h-3 text-[9px] sm:text-[10px] uppercase tracking-widest text-muted-foreground truncate">
+        {corAtiva?.nome ??
+          (emUso ? (
+            <>
+              <span className="sm:hidden">Toque nas cores</span>
+              <span className="hidden sm:inline">Passe o rato nas cores</span>
+            </>
+          ) : (
+            ""
+          ))}
       </span>
     </Link>
   );
