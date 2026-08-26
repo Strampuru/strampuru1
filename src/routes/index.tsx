@@ -1,7 +1,7 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site-layout";
 import { DestaqueRotativo } from "@/components/destaque-rotativo";
-import { modelos } from "@/lib/catalogo";
+import { categorias, modelos } from "@/lib/catalogo";
 import logo from "@/assets/strampuru-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -57,15 +57,47 @@ function Index() {
       {/* Destaques — imagens de modelos aleatórios em rotação */}
       <section className="bg-card py-24 md:py-32 border-y border-border">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex justify-between items-end mb-12">
-            <h2 className="font-display text-4xl">Em Destaque</h2>
-            <span className="text-[11px] uppercase tracking-widest text-muted-foreground">
-              Seleção aleatória
-            </span>
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 border-b border-border pb-8">
+            <div className="max-w-xl">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="h-px w-8 bg-accent" />
+                <span className="text-[10px] tracking-[0.3em] text-accent font-semibold uppercase">
+                  Seleção Aleatória
+                </span>
+              </div>
+              <h2 className="font-display text-5xl md:text-7xl italic leading-none">
+                Em Destaque
+              </h2>
+            </div>
+            <Link
+              to="/categoria/$categoria"
+              params={{ categoria: categorias[0]?.id ?? "tshirts" }}
+              className="group flex items-center gap-6 mt-8 md:mt-0"
+            >
+              <span className="text-[11px] tracking-widest text-muted-foreground uppercase group-hover:text-foreground transition-colors">
+                Ver Catálogo Completo
+              </span>
+              <span className="relative w-12 h-12 rounded-full border border-border flex items-center justify-center group-hover:bg-foreground group-hover:border-foreground transition-all duration-500">
+                <svg
+                  className="w-4 h-4 text-foreground group-hover:text-background transition-colors duration-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </span>
+            </Link>
           </div>
           <DestaqueRotativo />
         </div>
       </section>
+
 
 
       {/* Sobre nós */}
