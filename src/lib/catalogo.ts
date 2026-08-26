@@ -43,7 +43,7 @@ export const categorias: Categoria[] = [
     "nome": "T-shirts",
     "titulo": "T-shirts",
     "descricao": "Malhas de algodão e técnicas, em corte clássico ou desportivo.",
-    "imagem": "/__l5e/assets-v1/6939986e-0e53-4a37-93d0-7cb8ff0335e4/racing-branco.webp",
+    "imagem": "/__l5e/assets-v1/b0c047d1-8e65-4346-a859-9d77f382574e/racing-branco.webp",
     "subcategorias": [
       "Clássicas",
       "Desportivas"
@@ -54,7 +54,7 @@ export const categorias: Categoria[] = [
     "nome": "Polos",
     "titulo": "Polos",
     "descricao": "Piqué clássico e malhas técnicas com gola, para uniforme ou uso diário.",
-    "imagem": "/__l5e/assets-v1/c691766e-6030-48a4-a92c-6b857330fee4/patrol-branco.webp",
+    "imagem": "/__l5e/assets-v1/51393a4d-1b80-4106-9558-b8fcd24022e6/patrol-branco.webp",
     "subcategorias": [
       "Clássicos",
       "Desportivos"
@@ -65,7 +65,7 @@ export const categorias: Categoria[] = [
     "nome": "Sweats",
     "titulo": "Sweats e Hoodies",
     "descricao": "Camisolas de moletão de gramagem alta, com e sem capuz.",
-    "imagem": "/__l5e/assets-v1/8884b771-a182-4028-bbc1-d28e35955d6c/arizona-branco.webp",
+    "imagem": "/__l5e/assets-v1/23e2ea62-0527-4c53-afb3-87c4d715c5b8/arizona-branco.webp",
     "subcategorias": [
       "Com Capuz",
       "Sem Capuz"
@@ -76,7 +76,7 @@ export const categorias: Categoria[] = [
     "nome": "Jaquetas",
     "titulo": "Jaquetas",
     "descricao": "Peças de exterior forradas, resistentes ao vento e à chuva.",
-    "imagem": "/__l5e/assets-v1/9e61b93d-306a-4fe7-bc59-e951b1e3bd32/manitoba-branco.webp",
+    "imagem": "/__l5e/assets-v1/d6f63608-6ad3-44ef-8076-b8950d406fa0/manitoba-branco.webp",
     "subcategorias": [
       "Com Capuz"
     ]
@@ -93,7 +93,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt RACING disponível em 35 cores. 100% Algodão",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#RAC-RAC",
-    "imagem": "/__l5e/assets-v1/6939986e-0e53-4a37-93d0-7cb8ff0335e4/racing-branco.webp",
+    "imagem": "/__l5e/assets-v1/b0c047d1-8e65-4346-a859-9d77f382574e/racing-branco.webp",
     "cores": [
       {
         "nome": "Branco",
@@ -101,7 +101,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/6939986e-0e53-4a37-93d0-7cb8ff0335e4/racing-branco.webp"
+        "imagem": "/__l5e/assets-v1/b0c047d1-8e65-4346-a859-9d77f382574e/racing-branco.webp"
       },
       {
         "nome": "Bege 1",
@@ -109,7 +109,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#e6d8b8"
         ],
-        "imagem": "/__l5e/assets-v1/765939f4-5559-4a4d-80c8-b72637d709e1/racing-beje1.webp"
+        "imagem": "/__l5e/assets-v1/f4beb206-41d0-4d4f-9b83-8610ea69d380/racing-beje1.webp"
       },
       {
         "nome": "Bege 2",
@@ -117,7 +117,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#d2b48c"
         ],
-        "imagem": "/__l5e/assets-v1/e7f85db7-fbe9-47a5-93d6-24b05feb7a98/racing-beje2.webp"
+        "imagem": "/__l5e/assets-v1/17dffa46-8b60-4b06-930e-14fe8120f96d/racing-beje2.webp"
       },
       {
         "nome": "Castanho 1",
@@ -125,7 +125,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#8b5a2b"
         ],
-        "imagem": "/__l5e/assets-v1/4c560b35-d3bb-40f6-9b80-97352f11e886/racing-castanho1.webp"
+        "imagem": "/__l5e/assets-v1/467c8352-3c20-4494-bb47-68b323741aff/racing-castanho1.webp"
       },
       {
         "nome": "Castanho 2",
@@ -133,7 +133,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#5c3a21"
         ],
-        "imagem": "/__l5e/assets-v1/f2d79b52-bf25-43f2-9986-190912b03d32/racing-castanho2.webp"
+        "imagem": "/__l5e/assets-v1/5fb0ba9a-330f-45ae-993a-8d843c202989/racing-castanho2.webp"
       },
       {
         "nome": "Verde 1",
@@ -141,7 +141,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#7fbf3f"
         ],
-        "imagem": "/__l5e/assets-v1/8a16293b-b766-46e3-9e49-ae135ea88d6a/racing-verde1.webp"
+        "imagem": "/__l5e/assets-v1/7719c953-20b9-4cdb-a517-71a639a72ad3/racing-verde1.webp"
       },
       {
         "nome": "Verde 2",
@@ -149,7 +149,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#5fae2e"
         ],
-        "imagem": "/__l5e/assets-v1/29608dd0-327f-47d4-81f7-0690aaa2e24a/racing-verde2.webp"
+        "imagem": "/__l5e/assets-v1/0791e0ee-d6fb-4355-810b-22af4f097137/racing-verde2.webp"
       },
       {
         "nome": "Verde 3",
@@ -157,7 +157,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#3e8e1e"
         ],
-        "imagem": "/__l5e/assets-v1/693939f2-986d-4f08-ba18-18727da1e3b1/racing-verde3.webp"
+        "imagem": "/__l5e/assets-v1/773d02f2-a75e-4673-b317-64ffa5a2d130/racing-verde3.webp"
       },
       {
         "nome": "Verde 4",
@@ -165,7 +165,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#2f6f17"
         ],
-        "imagem": "/__l5e/assets-v1/b9321de2-d6c9-45c5-9bc6-819b54b2af1c/racing-verde4.webp"
+        "imagem": "/__l5e/assets-v1/bad5f333-da77-41ee-89db-364f304ea836/racing-verde4.webp"
       },
       {
         "nome": "Verde 5",
@@ -173,7 +173,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1f4f10"
         ],
-        "imagem": "/__l5e/assets-v1/43ea2d35-2307-4e2e-8608-9d8f5f7ae040/racing-verde5.webp"
+        "imagem": "/__l5e/assets-v1/023b60a1-a922-46dc-a602-f2199e34f0f1/racing-verde5.webp"
       },
       {
         "nome": "Verde 6",
@@ -181,7 +181,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#0f2f08"
         ],
-        "imagem": "/__l5e/assets-v1/e1e28bf9-58df-484e-814f-a8957fae250c/racing-verde6.webp"
+        "imagem": "/__l5e/assets-v1/49db1bf5-2aae-4ffa-a56e-06381a0e0e62/racing-verde6.webp"
       },
       {
         "nome": "Amarelo 1",
@@ -189,7 +189,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#fff176"
         ],
-        "imagem": "/__l5e/assets-v1/588d09b0-faf8-4de1-9513-ce8746e93149/racing-amarelo1.webp"
+        "imagem": "/__l5e/assets-v1/2e27107a-172e-46d9-acad-153eb5a1b558/racing-amarelo1.webp"
       },
       {
         "nome": "Amarelo 2",
@@ -197,7 +197,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#fdd835"
         ],
-        "imagem": "/__l5e/assets-v1/b19af5b0-8143-400d-81d6-8cb0c553e0f3/racing-amarelo2.webp"
+        "imagem": "/__l5e/assets-v1/ab27717a-13fa-4e0b-be49-172a6ea74e0d/racing-amarelo2.webp"
       },
       {
         "nome": "Laranja 1",
@@ -205,7 +205,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ff9800"
         ],
-        "imagem": "/__l5e/assets-v1/b1c4391a-bb41-47b6-8ca4-0212f83881b1/racing-laranja1.webp"
+        "imagem": "/__l5e/assets-v1/817e53ec-f40c-47a0-a153-436d7beef75f/racing-laranja1.webp"
       },
       {
         "nome": "Laranja 2",
@@ -213,7 +213,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ef6c00"
         ],
-        "imagem": "/__l5e/assets-v1/97215c9b-5365-469f-8b36-88ff5910d291/racing-laranja2.webp"
+        "imagem": "/__l5e/assets-v1/1408ea78-c00e-40ce-b36f-73a2549d73ea/racing-laranja2.webp"
       },
       {
         "nome": "Vermelho",
@@ -221,7 +221,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#d32f2f"
         ],
-        "imagem": "/__l5e/assets-v1/79078f7c-9c2b-401b-9bf6-a0278e084f21/racing-vermelho.webp"
+        "imagem": "/__l5e/assets-v1/e2f537db-1416-496b-ba15-7d854b7900dd/racing-vermelho.webp"
       },
       {
         "nome": "Rosa 1",
@@ -229,7 +229,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#f48fb1"
         ],
-        "imagem": "/__l5e/assets-v1/ea319ddf-c850-429d-b03e-d1bb6789ca57/racing-rosa1.webp"
+        "imagem": "/__l5e/assets-v1/97bb2d72-fd6c-4ef4-8000-4f7fd53077af/racing-rosa1.webp"
       },
       {
         "nome": "Rosa 2",
@@ -237,7 +237,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ec407a"
         ],
-        "imagem": "/__l5e/assets-v1/3a984b0f-05cd-4559-a486-e59b053b8f2b/racing-rosa2.webp"
+        "imagem": "/__l5e/assets-v1/927f7d38-cc79-4b1c-a1c1-035a1c64e94d/racing-rosa2.webp"
       },
       {
         "nome": "Rosa 3",
@@ -245,7 +245,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#d81b60"
         ],
-        "imagem": "/__l5e/assets-v1/4ecb484e-71cb-456f-a36c-3c76affb7872/racing-rosa3.webp"
+        "imagem": "/__l5e/assets-v1/b646d33c-5fdb-4027-abd1-c4ebfbc665ed/racing-rosa3.webp"
       },
       {
         "nome": "Roxo 1",
@@ -253,7 +253,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ab47bc"
         ],
-        "imagem": "/__l5e/assets-v1/d580b251-35a7-427e-85ea-355ec179048a/racing-roxo1.webp"
+        "imagem": "/__l5e/assets-v1/73346773-e83f-4476-9998-a72ea4ea4f57/racing-roxo1.webp"
       },
       {
         "nome": "Roxo 2",
@@ -261,7 +261,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#8e24aa"
         ],
-        "imagem": "/__l5e/assets-v1/cc6ffc08-3d6a-4212-8856-4160453fa560/racing-roxo2.webp"
+        "imagem": "/__l5e/assets-v1/09b9fd24-6dca-4a5d-ab77-103d29ed07ce/racing-roxo2.webp"
       },
       {
         "nome": "Roxo 3",
@@ -269,7 +269,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#6a1b9a"
         ],
-        "imagem": "/__l5e/assets-v1/2cfb8efc-8f2c-434f-8cf0-87f121ad199c/racing-roxo3.webp"
+        "imagem": "/__l5e/assets-v1/0f672150-9eb0-41fa-97fe-7e0ffbdd0e48/racing-roxo3.webp"
       },
       {
         "nome": "Azul 1",
@@ -277,7 +277,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#64b5f6"
         ],
-        "imagem": "/__l5e/assets-v1/b9068c65-90e6-427c-b0a0-b3b1ae0a9bc6/racing-azul1.webp"
+        "imagem": "/__l5e/assets-v1/400f5c99-e751-477d-923b-84af46e761cb/racing-azul1.webp"
       },
       {
         "nome": "Azul 2",
@@ -285,7 +285,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#42a5f5"
         ],
-        "imagem": "/__l5e/assets-v1/3e1dbfdf-cc44-450c-91a1-4b2b6ba0caa0/racing-azul2.webp"
+        "imagem": "/__l5e/assets-v1/75892e25-5f20-40f8-b367-bbe28657430b/racing-azul2.webp"
       },
       {
         "nome": "Azul 3",
@@ -293,7 +293,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#2196f3"
         ],
-        "imagem": "/__l5e/assets-v1/ed1a6945-fa8c-4264-970d-374ee09d1a55/racing-azul3.webp"
+        "imagem": "/__l5e/assets-v1/c3248fc4-881e-41eb-8486-ead5fc399259/racing-azul3.webp"
       },
       {
         "nome": "Azul 4",
@@ -301,7 +301,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1e88e5"
         ],
-        "imagem": "/__l5e/assets-v1/62e413ac-3ee0-4fb7-8fce-953dcef50a11/racing-azul4.webp"
+        "imagem": "/__l5e/assets-v1/d58254a2-aaca-4ec0-a2ee-066650834fe5/racing-azul4.webp"
       },
       {
         "nome": "Azul 5",
@@ -309,7 +309,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1976d2"
         ],
-        "imagem": "/__l5e/assets-v1/c28e8e4b-dcb6-4dd9-ad29-7eaf479f2b8f/racing-azul5.webp"
+        "imagem": "/__l5e/assets-v1/61ebce9a-4ae6-4125-8260-4e405ff0ad06/racing-azul5.webp"
       },
       {
         "nome": "Azul 6",
@@ -317,7 +317,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1565c0"
         ],
-        "imagem": "/__l5e/assets-v1/78c34e55-2fe1-42b7-8fe7-ba63c85aa965/racing-azul6.webp"
+        "imagem": "/__l5e/assets-v1/c78abca3-cce7-4554-b565-b7ce00784af5/racing-azul6.webp"
       },
       {
         "nome": "Azul 7",
@@ -325,7 +325,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/121d5543-3ae4-4be2-b64d-36b6c31ee10c/racing-azul7.webp"
+        "imagem": "/__l5e/assets-v1/66b65a9f-4457-450a-bfb8-4ccfc27ff01a/racing-azul7.webp"
       },
       {
         "nome": "Cinzento 1",
@@ -333,7 +333,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#bdbdbd"
         ],
-        "imagem": "/__l5e/assets-v1/4662f213-cb45-43e0-b05c-5a0fb52aac5f/racing-cinzento1.webp"
+        "imagem": "/__l5e/assets-v1/60a090d9-ced6-41a7-9318-b9e17f7ca0e8/racing-cinzento1.webp"
       },
       {
         "nome": "Cinzento 2",
@@ -341,7 +341,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#9e9e9e"
         ],
-        "imagem": "/__l5e/assets-v1/b0b93c03-9094-4577-8efc-b0b605c743c6/racing-cinzento2.webp"
+        "imagem": "/__l5e/assets-v1/5aeb7374-e8ca-4d52-b3c6-623c478b8860/racing-cinzento2.webp"
       },
       {
         "nome": "Cinzento 3",
@@ -349,7 +349,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#757575"
         ],
-        "imagem": "/__l5e/assets-v1/9498556e-cd88-4cc1-887a-0d280a802099/racing-cinzento3.webp"
+        "imagem": "/__l5e/assets-v1/5218638d-7cad-43cb-bcd5-3b5ea4accef1/racing-cinzento3.webp"
       },
       {
         "nome": "Cinzento 4",
@@ -357,7 +357,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#616161"
         ],
-        "imagem": "/__l5e/assets-v1/c77bd2d7-3707-49cf-8dfd-4e3cddad2640/racing-cinzento4.webp"
+        "imagem": "/__l5e/assets-v1/86359dca-abab-453c-9ddb-7416c64f3fbf/racing-cinzento4.webp"
       },
       {
         "nome": "Cinzento 5",
@@ -365,7 +365,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#424242"
         ],
-        "imagem": "/__l5e/assets-v1/b4ecfa2e-a293-4cc6-93e3-4aef97bb4777/racing-cinzento5.webp"
+        "imagem": "/__l5e/assets-v1/8bccac40-2ea5-43f1-bd26-c62a4bcb0871/racing-cinzento5.webp"
       },
       {
         "nome": "Preto",
@@ -373,7 +373,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/0f57789d-de4e-4e56-978f-f9ded840fcb7/racing-preto.webp"
+        "imagem": "/__l5e/assets-v1/155d457a-d3a8-4568-a820-488857335c47/racing-preto.webp"
       }
     ],
     "tamanhos": [
@@ -451,7 +451,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt WAVE disponível em 6 cores. 100% Algodão",
     "composicao": "100% Algodão, Densidade: 190 g/m²",
     "referencia": "#WAV-WAV",
-    "imagem": "/__l5e/assets-v1/5da76585-707d-4dc4-9cae-02af10ea4e8a/wave-branco.webp",
+    "imagem": "/__l5e/assets-v1/b9c6e71b-4ee0-4b22-84a3-46bbcb09df50/wave-branco.webp",
     "cores": [
       {
         "nome": "Branco",
@@ -459,7 +459,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/5da76585-707d-4dc4-9cae-02af10ea4e8a/wave-branco.webp"
+        "imagem": "/__l5e/assets-v1/b9c6e71b-4ee0-4b22-84a3-46bbcb09df50/wave-branco.webp"
       },
       {
         "nome": "Bege",
@@ -467,7 +467,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#d2b48c"
         ],
-        "imagem": "/__l5e/assets-v1/64a68e4c-7c67-44e5-ab03-5bb44835cf2e/wave-beje.webp"
+        "imagem": "/__l5e/assets-v1/4a5e678c-a199-4afb-84d9-91727f00bb6b/wave-beje.webp"
       },
       {
         "nome": "Vermelho",
@@ -475,7 +475,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#b71c1c"
         ],
-        "imagem": "/__l5e/assets-v1/6638e43e-d98d-404d-bc56-d26ebe3aafb9/wave-vermelho.webp"
+        "imagem": "/__l5e/assets-v1/705c0fa7-66c3-498d-bc09-48dfb68ad5ea/wave-vermelho.webp"
       },
       {
         "nome": "Azul 1",
@@ -483,7 +483,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#64b5f6"
         ],
-        "imagem": "/__l5e/assets-v1/5463d010-da92-4ab3-af1a-8e8f55a0d654/wave-azul1.webp"
+        "imagem": "/__l5e/assets-v1/8dfb5ca0-81ed-4528-af4e-23530a67c0c7/wave-azul1.webp"
       },
       {
         "nome": "Azul 2",
@@ -491,7 +491,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/ece2c969-037e-4150-8ddb-85e094344071/wave-azul2.webp"
+        "imagem": "/__l5e/assets-v1/dc9ec94a-aca2-4abc-9122-31a1d2ef284b/wave-azul2.webp"
       },
       {
         "nome": "Preto",
@@ -499,7 +499,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/fbbadab7-39e0-4287-bc87-6ece3f30f505/wave-preto.webp"
+        "imagem": "/__l5e/assets-v1/7c4c9dd6-1595-4b2e-a1ca-5a8f32295a14/wave-preto.webp"
       }
     ],
     "tamanhos": [
@@ -559,7 +559,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt NAPPA disponível em 2 cores. 95% Algodão",
     "composicao": "95% Algodão, 5% Elastano, Densidade: 190 g/m²",
     "referencia": "#NAP-NAP",
-    "imagem": "/__l5e/assets-v1/c6dbe198-1cbc-4cc5-9b79-d548c6f8fb82/nappa-branco.webp",
+    "imagem": "/__l5e/assets-v1/b67c9ae0-bde4-4cf3-a08b-db58f0256aa3/nappa-branco.webp",
     "cores": [
       {
         "nome": "Branco",
@@ -567,7 +567,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/c6dbe198-1cbc-4cc5-9b79-d548c6f8fb82/nappa-branco.webp"
+        "imagem": "/__l5e/assets-v1/b67c9ae0-bde4-4cf3-a08b-db58f0256aa3/nappa-branco.webp"
       },
       {
         "nome": "Preto",
@@ -575,7 +575,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/618135bc-7bff-483f-9371-e0f84ae49a7b/nappa-preto.webp"
+        "imagem": "/__l5e/assets-v1/01476ff4-5de3-4059-a147-1f08b97ffa8d/nappa-preto.webp"
       }
     ],
     "tamanhos": [
@@ -636,7 +636,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt RESISTANCE disponível em 26 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#RES-RES",
-    "imagem": "/__l5e/assets-v1/f55c55d9-09e6-4a31-800e-471be48b4f05/resistance-branco.webp",
+    "imagem": "/__l5e/assets-v1/8525b6fc-0ce6-4397-8cb2-95484c601da0/resistance-branco.webp",
     "cores": [
       {
         "nome": "Branco",
@@ -644,7 +644,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/f55c55d9-09e6-4a31-800e-471be48b4f05/resistance-branco.webp"
+        "imagem": "/__l5e/assets-v1/8525b6fc-0ce6-4397-8cb2-95484c601da0/resistance-branco.webp"
       },
       {
         "nome": "Bege",
@@ -652,7 +652,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#e6d8b8"
         ],
-        "imagem": "/__l5e/assets-v1/b25e632a-083e-4c92-afad-beee6e64991c/resistance-beje.webp"
+        "imagem": "/__l5e/assets-v1/923a663a-81a2-444f-a077-0bf89040bd8d/resistance-beje.webp"
       },
       {
         "nome": "Castanho",
@@ -660,7 +660,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#8b5a2b"
         ],
-        "imagem": "/__l5e/assets-v1/6db12ade-012a-477d-90d2-118923781563/resistance-castanho.webp"
+        "imagem": "/__l5e/assets-v1/ffdb7248-5f9a-4363-a19c-52a6b28e0498/resistance-castanho.webp"
       },
       {
         "nome": "Verde 1",
@@ -668,7 +668,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#7fbf3f"
         ],
-        "imagem": "/__l5e/assets-v1/e183b87b-200a-4432-b45e-747eb9d59c96/resistance-verde1.webp"
+        "imagem": "/__l5e/assets-v1/3fd50e4c-4b55-4c63-adec-62e67004496a/resistance-verde1.webp"
       },
       {
         "nome": "Verde 2",
@@ -676,7 +676,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#5fae2e"
         ],
-        "imagem": "/__l5e/assets-v1/dd1f4543-8944-4de5-b0be-96d438e4a063/resistance-verde2.webp"
+        "imagem": "/__l5e/assets-v1/59500d68-8831-4046-b91c-ff79475d159e/resistance-verde2.webp"
       },
       {
         "nome": "Verde 3",
@@ -684,7 +684,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#3e8e1e"
         ],
-        "imagem": "/__l5e/assets-v1/ff669833-0a86-488f-a17e-bfab3dc6a8c0/resistance-verde3.webp"
+        "imagem": "/__l5e/assets-v1/1b37287d-718f-4af1-b97c-0ae1f9966ab6/resistance-verde3.webp"
       },
       {
         "nome": "Verde 4",
@@ -692,7 +692,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#2f6f17"
         ],
-        "imagem": "/__l5e/assets-v1/5a56e0b6-4f1c-4631-a198-e126b410b25e/resistance-verde4.webp"
+        "imagem": "/__l5e/assets-v1/473ca1b4-997c-4701-9897-3b434609cdf6/resistance-verde4.webp"
       },
       {
         "nome": "Verde 5",
@@ -700,7 +700,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1b5e20"
         ],
-        "imagem": "/__l5e/assets-v1/a11b21e0-e300-4763-80ef-6e1453131050/resistance-verde5.webp"
+        "imagem": "/__l5e/assets-v1/b87763bd-ed03-4374-a7e3-84557938ed95/resistance-verde5.webp"
       },
       {
         "nome": "Amarelo 1",
@@ -708,7 +708,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#fff176"
         ],
-        "imagem": "/__l5e/assets-v1/6f35ad7b-7206-40b0-a54a-3cf8c1e1c943/resistance-amarelo1.webp"
+        "imagem": "/__l5e/assets-v1/caad6c2e-6b7f-4320-a435-359d9c4e8321/resistance-amarelo1.webp"
       },
       {
         "nome": "Amarelo 2",
@@ -716,7 +716,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#fdd835"
         ],
-        "imagem": "/__l5e/assets-v1/97b3bcbe-4909-43c9-8adb-67d2f20825aa/resistance-amarelo2.webp"
+        "imagem": "/__l5e/assets-v1/68015bc3-e9e3-4ea8-a692-76933409fe7b/resistance-amarelo2.webp"
       },
       {
         "nome": "Amarelo 3",
@@ -724,7 +724,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#fbc02d"
         ],
-        "imagem": "/__l5e/assets-v1/38046aee-941f-4f66-bd5c-91230181808c/resistance-amarelo3.webp"
+        "imagem": "/__l5e/assets-v1/f5fbdc7d-04f8-42d9-834c-aabffa16b600/resistance-amarelo3.webp"
       },
       {
         "nome": "Laranja 1",
@@ -732,7 +732,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ff9800"
         ],
-        "imagem": "/__l5e/assets-v1/b87e9813-fd02-4dca-9455-27b9267cf0d5/resistance-laranja1.webp"
+        "imagem": "/__l5e/assets-v1/df71b829-eb90-4183-8846-c6cf2408c13d/resistance-laranja1.webp"
       },
       {
         "nome": "Laranja 2",
@@ -740,7 +740,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ef6c00"
         ],
-        "imagem": "/__l5e/assets-v1/d66f25d3-f997-4bee-89ea-8047bfe75dc1/resistance-laranja2.webp"
+        "imagem": "/__l5e/assets-v1/b36db3e8-3f2d-46da-8331-4c77c4666cd7/resistance-laranja2.webp"
       },
       {
         "nome": "Vermelho",
@@ -748,7 +748,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#d32f2f"
         ],
-        "imagem": "/__l5e/assets-v1/71b72304-7be4-47c1-9ee4-288bd49548e7/resistance-vermelho.webp"
+        "imagem": "/__l5e/assets-v1/6a302bc9-50d9-49ca-b684-9c408c81aaff/resistance-vermelho.webp"
       },
       {
         "nome": "Rosa 1",
@@ -756,7 +756,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#f48fb1"
         ],
-        "imagem": "/__l5e/assets-v1/9b7e2055-801f-4ada-ba7c-345c298adaeb/resistance-rosa1.webp"
+        "imagem": "/__l5e/assets-v1/b3a59942-7ebf-4349-bc74-8b98831b1e63/resistance-rosa1.webp"
       },
       {
         "nome": "Rosa 2",
@@ -764,7 +764,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ec407a"
         ],
-        "imagem": "/__l5e/assets-v1/2833d945-0fb6-40db-8742-7cfe10cf4ed1/resistance-rosa2.webp"
+        "imagem": "/__l5e/assets-v1/211bf7f9-befd-4c6d-a7b7-188cfb936295/resistance-rosa2.webp"
       },
       {
         "nome": "Rosa 3",
@@ -772,7 +772,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#d81b60"
         ],
-        "imagem": "/__l5e/assets-v1/4c7df160-93cd-4768-b2be-4aae1f05deaa/resistance-rosa3.webp"
+        "imagem": "/__l5e/assets-v1/71b0a1d8-b534-4add-bbb4-63f6d48092c6/resistance-rosa3.webp"
       },
       {
         "nome": "Roxo 1",
@@ -780,7 +780,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ab47bc"
         ],
-        "imagem": "/__l5e/assets-v1/4a9306f4-f4fc-426d-bfaf-b7d956b241d8/resistance-roxo1.webp"
+        "imagem": "/__l5e/assets-v1/68f3accc-aa3e-47b5-812c-66c96115503a/resistance-roxo1.webp"
       },
       {
         "nome": "Roxo 2",
@@ -788,7 +788,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#8e24aa"
         ],
-        "imagem": "/__l5e/assets-v1/92558597-c877-4865-8fd5-8a92042b9852/resistance-roxo2.webp"
+        "imagem": "/__l5e/assets-v1/ac5d0130-aaa2-42b2-9b8d-190b55fa4f45/resistance-roxo2.webp"
       },
       {
         "nome": "Azul 1",
@@ -796,7 +796,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#64b5f6"
         ],
-        "imagem": "/__l5e/assets-v1/5cc63a13-240f-400b-a66b-82462683889a/resistance-azul1.webp"
+        "imagem": "/__l5e/assets-v1/88d81940-e11f-4eed-b7fc-2d999af03924/resistance-azul1.webp"
       },
       {
         "nome": "Azul 2",
@@ -804,7 +804,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#2196f3"
         ],
-        "imagem": "/__l5e/assets-v1/d1d2b05d-29d1-4b0f-a899-856c7db98a1d/resistance-azul2.webp"
+        "imagem": "/__l5e/assets-v1/02e32a92-917f-4a4c-9799-d30e6a4ae5bd/resistance-azul2.webp"
       },
       {
         "nome": "Azul 3",
@@ -812,7 +812,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1976d2"
         ],
-        "imagem": "/__l5e/assets-v1/04f874c3-773d-4abb-89a0-9c22601786b7/resistance-azul3.webp"
+        "imagem": "/__l5e/assets-v1/5ccf87f4-434e-428c-98d3-b41d9847341b/resistance-azul3.webp"
       },
       {
         "nome": "Azul 4",
@@ -820,7 +820,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/649676a8-c99f-4554-8ef8-28b9f3722b53/resistance-azul4.webp"
+        "imagem": "/__l5e/assets-v1/63f94fbf-45e8-4fe6-9539-88a8343fbc7e/resistance-azul4.webp"
       },
       {
         "nome": "Cinzento 1",
@@ -828,7 +828,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#bdbdbd"
         ],
-        "imagem": "/__l5e/assets-v1/a4c3a3a5-8f4c-4b41-9699-1b73c2ae2919/resistance-cinzento1.webp"
+        "imagem": "/__l5e/assets-v1/4ed7732e-48f4-472c-aad8-ec1f34d6a2bc/resistance-cinzento1.webp"
       },
       {
         "nome": "Cinzento 2",
@@ -836,7 +836,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#757575"
         ],
-        "imagem": "/__l5e/assets-v1/bbcd0aef-f176-4811-9c37-867864009c7d/resistance-cinzento2.webp"
+        "imagem": "/__l5e/assets-v1/9e255812-5cce-45dd-bb03-92582115206d/resistance-cinzento2.webp"
       },
       {
         "nome": "Preto",
@@ -844,7 +844,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/bf0018b8-b769-443c-9e22-cd9dc9182ca6/resistance-preto.webp"
+        "imagem": "/__l5e/assets-v1/de1a5de3-5aac-46d7-9018-3b40ce3e2cfe/resistance-preto.webp"
       }
     ],
     "tamanhos": [
@@ -913,7 +913,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt ROCKSPEED disponível em 5 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#ROC-ROC",
-    "imagem": "/__l5e/assets-v1/974ae291-b189-4678-8549-b0a10670f330/rockspeed-cinzento.webp",
+    "imagem": "/__l5e/assets-v1/a73e56d1-ad03-4afb-93dc-bdbf43b4ce81/rockspeed-cinzento.webp",
     "cores": [
       {
         "nome": "Cinzento",
@@ -922,7 +922,7 @@ export const modelos: Modelo[] = [
           "#555555",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/974ae291-b189-4678-8549-b0a10670f330/rockspeed-cinzento.webp"
+        "imagem": "/__l5e/assets-v1/a73e56d1-ad03-4afb-93dc-bdbf43b4ce81/rockspeed-cinzento.webp"
       },
       {
         "nome": "Verde",
@@ -931,7 +931,7 @@ export const modelos: Modelo[] = [
           "#2e7d32",
           "#81c784"
         ],
-        "imagem": "/__l5e/assets-v1/b2fbbf33-5d28-4909-ae75-5d0171b6198c/rockspeed-verde.webp"
+        "imagem": "/__l5e/assets-v1/348187f6-e7da-451e-aef7-32d9c8cdc9df/rockspeed-verde.webp"
       },
       {
         "nome": "Laranja",
@@ -940,7 +940,7 @@ export const modelos: Modelo[] = [
           "#ef6c00",
           "#ffeb3b"
         ],
-        "imagem": "/__l5e/assets-v1/fa395381-4157-4afc-9eb6-59d46346d299/rockspeed-laranja.webp"
+        "imagem": "/__l5e/assets-v1/c5a39a24-5c4c-45a5-9396-df3a84b40e14/rockspeed-laranja.webp"
       },
       {
         "nome": "Rosa",
@@ -949,7 +949,7 @@ export const modelos: Modelo[] = [
           "#f48fb1",
           "#d81b60"
         ],
-        "imagem": "/__l5e/assets-v1/fc6ea43f-41de-4ff0-b161-386cfd4c8652/rockspeed-rosa.webp"
+        "imagem": "/__l5e/assets-v1/781beaea-a31f-42bc-9056-9a7dfd3ee2ef/rockspeed-rosa.webp"
       },
       {
         "nome": "Azul",
@@ -958,7 +958,7 @@ export const modelos: Modelo[] = [
           "#0d47a1",
           "#64b5f6"
         ],
-        "imagem": "/__l5e/assets-v1/64cfddc0-eb32-474e-9b10-3d054cdad999/rockspeed-azul.webp"
+        "imagem": "/__l5e/assets-v1/f38d7134-f23f-4f27-bfae-f840f225e8f1/rockspeed-azul.webp"
       }
     ],
     "tamanhos": [
@@ -1015,7 +1015,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt BRICKPLUS disponível em 5 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#BRI-BRI",
-    "imagem": "/__l5e/assets-v1/95116c99-73c9-408d-9977-7fc0129e9684/brickplus-verde.webp",
+    "imagem": "/__l5e/assets-v1/0868ba06-2bf8-417e-a42a-54a07a8ea2f0/brickplus-verde.webp",
     "cores": [
       {
         "nome": "Verde",
@@ -1024,7 +1024,7 @@ export const modelos: Modelo[] = [
           "#a5d6a7",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/95116c99-73c9-408d-9977-7fc0129e9684/brickplus-verde.webp"
+        "imagem": "/__l5e/assets-v1/0868ba06-2bf8-417e-a42a-54a07a8ea2f0/brickplus-verde.webp"
       },
       {
         "nome": "Amarelo",
@@ -1033,7 +1033,7 @@ export const modelos: Modelo[] = [
           "#fdd835",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/c91fd913-624c-4556-9161-41f198ccc327/brickplus-amarelo.webp"
+        "imagem": "/__l5e/assets-v1/d1aef11d-19d1-4786-9a2d-c7e86a992ee2/brickplus-amarelo.webp"
       },
       {
         "nome": "Laranja",
@@ -1042,7 +1042,7 @@ export const modelos: Modelo[] = [
           "#ef6c00",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/074c9d57-474c-408c-b2b3-f0933c421e98/brickplus-laranja.webp"
+        "imagem": "/__l5e/assets-v1/f5a4dd43-4d19-4686-984e-aee58a465317/brickplus-laranja.webp"
       },
       {
         "nome": "Rosa",
@@ -1051,7 +1051,7 @@ export const modelos: Modelo[] = [
           "#ec407a",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/a2b53b6f-479c-4812-87f5-360095404525/brickplus-rosa.webp"
+        "imagem": "/__l5e/assets-v1/3a2976aa-1f71-4526-b6b1-c47d7f828a4c/brickplus-rosa.webp"
       },
       {
         "nome": "Preto",
@@ -1060,7 +1060,7 @@ export const modelos: Modelo[] = [
           "#000000",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/ab9c7a6a-f954-4ebd-8e54-2b31a8224e05/brickplus-preto.webp"
+        "imagem": "/__l5e/assets-v1/859adcce-f4d6-495e-9fdf-f2cebbbce173/brickplus-preto.webp"
       }
     ],
     "tamanhos": [
@@ -1117,7 +1117,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt LEOPARD disponível em 4 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#LEO-LEO",
-    "imagem": "/__l5e/assets-v1/1b1f356e-f617-42c6-b1dd-7a020256ea29/leopard-verde.webp",
+    "imagem": "/__l5e/assets-v1/15f267c5-04f1-4b17-932e-c671df1398f9/leopard-verde.webp",
     "cores": [
       {
         "nome": "Verde",
@@ -1126,7 +1126,7 @@ export const modelos: Modelo[] = [
           "#2e7d32",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/1b1f356e-f617-42c6-b1dd-7a020256ea29/leopard-verde.webp"
+        "imagem": "/__l5e/assets-v1/15f267c5-04f1-4b17-932e-c671df1398f9/leopard-verde.webp"
       },
       {
         "nome": "Vermelho",
@@ -1135,7 +1135,7 @@ export const modelos: Modelo[] = [
           "#b71c1c",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/c173da94-11cc-4401-8481-d24264cf888d/leopard-vermelho.webp"
+        "imagem": "/__l5e/assets-v1/0f396e28-f012-4bf4-8fa7-977f24bfade8/leopard-vermelho.webp"
       },
       {
         "nome": "Azul",
@@ -1144,7 +1144,7 @@ export const modelos: Modelo[] = [
           "#0d47a1",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/995172fe-a6ad-4d7d-8721-ea722fdc5ed9/leopard-azul.webp"
+        "imagem": "/__l5e/assets-v1/95518aaf-d087-401b-b1e4-d34b3e00f985/leopard-azul.webp"
       },
       {
         "nome": "Preto",
@@ -1153,7 +1153,7 @@ export const modelos: Modelo[] = [
           "#000000",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/6fa15a4e-9c7b-42e9-8b19-b15c0f3b85be/leopard-preto.webp"
+        "imagem": "/__l5e/assets-v1/246b6843-b44e-446b-8e51-124e9aff4a1b/leopard-preto.webp"
       }
     ],
     "tamanhos": [
@@ -1219,7 +1219,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt MAURICE disponível em 5 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#MAU-MAU",
-    "imagem": "/__l5e/assets-v1/34d90afe-0532-4b6d-8dac-5a3d7bda7704/maurice-verde.webp",
+    "imagem": "/__l5e/assets-v1/0c5ca6b0-bbda-4ced-ae47-500d56ebd795/maurice-verde.webp",
     "cores": [
       {
         "nome": "Verde",
@@ -1229,7 +1229,7 @@ export const modelos: Modelo[] = [
           "#ffffff",
           "#2e7d32"
         ],
-        "imagem": "/__l5e/assets-v1/34d90afe-0532-4b6d-8dac-5a3d7bda7704/maurice-verde.webp"
+        "imagem": "/__l5e/assets-v1/0c5ca6b0-bbda-4ced-ae47-500d56ebd795/maurice-verde.webp"
       },
       {
         "nome": "Laranja",
@@ -1239,7 +1239,7 @@ export const modelos: Modelo[] = [
           "#ffffff",
           "#ef6c00"
         ],
-        "imagem": "/__l5e/assets-v1/98b194a9-237e-4310-b61d-5368a7c6e68d/maurice-laranja.webp"
+        "imagem": "/__l5e/assets-v1/182cad70-bd46-40ef-862d-2ea0bee96bf2/maurice-laranja.webp"
       },
       {
         "nome": "Vermelho",
@@ -1249,7 +1249,7 @@ export const modelos: Modelo[] = [
           "#ffffff",
           "#b71c1c"
         ],
-        "imagem": "/__l5e/assets-v1/75ec09d5-52ff-48f7-ad4d-51796930f285/maurice-vermelho.webp"
+        "imagem": "/__l5e/assets-v1/e200b40e-e209-4911-a917-cbf0b408c5e3/maurice-vermelho.webp"
       },
       {
         "nome": "Azul",
@@ -1259,7 +1259,7 @@ export const modelos: Modelo[] = [
           "#ffffff",
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/159ae0be-a4b5-472e-ba43-0a728b9ba4f1/maurice-azul.webp"
+        "imagem": "/__l5e/assets-v1/a3861b05-060f-4f70-adb3-961b6dd503e6/maurice-azul.webp"
       },
       {
         "nome": "Cinzento",
@@ -1269,7 +1269,7 @@ export const modelos: Modelo[] = [
           "#ffffff",
           "#616161"
         ],
-        "imagem": "/__l5e/assets-v1/cf6c37de-2379-4d6a-9e4b-2c7a7495988a/maurice-cinzento.webp"
+        "imagem": "/__l5e/assets-v1/e67fd6ed-691f-40ce-8a81-4ffd9dd4e0f0/maurice-cinzento.webp"
       }
     ],
     "tamanhos": [
@@ -1335,7 +1335,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt DACITA disponível em 3 cores. 23% Poliéster",
     "composicao": "23% Poliéster, 77% Poliamida, Densidade: 180 g/m²",
     "referencia": "#DAC-DAC",
-    "imagem": "/__l5e/assets-v1/b827b35e-fd48-4677-8fa7-5f134dc06e2d/dacita-azul.webp",
+    "imagem": "/__l5e/assets-v1/78ca3d84-5b1d-4788-a16f-d70ac2a65495/dacita-azul.webp",
     "cores": [
       {
         "nome": "Azul",
@@ -1344,7 +1344,7 @@ export const modelos: Modelo[] = [
           "#0d47a1",
           "#002171"
         ],
-        "imagem": "/__l5e/assets-v1/b827b35e-fd48-4677-8fa7-5f134dc06e2d/dacita-azul.webp"
+        "imagem": "/__l5e/assets-v1/78ca3d84-5b1d-4788-a16f-d70ac2a65495/dacita-azul.webp"
       },
       {
         "nome": "Preto",
@@ -1353,7 +1353,7 @@ export const modelos: Modelo[] = [
           "#000000",
           "#616161"
         ],
-        "imagem": "/__l5e/assets-v1/23bd70d9-37f7-42ef-935f-0685a24c3c2f/dacita-preto.webp"
+        "imagem": "/__l5e/assets-v1/ff5a2a47-e898-4944-a4bd-fb7290ba2f1c/dacita-preto.webp"
       },
       {
         "nome": "Cinzento",
@@ -1362,7 +1362,7 @@ export const modelos: Modelo[] = [
           "#757575",
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/4651b15d-9c82-48c4-ab8c-272791b19ff1/dacita-cinzento.webp"
+        "imagem": "/__l5e/assets-v1/b038c7bd-6f8d-4d9c-a6e2-856f02b41ed0/dacita-cinzento.webp"
       }
     ],
     "tamanhos": [
@@ -1420,7 +1420,7 @@ export const modelos: Modelo[] = [
     "descricao": "Polo PATROL disponível em 25 cores. 100% Algodão",
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#PAT-PAT",
-    "imagem": "/__l5e/assets-v1/c691766e-6030-48a4-a92c-6b857330fee4/patrol-branco.webp",
+    "imagem": "/__l5e/assets-v1/51393a4d-1b80-4106-9558-b8fcd24022e6/patrol-branco.webp",
     "cores": [
       {
         "nome": "Branco",
@@ -1428,7 +1428,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/c691766e-6030-48a4-a92c-6b857330fee4/patrol-branco.webp"
+        "imagem": "/__l5e/assets-v1/51393a4d-1b80-4106-9558-b8fcd24022e6/patrol-branco.webp"
       },
       {
         "nome": "Bege",
@@ -1436,7 +1436,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#d7ccc8"
         ],
-        "imagem": "/__l5e/assets-v1/7c7d512c-c0b8-4237-8859-1b64c0560df1/patrol-beje.webp"
+        "imagem": "/__l5e/assets-v1/2d370081-0a09-47c5-8602-6c3833388961/patrol-beje.webp"
       },
       {
         "nome": "Castanho",
@@ -1444,7 +1444,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#5d4037"
         ],
-        "imagem": "/__l5e/assets-v1/fa0839a8-298b-48fa-b468-4315ee680ce3/patrol-castanho.webp"
+        "imagem": "/__l5e/assets-v1/d3247065-0f20-4267-8999-398dfc0d5b49/patrol-castanho.webp"
       },
       {
         "nome": "Verde 1",
@@ -1452,7 +1452,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1b5e20"
         ],
-        "imagem": "/__l5e/assets-v1/e661b9c1-b55b-44db-8b52-0650d76f5496/patrol-verde1.webp"
+        "imagem": "/__l5e/assets-v1/2dad955b-e3a7-4bad-85b5-b64b5fc8a7a4/patrol-verde1.webp"
       },
       {
         "nome": "Verde 2",
@@ -1460,7 +1460,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#2e7d32"
         ],
-        "imagem": "/__l5e/assets-v1/08155f1f-812d-4962-a1a8-5eda915bc7e3/patrol-verde2.webp"
+        "imagem": "/__l5e/assets-v1/4990a1e5-5e2e-4d72-971f-b3767d4aa695/patrol-verde2.webp"
       },
       {
         "nome": "Verde 3",
@@ -1468,7 +1468,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#388e3c"
         ],
-        "imagem": "/__l5e/assets-v1/c95f06a0-a5da-428d-935d-1b6cb519f07b/patrol-verde3.webp"
+        "imagem": "/__l5e/assets-v1/280a541b-b2b9-478e-bb72-b71cb0d839a8/patrol-verde3.webp"
       },
       {
         "nome": "Verde 4",
@@ -1476,7 +1476,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#66bb6a"
         ],
-        "imagem": "/__l5e/assets-v1/add27e61-5d4c-4c48-98d6-d945b45d6f05/patrol-verde4.webp"
+        "imagem": "/__l5e/assets-v1/99483073-75cb-41e3-9647-6ee787fc2784/patrol-verde4.webp"
       },
       {
         "nome": "Amarelo 1",
@@ -1484,7 +1484,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#fdd835"
         ],
-        "imagem": "/__l5e/assets-v1/773912be-daa5-4264-aa38-f6c4ef6fd409/patrol-amarelo1.webp"
+        "imagem": "/__l5e/assets-v1/2e915b9c-31bb-447f-845d-f6133ee55f5e/patrol-amarelo1.webp"
       },
       {
         "nome": "Amarelo 2",
@@ -1492,7 +1492,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ffeb3b"
         ],
-        "imagem": "/__l5e/assets-v1/f7943698-f08d-434a-83c0-8f4ef420faf3/patrol-amarelo2.webp"
+        "imagem": "/__l5e/assets-v1/d864ac5e-4576-478f-bc32-9e6e6c0f2612/patrol-amarelo2.webp"
       },
       {
         "nome": "Laranja",
@@ -1500,7 +1500,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ef6c00"
         ],
-        "imagem": "/__l5e/assets-v1/ad2d4492-5260-4ada-af10-e919fa0f2c5f/patrol-laranja.webp"
+        "imagem": "/__l5e/assets-v1/3504d44e-66c5-498e-a63b-a69c924d8c74/patrol-laranja.webp"
       },
       {
         "nome": "Vermelho 1",
@@ -1508,7 +1508,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#b71c1c"
         ],
-        "imagem": "/__l5e/assets-v1/1de2ecb2-b1f4-4748-bf2d-33df44f3d9b5/patrol-vermelho1.webp"
+        "imagem": "/__l5e/assets-v1/af967e49-e4cd-4635-869e-64e73e4a6a9b/patrol-vermelho1.webp"
       },
       {
         "nome": "Vermelho 2",
@@ -1516,7 +1516,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#7f0000"
         ],
-        "imagem": "/__l5e/assets-v1/3bf709b4-9e4f-42d1-90df-43a822fe9525/patrol-vermelho2.webp"
+        "imagem": "/__l5e/assets-v1/109b6f52-c9b8-4148-a6a4-846e1e24ca29/patrol-vermelho2.webp"
       },
       {
         "nome": "Rosa",
@@ -1524,7 +1524,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ec407a"
         ],
-        "imagem": "/__l5e/assets-v1/ffa8895a-de8b-4ff8-b6c8-60c8d3983cb0/patrol-rosa.webp"
+        "imagem": "/__l5e/assets-v1/9eff3c0f-54c2-42d6-a122-72e6b0039c80/patrol-rosa.webp"
       },
       {
         "nome": "Roxo",
@@ -1532,7 +1532,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#6a1b9a"
         ],
-        "imagem": "/__l5e/assets-v1/bd5ad2b3-538e-47ae-bc01-ab545a667ac1/patrol-roxo.webp"
+        "imagem": "/__l5e/assets-v1/d4088e87-42b4-40bf-996c-f2bac3af2747/patrol-roxo.webp"
       },
       {
         "nome": "Azul 1",
@@ -1540,7 +1540,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#64b5f6"
         ],
-        "imagem": "/__l5e/assets-v1/f7f8501a-4083-4e4a-857d-5f622184cac1/patrol-azul1.webp"
+        "imagem": "/__l5e/assets-v1/92f8562c-b7ff-4ea1-b6e2-97200ba79d0e/patrol-azul1.webp"
       },
       {
         "nome": "Azul 2",
@@ -1548,7 +1548,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1976d2"
         ],
-        "imagem": "/__l5e/assets-v1/3be0242a-95ab-420c-a438-ac3cbd4a3087/patrol-azul2.webp"
+        "imagem": "/__l5e/assets-v1/2d6bbbb5-4c25-412a-94ec-b56991d097f1/patrol-azul2.webp"
       },
       {
         "nome": "Azul 3",
@@ -1556,7 +1556,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/ff6432a1-9ed1-4827-aff3-ca6fa6e5deb7/patrol-azul3.webp"
+        "imagem": "/__l5e/assets-v1/68f5962f-5a7c-433b-970b-9bbfa228dbc8/patrol-azul3.webp"
       },
       {
         "nome": "Azul 4",
@@ -1564,7 +1564,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#01579b"
         ],
-        "imagem": "/__l5e/assets-v1/ca339e00-767a-47cd-bc11-37e3a75fdde2/patrol-azul4.webp"
+        "imagem": "/__l5e/assets-v1/88292061-e005-4ffa-9490-8bbcfe591828/patrol-azul4.webp"
       },
       {
         "nome": "Azul 5",
@@ -1572,7 +1572,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#003c8f"
         ],
-        "imagem": "/__l5e/assets-v1/c0a096d6-4117-46a7-a2c8-fd3623d8ec37/patrol-azul5.webp"
+        "imagem": "/__l5e/assets-v1/52ed4a89-bda7-4dcd-83e5-53315c1e4967/patrol-azul5.webp"
       },
       {
         "nome": "Azul 6",
@@ -1580,7 +1580,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#001f54"
         ],
-        "imagem": "/__l5e/assets-v1/bab0fe95-5f53-49cc-8c96-41f57ea28240/patrol-azul6.webp"
+        "imagem": "/__l5e/assets-v1/2e8799b0-2758-494a-9b40-5534a0dbb0cd/patrol-azul6.webp"
       },
       {
         "nome": "Cinzento 1",
@@ -1588,7 +1588,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#eeeeee"
         ],
-        "imagem": "/__l5e/assets-v1/cb1ffbea-925a-4182-abcc-b88ab68b830c/patrol-cinzento1.webp"
+        "imagem": "/__l5e/assets-v1/d9188843-979a-48c4-bd53-f530a5ca4ae0/patrol-cinzento1.webp"
       },
       {
         "nome": "Cinzento 2",
@@ -1596,7 +1596,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#bdbdbd"
         ],
-        "imagem": "/__l5e/assets-v1/8536d855-e1cc-45d4-8f7f-4c63280d8127/patrol-cinzento2.webp"
+        "imagem": "/__l5e/assets-v1/a6c1a9eb-6817-45c6-9ca0-fe39f1697a23/patrol-cinzento2.webp"
       },
       {
         "nome": "Cinzento 3",
@@ -1604,7 +1604,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#757575"
         ],
-        "imagem": "/__l5e/assets-v1/8ff86daa-0199-42b0-be23-347172af1ae5/patrol-cinzento3.webp"
+        "imagem": "/__l5e/assets-v1/54065713-d570-414c-a9fe-0a1b68a8ee40/patrol-cinzento3.webp"
       },
       {
         "nome": "Cinzento 4",
@@ -1612,7 +1612,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#424242"
         ],
-        "imagem": "/__l5e/assets-v1/b8608b16-a1c9-4fe2-94fd-f1dcd910ec83/patrol-cinzento4.webp"
+        "imagem": "/__l5e/assets-v1/7187caca-b611-473f-b881-c94c10106b28/patrol-cinzento4.webp"
       },
       {
         "nome": "Preto",
@@ -1620,7 +1620,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/692376d9-109a-4752-b51d-6d6cf10831fc/patrol-preto.webp"
+        "imagem": "/__l5e/assets-v1/6f4eb65c-38c7-4651-a072-1d705db5c0ba/patrol-preto.webp"
       }
     ],
     "tamanhos": [
@@ -1695,7 +1695,7 @@ export const modelos: Modelo[] = [
     "descricao": "Polo KENTUKY disponível em 9 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#KEN-KEN",
-    "imagem": "/__l5e/assets-v1/e8eaa9ac-ab32-4826-9c58-5ed164ff961d/kentuky-branco.webp",
+    "imagem": "/__l5e/assets-v1/592bc4c4-aafb-4a21-90b3-59025b9b8e82/kentuky-branco.webp",
     "cores": [
       {
         "nome": "Branco",
@@ -1703,7 +1703,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/e8eaa9ac-ab32-4826-9c58-5ed164ff961d/kentuky-branco.webp"
+        "imagem": "/__l5e/assets-v1/592bc4c4-aafb-4a21-90b3-59025b9b8e82/kentuky-branco.webp"
       },
       {
         "nome": "Verde",
@@ -1711,7 +1711,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#2e7d32"
         ],
-        "imagem": "/__l5e/assets-v1/f74c1746-aacc-4abb-ba29-c80837aac4b1/kentuky-verde.webp"
+        "imagem": "/__l5e/assets-v1/027fe705-a4c8-4f82-b122-0bd376a9b564/kentuky-verde.webp"
       },
       {
         "nome": "Laranja",
@@ -1719,7 +1719,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ef6c00"
         ],
-        "imagem": "/__l5e/assets-v1/47efb2ff-c007-4962-9c91-a125665aeef4/kentuky-laranja.webp"
+        "imagem": "/__l5e/assets-v1/a0acf9ce-b264-424e-9143-2108167adafd/kentuky-laranja.webp"
       },
       {
         "nome": "Vermelho 1",
@@ -1727,7 +1727,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#b71c1c"
         ],
-        "imagem": "/__l5e/assets-v1/e128fdd4-321d-4614-ad36-bc3f13024075/kentuky-vermelho1.webp"
+        "imagem": "/__l5e/assets-v1/b070b721-bd27-44e0-8f6b-8d937ef07383/kentuky-vermelho1.webp"
       },
       {
         "nome": "Vermelho 2",
@@ -1735,7 +1735,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#7f0000"
         ],
-        "imagem": "/__l5e/assets-v1/3e75ba1d-fd28-4825-8d23-057fd3b1c182/kentuky-vermelho2.webp"
+        "imagem": "/__l5e/assets-v1/6a28a851-e750-41dd-a4de-4c7e22a2390f/kentuky-vermelho2.webp"
       },
       {
         "nome": "Azul 1",
@@ -1743,7 +1743,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#64b5f6"
         ],
-        "imagem": "/__l5e/assets-v1/db22e468-e88e-44f1-9889-06d63d354084/kentuky-azul1.webp"
+        "imagem": "/__l5e/assets-v1/94e4be24-fcdd-4220-8018-432182f86f56/kentuky-azul1.webp"
       },
       {
         "nome": "Azul 2",
@@ -1751,7 +1751,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1976d2"
         ],
-        "imagem": "/__l5e/assets-v1/5af74b17-5b85-45cc-8c9a-e7e31d4aa3f6/kentuky-azul2.webp"
+        "imagem": "/__l5e/assets-v1/c1c59dcf-9b05-4352-b9cf-6e9ca3c02609/kentuky-azul2.webp"
       },
       {
         "nome": "Azul 3",
@@ -1759,7 +1759,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/c51ac65c-05b9-40e6-af96-05e531ef831d/kentuky-azul3.webp"
+        "imagem": "/__l5e/assets-v1/3c4e6a35-62d2-4eb2-bbcb-b2324b032259/kentuky-azul3.webp"
       },
       {
         "nome": "Preto",
@@ -1767,7 +1767,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/1f5cfdfe-9f92-43fd-8ff7-6f2611c309fe/kentuky-preto.webp"
+        "imagem": "/__l5e/assets-v1/aaaca10a-8eed-4543-a3d7-c15ed59bb42d/kentuky-preto.webp"
       }
     ],
     "tamanhos": [
@@ -1827,7 +1827,7 @@ export const modelos: Modelo[] = [
     "descricao": "Polo SAGANO disponível em 4 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#SAG-SAG",
-    "imagem": "/__l5e/assets-v1/4d7f688e-c1e5-4ee3-8e43-6b8aab2d28e4/sagano-verde.webp",
+    "imagem": "/__l5e/assets-v1/ce5366fa-fef3-44dd-9d0b-28c218d76a98/sagano-verde.webp",
     "cores": [
       {
         "nome": "Verde",
@@ -1836,7 +1836,7 @@ export const modelos: Modelo[] = [
           "#1b5e20",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/4d7f688e-c1e5-4ee3-8e43-6b8aab2d28e4/sagano-verde.webp"
+        "imagem": "/__l5e/assets-v1/ce5366fa-fef3-44dd-9d0b-28c218d76a98/sagano-verde.webp"
       },
       {
         "nome": "Vermelho",
@@ -1845,7 +1845,7 @@ export const modelos: Modelo[] = [
           "#b71c1c",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/cc0a1e6f-9278-4cdb-9dc0-934ebf301e2b/sagano-vermelho.webp"
+        "imagem": "/__l5e/assets-v1/850f095c-066d-4120-aeee-6040ad2dacfc/sagano-vermelho.webp"
       },
       {
         "nome": "Azul",
@@ -1854,7 +1854,7 @@ export const modelos: Modelo[] = [
           "#0d47a1",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/b5ef94e2-91ee-4611-98b8-c51eb730b2c7/sagano-azul.webp"
+        "imagem": "/__l5e/assets-v1/16d7ba5a-dee0-4f89-bc1d-b8215de18987/sagano-azul.webp"
       },
       {
         "nome": "Preto",
@@ -1863,7 +1863,7 @@ export const modelos: Modelo[] = [
           "#000000",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/599d01f4-e8cd-4416-a503-725577fcea81/sagano-preto.webp"
+        "imagem": "/__l5e/assets-v1/dcfe503c-d02f-4436-b2d2-ffe82484f636/sagano-preto.webp"
       }
     ],
     "tamanhos": [
@@ -1920,7 +1920,7 @@ export const modelos: Modelo[] = [
     "descricao": "Polo STRATEGY disponível em 6 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#STR-STR",
-    "imagem": "/__l5e/assets-v1/0b77695c-88a0-4928-9315-37086d4737c5/strategy-vermelhov1.webp",
+    "imagem": "/__l5e/assets-v1/28a1b79e-1d75-4ce2-81cc-089759af82eb/strategy-vermelhov1.webp",
     "cores": [
       {
         "nome": "Vermelhov 1",
@@ -1929,7 +1929,7 @@ export const modelos: Modelo[] = [
           "#b71c1c",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/0b77695c-88a0-4928-9315-37086d4737c5/strategy-vermelhov1.webp"
+        "imagem": "/__l5e/assets-v1/28a1b79e-1d75-4ce2-81cc-089759af82eb/strategy-vermelhov1.webp"
       },
       {
         "nome": "Azulv 1",
@@ -1938,7 +1938,7 @@ export const modelos: Modelo[] = [
           "#0d47a1",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/b3203dc1-bcae-4a86-86bb-000c718e79af/strategy-azulv1.webp"
+        "imagem": "/__l5e/assets-v1/2092b036-0549-41d7-88b6-ae331d277fbc/strategy-azulv1.webp"
       },
       {
         "nome": "Pretov 1",
@@ -1947,7 +1947,7 @@ export const modelos: Modelo[] = [
           "#000000",
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/671f324e-e2cc-44d3-82ab-848d6d47e316/strategy-pretov1.webp"
+        "imagem": "/__l5e/assets-v1/03302a1e-7229-4246-b210-7346cec003b5/strategy-pretov1.webp"
       },
       {
         "nome": "Vermelhov 2",
@@ -1956,7 +1956,7 @@ export const modelos: Modelo[] = [
           "#ffffff",
           "#b71c1c"
         ],
-        "imagem": "/__l5e/assets-v1/c4c938c9-e1b0-4b0a-a1ba-fd37e38159c4/strategy-vermelhov2.webp"
+        "imagem": "/__l5e/assets-v1/29628fd1-a382-4d02-9474-2ae7d050f401/strategy-vermelhov2.webp"
       },
       {
         "nome": "Azulv 2",
@@ -1965,7 +1965,7 @@ export const modelos: Modelo[] = [
           "#ffffff",
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/bfbb7bb6-9592-4ad1-9e33-a2913069d828/strategy-azulv2.webp"
+        "imagem": "/__l5e/assets-v1/a85c4583-4966-45d6-b630-883e2ac0dbf7/strategy-azulv2.webp"
       },
       {
         "nome": "Pretov 2",
@@ -1974,7 +1974,7 @@ export const modelos: Modelo[] = [
           "#ffffff",
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/c6c16f39-a465-446f-a5c4-47556065f138/strategy-pretov2.webp"
+        "imagem": "/__l5e/assets-v1/5da69564-9266-4c9b-9070-3025cf5ed90c/strategy-pretov2.webp"
       }
     ],
     "tamanhos": [
@@ -2031,7 +2031,7 @@ export const modelos: Modelo[] = [
     "descricao": "Hoodie ARIZONA disponível em 20 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#ARI-ARI",
-    "imagem": "/__l5e/assets-v1/8884b771-a182-4028-bbc1-d28e35955d6c/arizona-branco.webp",
+    "imagem": "/__l5e/assets-v1/23e2ea62-0527-4c53-afb3-87c4d715c5b8/arizona-branco.webp",
     "cores": [
       {
         "nome": "Branco",
@@ -2039,7 +2039,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/8884b771-a182-4028-bbc1-d28e35955d6c/arizona-branco.webp"
+        "imagem": "/__l5e/assets-v1/23e2ea62-0527-4c53-afb3-87c4d715c5b8/arizona-branco.webp"
       },
       {
         "nome": "Castanho",
@@ -2047,7 +2047,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#5d4037"
         ],
-        "imagem": "/__l5e/assets-v1/2e78a998-0107-4253-8cb7-3cbc8dbaf3a1/arizona-castanho.webp"
+        "imagem": "/__l5e/assets-v1/26a1ada5-3d42-440c-83e8-5e26496d99c8/arizona-castanho.webp"
       },
       {
         "nome": "Verde 1",
@@ -2055,7 +2055,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1b5e20"
         ],
-        "imagem": "/__l5e/assets-v1/e4a8bf70-14c8-452f-b2fb-72774d2dec8a/arizona-verde1.webp"
+        "imagem": "/__l5e/assets-v1/0322dd53-31e0-46ee-8c07-9315edab76be/arizona-verde1.webp"
       },
       {
         "nome": "Verde 2",
@@ -2063,7 +2063,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#2e7d32"
         ],
-        "imagem": "/__l5e/assets-v1/da3f2833-cbc3-4f1f-9c39-ae2cb1697033/arizona-verde2.webp"
+        "imagem": "/__l5e/assets-v1/b1da4331-1cc0-427c-9d07-72012b3ba058/arizona-verde2.webp"
       },
       {
         "nome": "Verde 3",
@@ -2071,7 +2071,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#388e3c"
         ],
-        "imagem": "/__l5e/assets-v1/fadc5276-c913-46bb-8bd6-da14fb9d0010/arizona-verde3.webp"
+        "imagem": "/__l5e/assets-v1/312a40a8-20ed-46a5-9c6b-0d2b027c755b/arizona-verde3.webp"
       },
       {
         "nome": "Verde 4",
@@ -2079,7 +2079,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#66bb6a"
         ],
-        "imagem": "/__l5e/assets-v1/a34fc173-82ab-49c5-bf8d-a5e773f6ce04/arizona-verde4.webp"
+        "imagem": "/__l5e/assets-v1/39676cf5-bc73-4d84-b56f-a953c7f5ce81/arizona-verde4.webp"
       },
       {
         "nome": "Laranja",
@@ -2087,7 +2087,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ef6c00"
         ],
-        "imagem": "/__l5e/assets-v1/d32bd75b-c275-4376-bd12-cf8f1b40752c/arizona-laranja.webp"
+        "imagem": "/__l5e/assets-v1/a251f09f-5e1f-4fbb-b76a-c23dab12fddf/arizona-laranja.webp"
       },
       {
         "nome": "Vermelho 1",
@@ -2095,7 +2095,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#b71c1c"
         ],
-        "imagem": "/__l5e/assets-v1/136ec813-78af-4a57-bc44-fb7517b153c4/arizona-vermelho1.webp"
+        "imagem": "/__l5e/assets-v1/443ef4b3-ce61-4122-9509-f7256a31025e/arizona-vermelho1.webp"
       },
       {
         "nome": "Vermelho 2",
@@ -2103,7 +2103,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#7f0000"
         ],
-        "imagem": "/__l5e/assets-v1/de869c38-790d-4afd-8652-c7a58e1327ea/arizona-vermelho2.webp"
+        "imagem": "/__l5e/assets-v1/c1405452-5978-4e00-9172-7482566f6ac4/arizona-vermelho2.webp"
       },
       {
         "nome": "Rosa 1",
@@ -2111,7 +2111,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#f48fb1"
         ],
-        "imagem": "/__l5e/assets-v1/5320ad4e-e6ae-4759-9cc6-75402e6dab9a/arizona-rosa1.webp"
+        "imagem": "/__l5e/assets-v1/cccc45ca-456c-4473-8996-fac6eed30407/arizona-rosa1.webp"
       },
       {
         "nome": "Rosa 2",
@@ -2119,7 +2119,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#d81b60"
         ],
-        "imagem": "/__l5e/assets-v1/63c3c7c0-aeed-4545-b591-07817e86a35d/arizona-rosa2.webp"
+        "imagem": "/__l5e/assets-v1/c63e864e-a63f-4629-9fbf-9dd16c52ea36/arizona-rosa2.webp"
       },
       {
         "nome": "Roxo 1",
@@ -2127,7 +2127,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#6a1b9a"
         ],
-        "imagem": "/__l5e/assets-v1/ed61f822-ce29-4083-8b8f-c65620914f49/arizona-roxo1.webp"
+        "imagem": "/__l5e/assets-v1/127d9f21-6869-45a4-b601-a1851f094cbc/arizona-roxo1.webp"
       },
       {
         "nome": "Roxo 2",
@@ -2135,7 +2135,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#4a148c"
         ],
-        "imagem": "/__l5e/assets-v1/77f200b3-c2fa-495d-9234-3248be136c93/arizona-roxo2.webp"
+        "imagem": "/__l5e/assets-v1/c4fdb802-7c2c-41d2-87b3-4b72f1a79599/arizona-roxo2.webp"
       },
       {
         "nome": "Azul 1",
@@ -2143,7 +2143,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#64b5f6"
         ],
-        "imagem": "/__l5e/assets-v1/dcd5b932-e0cf-4c63-983f-6bfc0aef8843/arizona-azul1.webp"
+        "imagem": "/__l5e/assets-v1/cc83be97-3c76-419a-b790-2cc256059ec3/arizona-azul1.webp"
       },
       {
         "nome": "Azul 2",
@@ -2151,7 +2151,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1976d2"
         ],
-        "imagem": "/__l5e/assets-v1/af3335e5-5821-4042-9f06-bbcb37e335a1/arizona-azul2.webp"
+        "imagem": "/__l5e/assets-v1/2f94840e-888e-4e69-9456-784e1dcc9e40/arizona-azul2.webp"
       },
       {
         "nome": "Azul 3",
@@ -2159,7 +2159,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/f9a9665b-a7a9-40f5-a564-12f05df30e7a/arizona-azul3.webp"
+        "imagem": "/__l5e/assets-v1/ed186ce9-6415-4648-96d4-1bf6eeb14dda/arizona-azul3.webp"
       },
       {
         "nome": "Azul 4",
@@ -2167,7 +2167,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#003c8f"
         ],
-        "imagem": "/__l5e/assets-v1/4e633938-35b6-426b-bb36-1e51d61a6fc9/arizona-azul4.webp"
+        "imagem": "/__l5e/assets-v1/a0a9c482-f7d0-474f-9971-33827040c7d5/arizona-azul4.webp"
       },
       {
         "nome": "Cinzento 1",
@@ -2175,7 +2175,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#bdbdbd"
         ],
-        "imagem": "/__l5e/assets-v1/65af455a-c71a-458c-9b97-33203b105e70/arizona-cinzento1.webp"
+        "imagem": "/__l5e/assets-v1/7f20fe3a-ae22-43d4-9aaf-be2aef7da0a3/arizona-cinzento1.webp"
       },
       {
         "nome": "Cinzento 2",
@@ -2183,7 +2183,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#616161"
         ],
-        "imagem": "/__l5e/assets-v1/4f2e05e7-d915-4a85-ae2f-c7f062fac67d/arizona-cinzento2.webp"
+        "imagem": "/__l5e/assets-v1/7e76e887-8347-4d6f-84d7-5047af3ac1a9/arizona-cinzento2.webp"
       },
       {
         "nome": "Preto",
@@ -2191,7 +2191,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/033f7b64-bec3-4b6b-9dd9-8288064ecd47/arizona-preto.webp"
+        "imagem": "/__l5e/assets-v1/f33d4add-bd80-4b73-80fb-52563df59cdf/arizona-preto.webp"
       }
     ],
     "tamanhos": [
@@ -2263,7 +2263,7 @@ export const modelos: Modelo[] = [
     "descricao": "Sweatshirt DUBLIN disponível em 25 cores. 65% Poliéster",
     "composicao": "65% Poliéster, 35% Algodão, Densidade: 300 g/m²",
     "referencia": "#DUB-DUB",
-    "imagem": "/__l5e/assets-v1/70bd2a7d-02cb-4d58-8d0e-e550cc22a630/dublin-branco.webp",
+    "imagem": "/__l5e/assets-v1/e2bbafde-a7f7-4a6c-a210-a0714b4c6480/dublin-branco.webp",
     "cores": [
       {
         "nome": "Branco",
@@ -2271,7 +2271,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/70bd2a7d-02cb-4d58-8d0e-e550cc22a630/dublin-branco.webp"
+        "imagem": "/__l5e/assets-v1/e2bbafde-a7f7-4a6c-a210-a0714b4c6480/dublin-branco.webp"
       },
       {
         "nome": "Bege",
@@ -2279,7 +2279,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#d7ccc8"
         ],
-        "imagem": "/__l5e/assets-v1/46dc9437-45c9-4836-99f2-eb62abebcdf8/dublin-beje.webp"
+        "imagem": "/__l5e/assets-v1/847a585b-d334-4b28-b154-41f704e6be61/dublin-beje.webp"
       },
       {
         "nome": "Castanho",
@@ -2287,7 +2287,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#5d4037"
         ],
-        "imagem": "/__l5e/assets-v1/991325af-a822-4ed8-b0bc-beaf65af2d8b/dublin-castanho.webp"
+        "imagem": "/__l5e/assets-v1/7b422cdc-39b5-4c08-8e4b-a9d79d2bb6f5/dublin-castanho.webp"
       },
       {
         "nome": "Verde 1",
@@ -2295,7 +2295,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1b5e20"
         ],
-        "imagem": "/__l5e/assets-v1/2747eb92-0e9b-4f43-9fa8-3f37da467470/dublin-verde1.webp"
+        "imagem": "/__l5e/assets-v1/db2a0444-ecfd-4b06-afee-88158484b814/dublin-verde1.webp"
       },
       {
         "nome": "Verde 2",
@@ -2303,7 +2303,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#2e7d32"
         ],
-        "imagem": "/__l5e/assets-v1/221a606a-bd7e-4ec2-b67f-4786b7365af9/dublin-verde2.webp"
+        "imagem": "/__l5e/assets-v1/670c86b4-5664-4ddd-aea0-0c8b641347da/dublin-verde2.webp"
       },
       {
         "nome": "Verde 3",
@@ -2311,7 +2311,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#388e3c"
         ],
-        "imagem": "/__l5e/assets-v1/536bdd41-8dc6-450c-8a12-b65980462fb8/dublin-verde3.webp"
+        "imagem": "/__l5e/assets-v1/808a1931-fed3-41d2-8e30-80f36fc33b25/dublin-verde3.webp"
       },
       {
         "nome": "Verde 4",
@@ -2319,7 +2319,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#66bb6a"
         ],
-        "imagem": "/__l5e/assets-v1/222ce26c-619d-49c0-8512-28e71bae487c/dublin-verde4.webp"
+        "imagem": "/__l5e/assets-v1/d1d1db41-2ddb-496a-ae60-dc9fa51c565b/dublin-verde4.webp"
       },
       {
         "nome": "Amarelo 1",
@@ -2327,7 +2327,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#fdd835"
         ],
-        "imagem": "/__l5e/assets-v1/61ba04db-e750-431b-952d-512728f75c18/dublin-amarelo1.webp"
+        "imagem": "/__l5e/assets-v1/d081ab4a-8b79-44d8-9398-b8d65ac45406/dublin-amarelo1.webp"
       },
       {
         "nome": "Amarelo 2",
@@ -2335,7 +2335,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ffeb3b"
         ],
-        "imagem": "/__l5e/assets-v1/e57607e6-13a2-4d6f-9eef-62922150d314/dublin-amarelo2.webp"
+        "imagem": "/__l5e/assets-v1/e15f27c8-4de2-4451-99ab-e04ad84f4021/dublin-amarelo2.webp"
       },
       {
         "nome": "Laranja",
@@ -2343,7 +2343,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ef6c00"
         ],
-        "imagem": "/__l5e/assets-v1/9e319ab0-6b11-48ac-93d1-affd8c6a7f4c/dublin-laranja.webp"
+        "imagem": "/__l5e/assets-v1/6fdd65bb-7837-4181-84b9-6f9552e2dd7b/dublin-laranja.webp"
       },
       {
         "nome": "Vermelho 1",
@@ -2351,7 +2351,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#b71c1c"
         ],
-        "imagem": "/__l5e/assets-v1/8070ef4f-71b6-4cbd-9cff-d6573ca4a7f7/dublin-vermelho1.webp"
+        "imagem": "/__l5e/assets-v1/853a94ef-c524-4b74-a375-e261e014c774/dublin-vermelho1.webp"
       },
       {
         "nome": "Vermelho 2",
@@ -2359,7 +2359,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#7f0000"
         ],
-        "imagem": "/__l5e/assets-v1/d4a38d4e-3547-454d-aa9b-75e7b6131dcd/dublin-vermelho2.webp"
+        "imagem": "/__l5e/assets-v1/7874a37e-0df8-4705-94b4-5464f32096d1/dublin-vermelho2.webp"
       },
       {
         "nome": "Rosa",
@@ -2367,7 +2367,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ec407a"
         ],
-        "imagem": "/__l5e/assets-v1/aa4b8a6a-2d20-48ff-b1f8-e12a34e53f83/dublin-rosa.webp"
+        "imagem": "/__l5e/assets-v1/c31eebef-8491-4a9d-b797-31b865841119/dublin-rosa.webp"
       },
       {
         "nome": "Roxo",
@@ -2375,7 +2375,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#6a1b9a"
         ],
-        "imagem": "/__l5e/assets-v1/910def0b-11b4-4908-9fd3-67824f868fe6/dublin-roxo.webp"
+        "imagem": "/__l5e/assets-v1/80e5fc6a-fb58-47aa-9526-cacf55247fd5/dublin-roxo.webp"
       },
       {
         "nome": "Azul 1",
@@ -2383,7 +2383,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#64b5f6"
         ],
-        "imagem": "/__l5e/assets-v1/27d0e7ff-a955-440b-9233-7e9e561d0c8c/dublin-azul1.webp"
+        "imagem": "/__l5e/assets-v1/a99013d4-419f-4882-ad44-7385a478806b/dublin-azul1.webp"
       },
       {
         "nome": "Azul 2",
@@ -2391,7 +2391,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1976d2"
         ],
-        "imagem": "/__l5e/assets-v1/6c4c0bc2-5e58-442c-91eb-765df649e000/dublin-azul2.webp"
+        "imagem": "/__l5e/assets-v1/34279ffd-a211-4023-a81c-9ab8ce9024a2/dublin-azul2.webp"
       },
       {
         "nome": "Azul 3",
@@ -2399,7 +2399,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/757093a1-7305-4563-8f95-2beae09e7f50/dublin-azul3.webp"
+        "imagem": "/__l5e/assets-v1/42b44f6b-7a6e-4306-b5ff-9a083c36bba5/dublin-azul3.webp"
       },
       {
         "nome": "Azul 4",
@@ -2407,7 +2407,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#003c8f"
         ],
-        "imagem": "/__l5e/assets-v1/0e0d7ad9-23bc-4266-aa0e-6297e423099d/dublin-azul4.webp"
+        "imagem": "/__l5e/assets-v1/586e54b5-e9f5-40af-b81a-c215f083ae18/dublin-azul4.webp"
       },
       {
         "nome": "Cinzento 1",
@@ -2415,7 +2415,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#eeeeee"
         ],
-        "imagem": "/__l5e/assets-v1/05c1e89e-84b0-45e0-82af-0b6fdcd59503/dublin-cinzento1.webp"
+        "imagem": "/__l5e/assets-v1/75394b50-42d7-411e-9cd5-eca9ec0937ab/dublin-cinzento1.webp"
       },
       {
         "nome": "Cinzento 2",
@@ -2423,7 +2423,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#bdbdbd"
         ],
-        "imagem": "/__l5e/assets-v1/b30bf675-d179-4dae-b379-847eb4fdb703/dublin-cinzento2.webp"
+        "imagem": "/__l5e/assets-v1/1d0d8021-3fa6-46d8-b2e8-135d849226c5/dublin-cinzento2.webp"
       },
       {
         "nome": "Cinzento 3",
@@ -2431,7 +2431,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#9e9e9e"
         ],
-        "imagem": "/__l5e/assets-v1/f3c55936-c0ab-4ff2-a955-f0707002ddde/dublin-cinzento3.webp"
+        "imagem": "/__l5e/assets-v1/c77a9091-8d81-458d-abf7-73d518f07ee2/dublin-cinzento3.webp"
       },
       {
         "nome": "Cinzento 4",
@@ -2439,7 +2439,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#757575"
         ],
-        "imagem": "/__l5e/assets-v1/82b73f80-0f38-4a16-8da5-07b624f3453e/dublin-cinzento4.webp"
+        "imagem": "/__l5e/assets-v1/d041cce7-0e97-4ec0-915b-d94a068195a9/dublin-cinzento4.webp"
       },
       {
         "nome": "Cinzento 5",
@@ -2447,7 +2447,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#616161"
         ],
-        "imagem": "/__l5e/assets-v1/1959820b-8325-4320-a249-d5e608f46e9b/dublin-cinzento5.webp"
+        "imagem": "/__l5e/assets-v1/992f8415-e4fd-4ab6-98db-da4b5393b4e4/dublin-cinzento5.webp"
       },
       {
         "nome": "Cinzento 6",
@@ -2455,7 +2455,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#424242"
         ],
-        "imagem": "/__l5e/assets-v1/58e0c9ae-2340-434f-aea0-1a94138fab77/dublin-cinzento6.webp"
+        "imagem": "/__l5e/assets-v1/c27bed6c-5f28-499e-982a-12304326d2af/dublin-cinzento6.webp"
       },
       {
         "nome": "Preto",
@@ -2463,7 +2463,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/8c100f77-a931-4bb2-aa6d-2426538289a0/dublin-preto.webp"
+        "imagem": "/__l5e/assets-v1/d6ef65e0-112b-4a3a-9435-b49f21c5664e/dublin-preto.webp"
       }
     ],
     "tamanhos": [
@@ -2536,7 +2536,7 @@ export const modelos: Modelo[] = [
     "descricao": "Jaqueta MANITOBA disponível em 8 cores. Interior: 100% Poliéster (225 g/m²)",
     "composicao": "Interior: 100% Poliéster (225 g/m²), Exterior: 70% Poliéster, 30% PVC (200 g/m²)",
     "referencia": "#MAN-MAN",
-    "imagem": "/__l5e/assets-v1/9e61b93d-306a-4fe7-bc59-e951b1e3bd32/manitoba-branco.webp",
+    "imagem": "/__l5e/assets-v1/d6f63608-6ad3-44ef-8076-b8950d406fa0/manitoba-branco.webp",
     "cores": [
       {
         "nome": "Branco",
@@ -2544,7 +2544,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#ffffff"
         ],
-        "imagem": "/__l5e/assets-v1/9e61b93d-306a-4fe7-bc59-e951b1e3bd32/manitoba-branco.webp"
+        "imagem": "/__l5e/assets-v1/d6f63608-6ad3-44ef-8076-b8950d406fa0/manitoba-branco.webp"
       },
       {
         "nome": "Verde 1",
@@ -2552,7 +2552,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#1b5e20"
         ],
-        "imagem": "/__l5e/assets-v1/5750297b-6eaf-4440-8c9e-5b6bff05f4b5/manitoba-verde1.webp"
+        "imagem": "/__l5e/assets-v1/edf199d0-b2b1-45f1-b7f1-88c3cfc46b62/manitoba-verde1.webp"
       },
       {
         "nome": "Verde 2",
@@ -2560,7 +2560,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#33691e"
         ],
-        "imagem": "/__l5e/assets-v1/f14e7851-5f24-4264-ba32-a23d61831000/manitoba-verde2.webp"
+        "imagem": "/__l5e/assets-v1/4781f236-4d95-4cba-8bbd-b2a795e8990c/manitoba-verde2.webp"
       },
       {
         "nome": "Vermelho",
@@ -2568,7 +2568,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#b71c1c"
         ],
-        "imagem": "/__l5e/assets-v1/ff2795d1-b414-45b0-ac98-23fc92380fa9/manitoba-vermelho.webp"
+        "imagem": "/__l5e/assets-v1/d7e76ae5-d04f-4a6b-a57e-ef0e9abc786e/manitoba-vermelho.webp"
       },
       {
         "nome": "Azul 1",
@@ -2576,7 +2576,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/fad7e87e-a2d1-4bdb-8779-ca6096f32cff/manitoba-azul1.webp"
+        "imagem": "/__l5e/assets-v1/7aedce05-9425-482d-9671-282d36d4a8a1/manitoba-azul1.webp"
       },
       {
         "nome": "Azul 2",
@@ -2584,7 +2584,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#003c8f"
         ],
-        "imagem": "/__l5e/assets-v1/f0a5cfb3-6eba-4fe4-beb6-d28d998d681c/manitoba-azul2.webp"
+        "imagem": "/__l5e/assets-v1/0a1c2498-6459-4e03-8827-b65efd473c46/manitoba-azul2.webp"
       },
       {
         "nome": "Cinzento",
@@ -2592,7 +2592,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#616161"
         ],
-        "imagem": "/__l5e/assets-v1/bffba8b9-403b-448b-a105-6d4916be49b9/manitoba-cinzento.webp"
+        "imagem": "/__l5e/assets-v1/e1a557dd-4974-4bce-a001-b1ebcd15d2cf/manitoba-cinzento.webp"
       },
       {
         "nome": "Preto",
@@ -2600,7 +2600,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/ee06969f-ba53-4dfd-95dc-0b2093bed9fd/manitoba-preto.webp"
+        "imagem": "/__l5e/assets-v1/953c2721-854d-44c6-a2c6-da2d9609343c/manitoba-preto.webp"
       }
     ],
     "tamanhos": [
@@ -2660,7 +2660,7 @@ export const modelos: Modelo[] = [
     "descricao": "Jaqueta ONTARIO disponível em 4 cores. Interior: 100% Poliéster (200 g/m²)",
     "composicao": "Interior: 100% Poliéster (200 g/m²), Exterior: 70% Poliéster, 30% PVC (200 g/m²)",
     "referencia": "#ONT-ONT",
-    "imagem": "/__l5e/assets-v1/ac615133-50cc-458a-9bf7-fad1582b8912/ontario-vermelho.webp",
+    "imagem": "/__l5e/assets-v1/2c218f25-2753-4676-b340-22454d1eb68f/ontario-vermelho.webp",
     "cores": [
       {
         "nome": "Vermelho",
@@ -2668,7 +2668,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#8b0000"
         ],
-        "imagem": "/__l5e/assets-v1/ac615133-50cc-458a-9bf7-fad1582b8912/ontario-vermelho.webp"
+        "imagem": "/__l5e/assets-v1/2c218f25-2753-4676-b340-22454d1eb68f/ontario-vermelho.webp"
       },
       {
         "nome": "Azul 1",
@@ -2676,7 +2676,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/f03765c2-cca2-4cbe-86ad-73d871aaa26d/ontario-azul1.webp"
+        "imagem": "/__l5e/assets-v1/a59c7189-1e0f-469c-bde2-bc9885e88c46/ontario-azul1.webp"
       },
       {
         "nome": "Azul 2",
@@ -2684,7 +2684,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#003c8f"
         ],
-        "imagem": "/__l5e/assets-v1/d1fe56a8-0552-4fec-9cd1-3576ff81ebe3/ontario-azul2.webp"
+        "imagem": "/__l5e/assets-v1/e81ffe78-169e-408a-ad0f-c68afdc6b762/ontario-azul2.webp"
       },
       {
         "nome": "Preto",
@@ -2692,7 +2692,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/6f92d6c2-2a71-4c51-80a3-4e4af3ebcb84/ontario-preto.webp"
+        "imagem": "/__l5e/assets-v1/f10669bb-1a4f-43b4-a95a-5ca4a570caec/ontario-preto.webp"
       }
     ],
     "tamanhos": [
@@ -2752,7 +2752,7 @@ export const modelos: Modelo[] = [
     "descricao": "Jaqueta BALAK disponível em 2 cores. Interior: 100% Poliéster (220 g/m²)",
     "composicao": "Interior: 100% Poliéster (220 g/m²), Exterior: 100% Poliéster (160 g/m²)",
     "referencia": "#BAL-BAL",
-    "imagem": "/__l5e/assets-v1/5ebbcbbd-cf49-487a-84c0-61caf3b3d565/balak-azul.webp",
+    "imagem": "/__l5e/assets-v1/75ca49d5-0cb4-43c8-b64d-e29799a98bd9/balak-azul.webp",
     "cores": [
       {
         "nome": "Azul",
@@ -2760,7 +2760,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#0d47a1"
         ],
-        "imagem": "/__l5e/assets-v1/5ebbcbbd-cf49-487a-84c0-61caf3b3d565/balak-azul.webp"
+        "imagem": "/__l5e/assets-v1/75ca49d5-0cb4-43c8-b64d-e29799a98bd9/balak-azul.webp"
       },
       {
         "nome": "Preto",
@@ -2768,7 +2768,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#000000"
         ],
-        "imagem": "/__l5e/assets-v1/9f043271-1c5b-4b65-ae17-2bbc075e8289/balak-preto.webp"
+        "imagem": "/__l5e/assets-v1/de3d4569-9669-4f11-b30d-0c2b8789b0df/balak-preto.webp"
       }
     ],
     "tamanhos": [
