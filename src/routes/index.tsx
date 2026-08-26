@@ -7,7 +7,7 @@ import logo from "@/assets/strampuru-logo.png.asset.json";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "STRAM PURU — Catálogo de Vestuário" },
+      { title: "Strampuru — Catálogo de Vestuário" },
       {
         name: "description",
         content:
