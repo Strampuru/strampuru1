@@ -39,16 +39,22 @@ function ContactosPage() {
       ),
     },
     {
-      etiqueta: "Telefone",
+      etiqueta: "WhatsApp",
       valor: "(+351) 928 253 232",
-      href: "tel:+351928253232",
+      href: "https://wa.me/351928253232",
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-7 h-7">
           <path
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="1.5"
-            d="M3 5.5C3 4.12 4.12 3 5.5 3h1.6c.6 0 1.13.4 1.3.98l.9 3.05c.14.5-.03 1.04-.43 1.36l-1.2.96a14 14 0 006.6 6.6l.96-1.2c.32-.4.86-.57 1.36-.43l3.05.9c.58.17.98.7.98 1.3v1.6c0 1.38-1.12 2.5-2.5 2.5C10.6 21.5 3 13.9 3 5.5z"
+            d="M12 3a9 9 0 00-7.8 13.5L3 21l4.6-1.2A9 9 0 1012 3z"
+          />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M8.5 8.3c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.5l-.4.5c-.1.1-.2.3-.1.5.2.4.7 1.1 1.3 1.6.8.7 1.4.9 1.6 1 .2.1.4 0 .5-.1l.5-.6c.2-.2.3-.2.5-.1l1.7.8c.2.1.3.3.3.4 0 .6-.3 1.2-.7 1.4-.5.3-1.4.6-2.6.2-1.5-.5-2.9-1.4-4-2.8-.6-.8-1.2-1.8-1.3-2.6-.1-.8 0-1.4.2-1.8z"
           />
         </svg>
       ),
