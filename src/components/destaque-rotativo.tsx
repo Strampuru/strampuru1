@@ -15,6 +15,18 @@ function tituloCategoria(id: string): string {
   return categorias.find((c) => c.id === id)?.titulo ?? id;
 }
 
+// Cor de acento editorial por família (paleta extraída do logótipo).
+const corCategoria: Record<string, string> = {
+  tshirts: "oklch(0.62 0.18 28)",   // vermelho
+  polos: "oklch(0.68 0.16 52)",     // laranja
+  sweats: "oklch(0.6 0.15 245)",    // azul royal
+  jaquetas: "oklch(0.62 0.12 200)", // azul-ciano
+};
+
+function corDe(id: string): string {
+  return corCategoria[id] ?? "var(--color-accent)";
+}
+
 export function DestaqueRotativo() {
   const lista = representantes();
   // Offsets verticais para ritmo editorial (slots 1 e 3 descem).
