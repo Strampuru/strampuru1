@@ -12,9 +12,9 @@ export function SiteLayout({ children }: { children: ReactNode }) {
             <img
               src={logo.url}
               alt="Logótipo Stram Puru"
-              width={44}
-              height={44}
-              className="h-9 w-auto md:h-11"
+              width={56}
+              height={56}
+              className="h-12 w-auto md:h-14"
             />
             <span className="sr-only">Strampuru</span>
           </Link>
@@ -61,10 +61,10 @@ export function SiteLayout({ children }: { children: ReactNode }) {
             <img
               src={logo.url}
               alt="Logótipo Stram Puru"
-              width={140}
-              height={140}
+              width={200}
+              height={200}
               loading="lazy"
-              className="h-16 w-auto"
+              className="h-24 w-auto"
             />
             <p className="text-[11px] text-muted-foreground uppercase tracking-widest max-w-xs leading-loose">
               Catálogo de vestuário para personalização: t-shirts, polos, sweats

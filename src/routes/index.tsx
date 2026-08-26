@@ -42,9 +42,9 @@ function Index() {
           <img
             src={logo.url}
             alt="Logótipo Stram Puru"
-            width={520}
-            height={500}
-            className="w-56 md:w-[26rem] h-auto drop-shadow-[0_20px_45px_rgba(0,0,0,0.16)]"
+            width={720}
+            height={696}
+            className="w-72 md:w-[34rem] h-auto"
           />
           <h1 className="mt-8 font-display text-4xl md:text-6xl leading-[0.95]">
             Catálogo <span className="italic">Strampuru</span>
