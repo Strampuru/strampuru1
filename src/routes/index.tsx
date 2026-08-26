@@ -102,9 +102,9 @@ function Index() {
               <span className="text-[11px] tracking-widest text-muted-foreground uppercase group-hover:text-foreground transition-colors">
                 Ver Catálogo Completo
               </span>
-              <span className="relative w-12 h-12 rounded-full border border-border flex items-center justify-center group-hover:bg-foreground group-hover:border-foreground transition-all duration-500">
+              <span className="relative w-12 h-12 rounded-full bg-accent flex items-center justify-center group-hover:bg-foreground transition-all duration-500">
                 <svg
-                  className="w-4 h-4 text-foreground group-hover:text-background transition-colors duration-500"
+                  className="w-4 h-4 text-accent-foreground group-hover:text-background transition-colors duration-500"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
