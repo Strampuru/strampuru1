@@ -11,24 +11,25 @@ export const Route = createFileRoute("/categoria/$categoria")({
     return { categoria, modelos: getModelosPorCategoria(categoria.id) };
   },
   head: ({ loaderData }) => {
-    const nome = loaderData?.categoria.titulo ?? "Coleção";
+    const nome = loaderData?.categoria.titulo ?? "Catálogo";
     return {
       meta: [
-        { title: `${nome} — Alma Catálogo` },
+        { title: `${nome} — STRAM PURU` },
         {
           name: "description",
-          content: `Modelos da ${nome.toLowerCase()} disponíveis no catálogo Alma, com as respetivas cores.`,
+          content: `${nome} do catálogo STRAM PURU, com as cores disponíveis, tamanhos e preços por quantidade de cada modelo.`,
         },
-        { property: "og:title", content: `${nome} — Alma Catálogo` },
+        { property: "og:title", content: `${nome} — STRAM PURU` },
         {
           property: "og:description",
-          content: `Modelos da ${nome.toLowerCase()} com as respetivas cores disponíveis.`,
+          content: `${nome}: modelos com as respetivas cores disponíveis.`,
         },
         { property: "og:type", content: "website" },
         { name: "twitter:card", content: "summary_large_image" },
       ],
     };
   },
+
   component: CategoriaPage,
 });
 
@@ -53,15 +54,15 @@ function CategoriaPage() {
             <span>/</span>
             <span className="text-foreground">{categoria.nome}</span>
           </nav>
-          <div className="flex justify-between items-end">
-            <h1 className="font-display text-5xl md:text-6xl">
-              {categoria.nome}:{" "}
-              <span className="italic">Novos Essenciais</span>
+          <div className="flex justify-between items-end gap-6">
+            <h1 className="font-display text-4xl md:text-6xl">
+              {categoria.nome}
             </h1>
-            <span className="text-[11px] uppercase tracking-widest text-muted-foreground">
+            <span className="text-[11px] uppercase tracking-widest text-muted-foreground whitespace-nowrap">
               {modelos.length} Modelos
             </span>
           </div>
+
           <p className="mt-6 max-w-md text-muted-foreground leading-relaxed text-sm">
             {categoria.descricao}
           </p>

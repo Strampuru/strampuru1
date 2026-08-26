@@ -77,21 +77,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Alma — Catálogo Editorial de Moda" },
+      { title: "STRAM PURU — Catálogo de Vestuário" },
       {
         name: "description",
         content:
-          "Catálogo editorial de moda: coleções de homem, mulher e criança, com as respetivas cores disponíveis em cada modelo.",
+          "Catálogo de vestuário STRAM PURU: t-shirts, polos, sweats e jaquetas com todas as cores, tamanhos e escalões de preço.",
       },
-      { name: "author", content: "Alma" },
-      { property: "og:title", content: "Alma — Catálogo Editorial de Moda" },
+      { name: "author", content: "STRAM PURU" },
+      { property: "og:title", content: "STRAM PURU — Catálogo de Vestuário" },
       {
         property: "og:description",
         content:
-          "Coleções de homem, mulher e criança, com as respetivas cores disponíveis em cada modelo.",
+          "T-shirts, polos, sweats e jaquetas com todas as cores, tamanhos e escalões de preço.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+
     ],
     links: [
       {
