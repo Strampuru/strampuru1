@@ -69,14 +69,14 @@ function CategoriaPage() {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-6 py-16">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-10 md:py-16">
         {/* Subcategoria filter */}
-        <div className="flex flex-wrap gap-3 mb-16">
+        <div className="-mx-4 sm:mx-0 px-4 sm:px-0 mb-10 md:mb-16 flex gap-2.5 sm:gap-3 overflow-x-auto sm:flex-wrap [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {opcoes.map((op) => (
             <button
               key={op}
               onClick={() => setFiltro(op)}
-              className={`px-5 py-2 rounded-full text-[11px] uppercase tracking-widest transition-colors ${
+              className={`shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest transition-colors ${
                 filtro === op
                   ? "bg-primary text-primary-foreground"
                   : "border border-border text-muted-foreground hover:text-foreground hover:border-foreground/30"
@@ -92,7 +92,7 @@ function CategoriaPage() {
             Nenhum modelo nesta subcategoria.
           </p>
         ) : (
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-4 sm:gap-x-6 gap-y-8 sm:gap-y-12">
             {visiveis.map((m) => (
               <ModelCard key={m.id} modelo={m} />
             ))}
