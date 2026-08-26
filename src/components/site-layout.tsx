@@ -58,9 +58,14 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       <footer className="border-t border-border py-20 bg-secondary">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start gap-12">
           <div className="space-y-6">
-            <div className="text-2xl font-display italic tracking-tighter">
-              Stram Puru
-            </div>
+            <img
+              src={logo.url}
+              alt="Logótipo Stram Puru"
+              width={140}
+              height={140}
+              loading="lazy"
+              className="h-16 w-auto"
+            />
             <p className="text-[11px] text-muted-foreground uppercase tracking-widest max-w-xs leading-loose">
               Catálogo de vestuário para personalização: t-shirts, polos, sweats
               e jaquetas.
