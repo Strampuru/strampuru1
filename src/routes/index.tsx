@@ -31,25 +31,54 @@ function Index() {
 
   return (
     <SiteLayout>
-      {/* Hero — logótipo */}
+      {/* Hero — logótipo enquadrado */}
       <section className="relative overflow-hidden border-b border-border bg-card">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,var(--color-secondary),transparent_70%)]" />
-        <div className="relative max-w-7xl mx-auto px-6 py-20 md:py-28 flex flex-col items-center text-center animate-fade-up">
-          <img
-            src={logo.url}
-            alt="Logótipo Stram Puru"
-            width={720}
-            height={696}
-            className="w-72 md:w-[34rem] h-auto"
-          />
-          <h1 className="mt-8 font-display text-4xl md:text-6xl leading-[0.95]">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,var(--color-secondary),transparent_72%)]" />
+        <div className="relative max-w-6xl mx-auto px-6 py-16 md:py-24 flex flex-col items-center text-center animate-fade-up">
+          <div className="flex items-center gap-4 mb-10 md:mb-12">
+            <span className="h-px w-10 md:w-16 bg-accent/60" />
+            <span className="text-[10px] tracking-[0.34em] text-accent font-semibold uppercase">
+              Vestuário para personalizar
+            </span>
+            <span className="h-px w-10 md:w-16 bg-accent/60" />
+          </div>
+
+          <div className="relative">
+            <div className="absolute -inset-6 md:-inset-9 rounded-full border border-border/70 pointer-events-none" />
+            <img
+              src={logo.url}
+              alt="Logótipo Strampuru"
+              width={720}
+              height={696}
+              className="relative w-60 md:w-[26rem] h-auto drop-shadow-[0_18px_40px_rgba(0,0,0,0.12)]"
+            />
+          </div>
+
+          <h1 className="mt-12 md:mt-14 font-display text-4xl md:text-6xl leading-[0.95]">
             Catálogo <span className="italic">Strampuru</span>
           </h1>
-          <p className="mt-6 max-w-lg text-muted-foreground leading-relaxed text-sm">
+          <p className="mt-6 max-w-md text-muted-foreground leading-relaxed text-sm">
             {modelos.length} modelos de vestuário para personalizar, num total de{" "}
             {totalCores} cores. Escolhe uma família de produto para ver as
             fichas técnicas, tamanhos e preços por quantidade.
           </p>
+
+          <div className="mt-12 md:mt-14 flex items-center gap-8 md:gap-12 text-center">
+            <div>
+              <div className="font-display text-3xl md:text-4xl">{modelos.length}</div>
+              <div className="mt-1 text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Modelos</div>
+            </div>
+            <span className="h-10 w-px bg-border" />
+            <div>
+              <div className="font-display text-3xl md:text-4xl">{totalCores}</div>
+              <div className="mt-1 text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Cores</div>
+            </div>
+            <span className="h-10 w-px bg-border" />
+            <div>
+              <div className="font-display text-3xl md:text-4xl">{categorias.length}</div>
+              <div className="mt-1 text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Famílias</div>
+            </div>
+          </div>
         </div>
       </section>
 
