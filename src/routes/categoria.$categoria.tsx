@@ -37,7 +37,13 @@ export const Route = createFileRoute("/categoria/$categoria")({
 
 function CategoriaPage() {
   const { categoria, modelos } = Route.useLoaderData();
-  const [filtro, setFiltro] = useState<string>("Todos");
+  const { sub } = Route.useSearch();
+  const [filtro, setFiltro] = useState<string>(sub ?? "Todos");
+
+  useEffect(() => {
+    setFiltro(sub ?? "Todos");
+  }, [sub, categoria.id]);
+
 
   const opcoes = ["Todos", ...categoria.subcategorias];
   const visiveis =
