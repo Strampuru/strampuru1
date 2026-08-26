@@ -28,10 +28,6 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  const destaques = ["arizona", "racing", "manitoba", "patrol"]
-    .map((id) => modelos.find((m) => m.id === id))
-    .filter((m): m is NonNullable<typeof m> => Boolean(m));
-
   const totalCores = modelos.reduce((n, m) => n + m.cores.length, 0);
 
   return (
