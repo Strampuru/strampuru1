@@ -56,6 +56,7 @@ function ModeloPage() {
   ];
 
   const [slide, setSlide] = useState(0);
+  const toqueX = useRef<number | null>(null);
   const atual = slides[slide] ?? slides[0]!;
   const ativa = atual.corIndex;
   const cor =
