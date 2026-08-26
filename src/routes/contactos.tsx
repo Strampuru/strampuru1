@@ -124,10 +124,10 @@ function ContactosPage() {
           ))}
         </div>
 
-        <div className="mt-20 md:mt-28 border-t border-border pt-12">
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
+        <div className="mt-14 md:mt-28 border-t border-border pt-10 md:pt-12">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8">
             <div>
-              <h2 className="font-display text-3xl md:text-4xl leading-tight">
+              <h2 className="font-display text-2xl sm:text-3xl md:text-4xl leading-tight">
                 Explora o <span className="italic">catálogo</span>
               </h2>
               <p className="mt-3 text-sm text-muted-foreground max-w-md leading-relaxed">
