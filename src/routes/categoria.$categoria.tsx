@@ -45,7 +45,7 @@ function CategoriaPage() {
 
   return (
     <SiteLayout>
-      <section className="bg-card py-32 border-b border-border">
+      <section className="bg-card py-16 md:py-24 border-b border-border">
         <div className="max-w-7xl mx-auto px-6">
           <nav className="text-[10px] uppercase tracking-widest text-muted-foreground flex gap-4 mb-8">
             <Link to="/" className="hover:text-foreground transition-colors">
