@@ -1,5 +1,5 @@
 import { createFileRoute, notFound, Link } from "@tanstack/react-router";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
 import { getModelo, getCategoria } from "@/lib/catalogo";
 
@@ -56,6 +56,7 @@ function ModeloPage() {
   ];
 
   const [slide, setSlide] = useState(0);
+  const toqueX = useRef<number | null>(null);
   const atual = slides[slide] ?? slides[0]!;
   const ativa = atual.corIndex;
   const cor =
@@ -82,10 +83,24 @@ function ModeloPage() {
 
   return (
     <SiteLayout>
-      <section className="max-w-7xl mx-auto px-6 py-12 md:py-20 grid md:grid-cols-2 gap-12 md:gap-20 items-start">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-20 grid md:grid-cols-2 gap-10 md:gap-20 items-start">
         {/* Galeria */}
         <div className="md:sticky md:top-32 space-y-2">
-          <div className="relative w-full aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden group">
+          <div
+            className="relative w-full aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden group touch-pan-y"
+            onTouchStart={(e) => {
+              toqueX.current = e.touches[0]?.clientX ?? null;
+            }}
+            onTouchEnd={(e) => {
+              const inicio = toqueX.current;
+              const fim = e.changedTouches[0]?.clientX ?? null;
+              toqueX.current = null;
+              if (inicio === null || fim === null) return;
+              const dx = fim - inicio;
+              if (Math.abs(dx) < 40) return;
+              dx < 0 ? seguinte() : anterior();
+            }}
+          >
             <img
               key={atual.src}
               src={atual.src}
@@ -95,7 +110,7 @@ function ModeloPage() {
               className={`w-full h-full ${
                 atual.corIndex === -1
                   ? "object-cover"
-                  : "object-contain p-6"
+                  : "object-contain p-4 sm:p-6"
               }`}
             />
             {slides.length > 1 && (
@@ -103,14 +118,14 @@ function ModeloPage() {
                 <button
                   onClick={anterior}
                   aria-label="Imagem anterior"
-                  className="absolute left-3 top-1/2 -translate-y-1/2 size-10 rounded-full bg-background/80 backdrop-blur ring-1 ring-black/10 flex items-center justify-center text-lg hover:bg-background transition-colors opacity-0 group-hover:opacity-100"
+                  className="absolute left-2 sm:left-3 top-1/2 -translate-y-1/2 size-11 sm:size-10 rounded-full bg-background/80 backdrop-blur ring-1 ring-black/10 flex items-center justify-center text-lg hover:bg-background transition-colors opacity-100 md:opacity-0 md:group-hover:opacity-100"
                 >
                   ←
                 </button>
                 <button
                   onClick={seguinte}
                   aria-label="Imagem seguinte"
-                  className="absolute right-3 top-1/2 -translate-y-1/2 size-10 rounded-full bg-background/80 backdrop-blur ring-1 ring-black/10 flex items-center justify-center text-lg hover:bg-background transition-colors opacity-0 group-hover:opacity-100"
+                  className="absolute right-2 sm:right-3 top-1/2 -translate-y-1/2 size-11 sm:size-10 rounded-full bg-background/80 backdrop-blur ring-1 ring-black/10 flex items-center justify-center text-lg hover:bg-background transition-colors opacity-100 md:opacity-0 md:group-hover:opacity-100"
                 >
                   →
                 </button>
@@ -128,9 +143,9 @@ function ModeloPage() {
 
 
         {/* Conteúdo */}
-        <div className="space-y-12">
-          <div className="space-y-6">
-            <nav className="text-[10px] uppercase tracking-widest text-muted-foreground flex flex-wrap gap-4">
+        <div className="space-y-10 md:space-y-12">
+          <div className="space-y-4 md:space-y-6">
+            <nav className="text-[10px] uppercase tracking-widest text-muted-foreground flex flex-wrap gap-3 sm:gap-4">
               <Link
                 to="/categoria/$categoria"
                 params={{ categoria: categoria.id }}
@@ -141,10 +156,10 @@ function ModeloPage() {
               <span>/</span>
               <span>{modelo.subcategoria}</span>
             </nav>
-            <h1 className="text-4xl md:text-5xl font-display leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-display leading-tight">
               {modelo.nome}
             </h1>
-            <p className="text-muted-foreground text-pretty leading-relaxed max-w-sm">
+            <p className="text-[13px] sm:text-base text-muted-foreground text-pretty leading-relaxed max-w-sm">
               {modelo.descricao}
             </p>
           </div>
@@ -233,14 +248,14 @@ function ModeloPage() {
 
       {/* Tamanhos */}
       {cabecalho && (
-        <section className="bg-card border-t border-border py-16">
-          <div className="max-w-7xl mx-auto px-6 space-y-6">
-            <h2 className="font-display text-3xl">Tamanhos</h2>
+        <section className="bg-card border-t border-border py-12 md:py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 space-y-4 md:space-y-6">
+            <h2 className="font-display text-2xl sm:text-3xl">Tamanhos</h2>
             <p className="text-[11px] uppercase tracking-widest text-muted-foreground">
-              Medidas em centímetros
+              Medidas em centímetros — desliza para ver toda a tabela
             </p>
-            <div className="overflow-x-auto">
-              <table className="min-w-full text-sm border-collapse">
+            <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+              <table className="min-w-full text-[13px] sm:text-sm border-collapse">
                 <thead>
                   <tr>
                     {cabecalho.map((h) => (
