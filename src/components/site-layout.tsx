@@ -145,7 +145,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
               </a>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-12 md:gap-20">
+          <div className="grid grid-cols-2 gap-8 sm:gap-12 md:gap-20 w-full md:w-auto">
             <div className="space-y-4">
               <h4 className="text-[11px] uppercase tracking-widest font-bold">
                 Produtos
@@ -190,7 +190,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto px-6 mt-20 text-[10px] uppercase tracking-widest text-muted-foreground">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-12 md:mt-20 text-[10px] uppercase tracking-widest text-muted-foreground">
           &copy; {new Date().getFullYear()} Strampuru. Todos os direitos
           reservados.
         </div>
