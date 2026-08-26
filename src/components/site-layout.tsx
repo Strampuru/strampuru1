@@ -31,8 +31,15 @@ export function SiteLayout({ children }: { children: ReactNode }) {
               </Link>
             ))}
           </div>
-          <div className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground whitespace-nowrap">
-            Catálogo
+          <div className="hidden md:flex items-center gap-8 text-[11px] uppercase tracking-[0.2em] whitespace-nowrap">
+            <Link
+              to="/contactos"
+              className="text-muted-foreground hover:text-accent transition-colors"
+              activeProps={{ className: "text-accent" }}
+            >
+              Contactos
+            </Link>
+            <span className="text-muted-foreground">Catálogo</span>
           </div>
         </div>
         {/* Navegação móvel */}
@@ -104,7 +111,14 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                     Sobre nós
                   </Link>
                 </li>
-                <li>Contactos</li>
+                <li>
+                  <Link
+                    to="/contactos"
+                    className="hover:text-foreground transition-colors"
+                  >
+                    Contactos
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
