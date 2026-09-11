@@ -1,4 +1,5 @@
 # Organização do catálogo
 
-- [ ] Organizar as categorias Homem, Mulher, Criança, Conjuntos e Brindes; aguarda confirmação sobre a substituição das categorias atuais e respetivas subcategorias.
+- [x] Organizar Homem, Mulher, Criança, Conjuntos e Brindes, com as sete subcategorias de brindes indicadas.
+- [ ] Definir coleções de Conjuntos; aguarda nomes das coleções e respetivas peças.
 - [ ] Adicionar novos modelos; aguarda nomes, fotografias e dados dos produtos.
