@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { useState } from "react";
+import { useState, type MouseEvent } from "react";
 import type { Modelo } from "@/lib/catalogo";
 
 export function ModelCard({ modelo }: { modelo: Modelo }) {
