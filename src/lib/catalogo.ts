@@ -3036,7 +3036,10 @@ export function getCategoria(id: string): Categoria | undefined {
 export function getModelosPorCategoria(categoria: CategoriaId): Modelo[] {
   return modelos.filter((m) => {
     if (categoria === "homem" || categoria === "mulher") {
-      return m.tamanhos[0]?.some((t) => ["XS", "S", "M", "L", "XL", "XXL", "3XL"].includes(t));
+      const adulto = m.tamanhos[0]?.some((t) => ["XS", "S", "M", "L", "XL", "XXL", "3XL"].includes(t));
+      if (!adulto) return false;
+      const genero = m.genero ?? "unissexo";
+      return genero === "unissexo" || genero === categoria;
     }
     if (categoria === "crianca") {
       return m.tamanhos[0]?.some((t) => /^\d+$/.test(t) && Number(t) <= 16);
