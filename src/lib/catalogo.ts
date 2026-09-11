@@ -90,7 +90,7 @@ export const familias: Categoria[] = [
 export const categorias: Categoria[] = [
   { id: "homem", nome: "Homem", titulo: "Homem", descricao: "Vestuário de adulto para personalizar.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Jaquetas"] },
   { id: "mulher", nome: "Mulher", titulo: "Mulher", descricao: "Vestuário de adulto para personalizar.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Jaquetas"] },
-  { id: "crianca", nome: "Criança", titulo: "Criança", descricao: "Modelos disponíveis em tamanhos de criança.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Jaquetas"] },
+  { id: "crianca", nome: "Criança", titulo: "Criança", descricao: "Modelos disponíveis em tamanhos de criança.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Babetes", "Bodies"] },
   { id: "conjuntos", nome: "Conjuntos", titulo: "Conjuntos", descricao: "Coleções com várias peças.", imagem: "", subcategorias: [] },
   { id: "brindes", nome: "Brindes", titulo: "Brindes", descricao: "Brindes para personalizar.", imagem: "", subcategorias: ["Coletes desportivos", "Sacos", "Caixas de plástico", "Malas", "Canecas", "Bases", "Jengas"] },
 ];
