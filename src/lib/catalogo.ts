@@ -2232,6 +2232,40 @@ export const modelos: Modelo[] = [
     ]
   },
   {
+    "id": "caracas",
+    "nome": "Polo CARACAS",
+    "referenciaNome": "CARACAS",
+    "categoria": "polos",
+    "subcategoria": "Polos",
+    "genero": "homem",
+    "descricao": "Polo CARACAS — modelo em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Poliéster",
+    "referencia": "#CAR-CAR",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": ["#eaedf1"],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      ["Tamanho", "S", "M", "L", "XL", "XXL", "3XL"],
+      ["Comprimento", "69", "71", "74", "77", "80", "83"],
+      ["Largura", "50", "53", "56", "59", "62", "65"]
+    ],
+    "precos": [
+      ["0–49 unidades", "12,00€"],
+      ["50–249 unidades", "11,00€"],
+      ["+249 unidades", "9,50€"]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
     "id": "arizona",
     "nome": "Hoodie ARIZONA",
     "referenciaNome": "ARIZONA",
