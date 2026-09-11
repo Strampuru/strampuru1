@@ -101,6 +101,11 @@ export function getSubcategoriaModelo(modelo: Modelo, categoria: CategoriaId): s
     : modelo.subcategoria;
 }
 
+export function getFamiliaPorSubcategoria(nome: string | undefined): Categoria | undefined {
+  return nome ? familias.find((f) => f.nome === nome) : undefined;
+}
+
+
 export const modelos: Modelo[] = [
   {
     "id": "racing",

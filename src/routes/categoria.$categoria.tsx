@@ -1,12 +1,16 @@
-import { createFileRoute, notFound, Link } from "@tanstack/react-router";
-import { useEffect, useState } from "react";
+import { createFileRoute, notFound, Link, useNavigate } from "@tanstack/react-router";
+
+
 import { SiteLayout } from "@/components/site-layout";
 import { ModelCard } from "@/components/model-card";
-import { getCategoria, getModelosPorCategoria, getSubcategoriaModelo } from "@/lib/catalogo";
+import { getCategoria, getFamiliaPorSubcategoria, getModelosPorCategoria, getSubcategoriaModelo } from "@/lib/catalogo";
 
 export const Route = createFileRoute("/categoria/$categoria")({
-  validateSearch: (search: Record<string, unknown>): { sub?: string } =>
-    typeof search["sub"] === "string" ? { sub: search["sub"] } : {},
+  validateSearch: (search: Record<string, unknown>): { sub?: string | undefined; tipo?: string | undefined } => ({
+    sub: typeof search["sub"] === "string" ? search["sub"] : undefined,
+    tipo: typeof search["tipo"] === "string" ? search["tipo"] : undefined,
+  }),
+
   loader: ({ params }) => {
     const categoria = getCategoria(params.categoria);
     if (!categoria) throw notFound();
@@ -37,19 +41,20 @@ export const Route = createFileRoute("/categoria/$categoria")({
 
 function CategoriaPage() {
   const { categoria, modelos } = Route.useLoaderData();
-  const { sub } = Route.useSearch();
-  const [filtro, setFiltro] = useState<string>(sub ?? "Todos");
+  const { sub, tipo: tipoParam } = Route.useSearch();
+  const navigate = useNavigate();
+  const filtro = sub ?? "Todos";
+  const tipo = tipoParam ?? "Todos";
 
-  useEffect(() => {
-    setFiltro(sub ?? "Todos");
-  }, [sub, categoria.id]);
-
+  const familia = filtro !== "Todos" ? getFamiliaPorSubcategoria(filtro) : undefined;
+  const tipos = familia ? ["Todos", ...familia.subcategorias] : [];
 
   const opcoes = ["Todos", ...categoria.subcategorias];
-  const visiveis =
-    filtro === "Todos"
-      ? modelos
-      : modelos.filter((m) => getSubcategoriaModelo(m, categoria.id) === filtro);
+  const visiveis = modelos.filter((m) => {
+    const okSub = filtro === "Todos" || getSubcategoriaModelo(m, categoria.id) === filtro;
+    const okTipo = tipo === "Todos" || m.subcategoria === tipo;
+    return okSub && okTipo;
+  });
 
   return (
     <SiteLayout>
@@ -79,11 +84,18 @@ function CategoriaPage() {
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-10 md:py-16">
         {/* Subcategoria filter */}
-        <div className="-mx-4 sm:mx-0 px-4 sm:px-0 mb-10 md:mb-16 flex gap-2.5 sm:gap-3 overflow-x-auto sm:flex-wrap [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div className="-mx-4 sm:mx-0 px-4 sm:px-0 mb-6 flex gap-2.5 sm:gap-3 overflow-x-auto sm:flex-wrap [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {opcoes.map((op) => (
             <button
               key={op}
-              onClick={() => setFiltro(op)}
+              onClick={() =>
+                navigate({
+                  search: {
+                    sub: op === "Todos" ? undefined : op,
+                  } as any,
+                })
+              }
+
               className={`shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest transition-colors ${
                 filtro === op
                   ? "bg-primary text-primary-foreground"
@@ -95,12 +107,37 @@ function CategoriaPage() {
           ))}
         </div>
 
+        {/* Tipo filter (ex.: Clássicas / Desportivas) */}
+        {tipos.length > 0 && (
+          <div className="-mx-4 sm:mx-0 px-4 sm:px-0 mb-10 md:mb-16 flex gap-2.5 sm:gap-3 overflow-x-auto sm:flex-wrap [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            {tipos.map((t) => (
+              <button
+                key={t}
+                onClick={() =>
+                  navigate({
+                    search: { tipo: t === "Todos" ? undefined : t } as any,
+                  })
+                }
+
+                className={`shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest transition-colors ${
+                  tipo === t
+                    ? "bg-accent text-accent-foreground"
+                    : "border border-border text-muted-foreground hover:text-foreground hover:border-foreground/30"
+                }`}
+              >
+                {t}
+              </button>
+            ))}
+          </div>
+        )}
+
         {visiveis.length === 0 ? (
           <p className="text-muted-foreground text-sm uppercase tracking-widest py-24 text-center">
             Ainda não existem modelos nesta seleção.
           </p>
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-4 sm:gap-x-6 gap-y-8 sm:gap-y-12">
+
             {visiveis.map((m) => (
               <ModelCard key={m.id} modelo={m} />
             ))}
