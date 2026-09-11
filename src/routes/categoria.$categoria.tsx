@@ -90,13 +90,12 @@ function CategoriaPage() {
               key={op}
               onClick={() =>
                 navigate({
-                  search: (prev) => ({
-                    ...prev,
+                  search: {
                     sub: op === "Todos" ? undefined : op,
-                    tipo: undefined,
-                  }),
+                  } as any,
                 })
               }
+
               className={`shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest transition-colors ${
                 filtro === op
                   ? "bg-primary text-primary-foreground"
