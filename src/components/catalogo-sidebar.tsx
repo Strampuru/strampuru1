@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { categorias } from "@/lib/catalogo";
+import { categorias, getFamiliaPorSubcategoria } from "@/lib/catalogo";
+
 
 /**
  * Aba retrátil lateral com todas as categorias e respetivas subcategorias.
@@ -100,21 +101,42 @@ export function CatalogoSidebar({
                   }`}
                 >
                   <ul className="overflow-hidden pl-1 pb-4 space-y-1 text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
-                    {c.subcategorias.map((sub) => (
-                      <li key={sub}>
-                        <Link
-                          to="/categoria/$categoria"
-                          params={{ categoria: c.id }}
-                          search={{ sub }}
-                          onClick={onFechar}
-                          className="block py-2 hover:text-accent transition-colors"
-                        >
-                          {sub}
-                        </Link>
-                      </li>
-                    ))}
+                    {c.subcategorias.map((sub) => {
+                      const familia = getFamiliaPorSubcategoria(sub);
+                      return (
+                        <li key={sub}>
+                          <Link
+                            to="/categoria/$categoria"
+                            params={{ categoria: c.id }}
+                            search={{ sub }}
+                            onClick={onFechar}
+                            className="block py-2 hover:text-accent transition-colors"
+                          >
+                            {sub}
+                          </Link>
+                          {familia && familia.subcategorias.length > 0 && (
+                            <ul className="pl-4 mt-1 space-y-0.5 text-[10px] uppercase tracking-[0.18em] text-muted-foreground/80">
+                              {familia.subcategorias.map((tipo) => (
+                                <li key={tipo}>
+                                  <Link
+                                    to="/categoria/$categoria"
+                                    params={{ categoria: c.id }}
+                                    search={{ sub, tipo }}
+                                    onClick={onFechar}
+                                    className="block py-1.5 hover:text-accent transition-colors"
+                                  >
+                                    {tipo}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
+
               </div>
             );
           })}
