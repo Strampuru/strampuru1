@@ -1618,6 +1618,7 @@ export const modelos: Modelo[] = [
     "referenciaNome": "PATROL",
     "categoria": "polos",
     "subcategoria": "Polos",
+    "genero": "homem",
     "descricao": "Polo PATROL disponível em 25 cores. 100% Algodão",
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#PAT-PAT",
@@ -1894,6 +1895,7 @@ export const modelos: Modelo[] = [
     "referenciaNome": "KENTUKY",
     "categoria": "polos",
     "subcategoria": "Polos",
+    "genero": "homem",
     "descricao": "Polo KENTUKY disponível em 9 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#KEN-KEN",
@@ -2027,6 +2029,7 @@ export const modelos: Modelo[] = [
     "referenciaNome": "SAGANO",
     "categoria": "polos",
     "subcategoria": "Polos",
+    "genero": "homem",
     "descricao": "Polo SAGANO disponível em 4 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#SAG-SAG",
@@ -2121,6 +2124,7 @@ export const modelos: Modelo[] = [
     "referenciaNome": "STRATEGY",
     "categoria": "polos",
     "subcategoria": "Polos",
+    "genero": "homem",
     "descricao": "Polo STRATEGY disponível em 6 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#STR-STR",
@@ -2225,6 +2229,40 @@ export const modelos: Modelo[] = [
     "caracteristicas": [
       "100% Poliéster",
       "Densidade: 170 g/m²"
+    ]
+  },
+  {
+    "id": "caracas",
+    "nome": "Polo CARACAS",
+    "referenciaNome": "CARACAS",
+    "categoria": "polos",
+    "subcategoria": "Polos",
+    "genero": "homem",
+    "descricao": "Polo CARACAS — modelo em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Poliéster",
+    "referencia": "#CAR-CAR",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": ["#eaedf1"],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      ["Tamanho", "S", "M", "L", "XL", "XXL", "3XL"],
+      ["Comprimento", "69", "71", "74", "77", "80", "83"],
+      ["Largura", "50", "53", "56", "59", "62", "65"]
+    ],
+    "precos": [
+      ["0–49 unidades", "12,00€"],
+      ["50–249 unidades", "11,00€"],
+      ["+249 unidades", "9,50€"]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Detalhes e cores a confirmar"
     ]
   },
   {
