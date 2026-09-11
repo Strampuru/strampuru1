@@ -2,11 +2,13 @@ import { createFileRoute, notFound, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
 import { ModelCard } from "@/components/model-card";
-import { getCategoria, getModelosPorCategoria, getSubcategoriaModelo } from "@/lib/catalogo";
+import { getCategoria, getFamiliaPorSubcategoria, getModelosPorCategoria, getSubcategoriaModelo } from "@/lib/catalogo";
 
 export const Route = createFileRoute("/categoria/$categoria")({
-  validateSearch: (search: Record<string, unknown>): { sub?: string } =>
-    typeof search["sub"] === "string" ? { sub: search["sub"] } : {},
+  validateSearch: (search: Record<string, unknown>): { sub?: string; tipo?: string } => ({
+    sub: typeof search["sub"] === "string" ? search["sub"] : undefined,
+    tipo: typeof search["tipo"] === "string" ? search["tipo"] : undefined,
+  }),
   loader: ({ params }) => {
     const categoria = getCategoria(params.categoria);
     if (!categoria) throw notFound();
@@ -37,19 +39,25 @@ export const Route = createFileRoute("/categoria/$categoria")({
 
 function CategoriaPage() {
   const { categoria, modelos } = Route.useLoaderData();
-  const { sub } = Route.useSearch();
+  const { sub, tipo: tipoParam } = Route.useSearch();
   const [filtro, setFiltro] = useState<string>(sub ?? "Todos");
+  const [tipo, setTipo] = useState<string>(tipoParam ?? "Todos");
+
+  const familia = filtro !== "Todos" ? getFamiliaPorSubcategoria(filtro) : undefined;
+  const tipos = familia ? ["Todos", ...familia.subcategorias] : [];
 
   useEffect(() => {
     setFiltro(sub ?? "Todos");
-  }, [sub, categoria.id]);
-
+    setTipo(tipoParam ?? "Todos");
+  }, [sub, tipoParam, categoria.id]);
 
   const opcoes = ["Todos", ...categoria.subcategorias];
-  const visiveis =
-    filtro === "Todos"
-      ? modelos
-      : modelos.filter((m) => getSubcategoriaModelo(m, categoria.id) === filtro);
+  const visiveis = modelos.filter((m) => {
+    const okSub = filtro === "Todos" || getSubcategoriaModelo(m, categoria.id) === filtro;
+    const okTipo = tipo === "Todos" || m.subcategoria === tipo;
+    return okSub && okTipo;
+  });
+
 
   return (
     <SiteLayout>
