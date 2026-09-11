@@ -1,4 +1,5 @@
-import { createFileRoute, notFound, Link } from "@tanstack/react-router";
+import { createFileRoute, notFound, Link, useNavigate } from "@tanstack/react-router";
+
 import { useEffect, useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
 import { ModelCard } from "@/components/model-card";
