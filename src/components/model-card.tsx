@@ -43,6 +43,30 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
         <span className="absolute right-3 bottom-3 rounded-full bg-foreground/85 px-2.5 py-1 text-[9px] uppercase tracking-[0.15em] text-background opacity-0 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
           Ver modelo
         </span>
+        {modelo.cores.length > 1 && (
+          <>
+            <button
+              type="button"
+              aria-label="Cor anterior"
+              onClick={(e) => navegar(e, -1)}
+              className="absolute left-2 top-1/2 -translate-y-1/2 z-10 size-8 rounded-full bg-background/85 backdrop-blur-sm flex items-center justify-center text-foreground shadow-sm transition-opacity duration-300 sm:opacity-0 sm:group-hover:opacity-100 hover:bg-accent hover:text-accent-foreground"
+            >
+              <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor">
+                <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M15 6l-6 6 6 6" />
+              </svg>
+            </button>
+            <button
+              type="button"
+              aria-label="Cor seguinte"
+              onClick={(e) => navegar(e, 1)}
+              className="absolute right-2 top-1/2 -translate-y-1/2 z-10 size-8 rounded-full bg-background/85 backdrop-blur-sm flex items-center justify-center text-foreground shadow-sm transition-opacity duration-300 sm:opacity-0 sm:group-hover:opacity-100 hover:bg-accent hover:text-accent-foreground"
+            >
+              <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor">
+                <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M9 6l6 6-6 6" />
+              </svg>
+            </button>
+          </>
+        )}
       </div>
       <div className="mt-3 sm:mt-4 flex items-baseline justify-between gap-2">
         <span className="font-display text-base sm:text-lg italic leading-none">
