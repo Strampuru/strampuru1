@@ -2300,6 +2300,206 @@ export const modelos: Modelo[] = [
     ]
   },
   {
+    "id": "patrol-crianca",
+    "nome": "Polo PATROL",
+    "referenciaNome": "PATROL",
+    "categoria": "polos",
+    "subcategoria": "Polos",
+    "genero": "crianca",
+    "descricao": "Polo PATROL disponível em 25 cores. 100% Algodão (tamanhos de criança)",
+    "composicao": "100% Algodão, Densidade: 220 g/m²",
+    "referencia": "#PAT-PAT-C",
+    "imagem": "/__l5e/assets-v1/9935d49d-15ea-4911-bc6b-412fe3104ea9/patrol-branco.webp",
+    "lifestyle": "/lifestyle/patrol.jpg",
+    "cores": [
+      {
+                "nome": "Branco",
+                "hex": "#efeff1",
+                "hexes": ["#efeff1"],
+                "imagem": "/__l5e/assets-v1/9935d49d-15ea-4911-bc6b-412fe3104ea9/patrol-branco.webp"
+              },
+      {
+                "nome": "Bege",
+                "hex": "#aba899",
+                "hexes": ["#aba899"],
+                "imagem": "/__l5e/assets-v1/8946251c-1c0f-4d7c-8f64-85ed1aecc846/patrol-beje.webp"
+              },
+      {
+                "nome": "Castanho",
+                "hex": "#6a5749",
+                "hexes": ["#6a5749"],
+                "imagem": "/__l5e/assets-v1/2e6c6584-fad5-418d-9ad9-9a1184c578da/patrol-castanho.webp"
+              },
+      {
+                "nome": "Verde 1",
+                "hex": "#b3bb48",
+                "hexes": ["#b3bb48"],
+                "imagem": "/__l5e/assets-v1/c564f4d5-d1fa-4bcc-9c9e-01f9342019ea/patrol-verde1.webp"
+              },
+      {
+                "nome": "Verde 2",
+                "hex": "#3b9189",
+                "hexes": ["#3b9189"],
+                "imagem": "/__l5e/assets-v1/4e9d70bc-15de-4e84-a65e-3ffa2d2d1097/patrol-verde2.webp"
+              },
+      {
+                "nome": "Verde 3",
+                "hex": "#176d4c",
+                "hexes": ["#176d4c"],
+                "imagem": "/__l5e/assets-v1/7f229d3f-064b-4a2f-b12e-e83abc7f5d6b/patrol-verde3.webp"
+              },
+      {
+                "nome": "Verde 4",
+                "hex": "#015243",
+                "hexes": ["#015243"],
+                "imagem": "/__l5e/assets-v1/ed2e005e-a6db-4344-9ebc-2a7be2605650/patrol-verde4.webp"
+              },
+      {
+                "nome": "Amarelo 1",
+                "hex": "#f1da4c",
+                "hexes": ["#f1da4c"],
+                "imagem": "/__l5e/assets-v1/11cfb278-7850-4f55-99e0-99e22198bbfe/patrol-amarelo1.webp"
+              },
+      {
+                "nome": "Amarelo 2",
+                "hex": "#e5b917",
+                "hexes": ["#e5b917"],
+                "imagem": "/__l5e/assets-v1/00ed4147-a922-4a3d-a92d-c84d1c2ec4d2/patrol-amarelo2.webp"
+              },
+      {
+                "nome": "Laranja",
+                "hex": "#c4531c",
+                "hexes": ["#c4531c"],
+                "imagem": "/__l5e/assets-v1/4f7e23b4-558f-4936-9a87-5bab3cad9374/patrol-laranja.webp"
+              },
+      {
+                "nome": "Vermelho 1",
+                "hex": "#8a1525",
+                "hexes": ["#8a1525"],
+                "imagem": "/__l5e/assets-v1/954dd333-aaba-459b-8586-7a3acd774234/patrol-vermelho1.webp"
+              },
+      {
+                "nome": "Vermelho 2",
+                "hex": "#680c30",
+                "hexes": ["#680c30"],
+                "imagem": "/__l5e/assets-v1/fc95c5c7-e3e5-4c95-b05e-0aaa24554b7b/patrol-vermelho2.webp"
+              },
+      {
+                "nome": "Rosa",
+                "hex": "#c34480",
+                "hexes": ["#c34480"],
+                "imagem": "/__l5e/assets-v1/6f89d212-fa6a-4e50-a077-32d938b62b66/patrol-rosa.webp"
+              },
+      {
+                "nome": "Roxo",
+                "hex": "#331850",
+                "hexes": ["#331850"],
+                "imagem": "/__l5e/assets-v1/6c762029-eef2-40ca-a786-25b4e9ce7cd9/patrol-roxo.webp"
+              },
+      {
+                "nome": "Azul 1",
+                "hex": "#94b1d5",
+                "hexes": ["#94b1d5"],
+                "imagem": "/__l5e/assets-v1/d2b1383b-866d-49f8-b063-806d864335bd/patrol-azul1.webp"
+              },
+      {
+                "nome": "Azul 2",
+                "hex": "#1e5a93",
+                "hexes": ["#1e5a93"],
+                "imagem": "/__l5e/assets-v1/e1ffb658-911b-48ee-a715-dc4ce8532e04/patrol-azul2.webp"
+              },
+      {
+                "nome": "Azul 3",
+                "hex": "#5374a4",
+                "hexes": ["#5374a4"],
+                "imagem": "/__l5e/assets-v1/c4bb9921-dfc4-4d40-8a78-dd365cc81a43/patrol-azul3.webp"
+              },
+      {
+                "nome": "Azul 4",
+                "hex": "#184c5d",
+                "hexes": ["#184c5d"],
+                "imagem": "/__l5e/assets-v1/540f98a2-be87-407e-b5e1-f21dab7eda60/patrol-azul4.webp"
+              },
+      {
+                "nome": "Azul 5",
+                "hex": "#26375f",
+                "hexes": ["#26375f"],
+                "imagem": "/__l5e/assets-v1/ac2ba0b6-8a92-43b9-aeaf-5cc0037329af/patrol-azul5.webp"
+              },
+      {
+                "nome": "Azul 6",
+                "hex": "#073553",
+                "hexes": ["#073553"],
+                "imagem": "/__l5e/assets-v1/2d5916c9-e44c-403f-83f1-d739af1dd6b2/patrol-azul6.webp"
+              },
+      {
+                "nome": "Cinzento 1",
+                "hex": "#e4e5eb",
+                "hexes": ["#e4e5eb"],
+                "imagem": "/__l5e/assets-v1/2a94bb8d-0814-4ebd-adab-fb2538e5cc93/patrol-cinzento1.webp"
+              },
+      {
+                "nome": "Cinzento 2",
+                "hex": "#aeacb9",
+                "hexes": ["#aeacb9"],
+                "imagem": "/__l5e/assets-v1/1a19a936-51f0-4f6c-98ca-f834a4985d04/patrol-cinzento2.webp"
+              },
+      {
+                "nome": "Cinzento 3",
+                "hex": "#646a78",
+                "hexes": ["#646a78"],
+                "imagem": "/__l5e/assets-v1/87a65c46-e649-430c-8007-2f91f6faabca/patrol-cinzento3.webp"
+              },
+      {
+                "nome": "Cinzento 4",
+                "hex": "#55545a",
+                "hexes": ["#55545a"],
+                "imagem": "/__l5e/assets-v1/e5c4140a-e2bd-48fd-9a18-adfb2d0c271d/patrol-cinzento4.webp"
+              },
+      {
+                "nome": "Preto",
+                "hex": "#312c28",
+                "hexes": ["#312c28"],
+                "imagem": "/__l5e/assets-v1/4248e1c1-f9e0-4984-aef2-b2df5a2e0a3f/patrol-preto.webp"
+              }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      [
+        "Comprimento",
+        "50",
+        "54",
+        "58",
+        "62",
+        "66",
+        "70"
+      ],
+      [
+        "Largura",
+        "36",
+        "38",
+        "40",
+        "42",
+        "45",
+        "48"
+      ]
+    ],
+    "precos": [
+      ["0–99 unidades", "10,00€"],
+      ["100–499 unidades", "9,00€"],
+      ["+499 unidades", "8,00€"]
+    ],
+    "caracteristicas": ["100% Algodão", "Densidade: 220 g/m²"]
+  },
+  {
     "id": "arizona",
     "nome": "Hoodie ARIZONA",
     "referenciaNome": "ARIZONA",
