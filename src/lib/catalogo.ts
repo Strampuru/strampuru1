@@ -120,7 +120,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#RAC-RAC",
     "imagem": "/__l5e/assets-v1/20ef2e18-6467-4bc7-a363-ba32dac9532f/racing-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/6c830a6a-468c-43a6-bf36-30c3d52f4151/lifestyle-racing.jpg",
+    "lifestyle": "/lifestyle/racing.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -480,7 +480,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 190 g/m²",
     "referencia": "#WAV-WAV",
     "imagem": "/__l5e/assets-v1/09000929-4e2d-4c84-8d0c-adce6f713b35/wave-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/13a5f388-d72d-484e-b908-1aa050c3400e/lifestyle-wave.jpg",
+    "lifestyle": "/lifestyle/wave.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -589,7 +589,7 @@ export const modelos: Modelo[] = [
     "composicao": "95% Algodão, 5% Elastano, Densidade: 190 g/m²",
     "referencia": "#NAP-NAP",
     "imagem": "/__l5e/assets-v1/f504c71a-263d-4545-a48b-f4e9a2045f55/nappa-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/57d6968f-0fc3-47ad-8feb-7ceccadcef13/lifestyle-nappa.jpg",
+    "lifestyle": "/lifestyle/nappa.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -804,7 +804,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#RES-RES",
     "imagem": "/__l5e/assets-v1/216d75f1-82a2-47c5-b9df-730e60066a78/resistance-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/56ae788b-564b-4000-9e34-76763bfe7888/lifestyle-resistance.jpg",
+    "lifestyle": "/lifestyle/resistance.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -1083,7 +1083,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#ROC-ROC",
     "imagem": "/__l5e/assets-v1/5b3ae55f-c0c5-4b00-8e47-26fa9bf62195/rockspeed-cinzento.webp",
-    "lifestyle": "/__l5e/assets-v1/ab24ed9e-a4bd-4eed-a026-98883f726537/lifestyle-rockspeed.jpg",
+    "lifestyle": "/lifestyle/rockspeed.jpg",
     "cores": [
       {
         "nome": "Cinzento",
@@ -1187,7 +1187,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#BRI-BRI",
     "imagem": "/__l5e/assets-v1/7bddb081-68f1-4cf7-9dbb-cef43d014a43/brickplus-verde.webp",
-    "lifestyle": "/__l5e/assets-v1/787aedb7-fdf2-4401-b5e0-28c9860482a0/lifestyle-brickplus.jpg",
+    "lifestyle": "/lifestyle/brickplus.jpg",
     "cores": [
       {
         "nome": "Verde",
@@ -1291,7 +1291,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#LEO-LEO",
     "imagem": "/__l5e/assets-v1/458eef55-1728-447a-8030-707750084547/leopard-verde.webp",
-    "lifestyle": "/__l5e/assets-v1/ab486d20-f34a-44fe-ae0d-9e22070cd696/lifestyle-leopard.jpg",
+    "lifestyle": "/lifestyle/leopard.jpg",
     "cores": [
       {
         "nome": "Verde",
@@ -1395,7 +1395,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#MAU-MAU",
     "imagem": "/__l5e/assets-v1/a946776f-b459-40d2-946b-b756be7e7608/maurice-verde.webp",
-    "lifestyle": "/__l5e/assets-v1/4b8f8280-13b1-4a85-8241-188bf1d0e39e/lifestyle-maurice.jpg",
+    "lifestyle": "/lifestyle/maurice.jpg",
     "cores": [
       {
         "nome": "Verde",
@@ -1513,7 +1513,7 @@ export const modelos: Modelo[] = [
     "composicao": "23% Poliéster, 77% Poliamida, Densidade: 180 g/m²",
     "referencia": "#DAC-DAC",
     "imagem": "/__l5e/assets-v1/8456277d-91a9-46b8-81c1-d06cba3ff602/dacita-azul.webp",
-    "lifestyle": "/__l5e/assets-v1/5ec10d7b-b3fa-4d18-b81c-23ca93fcdd4c/lifestyle-dacita.jpg",
+    "lifestyle": "/lifestyle/dacita.jpg",
     "cores": [
       {
         "nome": "Azul",
@@ -1633,7 +1633,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#PAT-PAT",
     "imagem": "/__l5e/assets-v1/9935d49d-15ea-4911-bc6b-412fe3104ea9/patrol-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/7d7327e2-17b0-4a2b-b251-1b4a08b6fcd2/lifestyle-patrol.jpg",
+    "lifestyle": "/lifestyle/patrol.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -1909,7 +1909,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#KEN-KEN",
     "imagem": "/__l5e/assets-v1/4b207e39-c231-4545-b5d1-45ff824a1af7/kentuky-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/75539a83-76df-4209-a2ab-40d2ec0681cd/lifestyle-kentucky.jpg",
+    "lifestyle": "/lifestyle/kentucky.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -2042,7 +2042,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#SAG-SAG",
     "imagem": "/__l5e/assets-v1/0c57f1e1-019d-4025-9292-e0b669ee0631/sagano-verde.webp",
-    "lifestyle": "/__l5e/assets-v1/962808e0-246b-4382-ac89-1cc82ef827a8/lifestyle-sagano.jpg",
+    "lifestyle": "/lifestyle/sagano.jpg",
     "cores": [
       {
         "nome": "Verde",
@@ -2136,7 +2136,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#STR-STR",
     "imagem": "/__l5e/assets-v1/26e95779-b082-4b12-abb9-f6143d564c4d/strategy-vermelhov1.webp",
-    "lifestyle": "/__l5e/assets-v1/27388680-bcc2-43f2-b2d2-787ff8516f3e/lifestyle-strategy.jpg",
+    "lifestyle": "/lifestyle/strategy.jpg",
     "cores": [
       {
         "nome": "Vermelhov 1",
@@ -2248,7 +2248,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#ARI-ARI",
     "imagem": "/__l5e/assets-v1/66db4335-a27f-4f27-bb32-a94d941e6b79/arizona-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/df4fef2c-4269-4957-a0b0-ebea5a7cbc1b/lifestyle-arizona.jpg",
+    "lifestyle": "/lifestyle/arizona.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -2481,7 +2481,7 @@ export const modelos: Modelo[] = [
     "composicao": "65% Poliéster, 35% Algodão, Densidade: 300 g/m²",
     "referencia": "#DUB-DUB",
     "imagem": "/__l5e/assets-v1/65e2a488-b6b9-4d1d-b6d9-ec7527c57739/dublin-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/97f83c7d-de23-4504-b5b4-9865326054c5/lifestyle-dublin.jpg",
+    "lifestyle": "/lifestyle/dublin.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -2755,7 +2755,7 @@ export const modelos: Modelo[] = [
     "composicao": "Interior: 100% Poliéster (225 g/m²), Exterior: 70% Poliéster, 30% PVC (200 g/m²)",
     "referencia": "#MAN-MAN",
     "imagem": "/__l5e/assets-v1/0c0569d8-29f2-43d4-ae16-09e7749880cb/manitoba-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/10143fee-6a30-426f-8ada-d49dc3c7a027/lifestyle-manitoba.jpg",
+    "lifestyle": "/lifestyle/manitoba.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -2880,7 +2880,7 @@ export const modelos: Modelo[] = [
     "composicao": "Interior: 100% Poliéster (200 g/m²), Exterior: 70% Poliéster, 30% PVC (200 g/m²)",
     "referencia": "#ONT-ONT",
     "imagem": "/__l5e/assets-v1/3157dcfc-e765-45e3-82d8-0c759bcdb4f5/ontario-vermelho.webp",
-    "lifestyle": "/__l5e/assets-v1/3abc2255-05e1-4f80-b154-3c32bedb0411/lifestyle-ontario.jpg",
+    "lifestyle": "/lifestyle/ontario.jpg",
     "cores": [
       {
         "nome": "Vermelho",
@@ -2973,7 +2973,7 @@ export const modelos: Modelo[] = [
     "composicao": "Interior: 100% Poliéster (220 g/m²), Exterior: 100% Poliéster (160 g/m²)",
     "referencia": "#BAL-BAL",
     "imagem": "/__l5e/assets-v1/dccb9ff8-49c8-485d-a2d7-9a2a6020b2be/balak-azul.webp",
-    "lifestyle": "/__l5e/assets-v1/091877d9-cbb3-4fd8-b00c-d2b5b1d6329b/lifestyle-balak.jpg",
+    "lifestyle": "/lifestyle/balak.jpg",
     "cores": [
       {
         "nome": "Azul",
@@ -3051,7 +3051,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#RES-MUL",
     "imagem": "/__l5e/assets-v1/216d75f1-82a2-47c5-b9df-730e60066a78/resistance-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/56ae788b-564b-4000-9e34-76763bfe7888/lifestyle-resistance.jpg",
+    "lifestyle": "/lifestyle/resistance.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -3364,7 +3364,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#RAC-RAC",
     "imagem": "/__l5e/assets-v1/20ef2e18-6467-4bc7-a363-ba32dac9532f/racing-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/6c830a6a-468c-43a6-bf36-30c3d52f4151/lifestyle-racing.jpg",
+    "lifestyle": "/lifestyle/racing.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -3928,7 +3928,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#RES-RES",
     "imagem": "/__l5e/assets-v1/216d75f1-82a2-47c5-b9df-730e60066a78/resistance-branco.webp",
-    "lifestyle": "/__l5e/assets-v1/56ae788b-564b-4000-9e34-76763bfe7888/lifestyle-resistance.jpg",
+    "lifestyle": "/lifestyle/resistance.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -4207,7 +4207,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#LEO-LEO",
     "imagem": "/__l5e/assets-v1/458eef55-1728-447a-8030-707750084547/leopard-verde.webp",
-    "lifestyle": "/__l5e/assets-v1/ab486d20-f34a-44fe-ae0d-9e22070cd696/lifestyle-leopard.jpg",
+    "lifestyle": "/lifestyle/leopard.jpg",
     "cores": [
       {
         "nome": "Verde",
@@ -4311,7 +4311,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#MAU-MAU",
     "imagem": "/__l5e/assets-v1/a946776f-b459-40d2-946b-b756be7e7608/maurice-verde.webp",
-    "lifestyle": "/__l5e/assets-v1/4b8f8280-13b1-4a85-8241-188bf1d0e39e/lifestyle-maurice.jpg",
+    "lifestyle": "/lifestyle/maurice.jpg",
     "cores": [
       {
         "nome": "Verde",
