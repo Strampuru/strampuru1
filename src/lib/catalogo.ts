@@ -1510,6 +1510,39 @@ export const modelos: Modelo[] = [
     ]
   },
   {
+    "id": "moscow",
+    "nome": "T-shirt MOSCOW",
+    "referenciaNome": "MOSCOW",
+    "categoria": "tshirts",
+    "subcategoria": "Desportivas",
+    "descricao": "T-shirt MOSCOW — modelo em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Poliéster",
+    "referencia": "#MOS-MOS",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": ["#eaedf1"],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      ["Tamanho", "S", "M", "L", "XL", "XXL"],
+      ["Comprimento", "66", "69", "72", "75", "78"],
+      ["Largura", "50", "53", "56", "59", "62"]
+    ],
+    "precos": [
+      ["0–99 unidades", "14,00€"],
+      ["100–499 unidades", "13,50€"],
+      ["+499 unidades", "12,25€"]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
     "id": "patrol",
     "nome": "Polo PATROL",
     "referenciaNome": "PATROL",
