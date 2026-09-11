@@ -55,17 +55,6 @@ export const familias: Categoria[] = [
     ]
   },
   {
-    "id": "polos",
-    "nome": "Polos",
-    "titulo": "Polos",
-    "descricao": "Piqué clássico e malhas técnicas com gola, para uniforme ou uso diário.",
-    "imagem": "/__l5e/assets-v1/9935d49d-15ea-4911-bc6b-412fe3104ea9/patrol-branco.webp",
-    "subcategorias": [
-      "Clássicos",
-      "Desportivos"
-    ]
-  },
-  {
     "id": "sweats",
     "nome": "Sweats",
     "titulo": "Sweats e Hoodies",
@@ -1628,7 +1617,7 @@ export const modelos: Modelo[] = [
     "nome": "Polo PATROL",
     "referenciaNome": "PATROL",
     "categoria": "polos",
-    "subcategoria": "Clássicos",
+    "subcategoria": "Polos",
     "descricao": "Polo PATROL disponível em 25 cores. 100% Algodão",
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#PAT-PAT",
@@ -1904,7 +1893,7 @@ export const modelos: Modelo[] = [
     "nome": "Polo KENTUKY",
     "referenciaNome": "KENTUKY",
     "categoria": "polos",
-    "subcategoria": "Desportivos",
+    "subcategoria": "Polos",
     "descricao": "Polo KENTUKY disponível em 9 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#KEN-KEN",
@@ -2037,7 +2026,7 @@ export const modelos: Modelo[] = [
     "nome": "Polo SAGANO",
     "referenciaNome": "SAGANO",
     "categoria": "polos",
-    "subcategoria": "Desportivos",
+    "subcategoria": "Polos",
     "descricao": "Polo SAGANO disponível em 4 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#SAG-SAG",
@@ -2131,7 +2120,7 @@ export const modelos: Modelo[] = [
     "nome": "Polo STRATEGY",
     "referenciaNome": "STRATEGY",
     "categoria": "polos",
-    "subcategoria": "Desportivos",
+    "subcategoria": "Polos",
     "descricao": "Polo STRATEGY disponível em 6 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#STR-STR",
