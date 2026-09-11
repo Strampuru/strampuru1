@@ -3306,7 +3306,6 @@ export const modelos: Modelo[] = [
       "Densidade: 145 g/m²"
     ]
   },
-,
   {
     "id": "atenas",
     "nome": "T-shirt ATENAS",
