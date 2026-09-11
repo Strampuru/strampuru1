@@ -1,18 +1,18 @@
 import { Link } from "@tanstack/react-router";
-import { categorias, modelos, type Modelo } from "@/lib/catalogo";
+import { familias, modelos, type Modelo } from "@/lib/catalogo";
 
 /**
  * Destaque fixo: um modelo por categoria, sem rotação.
  * Escolhe o primeiro modelo de cada categoria como representante.
  */
 function representantes(): Modelo[] {
-  return categorias
+  return familias
     .map((cat) => modelos.find((m) => m.categoria === cat.id))
     .filter((m): m is Modelo => Boolean(m));
 }
 
 function tituloCategoria(id: string): string {
-  return categorias.find((c) => c.id === id)?.titulo ?? id;
+  return familias.find((c) => c.id === id)?.titulo ?? id;
 }
 
 // Cor de acento editorial por família (paleta extraída do logótipo).

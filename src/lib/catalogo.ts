@@ -1,6 +1,7 @@
 // Catálogo STRAM PURU — dados dos produtos (gerado a partir do catálogo original).
 
-export type CategoriaId = "tshirts" | "polos" | "sweats" | "jaquetas";
+export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
+export type CategoriaId = FamiliaId | "homem" | "mulher" | "crianca" | "conjuntos" | "brindes";
 
 export type Cor = {
   nome: string;
@@ -39,7 +40,7 @@ export type Categoria = {
   subcategorias: string[];
 };
 
-export const categorias: Categoria[] = [
+export const familias: Categoria[] = [
   {
     "id": "tshirts",
     "nome": "T-shirts",
@@ -84,6 +85,21 @@ export const categorias: Categoria[] = [
     ]
   }
 ];
+
+// As famílias originais continuam acessíveis pelas ligações existentes.
+export const categorias: Categoria[] = [
+  { id: "homem", nome: "Homem", titulo: "Homem", descricao: "Vestuário de adulto para personalizar.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Jaquetas"] },
+  { id: "mulher", nome: "Mulher", titulo: "Mulher", descricao: "Vestuário de adulto para personalizar.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Jaquetas"] },
+  { id: "crianca", nome: "Criança", titulo: "Criança", descricao: "Modelos disponíveis em tamanhos de criança.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Jaquetas"] },
+  { id: "conjuntos", nome: "Conjuntos", titulo: "Conjuntos", descricao: "Coleções com várias peças.", imagem: "", subcategorias: [] },
+  { id: "brindes", nome: "Brindes", titulo: "Brindes", descricao: "Brindes para personalizar.", imagem: "", subcategorias: ["Coletes desportivos", "Sacos", "Caixas de plástico", "Malas", "Canecas", "Bases", "Jengas"] },
+];
+
+export function getSubcategoriaModelo(modelo: Modelo, categoria: CategoriaId): string {
+  return ["homem", "mulher", "crianca"].includes(categoria)
+    ? familias.find((f) => f.id === modelo.categoria)?.nome ?? modelo.subcategoria
+    : modelo.subcategoria;
+}
 
 export const modelos: Modelo[] = [
   {
@@ -2842,11 +2858,19 @@ export const modelos: Modelo[] = [
 ];
 
 export function getCategoria(id: string): Categoria | undefined {
-  return categorias.find((c) => c.id === id);
+  return [...categorias, ...familias].find((c) => c.id === id);
 }
 
 export function getModelosPorCategoria(categoria: CategoriaId): Modelo[] {
-  return modelos.filter((m) => m.categoria === categoria);
+  return modelos.filter((m) => {
+    if (categoria === "homem" || categoria === "mulher") {
+      return m.tamanhos[0]?.some((t) => ["XS", "S", "M", "L", "XL", "XXL", "3XL"].includes(t));
+    }
+    if (categoria === "crianca") {
+      return m.tamanhos[0]?.some((t) => /^\d+$/.test(t) && Number(t) <= 16);
+    }
+    return m.categoria === categoria;
+  });
 }
 
 export function getModelo(id: string): Modelo | undefined {
