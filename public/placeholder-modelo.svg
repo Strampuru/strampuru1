@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" fill="none">
+  <rect width="600" height="800" fill="#f7f5f0"/>
+  <path d="M180 220 C220 180 250 200 300 200 C350 200 380 180 420 220 L460 280 L430 300 L400 260 L400 600 C400 610 390 620 380 620 L220 620 C210 620 200 610 200 600 L200 260 L170 300 L140 280 Z" fill="#e8e4da" stroke="#d4cfc2" stroke-width="2"/>
+  <text x="300" y="680" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#9a958a">Imagem brevemente</text>
+</svg>
