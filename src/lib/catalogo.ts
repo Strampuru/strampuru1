@@ -17,6 +17,8 @@ export type Modelo = {
   referenciaNome: string;
   categoria: CategoriaId;
   subcategoria: string;
+  /** Género alvo. Omitido = unissexo. */
+  genero?: "homem" | "mulher" | "unissexo";
   descricao: string;
   composicao: string;
   referencia: string;
