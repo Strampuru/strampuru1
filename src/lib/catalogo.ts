@@ -17,6 +17,8 @@ export type Modelo = {
   referenciaNome: string;
   categoria: CategoriaId;
   subcategoria: string;
+  /** Género alvo. Omitido = unissexo. */
+  genero?: "homem" | "mulher" | "unissexo";
   descricao: string;
   composicao: string;
   referencia: string;
@@ -3024,7 +3026,321 @@ export const modelos: Modelo[] = [
       "Interior: 100% Poliéster (220 g/m²)",
       "Exterior: 100% Poliéster (160 g/m²)"
     ]
-  }
+  },
+  {
+    "id": "resistance-mulher",
+    "nome": "T-shirt RESISTANCE (Mulher)",
+    "referenciaNome": "RESISTANCE",
+    "categoria": "tshirts",
+    "subcategoria": "Desportivas",
+    "genero": "mulher",
+    "descricao": "T-shirt RESISTANCE disponível em 26 cores. 100% Poliéster",
+    "composicao": "100% Poliéster, Densidade: 145 g/m²",
+    "referencia": "#RES-MUL",
+    "imagem": "/__l5e/assets-v1/216d75f1-82a2-47c5-b9df-730e60066a78/resistance-branco.webp",
+    "lifestyle": "/__l5e/assets-v1/56ae788b-564b-4000-9e34-76763bfe7888/lifestyle-resistance.jpg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#efeff3",
+        "hexes": [
+        "#efeff3"
+      ],
+        "imagem": "/__l5e/assets-v1/216d75f1-82a2-47c5-b9df-730e60066a78/resistance-branco.webp"
+      },
+      {
+        "nome": "Bege",
+        "hex": "#aba89a",
+        "hexes": [
+        "#aba89a"
+      ],
+        "imagem": "/__l5e/assets-v1/c76e66ae-eac5-4a03-ad80-3ad767b153dc/resistance-beje.webp"
+      },
+      {
+        "nome": "Castanho",
+        "hex": "#543d34",
+        "hexes": [
+        "#543d34"
+      ],
+        "imagem": "/__l5e/assets-v1/b366a160-30dd-48f2-8721-a953356406f2/resistance-castanho.webp"
+      },
+      {
+        "nome": "Verde 1",
+        "hex": "#92b553",
+        "hexes": [
+        "#92b553"
+      ],
+        "imagem": "/__l5e/assets-v1/911351a2-97a0-4a63-a4ea-de77ffe6d32a/resistance-verde1.webp"
+      },
+      {
+        "nome": "Verde 2",
+        "hex": "#1a704e",
+        "hexes": [
+        "#1a704e"
+      ],
+        "imagem": "/__l5e/assets-v1/3f63664e-f619-4f45-973d-5bb905ec0227/resistance-verde2.webp"
+      },
+      {
+        "nome": "Verde 3",
+        "hex": "#025443",
+        "hexes": [
+        "#025443"
+      ],
+        "imagem": "/__l5e/assets-v1/070e1099-cd81-48da-a087-d944ac146d32/resistance-verde3.webp"
+      },
+      {
+        "nome": "Verde 4",
+        "hex": "#51553f",
+        "hexes": [
+        "#51553f"
+      ],
+        "imagem": "/__l5e/assets-v1/dd979047-fad3-4045-8730-9f70d1b1f099/resistance-verde4.webp"
+      },
+      {
+        "nome": "Verde 5",
+        "hex": "#9fba37",
+        "hexes": [
+        "#9fba37"
+      ],
+        "imagem": "/__l5e/assets-v1/cbdc1ca0-b981-436d-9ac2-b6c53d1fea71/resistance-verde5.webp"
+      },
+      {
+        "nome": "Amarelo 1",
+        "hex": "#dcd71e",
+        "hexes": [
+        "#dcd71e"
+      ],
+        "imagem": "/__l5e/assets-v1/62c9d753-64b8-484b-809e-52fb0d0a93b7/resistance-amarelo1.webp"
+      },
+      {
+        "nome": "Amarelo 2",
+        "hex": "#f1db4c",
+        "hexes": [
+        "#f1db4c"
+      ],
+        "imagem": "/__l5e/assets-v1/e07f99a3-a5d7-4a05-9427-55150fc0877e/resistance-amarelo2.webp"
+      },
+      {
+        "nome": "Amarelo 3",
+        "hex": "#f1b803",
+        "hexes": [
+        "#f1b803"
+      ],
+        "imagem": "/__l5e/assets-v1/c9ed2f80-dd77-4028-baf7-06a5a5a49207/resistance-amarelo3.webp"
+      },
+      {
+        "nome": "Laranja 1",
+        "hex": "#c4521d",
+        "hexes": [
+        "#c4521d"
+      ],
+        "imagem": "/__l5e/assets-v1/a72bbdf4-d11c-45ba-9b70-62e809aab8cf/resistance-laranja1.webp"
+      },
+      {
+        "nome": "Laranja 2",
+        "hex": "#c35923",
+        "hexes": [
+        "#c35923"
+      ],
+        "imagem": "/__l5e/assets-v1/6cc8b03b-6764-4a69-9b04-e7c6ae8c7449/resistance-laranja2.webp"
+      },
+      {
+        "nome": "Vermelho",
+        "hex": "#8b1727",
+        "hexes": [
+        "#8b1727"
+      ],
+        "imagem": "/__l5e/assets-v1/983a6613-81cf-495a-b0bb-797368c2f71c/resistance-vermelho.webp"
+      },
+      {
+        "nome": "Rosa 1",
+        "hex": "#eec3d4",
+        "hexes": [
+        "#eec3d4"
+      ],
+        "imagem": "/__l5e/assets-v1/bf1114b9-d7e6-4f78-97b4-2fbee0c1f5d6/resistance-rosa1.webp"
+      },
+      {
+        "nome": "Rosa 2",
+        "hex": "#c0437f",
+        "hexes": [
+        "#c0437f"
+      ],
+        "imagem": "/__l5e/assets-v1/624c3978-e8e3-4147-86d5-7e6c365c88d0/resistance-rosa2.webp"
+      },
+      {
+        "nome": "Rosa 3",
+        "hex": "#c46097",
+        "hexes": [
+        "#c46097"
+      ],
+        "imagem": "/__l5e/assets-v1/cc4cb164-72f4-4195-b8a8-4f2c686a9319/resistance-rosa3.webp"
+      },
+      {
+        "nome": "Roxo 1",
+        "hex": "#503677",
+        "hexes": [
+        "#503677"
+      ],
+        "imagem": "/__l5e/assets-v1/4b61784e-cf5a-4419-9834-6bbb9b008a85/resistance-roxo1.webp"
+      },
+      {
+        "nome": "Roxo 2",
+        "hex": "#272863",
+        "hexes": [
+        "#272863"
+      ],
+        "imagem": "/__l5e/assets-v1/4c2abc52-2185-42d1-9f61-6e2cd2325e78/resistance-roxo2.webp"
+      },
+      {
+        "nome": "Azul 1",
+        "hex": "#7ca4d1",
+        "hexes": [
+        "#7ca4d1"
+      ],
+        "imagem": "/__l5e/assets-v1/e82bcc73-2ac7-4193-a577-574e1750da17/resistance-azul1.webp"
+      },
+      {
+        "nome": "Azul 2",
+        "hex": "#047db7",
+        "hexes": [
+        "#047db7"
+      ],
+        "imagem": "/__l5e/assets-v1/33d78303-da7e-400a-a8c6-3c5615995e78/resistance-azul2.webp"
+      },
+      {
+        "nome": "Azul 3",
+        "hex": "#205c95",
+        "hexes": [
+        "#205c95"
+      ],
+        "imagem": "/__l5e/assets-v1/e7c369e0-92f8-4394-8c5c-593250c97fe7/resistance-azul3.webp"
+      },
+      {
+        "nome": "Azul 4",
+        "hex": "#11324f",
+        "hexes": [
+        "#11324f"
+      ],
+        "imagem": "/__l5e/assets-v1/9fdc8544-55e2-4aed-99f5-3c7bca63f435/resistance-azul4.webp"
+      },
+      {
+        "nome": "Cinzento 1",
+        "hex": "#616976",
+        "hexes": [
+        "#616976"
+      ],
+        "imagem": "/__l5e/assets-v1/f45d06ac-9d86-47fd-842a-fe17de3ee713/resistance-cinzento1.webp"
+      },
+      {
+        "nome": "Cinzento 2",
+        "hex": "#525159",
+        "hexes": [
+        "#525159"
+      ],
+        "imagem": "/__l5e/assets-v1/4f3180f6-f7df-4ca3-8698-7c578b38299c/resistance-cinzento2.webp"
+      },
+      {
+        "nome": "Preto",
+        "hex": "#342f2b",
+        "hexes": [
+        "#342f2b"
+      ],
+        "imagem": "/__l5e/assets-v1/f3843ddd-f4d7-4050-addd-96c630da6fe8/resistance-preto.webp"
+      }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "4/5",
+        "6/8",
+        "10/12",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      [
+        "Comprimento",
+        "50",
+        "55",
+        "60",
+        "66",
+        "69",
+        "72",
+        "75",
+        "78",
+        "81"
+      ],
+      [
+        "Largura",
+        "37",
+        "41",
+        "45",
+        "48",
+        "51",
+        "54",
+        "57",
+        "60",
+        "63"
+      ]
+    ],
+    "precos": [
+      [
+        "0–99 unidades",
+        "10,00€"
+      ],
+      [
+        "100–499 unidades",
+        "9,50€"
+      ],
+      [
+        "+499 unidades",
+        "8,75€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Densidade: 145 g/m²"
+    ]
+  },
+,
+  {
+    "id": "atenas",
+    "nome": "T-shirt ATENAS",
+    "referenciaNome": "ATENAS",
+    "categoria": "tshirts",
+    "subcategoria": "Desportivas",
+    "genero": "mulher",
+    "descricao": "T-shirt ATENAS — modelo em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Poliéster",
+    "referencia": "#ATE-ATE",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": ["#eaedf1"],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      ["Tamanho", "XS", "S", "M", "L", "XL", "XXL"],
+      ["Comprimento", "58", "61", "64", "67", "70", "73"],
+      ["Largura", "44", "46", "49", "51", "54", "57"]
+    ],
+    "precos": [
+      ["0–99 unidades", "10,50€"],
+      ["100–499 unidades", "9,00€"],
+      ["+499 unidades", "8,25€"]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Detalhes e cores a confirmar"
+    ]
+  },
 ];
 
 export function getCategoria(id: string): Categoria | undefined {
@@ -3034,7 +3350,10 @@ export function getCategoria(id: string): Categoria | undefined {
 export function getModelosPorCategoria(categoria: CategoriaId): Modelo[] {
   return modelos.filter((m) => {
     if (categoria === "homem" || categoria === "mulher") {
-      return m.tamanhos[0]?.some((t) => ["XS", "S", "M", "L", "XL", "XXL", "3XL"].includes(t));
+      const adulto = m.tamanhos[0]?.some((t) => ["XS", "S", "M", "L", "XL", "XXL", "3XL"].includes(t));
+      if (!adulto) return false;
+      const genero = m.genero ?? "unissexo";
+      return genero === "unissexo" || genero === categoria;
     }
     if (categoria === "crianca") {
       return m.tamanhos[0]?.some((t) => /^\d+$/.test(t) && Number(t) <= 16);
