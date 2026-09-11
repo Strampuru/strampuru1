@@ -83,19 +83,21 @@ function CategoriaPage() {
       </section>
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-10 md:py-16">
-        {/* Subcategoria filter — esconde-se quando uma subcategoria está selecionada */}
-        {filtro === "Todos" && (
+        {/* Subcategoria filter — sempre visível */}
         <div className="-mx-4 sm:mx-0 px-4 sm:px-0 mb-6 flex gap-2.5 sm:gap-3 overflow-x-auto sm:flex-wrap [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {opcoes.map((op) => (
             <button
               key={op}
-              onClick={() =>
+              onClick={() => {
+                const novaFamilia = op === "Todos" ? undefined : getFamiliaPorSubcategoria(op);
+                const manterTipo = novaFamilia?.subcategorias.includes(tipo ?? "");
                 navigate({
                   search: {
                     sub: op === "Todos" ? undefined : op,
+                    tipo: manterTipo ? tipo : undefined,
                   } as any,
-                })
-              }
+                });
+              }}
 
               className={`shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest transition-colors ${
                 filtro === op
@@ -107,7 +109,7 @@ function CategoriaPage() {
             </button>
           ))}
         </div>
-        )}
+
 
         {/* Tipo filter (ex.: Clássicas / Desportivas) */}
         {tipos.length > 0 && (
