@@ -2,7 +2,7 @@ import { createFileRoute, notFound, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
 import { ModelCard } from "@/components/model-card";
-import { getCategoria, getModelosPorCategoria } from "@/lib/catalogo";
+import { getCategoria, getModelosPorCategoria, getSubcategoriaModelo } from "@/lib/catalogo";
 
 export const Route = createFileRoute("/categoria/$categoria")({
   validateSearch: (search: Record<string, unknown>): { sub?: string } =>
@@ -49,7 +49,7 @@ function CategoriaPage() {
   const visiveis =
     filtro === "Todos"
       ? modelos
-      : modelos.filter((m) => m.subcategoria === filtro);
+      : modelos.filter((m) => getSubcategoriaModelo(m, categoria.id) === filtro);
 
   return (
     <SiteLayout>
@@ -97,7 +97,7 @@ function CategoriaPage() {
 
         {visiveis.length === 0 ? (
           <p className="text-muted-foreground text-sm uppercase tracking-widest py-24 text-center">
-            Nenhum modelo nesta subcategoria.
+            Ainda não existem modelos nesta seleção.
           </p>
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-4 sm:gap-x-6 gap-y-8 sm:gap-y-12">
