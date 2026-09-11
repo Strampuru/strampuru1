@@ -18,7 +18,7 @@ export type Modelo = {
   categoria: CategoriaId;
   subcategoria: string;
   /** Género alvo. Omitido = unissexo. */
-  genero?: "homem" | "mulher" | "unissexo";
+  genero?: "homem" | "mulher" | "crianca" | "unissexo";
   descricao: string;
   composicao: string;
   referencia: string;
@@ -3353,6 +3353,511 @@ export const modelos: Modelo[] = [
       "Detalhes e cores a confirmar"
     ]
   },
+  {
+    "id": "racing-crianca",
+    "nome": "T-shirt RACING",
+    "referenciaNome": "RACING",
+    "categoria": "tshirts",
+    "subcategoria": "Clássicas",
+    "genero": "crianca",
+    "descricao": "T-shirt RACING disponível em 35 cores. 100% Algodão",
+    "composicao": "100% Algodão, Densidade: 160 g/m²",
+    "referencia": "#RAC-RAC",
+    "imagem": "/__l5e/assets-v1/20ef2e18-6467-4bc7-a363-ba32dac9532f/racing-branco.webp",
+    "lifestyle": "/__l5e/assets-v1/6c830a6a-468c-43a6-bf36-30c3d52f4151/lifestyle-racing.jpg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": [
+        "#eaedf1"
+      ],
+        "imagem": "/__l5e/assets-v1/20ef2e18-6467-4bc7-a363-ba32dac9532f/racing-branco.webp"
+      },
+      {
+        "nome": "Bege 1",
+        "hex": "#f0ebd8",
+        "hexes": [
+        "#f0ebd8"
+      ],
+        "imagem": "/__l5e/assets-v1/71e8bd2d-76e6-40cf-b511-2a37b7155046/racing-beje1.webp"
+      },
+      {
+        "nome": "Bege 2",
+        "hex": "#afac9d",
+        "hexes": [
+        "#afac9d"
+      ],
+        "imagem": "/__l5e/assets-v1/056a8b40-22cf-47a2-b8b2-6e75791700df/racing-beje2.webp"
+      },
+      {
+        "nome": "Castanho 1",
+        "hex": "#a18b67",
+        "hexes": [
+        "#a18b67"
+      ],
+        "imagem": "/__l5e/assets-v1/27bda301-3915-4f48-bc6e-11618848dca7/racing-castanho1.webp"
+      },
+      {
+        "nome": "Castanho 2",
+        "hex": "#6e594b",
+        "hexes": [
+        "#6e594b"
+      ],
+        "imagem": "/__l5e/assets-v1/fbd72b07-1c28-40c7-bc3b-f09dca4d8f5d/racing-castanho2.webp"
+      },
+      {
+        "nome": "Verde 1",
+        "hex": "#96bb54",
+        "hexes": [
+        "#96bb54"
+      ],
+        "imagem": "/__l5e/assets-v1/83b5cd67-70c2-47b1-bdc8-e102575dd54f/racing-verde1.webp"
+      },
+      {
+        "nome": "Verde 2",
+        "hex": "#5ca144",
+        "hexes": [
+        "#5ca144"
+      ],
+        "imagem": "/__l5e/assets-v1/7718ca9b-d79a-4978-8864-e4bddba8a4d1/racing-verde2.webp"
+      },
+      {
+        "nome": "Verde 3",
+        "hex": "#197351",
+        "hexes": [
+        "#197351"
+      ],
+        "imagem": "/__l5e/assets-v1/29736327-b078-459f-bde7-0dca0bcb6264/racing-verde3.webp"
+      },
+      {
+        "nome": "Verde 4",
+        "hex": "#024a3b",
+        "hexes": [
+        "#024a3b"
+      ],
+        "imagem": "/__l5e/assets-v1/7a65d595-2b13-4ebe-b476-90f512afa73f/racing-verde4.webp"
+      },
+      {
+        "nome": "Verde 5",
+        "hex": "#4e675d",
+        "hexes": [
+        "#4e675d"
+      ],
+        "imagem": "/__l5e/assets-v1/8462a1d0-f442-4f61-bc5b-3edf8b929152/racing-verde5.webp"
+      },
+      {
+        "nome": "Verde 6",
+        "hex": "#53573f",
+        "hexes": [
+        "#53573f"
+      ],
+        "imagem": "/__l5e/assets-v1/1a539b59-798a-44ed-8835-6d4c1f274f1b/racing-verde6.webp"
+      },
+      {
+        "nome": "Amarelo 1",
+        "hex": "#f9e24d",
+        "hexes": [
+        "#f9e24d"
+      ],
+        "imagem": "/__l5e/assets-v1/be54829b-5af0-4dbe-87a1-f8d58a566716/racing-amarelo1.webp"
+      },
+      {
+        "nome": "Amarelo 2",
+        "hex": "#e9bd19",
+        "hexes": [
+        "#e9bd19"
+      ],
+        "imagem": "/__l5e/assets-v1/5aa2b115-fac8-42e8-b13b-c04c37200713/racing-amarelo2.webp"
+      },
+      {
+        "nome": "Laranja 1",
+        "hex": "#df9f1d",
+        "hexes": [
+        "#df9f1d"
+      ],
+        "imagem": "/__l5e/assets-v1/e7e4dce1-58ad-4b70-b3aa-fb443282302d/racing-laranja1.webp"
+      },
+      {
+        "nome": "Laranja 2",
+        "hex": "#c9541d",
+        "hexes": [
+        "#c9541d"
+      ],
+        "imagem": "/__l5e/assets-v1/1ae4a0ca-678c-4b89-b8ec-846f8f518614/racing-laranja2.webp"
+      },
+      {
+        "nome": "Vermelho",
+        "hex": "#90162a",
+        "hexes": [
+        "#90162a"
+      ],
+        "imagem": "/__l5e/assets-v1/d1fd205e-7007-4906-9343-329e2cc2c699/racing-vermelho.webp"
+      },
+      {
+        "nome": "Rosa 1",
+        "hex": "#6d1034",
+        "hexes": [
+        "#6d1034"
+      ],
+        "imagem": "/__l5e/assets-v1/7c70e814-1130-4b3e-a90d-6edd9f94cb1a/racing-rosa1.webp"
+      },
+      {
+        "nome": "Rosa 2",
+        "hex": "#e9c8d8",
+        "hexes": [
+        "#e9c8d8"
+      ],
+        "imagem": "/__l5e/assets-v1/a110e02d-63cf-4c26-82bf-35f2e4c8e1a6/racing-rosa2.webp"
+      },
+      {
+        "nome": "Rosa 3",
+        "hex": "#c74283",
+        "hexes": [
+        "#c74283"
+      ],
+        "imagem": "/__l5e/assets-v1/ac8cb663-28ba-4265-8220-42dd81ac8234/racing-rosa3.webp"
+      },
+      {
+        "nome": "Roxo 1",
+        "hex": "#7d7fb2",
+        "hexes": [
+        "#7d7fb2"
+      ],
+        "imagem": "/__l5e/assets-v1/e8cb57b9-c1ab-40c9-b18d-74f3983a7ad8/racing-roxo1.webp"
+      },
+      {
+        "nome": "Roxo 2",
+        "hex": "#53387a",
+        "hexes": [
+        "#53387a"
+      ],
+        "imagem": "/__l5e/assets-v1/770a765f-9f01-4dde-b4e8-a477fdf270e7/racing-roxo2.webp"
+      },
+      {
+        "nome": "Roxo 3",
+        "hex": "#351a53",
+        "hexes": [
+        "#351a53"
+      ],
+        "imagem": "/__l5e/assets-v1/30c38497-368a-4d45-a9ec-f293440f294d/racing-roxo3.webp"
+      },
+      {
+        "nome": "Azul 1",
+        "hex": "#9ab7dc",
+        "hexes": [
+        "#9ab7dc"
+      ],
+        "imagem": "/__l5e/assets-v1/64bb4944-3656-4968-878b-c3d9aa94a7b7/racing-azul1.webp"
+      },
+      {
+        "nome": "Azul 2",
+        "hex": "#0490cb",
+        "hexes": [
+        "#0490cb"
+      ],
+        "imagem": "/__l5e/assets-v1/2f654ff9-85f0-4ef4-9873-442bf04f1e37/racing-azul2.webp"
+      },
+      {
+        "nome": "Azul 3",
+        "hex": "#215d98",
+        "hexes": [
+        "#215d98"
+      ],
+        "imagem": "/__l5e/assets-v1/f75d7a93-9770-47d9-abf4-268c691ca063/racing-azul3.webp"
+      },
+      {
+        "nome": "Azul 4",
+        "hex": "#5475a8",
+        "hexes": [
+        "#5475a8"
+      ],
+        "imagem": "/__l5e/assets-v1/6a088b68-cf11-4d82-920b-3eb5bc9f20ad/racing-azul4.webp"
+      },
+      {
+        "nome": "Azul 5",
+        "hex": "#263962",
+        "hexes": [
+        "#263962"
+      ],
+        "imagem": "/__l5e/assets-v1/7ec0cf6a-2031-44f6-a00c-a01c849409a8/racing-azul5.webp"
+      },
+      {
+        "nome": "Azul 6",
+        "hex": "#144267",
+        "hexes": [
+        "#144267"
+      ],
+        "imagem": "/__l5e/assets-v1/58aef014-f456-4cb8-85fb-ed235fe04a24/racing-azul6.webp"
+      },
+      {
+        "nome": "Azul 7",
+        "hex": "#0a3755",
+        "hexes": [
+        "#0a3755"
+      ],
+        "imagem": "/__l5e/assets-v1/2f8bf91c-9e8f-4781-9284-947d8faf6f4d/racing-azul7.webp"
+      },
+      {
+        "nome": "Cinzento 1",
+        "hex": "#777c90",
+        "hexes": [
+        "#777c90"
+      ],
+        "imagem": "/__l5e/assets-v1/480b58e1-29d4-40af-912f-cdd0d783ac96/racing-cinzento1.webp"
+      },
+      {
+        "nome": "Cinzento 2",
+        "hex": "#e6e5eb",
+        "hexes": [
+        "#e6e5eb"
+      ],
+        "imagem": "/__l5e/assets-v1/b5d848a0-d2c5-4582-8ac0-c974ce3d7a38/racing-cinzento2.webp"
+      },
+      {
+        "nome": "Cinzento 3",
+        "hex": "#b5b3bf",
+        "hexes": [
+        "#b5b3bf"
+      ],
+        "imagem": "/__l5e/assets-v1/950f0976-489a-4500-8054-625a51ab6e62/racing-cinzento3.webp"
+      },
+      {
+        "nome": "Cinzento 4",
+        "hex": "#646c79",
+        "hexes": [
+        "#646c79"
+      ],
+        "imagem": "/__l5e/assets-v1/6b13b4b1-5ecd-45d2-8786-51e353416df0/racing-cinzento4.webp"
+      },
+      {
+        "nome": "Cinzento 5",
+        "hex": "#58575d",
+        "hexes": [
+        "#58575d"
+      ],
+        "imagem": "/__l5e/assets-v1/e89190f6-ee31-4fe4-b839-9965640c7953/racing-cinzento5.webp"
+      },
+      {
+        "nome": "Preto",
+        "hex": "#332e2a",
+        "hexes": [
+        "#332e2a"
+      ],
+        "imagem": "/__l5e/assets-v1/e67c8533-10c0-4bed-bd3a-5bce4db9f23f/racing-preto.webp"
+      }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "2",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      [
+        "Comprimento",
+        "40",
+        "45",
+        "49",
+        "53",
+        "57",
+        "61",
+        "65",
+        "67",
+        "68",
+        "72",
+        "76",
+        "80"
+      ],
+      [
+        "Largura",
+        "30",
+        "32",
+        "35",
+        "38",
+        "41",
+        "44",
+        "46",
+        "48",
+        "52",
+        "56",
+        "59",
+        "62"
+      ]
+    ],
+    "precos": [
+      [
+        "0–99 unidades",
+        "11,00€"
+      ],
+      [
+        "100–499 unidades",
+        "9,50€"
+      ],
+      [
+        "+499 unidades",
+        "8,75€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Densidade: 160 g/m²"
+    ]
+  },
+  {
+    "id": "viena-crianca",
+    "nome": "T-shirt VIENA",
+    "referenciaNome": "VIENA",
+    "categoria": "tshirts",
+    "subcategoria": "Clássicas",
+    "genero": "crianca",
+    "descricao": "T-shirt VIENA — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Algodão",
+    "referencia": "#VIE",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+    ],
+    "tamanhos": [
+      ["Tamanho", "2", "4", "6", "8", "10", "12"],
+      ["Comprimento", "38", "42", "46", "50", "54", "58"],
+      ["Largura", "27", "30", "33", "36", "39", "42"]
+    ],
+    "precos": [
+      ["0–99 unidades", "6,50€"],
+      ["100–499 unidades", "5,90€"],
+      ["+499 unidades", "5,25€"]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
+    "id": "bruxelas",
+    "nome": "T-shirt BRUXELAS",
+    "referenciaNome": "BRUXELAS",
+    "categoria": "tshirts",
+    "subcategoria": "Clássicas",
+    "genero": "crianca",
+    "descricao": "T-shirt BRUXELAS — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Algodão",
+    "referencia": "#BRU",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+    ],
+    "tamanhos": [
+      ["Tamanho", "2", "4", "6", "8", "10", "12"],
+      ["Comprimento", "38", "42", "46", "50", "54", "58"],
+      ["Largura", "27", "30", "33", "36", "39", "42"]
+    ],
+    "precos": [
+      ["0–99 unidades", "6,50€"],
+      ["100–499 unidades", "5,90€"],
+      ["+499 unidades", "5,25€"]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
+    "id": "baku",
+    "nome": "T-shirt BAKU",
+    "referenciaNome": "BAKU",
+    "categoria": "tshirts",
+    "subcategoria": "Clássicas",
+    "genero": "crianca",
+    "descricao": "T-shirt BAKU — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Algodão",
+    "referencia": "#BAK",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+    ],
+    "tamanhos": [
+      ["Tamanho", "2", "4", "6", "8", "10", "12"],
+      ["Comprimento", "38", "42", "46", "50", "54", "58"],
+      ["Largura", "27", "30", "33", "36", "39", "42"]
+    ],
+    "precos": [
+      ["0–99 unidades", "6,50€"],
+      ["100–499 unidades", "5,90€"],
+      ["+499 unidades", "5,25€"]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
+    "id": "oslo",
+    "nome": "T-shirt OSLO",
+    "referenciaNome": "OSLO",
+    "categoria": "tshirts",
+    "subcategoria": "Clássicas",
+    "genero": "crianca",
+    "descricao": "T-shirt OSLO — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Algodão",
+    "referencia": "#OSL",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+    ],
+    "tamanhos": [
+      ["Tamanho", "2", "4", "6", "8", "10", "12"],
+      ["Comprimento", "38", "42", "46", "50", "54", "58"],
+      ["Largura", "27", "30", "33", "36", "39", "42"]
+    ],
+    "precos": [
+      ["0–99 unidades", "6,50€"],
+      ["100–499 unidades", "5,90€"],
+      ["+499 unidades", "5,25€"]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
+    "id": "saravejo",
+    "nome": "T-shirt SARAVEJO",
+    "referenciaNome": "SARAVEJO",
+    "categoria": "tshirts",
+    "subcategoria": "Clássicas",
+    "genero": "crianca",
+    "descricao": "T-shirt SARAVEJO — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Algodão",
+    "referencia": "#SAR",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+    ],
+    "tamanhos": [
+      ["Tamanho", "2", "4", "6", "8", "10", "12"],
+      ["Comprimento", "38", "42", "46", "50", "54", "58"],
+      ["Largura", "27", "30", "33", "36", "39", "42"]
+    ],
+    "precos": [
+      ["0–99 unidades", "6,50€"],
+      ["100–499 unidades", "5,90€"],
+      ["+499 unidades", "5,25€"]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Detalhes e cores a confirmar"
+    ]
+  },
 ];
 
 export function getCategoria(id: string): Categoria | undefined {
@@ -3368,7 +3873,7 @@ export function getModelosPorCategoria(categoria: CategoriaId): Modelo[] {
       return genero === "unissexo" || genero === categoria;
     }
     if (categoria === "crianca") {
-      return m.tamanhos[0]?.some((t) => /^\d+$/.test(t) && Number(t) <= 16);
+      return m.genero === "crianca";
     }
     return m.categoria === categoria;
   });
