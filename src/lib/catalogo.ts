@@ -720,6 +720,72 @@ export const modelos: Modelo[] = [
     ]
   },
   {
+    "id": "paris",
+    "nome": "T-shirt PARIS",
+    "referenciaNome": "PARIS",
+    "categoria": "tshirts",
+    "subcategoria": "Clássicas",
+    "descricao": "T-shirt PARIS — modelo em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Algodão",
+    "referencia": "#PAR-PAR",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": ["#eaedf1"],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      ["Tamanho", "S", "M", "L", "XL", "XXL", "3XL"],
+      ["Comprimento", "67", "68", "72", "76", "80", "84"],
+      ["Largura", "48", "52", "56", "59", "62", "65"]
+    ],
+    "precos": [
+      ["0–99 unidades", "11,00€"],
+      ["100–499 unidades", "9,50€"],
+      ["+499 unidades", "8,75€"]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
+    "id": "berlim",
+    "nome": "T-shirt BERLIM",
+    "referenciaNome": "BERLIM",
+    "categoria": "tshirts",
+    "subcategoria": "Clássicas",
+    "descricao": "T-shirt BERLIM — modelo em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Algodão",
+    "referencia": "#BER-BER",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": ["#eaedf1"],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      ["Tamanho", "S", "M", "L", "XL", "XXL", "3XL"],
+      ["Comprimento", "67", "68", "72", "76", "80", "84"],
+      ["Largura", "48", "52", "56", "59", "62", "65"]
+    ],
+    "precos": [
+      ["0–99 unidades", "11,00€"],
+      ["100–499 unidades", "9,50€"],
+      ["+499 unidades", "8,75€"]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
     "id": "resistance",
     "nome": "T-shirt RESISTANCE",
     "referenciaNome": "RESISTANCE",
