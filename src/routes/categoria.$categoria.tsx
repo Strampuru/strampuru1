@@ -115,12 +115,10 @@ function CategoriaPage() {
                 key={t}
                 onClick={() =>
                   navigate({
-                    search: (prev) => ({
-                      ...prev,
-                      tipo: t === "Todos" ? undefined : t,
-                    }),
+                    search: { tipo: t === "Todos" ? undefined : t } as any,
                   })
                 }
+
                 className={`shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest transition-colors ${
                   tipo === t
                     ? "bg-accent text-accent-foreground"
