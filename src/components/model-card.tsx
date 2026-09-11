@@ -10,7 +10,7 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
   const src = corAtiva?.imagem ?? modelo.lifestyle ?? modelo.imagem;
   const emUso = !corAtiva && Boolean(modelo.lifestyle);
 
-  const navegar = (e: React.MouseEvent, dir: 1 | -1) => {
+  const navegar = (e: MouseEvent, dir: 1 | -1) => {
     e.preventDefault();
     e.stopPropagation();
     const total = modelo.cores.length + 1; // +1 = imagem principal
