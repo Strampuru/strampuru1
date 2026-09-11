@@ -5,10 +5,11 @@ import { ModelCard } from "@/components/model-card";
 import { getCategoria, getFamiliaPorSubcategoria, getModelosPorCategoria, getSubcategoriaModelo } from "@/lib/catalogo";
 
 export const Route = createFileRoute("/categoria/$categoria")({
-  validateSearch: (search: Record<string, unknown>): { sub?: string; tipo?: string } => ({
+  validateSearch: (search: Record<string, unknown>): { sub?: string | undefined; tipo?: string | undefined } => ({
     sub: typeof search["sub"] === "string" ? search["sub"] : undefined,
     tipo: typeof search["tipo"] === "string" ? search["tipo"] : undefined,
   }),
+
   loader: ({ params }) => {
     const categoria = getCategoria(params.categoria);
     if (!categoria) throw notFound();
