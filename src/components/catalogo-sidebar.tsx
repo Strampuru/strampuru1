@@ -19,6 +19,7 @@ export function CatalogoSidebar({
   const [expandida, setExpandida] = useState<string | null>(
     categorias[0]?.id ?? null,
   );
+  const [subExpandidas, setSubExpandidas] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     if (!aberta) return;
