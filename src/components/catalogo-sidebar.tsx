@@ -104,33 +104,72 @@ export function CatalogoSidebar({
                   <ul className="overflow-hidden pl-1 pb-4 space-y-1 text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
                     {c.subcategorias.map((sub) => {
                       const familia = getFamiliaPorSubcategoria(sub);
+                      const temTipos = familia && familia.subcategorias.length > 0;
+                      const chaveSub = `${c.id}::${sub}`;
+                      const subAberta = subExpandidas.has(chaveSub);
+
+                      const toggleSub = () => {
+                        setSubExpandidas((prev) => {
+                          const next = new Set(prev);
+                          if (next.has(chaveSub)) next.delete(chaveSub);
+                          else next.add(chaveSub);
+                          return next;
+                        });
+                      };
+
                       return (
                         <li key={sub}>
-                          <Link
-                            to="/categoria/$categoria"
-                            params={{ categoria: c.id }}
-                            search={{ sub }}
-                            onClick={onFechar}
-                            className="block py-2 hover:text-accent transition-colors"
-                          >
-                            {sub}
-                          </Link>
-                          {familia && familia.subcategorias.length > 0 && (
-                            <ul className="pl-4 mt-1 space-y-0.5 text-[10px] uppercase tracking-[0.18em] text-muted-foreground/80">
-                              {familia.subcategorias.map((tipo) => (
-                                <li key={tipo}>
-                                  <Link
-                                    to="/categoria/$categoria"
-                                    params={{ categoria: c.id }}
-                                    search={{ sub, tipo }}
-                                    onClick={onFechar}
-                                    className="block py-1.5 hover:text-accent transition-colors"
-                                  >
-                                    {tipo}
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
+                          <div className="flex items-center justify-between gap-2">
+                            <Link
+                              to="/categoria/$categoria"
+                              params={{ categoria: c.id }}
+                              search={{ sub }}
+                              onClick={onFechar}
+                              className="flex-1 min-w-0 py-2 hover:text-accent transition-colors"
+                            >
+                              {sub}
+                            </Link>
+                            {temTipos && (
+                              <button
+                                onClick={toggleSub}
+                                aria-label={`${subAberta ? "Fechar" : "Abrir"} subdivisões de ${sub}`}
+                                aria-expanded={subAberta}
+                                className="shrink-0 min-h-9 min-w-9 -mr-2 flex items-center justify-center text-muted-foreground hover:text-accent transition-colors"
+                              >
+                                <svg
+                                  viewBox="0 0 24 24"
+                                  className={`w-3.5 h-3.5 transition-transform duration-300 ${subAberta ? "rotate-180" : ""}`}
+                                  fill="none"
+                                  stroke="currentColor"
+                                >
+                                  <path strokeWidth="1.5" strokeLinecap="round" d="M6 9l6 6 6-6" />
+                                </svg>
+                              </button>
+                            )}
+                          </div>
+
+                          {temTipos && (
+                            <div
+                              className={`grid transition-all duration-300 ${
+                                subAberta ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                              }`}
+                            >
+                              <ul className="overflow-hidden pl-4 mt-1 space-y-0.5 text-[10px] uppercase tracking-[0.18em] text-muted-foreground/80">
+                                {familia.subcategorias.map((tipo) => (
+                                  <li key={tipo}>
+                                    <Link
+                                      to="/categoria/$categoria"
+                                      params={{ categoria: c.id }}
+                                      search={{ sub, tipo }}
+                                      onClick={onFechar}
+                                      className="block py-1.5 hover:text-accent transition-colors"
+                                    >
+                                      {tipo}
+                                    </Link>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
                           )}
                         </li>
                       );
