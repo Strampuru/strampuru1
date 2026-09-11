@@ -83,57 +83,69 @@ function CategoriaPage() {
       </section>
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-10 md:py-16">
-        {/* Subcategoria filter — sempre visível */}
-        <div className="-mx-4 sm:mx-0 px-4 sm:px-0 mb-6 flex gap-2.5 sm:gap-3 overflow-x-auto sm:flex-wrap [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-          {opcoes.map((op) => (
-            <button
-              key={op}
-              onClick={() => {
-                const novaFamilia = op === "Todos" ? undefined : getFamiliaPorSubcategoria(op);
-                const manterTipo = novaFamilia?.subcategorias.includes(tipo ?? "");
-                navigate({
-                  search: {
-                    sub: op === "Todos" ? undefined : op,
-                    tipo: manterTipo ? tipo : undefined,
-                  } as any,
-                });
-              }}
-
-              className={`shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest transition-colors ${
-                filtro === op
-                  ? "bg-primary text-primary-foreground"
-                  : "border border-border text-muted-foreground hover:text-foreground hover:border-foreground/30"
-              }`}
-            >
-              {op}
-            </button>
-          ))}
-        </div>
-
-
-        {/* Tipo filter (ex.: Clássicas / Desportivas) */}
-        {tipos.length > 0 && (
-          <div className="-mx-4 sm:mx-0 px-4 sm:px-0 mb-10 md:mb-16 flex gap-2.5 sm:gap-3 overflow-x-auto sm:flex-wrap [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-            {tipos.map((t) => (
+        {/* Filtro principal: tipos quando uma subcategoria com variações está selecionada; caso contrário subcategorias */}
+        <div className="-mx-4 sm:mx-0 px-4 sm:px-0 mb-10 md:mb-16 flex gap-2.5 sm:gap-3 overflow-x-auto sm:flex-wrap [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {familia ? (
+            <>
               <button
-                key={t}
                 onClick={() =>
                   navigate({
-                    search: { tipo: t === "Todos" ? undefined : t } as any,
+                    search: { sub: undefined, tipo: undefined } as any,
                   })
                 }
+                className="shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest border border-border text-muted-foreground hover:text-foreground hover:border-foreground/30 transition-colors"
+              >
+                ← {familia.nome}
+              </button>
+              <span className="w-px bg-border shrink-0" />
+              {tipos.map((t) => (
+                <button
+                  key={t}
+                  onClick={() =>
+                    navigate({
+                      search: {
+                        sub: filtro,
+                        tipo: t === "Todos" ? undefined : t,
+                      } as any,
+                    })
+                  }
+                  className={`shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest transition-colors ${
+                    tipo === t
+                      ? "bg-primary text-primary-foreground"
+                      : "border border-border text-muted-foreground hover:text-foreground hover:border-foreground/30"
+                  }`}
+                >
+                  {t}
+                </button>
+              ))}
+            </>
+          ) : (
+            opcoes.map((op) => (
+              <button
+                key={op}
+                onClick={() => {
+                  const novaFamilia = op === "Todos" ? undefined : getFamiliaPorSubcategoria(op);
+                  const manterTipo = novaFamilia?.subcategorias.includes(tipo ?? "");
+                  navigate({
+                    search: {
+                      sub: op === "Todos" ? undefined : op,
+                      tipo: manterTipo ? tipo : undefined,
+                    } as any,
+                  });
+                }}
 
                 className={`shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest transition-colors ${
-                  tipo === t
-                    ? "bg-accent text-accent-foreground"
+                  filtro === op
+                    ? "bg-primary text-primary-foreground"
                     : "border border-border text-muted-foreground hover:text-foreground hover:border-foreground/30"
                 }`}
               >
-                {t}
+                {op}
               </button>
-            ))}
-          </div>
-        )}
+            ))
+          )}
+        </div>
+
 
         {visiveis.length === 0 ? (
           <p className="text-muted-foreground text-sm uppercase tracking-widest py-24 text-center">
