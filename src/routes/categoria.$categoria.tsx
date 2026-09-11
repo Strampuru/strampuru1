@@ -1,6 +1,6 @@
 import { createFileRoute, notFound, Link, useNavigate } from "@tanstack/react-router";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
 import { ModelCard } from "@/components/model-card";
 import { getCategoria, getFamiliaPorSubcategoria, getModelosPorCategoria, getSubcategoriaModelo } from "@/lib/catalogo";
