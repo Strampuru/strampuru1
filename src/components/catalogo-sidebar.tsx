@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { categorias } from "@/lib/catalogo";
+import { categorias, getFamiliaPorSubcategoria } from "@/lib/catalogo";
+
 
 /**
  * Aba retrátil lateral com todas as categorias e respetivas subcategorias.
