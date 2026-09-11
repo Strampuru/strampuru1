@@ -3858,6 +3858,64 @@ export const modelos: Modelo[] = [
       "Detalhes e cores a confirmar"
     ]
   },
+  {
+    "id": "sofia",
+    "nome": "Body SÓFIA",
+    "referenciaNome": "SÓFIA",
+    "categoria": "tshirts",
+    "subcategoria": "Bodies",
+    "genero": "crianca",
+    "descricao": "Body SÓFIA — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Algodão",
+    "referencia": "#SOF-SOF",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+    ],
+    "tamanhos": [
+      ["Tamanho", "2", "4", "6", "8", "10", "12"],
+      ["Comprimento", "38", "42", "46", "50", "54", "58"],
+      ["Largura", "27", "30", "33", "36", "39", "42"]
+    ],
+    "precos": [
+      ["0–99 unidades", "6,50€"],
+      ["100–499 unidades", "5,90€"],
+      ["+499 unidades", "5,25€"]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
+    "id": "riga",
+    "nome": "Body RIGA",
+    "referenciaNome": "RIGA",
+    "categoria": "tshirts",
+    "subcategoria": "Bodies",
+    "genero": "crianca",
+    "descricao": "Body RIGA — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Algodão",
+    "referencia": "#RIG-RIG",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+    ],
+    "tamanhos": [
+      ["Tamanho", "2", "4", "6", "8", "10", "12"],
+      ["Comprimento", "38", "42", "46", "50", "54", "58"],
+      ["Largura", "27", "30", "33", "36", "39", "42"]
+    ],
+    "precos": [
+      ["0–99 unidades", "6,50€"],
+      ["100–499 unidades", "5,90€"],
+      ["+499 unidades", "5,25€"]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Detalhes e cores a confirmar"
+    ]
+  }
 ];
 
 export function getCategoria(id: string): Categoria | undefined {
