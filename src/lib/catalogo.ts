@@ -55,6 +55,17 @@ export const familias: Categoria[] = [
     ]
   },
   {
+    "id": "polos",
+    "nome": "Polos",
+    "titulo": "Polos",
+    "descricao": "Polos em algodão e técnicos, com gola e botões.",
+    "imagem": "/__l5e/assets-v1/4b207e39-c231-4545-b5d1-45ff824a1af7/kentuky-branco.webp",
+    "subcategorias": [
+      "Polos"
+    ]
+  },
+  {
+
     "id": "sweats",
     "nome": "Sweats",
     "titulo": "Sweats e Hoodies",
