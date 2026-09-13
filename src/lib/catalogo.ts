@@ -2120,14 +2120,14 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "strategy",
-    "nome": "Polo STRATEGY",
-    "referenciaNome": "STRATEGY",
+    "nome": "Polo SANTIAGO",
+    "referenciaNome": "SANTIAGO",
     "categoria": "polos",
     "subcategoria": "Polos",
     "genero": "homem",
-    "descricao": "Polo STRATEGY disponível em 6 cores. 100% Poliéster",
+    "descricao": "Polo SANTIAGO disponível em 6 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
-    "referencia": "#STR-STR",
+    "referencia": "#STR-SNT",
     "imagem": "/__l5e/assets-v1/26e95779-b082-4b12-abb9-f6143d564c4d/strategy-vermelhov1.webp",
     "lifestyle": "/lifestyle/strategy.jpg",
     "cores": [
