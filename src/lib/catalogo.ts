@@ -1382,7 +1382,7 @@ export const modelos: Modelo[] = [
     "genero": "homem",
     "descricao": "T-shirt MOSCOVO disponível em 5 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
-    "referencia": "#MOS-MOS",
+    "referencia": "#DUB-DUB",
     "imagem": "/__l5e/assets-v1/a946776f-b459-40d2-946b-b756be7e7608/maurice-verde.webp",
     "lifestyle": "/lifestyle/maurice.jpg",
     "cores": [
@@ -1580,14 +1580,14 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "moscow",
-    "nome": "T-shirt MOSCOW",
-    "referenciaNome": "MOSCOW",
+    "nome": "T-shirt DUBLIN",
+    "referenciaNome": "DUBLIN",
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "homem",
-    "descricao": "T-shirt MOSCOW — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": T-shirt DUBLIN — modelo em preparação, fotografias a adicionar brevemente.",
     "composicao": "100% Poliéster",
-    "referencia": "#MOS-MOS",
+    "referencia": "#DUB-DUB",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
       {
@@ -4570,7 +4570,7 @@ export const modelos: Modelo[] = [
     "genero": "crianca",
     "descricao": "T-shirt MOSCOVO disponível em 5 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
-    "referencia": "#MOS-MOS",
+    "referencia": "#DUB-DUB",
     "imagem": "/__l5e/assets-v1/a946776f-b459-40d2-946b-b756be7e7608/maurice-verde.webp",
     "lifestyle": "/lifestyle/maurice.jpg",
     "cores": [
