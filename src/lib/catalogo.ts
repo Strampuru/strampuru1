@@ -6527,6 +6527,60 @@ export const modelos: Modelo[] = [
       "Material e dimensões a confirmar",
       "Detalhes e cores a confirmar"
     ]
+  },
+  {
+    "id": "torre-de-madeira",
+    "nome": "TORRE DE MADEIRA",
+    "referenciaNome": "TORRE DE MADEIRA",
+    "categoria": "brindes",
+    "subcategoria": "Jogos",
+    "genero": "unissexo",
+    "descricao": "Artigo TORRE DE MADEIRA da coleção Jogos em preparação, fotografias e detalhes a adicionar brevemente.",
+    "composicao": "Composição a confirmar",
+    "referencia": "#TOR-TOR",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": [
+          "#eaedf1"
+        ],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "Único"
+      ],
+      [
+        "Comprimento",
+        "–"
+      ],
+      [
+        "Largura",
+        "–"
+      ]
+    ],
+    "precos": [
+      [
+        "0–99 unidades",
+        "5,00€"
+      ],
+      [
+        "100–499 unidades",
+        "4,50€"
+      ],
+      [
+        "+499 unidades",
+        "4,00€"
+      ]
+    ],
+    "caracteristicas": [
+      "Material e dimensões a confirmar",
+      "Detalhes e cores a confirmar"
+    ]
   }];
 
 export function getCategoria(id: string): Categoria | undefined {
