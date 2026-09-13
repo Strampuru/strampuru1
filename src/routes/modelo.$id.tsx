@@ -7,7 +7,7 @@ export const Route = createFileRoute("/modelo/$id")({
   loader: ({ params }) => {
     const modelo = getModelo(params.id);
     if (!modelo) throw notFound();
-    const categoria = getCategoria(modelo.categoria)!;
+    const categoria = getCategoria(modelo.categoria) ?? null;
     return { modelo, categoria };
   },
   head: ({ loaderData }) => {
