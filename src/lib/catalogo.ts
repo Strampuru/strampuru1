@@ -3635,13 +3635,13 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "balak",
-    "nome": "Jaqueta BALAK",
-    "referenciaNome": "BALAK",
+    "nome": "Jaqueta MAPUTO",
+    "referenciaNome": "MAPUTO",
     "categoria": "jaquetas",
     "subcategoria": "Com Capuz",
-    "descricao": "Jaqueta BALAK disponível em 2 cores. Interior: 100% Poliéster (220 g/m²)",
+    "descricao": "Jaqueta MAPUTO disponível em 2 cores. Interior: 100% Poliéster (220 g/m²)",
     "composicao": "Interior: 100% Poliéster (220 g/m²), Exterior: 100% Poliéster (160 g/m²)",
-    "referencia": "#BAL-BAL",
+    "referencia": "#MAP-MAP",
     "imagem": "/__l5e/assets-v1/dccb9ff8-49c8-485d-a2d7-9a2a6020b2be/balak-azul.webp",
     "lifestyle": "/lifestyle/balak.jpg",
     "cores": [
