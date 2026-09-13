@@ -5303,6 +5303,78 @@ export const modelos: Modelo[] = [
       "100% Poliéster",
       "Detalhes e cores a confirmar"
     ]
+  },
+  {
+    "id": "singapura",
+    "nome": "Conjunto SINGAPURA",
+    "referenciaNome": "SINGAPURA",
+    "categoria": "conjuntos",
+    "subcategoria": "Conjuntos",
+    "genero": "unissexo",
+    "descricao": "Conjunto SINGAPURA em preparação, fotografias e detalhes a adicionar brevemente.",
+    "composicao": "Composição a confirmar",
+    "referencia": "#SIN-SIN",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": [
+          "#eaedf1"
+        ],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      [
+        "Comprimento",
+        "66",
+        "69",
+        "72",
+        "75",
+        "78",
+        "81",
+        "84"
+      ],
+      [
+        "Largura",
+        "49",
+        "52",
+        "55",
+        "58",
+        "61",
+        "64",
+        "67"
+      ]
+    ],
+    "precos": [
+      [
+        "0–99 unidades",
+        "25,00€"
+      ],
+      [
+        "100–499 unidades",
+        "23,00€"
+      ],
+      [
+        "+499 unidades",
+        "21,00€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Detalhes e cores a confirmar"
+    ]
   }];
 
 export function getCategoria(id: string): Categoria | undefined {
