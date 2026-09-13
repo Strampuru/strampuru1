@@ -1891,14 +1891,14 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "kentucky",
-    "nome": "Polo KENTUKY",
-    "referenciaNome": "KENTUKY",
+    "nome": "Polo BRASILIA",
+    "referenciaNome": "BRASILIA",
     "categoria": "polos",
     "subcategoria": "Polos",
     "genero": "unissexo",
-    "descricao": "Polo KENTUKY disponível em 9 cores. 100% Poliéster",
+    "descricao": "Polo BRASILIA disponível em 9 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
-    "referencia": "#KEN-KEN",
+    "referencia": "#BRA-BRA",
     "imagem": "/__l5e/assets-v1/4b207e39-c231-4545-b5d1-45ff824a1af7/kentuky-branco.webp",
     "lifestyle": "/lifestyle/kentucky.jpg",
     "cores": [
