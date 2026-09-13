@@ -2720,7 +2720,9 @@ export const modelos: Modelo[] = [
       "100% Poliéster",
       "Densidade: 280 g/m²"
     ]
-  },    "id": "lima-crianca",
+  },
+  {
+    "id": "lima-crianca",
     "nome": "Hoodie LIMA (Criança)",
     "referenciaNome": "LIMA",
     "categoria": "sweats",
