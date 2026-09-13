@@ -1580,14 +1580,14 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "moscow",
-    "nome": "T-shirt DUBLIN",
-    "referenciaNome": "DUBLIN",
+    "nome": "T-shirt MELODIAS",
+    "referenciaNome": "MELODIAS",
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "homem",
-    "descricao": "T-shirt DUBLIN — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt MELODIAS — modelo em preparação, fotografias a adicionar brevemente.",
     "composicao": "100% Poliéster",
-    "referencia": "#DUB-DUB",
+    "referencia": "#MEL-MEL",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
       {
