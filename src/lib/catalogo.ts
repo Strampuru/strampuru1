@@ -2505,6 +2505,7 @@ export const modelos: Modelo[] = [
     "referenciaNome": "LIMA",
     "categoria": "sweats",
     "subcategoria": "Com Capuz",
+    "genero": "unissexo",
     "descricao": "Hoodie LIMA disponível em 20 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#LIM-LIM",
@@ -2675,10 +2676,6 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "3",
-        "4/5",
-        "6/8",
-        "10/12",
         "S",
         "M",
         "L",
@@ -2688,10 +2685,6 @@ export const modelos: Modelo[] = [
       ],
       [
         "Comprimento",
-        "46",
-        "51",
-        "53",
-        "61",
         "66",
         "69",
         "72",
@@ -2701,10 +2694,6 @@ export const modelos: Modelo[] = [
       ],
       [
         "Largura",
-        "35",
-        "39",
-        "43",
-        "47",
         "52",
         "55",
         "58",
@@ -2725,6 +2714,222 @@ export const modelos: Modelo[] = [
       [
         "+249 unidades",
         "17,50€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Densidade: 280 g/m²"
+    ]
+  },
+  {
+    "id": "lima-crianca",
+    "nome": "Hoodie LIMA (Criança)",
+    "referenciaNome": "LIMA",
+    "categoria": "sweats",
+    "subcategoria": "Com Capuz",
+    "genero": "crianca",
+    "descricao": "Hoodie LIMA disponível em 20 cores. 100% Poliéster (tamanhos de criança)",
+    "composicao": "100% Poliéster, Densidade: 280 g/m²",
+    "referencia": "#LIM-LIM-C",
+    "imagem": "/__l5e/assets-v1/66db4335-a27f-4f27-bb32-a94d941e6b79/arizona-branco.webp",
+    "lifestyle": "/lifestyle/arizona.jpg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#ecedf1",
+        "hexes": [
+        "#ecedf1"
+      ],
+        "imagem": "/__l5e/assets-v1/66db4335-a27f-4f27-bb32-a94d941e6b79/arizona-branco.webp"
+      },
+      {
+        "nome": "Castanho",
+        "hex": "#9a8665",
+        "hexes": [
+        "#9a8665"
+      ],
+        "imagem": "/__l5e/assets-v1/ccf01965-574e-4538-9b9b-ab0080b2ca46/arizona-castanho.webp"
+      },
+      {
+        "nome": "Verde 1",
+        "hex": "#91b654",
+        "hexes": [
+        "#91b654"
+      ],
+        "imagem": "/__l5e/assets-v1/3038bec8-080f-4d88-b3f2-ecf6edf09e18/arizona-verde1.webp"
+      },
+      {
+        "nome": "Verde 2",
+        "hex": "#1e6e4d",
+        "hexes": [
+        "#1e6e4d"
+      ],
+        "imagem": "/__l5e/assets-v1/f235c56e-e982-4b73-84c0-6f95101d2f18/arizona-verde2.webp"
+      },
+      {
+        "nome": "Verde 3",
+        "hex": "#0f5341",
+        "hexes": [
+        "#0f5341"
+      ],
+        "imagem": "/__l5e/assets-v1/0720b1d6-9f12-4d11-9c7d-a143b87c71f0/arizona-verde3.webp"
+      },
+      {
+        "nome": "Verde 4",
+        "hex": "#4c513b",
+        "hexes": [
+        "#4c513b"
+      ],
+        "imagem": "/__l5e/assets-v1/0500442f-429f-4657-90f0-ccee306fa2d4/arizona-verde4.webp"
+      },
+      {
+        "nome": "Laranja",
+        "hex": "#be5020",
+        "hexes": [
+        "#be5020"
+      ],
+        "imagem": "/__l5e/assets-v1/ba064205-6801-4f71-824b-3fb9d4b59a93/arizona-laranja.webp"
+      },
+      {
+        "nome": "Vermelho 1",
+        "hex": "#881926",
+        "hexes": [
+        "#881926"
+      ],
+        "imagem": "/__l5e/assets-v1/59b24b69-05aa-464e-ad05-b007a7480487/arizona-vermelho1.webp"
+      },
+      {
+        "nome": "Vermelho 2",
+        "hex": "#651132",
+        "hexes": [
+        "#651132"
+      ],
+        "imagem": "/__l5e/assets-v1/9fb93e12-7213-4ca5-a492-9f44c8228b6e/arizona-vermelho2.webp"
+      },
+      {
+        "nome": "Rosa 1",
+        "hex": "#dcbdcc",
+        "hexes": [
+        "#dcbdcc"
+      ],
+        "imagem": "/__l5e/assets-v1/25ab44f7-fdd4-4a65-8da4-2d176ffaa49d/arizona-rosa1.webp"
+      },
+      {
+        "nome": "Rosa 2",
+        "hex": "#bb447e",
+        "hexes": [
+        "#bb447e"
+      ],
+        "imagem": "/__l5e/assets-v1/147e2d48-e345-4ccf-80e5-f696f4171954/arizona-rosa2.webp"
+      },
+      {
+        "nome": "Roxo 1",
+        "hex": "#4d376e",
+        "hexes": [
+        "#4d376e"
+      ],
+        "imagem": "/__l5e/assets-v1/2e2045d7-7213-4bf3-8072-0354d76f8382/arizona-roxo1.webp"
+      },
+      {
+        "nome": "Roxo 2",
+        "hex": "#242658",
+        "hexes": [
+        "#242658"
+      ],
+        "imagem": "/__l5e/assets-v1/37039eb2-ccf7-4c07-8a77-96c05451ddc7/arizona-roxo2.webp"
+      },
+      {
+        "nome": "Azul 1",
+        "hex": "#94b1d3",
+        "hexes": [
+        "#94b1d3"
+      ],
+        "imagem": "/__l5e/assets-v1/1a724bfb-0859-4667-ac38-1afc90e297b4/arizona-azul1.webp"
+      },
+      {
+        "nome": "Azul 2",
+        "hex": "#048bbd",
+        "hexes": [
+        "#048bbd"
+      ],
+        "imagem": "/__l5e/assets-v1/d8adf478-46f7-4ab7-a8b7-b45d7e698cc5/arizona-azul2.webp"
+      },
+      {
+        "nome": "Azul 3",
+        "hex": "#245687",
+        "hexes": [
+        "#245687"
+      ],
+        "imagem": "/__l5e/assets-v1/c8e9bf21-afd2-4d9e-996c-7fe2c18b8b67/arizona-azul3.webp"
+      },
+      {
+        "nome": "Azul 4",
+        "hex": "#11324b",
+        "hexes": [
+        "#11324b"
+      ],
+        "imagem": "/__l5e/assets-v1/b86fd0d1-d593-43ac-9d5c-640e64bca89e/arizona-azul4.webp"
+      },
+      {
+        "nome": "Cinzento 1",
+        "hex": "#9f9ea9",
+        "hexes": [
+        "#9f9ea9"
+      ],
+        "imagem": "/__l5e/assets-v1/0ec9c474-f5be-467e-85b0-4c79c354e8cf/arizona-cinzento1.webp"
+      },
+      {
+        "nome": "Cinzento 2",
+        "hex": "#4d4e53",
+        "hexes": [
+        "#4d4e53"
+      ],
+        "imagem": "/__l5e/assets-v1/3a587b79-6a06-4d31-8b1c-0615b85350d0/arizona-cinzento2.webp"
+      },
+      {
+        "nome": "Preto",
+        "hex": "#2d2a25",
+        "hexes": [
+        "#2d2a25"
+      ],
+        "imagem": "/__l5e/assets-v1/55b85c44-b21f-49c1-b4ca-95240de78169/arizona-preto.webp"
+      }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "3",
+        "4/5",
+        "6/8",
+        "10/12"
+      ],
+      [
+        "Comprimento",
+        "46",
+        "51",
+        "53",
+        "61"
+      ],
+      [
+        "Largura",
+        "35",
+        "39",
+        "43",
+        "47"
+      ]
+    ],
+    "precos": [
+      [
+        "0–99 unidades",
+        "12,00€"
+      ],
+      [
+        "100–499 unidades",
+        "11,00€"
+      ],
+      [
+        "+499 unidades",
+        "10,00€"
       ]
     ],
     "caracteristicas": [
