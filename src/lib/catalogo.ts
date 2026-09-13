@@ -3542,13 +3542,13 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "ontario",
-    "nome": "Jaqueta ONTARIO",
-    "referenciaNome": "ONTARIO",
+    "nome": "Jaqueta TÓKIO",
+    "referenciaNome": "TÓKIO",
     "categoria": "jaquetas",
     "subcategoria": "Com Capuz",
-    "descricao": "Jaqueta ONTARIO disponível em 4 cores. Interior: 100% Poliéster (200 g/m²)",
+    "descricao": "Jaqueta TÓKIO disponível em 4 cores. Interior: 100% Poliéster (200 g/m²)",
     "composicao": "Interior: 100% Poliéster (200 g/m²), Exterior: 70% Poliéster, 30% PVC (200 g/m²)",
-    "referencia": "#ONT-ONT",
+    "referencia": "#TOK-TOK",
     "imagem": "/__l5e/assets-v1/3157dcfc-e765-45e3-82d8-0c759bcdb4f5/ontario-vermelho.webp",
     "lifestyle": "/lifestyle/ontario.jpg",
     "cores": [
