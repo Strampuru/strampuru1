@@ -83,7 +83,7 @@ export const categorias: Categoria[] = [
   { id: "mulher", nome: "Mulher", titulo: "Mulher", descricao: "Vestuário de adulto para personalizar.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Jaquetas"] },
   { id: "crianca", nome: "Criança", titulo: "Criança", descricao: "Modelos disponíveis em tamanhos de criança.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Babetes", "Bodies"] },
   { id: "conjuntos", nome: "Conjuntos", titulo: "Conjuntos", descricao: "Coleções com várias peças.", imagem: "", subcategorias: [] },
-  { id: "brindes", nome: "Outros", titulo: "Outros", descricao: "Outros artigos para personalizar.", imagem: "", subcategorias: ["Coletes desportivos", "Sacos", "Cozinha", "Malas", "Canecas", "Bases", "Jogos"] },
+  { id: "brindes", nome: "Outros", titulo: "Outros", descricao: "Outros artigos para personalizar.", imagem: "", subcategorias: ["Coletes desportivos", "Sacos", "Cozinha", "Canecas", "Bases", "Jogos"] },
 ];
 
 export function getSubcategoriaModelo(modelo: Modelo, categoria: CategoriaId): string {
