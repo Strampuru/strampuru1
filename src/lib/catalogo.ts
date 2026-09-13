@@ -5645,6 +5645,69 @@ export const modelos: Modelo[] = [
       "100% Poliéster",
       "Detalhes e cores a confirmar"
     ]
+  },
+  {
+    "id": "palau",
+    "nome": "Babete PALAU",
+    "referenciaNome": "PALAU",
+    "categoria": "crianca",
+    "subcategoria": "Babetes",
+    "genero": "crianca",
+    "descricao": "Babete PALAU em preparação, fotografias e detalhes a adicionar brevemente.",
+    "composicao": "Composição a confirmar",
+    "referencia": "#PAL-PAL",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": [
+          "#eaedf1"
+        ],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "0–6M",
+        "6–12M",
+        "12–18M",
+        "18–24M"
+      ],
+      [
+        "Comprimento",
+        "34",
+        "37",
+        "40",
+        "43"
+      ],
+      [
+        "Largura",
+        "28",
+        "30",
+        "32",
+        "34"
+      ]
+    ],
+    "precos": [
+      [
+        "0–99 unidades",
+        "9,00€"
+      ],
+      [
+        "100–499 unidades",
+        "8,00€"
+      ],
+      [
+        "+499 unidades",
+        "7,00€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Detalhes e cores a confirmar"
+    ]
   }];
 
 export function getCategoria(id: string): Categoria | undefined {
