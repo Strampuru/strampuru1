@@ -6367,6 +6367,60 @@ export const modelos: Modelo[] = [
     ]
   },
   {
+    "id": "motu-nui",
+    "nome": "MOTU NUI",
+    "referenciaNome": "MOTU NUI",
+    "categoria": "brindes",
+    "subcategoria": "Canecas",
+    "genero": "unissexo",
+    "descricao": "Artigo MOTU NUI da coleção Canecas em preparação, fotografias e detalhes a adicionar brevemente.",
+    "composicao": "Composição a confirmar",
+    "referencia": "#MOT-MOT",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": [
+          "#eaedf1"
+        ],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "Único"
+      ],
+      [
+        "Comprimento",
+        "–"
+      ],
+      [
+        "Largura",
+        "–"
+      ]
+    ],
+    "precos": [
+      [
+        "0–99 unidades",
+        "5,00€"
+      ],
+      [
+        "100–499 unidades",
+        "4,50€"
+      ],
+      [
+        "+499 unidades",
+        "4,00€"
+      ]
+    ],
+    "caracteristicas": [
+      "Material e dimensões a confirmar",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
     "id": "vaduz",
     "nome": "VADUZ",
     "referenciaNome": "VADUZ",
