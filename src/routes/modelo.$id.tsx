@@ -218,7 +218,7 @@ function ModeloPage() {
             <div className="flex justify-between items-center">
               <span className="text-sm">Família</span>
               <span className="text-sm text-muted-foreground">
-                {categoria.titulo}
+                {categoria?.titulo ?? modelo.subcategoria}
               </span>
             </div>
           </div>
