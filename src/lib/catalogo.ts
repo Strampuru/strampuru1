@@ -1585,7 +1585,7 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "homem",
-    "descricao": T-shirt DUBLIN — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt DUBLIN — modelo em preparação, fotografias a adicionar brevemente.",
     "composicao": "100% Poliéster",
     "referencia": "#DUB-DUB",
     "imagem": "/placeholder-modelo.svg",
