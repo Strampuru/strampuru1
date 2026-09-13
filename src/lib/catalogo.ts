@@ -1063,14 +1063,14 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "rockspeed",
-    "nome": "T-shirt ROCKSPEED",
-    "referenciaNome": "ROCKSPEED",
+    "nome": "T-shirt COPENHAGA",
+    "referenciaNome": "COPENHAGA",
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "homem",
-    "descricao": "T-shirt ROCKSPEED disponível em 5 cores. 100% Poliéster",
+    "descricao": "T-shirt COPENHAGA disponível em 5 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
-    "referencia": "#ROC-ROC",
+    "referencia": "#COP-COP",
     "imagem": "/__l5e/assets-v1/5b3ae55f-c0c5-4b00-8e47-26fa9bf62195/rockspeed-cinzento.webp",
     "lifestyle": "/lifestyle/rockspeed.jpg",
     "cores": [
