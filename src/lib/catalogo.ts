@@ -108,7 +108,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt LISBOA disponível em 35 cores. 100% Algodão",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#LIS-LIS",
-    "imagem": "/__l5e/assets-v1/20ef2e18-6467-4bc7-a363-ba32dac9532f/racing-branco.webp",
+    "imagem": "/__l5e/assets-v1/aa79323b-1815-4aae-a0d8-9d9d23713003/lisboa-1.png",
     "lifestyle": "/lifestyle/racing.jpg",
     "cores": [
       {
@@ -117,7 +117,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#eaedf1"
       ],
-        "imagem": "/__l5e/assets-v1/20ef2e18-6467-4bc7-a363-ba32dac9532f/racing-branco.webp"
+        "imagem": "/__l5e/assets-v1/aa79323b-1815-4aae-a0d8-9d9d23713003/lisboa-1.png"
       },
       {
         "nome": "Bege 1",
@@ -125,7 +125,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#f0ebd8"
       ],
-        "imagem": "/__l5e/assets-v1/71e8bd2d-76e6-40cf-b511-2a37b7155046/racing-beje1.webp"
+        "imagem": "/__l5e/assets-v1/b6527f24-7336-4797-9047-66d29e2d2c08/lisboa-2.png"
       },
       {
         "nome": "Bege 2",
@@ -133,7 +133,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#afac9d"
       ],
-        "imagem": "/__l5e/assets-v1/056a8b40-22cf-47a2-b8b2-6e75791700df/racing-beje2.webp"
+        "imagem": "/__l5e/assets-v1/50808463-8b17-4363-8b44-de2e9cad131c/lisboa-3.png"
       },
       {
         "nome": "Castanho 1",
@@ -141,7 +141,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#a18b67"
       ],
-        "imagem": "/__l5e/assets-v1/27bda301-3915-4f48-bc6e-11618848dca7/racing-castanho1.webp"
+        "imagem": "/__l5e/assets-v1/c701edf5-edae-43a8-9a06-2629a3a838a8/lisboa-4.png"
       },
       {
         "nome": "Castanho 2",
@@ -149,7 +149,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#6e594b"
       ],
-        "imagem": "/__l5e/assets-v1/fbd72b07-1c28-40c7-bc3b-f09dca4d8f5d/racing-castanho2.webp"
+        "imagem": "/__l5e/assets-v1/d4af67e1-7e09-4e3a-a631-7c7635ac92e6/lisboa-5.png"
       },
       {
         "nome": "Verde 1",
@@ -157,7 +157,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#96bb54"
       ],
-        "imagem": "/__l5e/assets-v1/83b5cd67-70c2-47b1-bdc8-e102575dd54f/racing-verde1.webp"
+        "imagem": "/__l5e/assets-v1/361be716-a638-48d7-93ed-c999ab61dcc1/lisboa-6.png"
       },
       {
         "nome": "Verde 2",
@@ -165,7 +165,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#5ca144"
       ],
-        "imagem": "/__l5e/assets-v1/7718ca9b-d79a-4978-8864-e4bddba8a4d1/racing-verde2.webp"
+        "imagem": "/__l5e/assets-v1/0c0a1072-5ec6-459a-85da-2a719718ec0f/lisboa-7.png"
       },
       {
         "nome": "Verde 3",
@@ -173,7 +173,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#197351"
       ],
-        "imagem": "/__l5e/assets-v1/29736327-b078-459f-bde7-0dca0bcb6264/racing-verde3.webp"
+        "imagem": "/__l5e/assets-v1/1874d879-14e2-464a-9809-6e81711913d9/lisboa-8.png"
       },
       {
         "nome": "Verde 4",
@@ -181,7 +181,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#024a3b"
       ],
-        "imagem": "/__l5e/assets-v1/7a65d595-2b13-4ebe-b476-90f512afa73f/racing-verde4.webp"
+        "imagem": "/__l5e/assets-v1/574ad066-9485-49fa-b8b9-604ce5a3fdf3/lisboa-9.png"
       },
       {
         "nome": "Verde 5",
@@ -189,7 +189,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#4e675d"
       ],
-        "imagem": "/__l5e/assets-v1/8462a1d0-f442-4f61-bc5b-3edf8b929152/racing-verde5.webp"
+        "imagem": "/__l5e/assets-v1/7f3275f9-360c-4ed7-8df8-cd8b18be99c5/lisboa-10.png"
       },
       {
         "nome": "Verde 6",
@@ -197,7 +197,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#53573f"
       ],
-        "imagem": "/__l5e/assets-v1/1a539b59-798a-44ed-8835-6d4c1f274f1b/racing-verde6.webp"
+        "imagem": "/__l5e/assets-v1/30663fed-ec27-4c60-983a-659ed767a894/lisboa-11.png"
       },
       {
         "nome": "Amarelo 1",
@@ -205,7 +205,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#f9e24d"
       ],
-        "imagem": "/__l5e/assets-v1/be54829b-5af0-4dbe-87a1-f8d58a566716/racing-amarelo1.webp"
+        "imagem": "/__l5e/assets-v1/db228014-6027-4a09-a6e3-ccf76ea66c2f/lisboa-12.png"
       },
       {
         "nome": "Amarelo 2",
@@ -213,7 +213,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#e9bd19"
       ],
-        "imagem": "/__l5e/assets-v1/5aa2b115-fac8-42e8-b13b-c04c37200713/racing-amarelo2.webp"
+        "imagem": "/__l5e/assets-v1/a5527a93-833d-4e45-9307-45f8cc5e6402/lisboa-13.png"
       },
       {
         "nome": "Laranja 1",
@@ -221,7 +221,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#df9f1d"
       ],
-        "imagem": "/__l5e/assets-v1/e7e4dce1-58ad-4b70-b3aa-fb443282302d/racing-laranja1.webp"
+        "imagem": "/__l5e/assets-v1/7482996b-aa50-4ffc-811f-5af5fda41bc7/lisboa-14.png"
       },
       {
         "nome": "Laranja 2",
@@ -229,7 +229,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#c9541d"
       ],
-        "imagem": "/__l5e/assets-v1/1ae4a0ca-678c-4b89-b8ec-846f8f518614/racing-laranja2.webp"
+        "imagem": "/__l5e/assets-v1/edca8795-ddcc-402f-ad77-4f469c142757/lisboa-15.png"
       },
       {
         "nome": "Vermelho",
@@ -237,7 +237,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#90162a"
       ],
-        "imagem": "/__l5e/assets-v1/d1fd205e-7007-4906-9343-329e2cc2c699/racing-vermelho.webp"
+        "imagem": "/__l5e/assets-v1/d90ad0b9-e9c2-45b8-95bd-53ed97c241fe/lisboa-16.png"
       },
       {
         "nome": "Rosa 1",
@@ -245,7 +245,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#6d1034"
       ],
-        "imagem": "/__l5e/assets-v1/7c70e814-1130-4b3e-a90d-6edd9f94cb1a/racing-rosa1.webp"
+        "imagem": "/__l5e/assets-v1/38798ae1-0c57-482f-86c4-ce8d7d46f385/lisboa-17.png"
       },
       {
         "nome": "Rosa 2",
@@ -253,7 +253,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#e9c8d8"
       ],
-        "imagem": "/__l5e/assets-v1/a110e02d-63cf-4c26-82bf-35f2e4c8e1a6/racing-rosa2.webp"
+        "imagem": "/__l5e/assets-v1/70e58bc2-3bb6-4bf6-864d-9cf4dbfffe6d/lisboa-18.png"
       },
       {
         "nome": "Rosa 3",
@@ -261,7 +261,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#c74283"
       ],
-        "imagem": "/__l5e/assets-v1/ac8cb663-28ba-4265-8220-42dd81ac8234/racing-rosa3.webp"
+        "imagem": "/__l5e/assets-v1/2870b867-f2ed-4a08-8aca-d81c10115baa/lisboa-19.png"
       },
       {
         "nome": "Roxo 1",
@@ -269,7 +269,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#7d7fb2"
       ],
-        "imagem": "/__l5e/assets-v1/e8cb57b9-c1ab-40c9-b18d-74f3983a7ad8/racing-roxo1.webp"
+        "imagem": "/__l5e/assets-v1/26c2b8cf-27a9-4ee0-b378-681b8dc1db49/lisboa-20.png"
       },
       {
         "nome": "Roxo 2",
@@ -277,7 +277,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#53387a"
       ],
-        "imagem": "/__l5e/assets-v1/770a765f-9f01-4dde-b4e8-a477fdf270e7/racing-roxo2.webp"
+        "imagem": "/__l5e/assets-v1/3244b508-0677-4505-a125-ba907d3c3140/lisboa-21.png"
       },
       {
         "nome": "Roxo 3",
@@ -285,7 +285,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#351a53"
       ],
-        "imagem": "/__l5e/assets-v1/30c38497-368a-4d45-a9ec-f293440f294d/racing-roxo3.webp"
+        "imagem": "/__l5e/assets-v1/4b9f9674-0cee-4cea-9737-ec7fcf0f112e/lisboa-22.png"
       },
       {
         "nome": "Azul 1",
@@ -293,7 +293,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#9ab7dc"
       ],
-        "imagem": "/__l5e/assets-v1/64bb4944-3656-4968-878b-c3d9aa94a7b7/racing-azul1.webp"
+        "imagem": "/__l5e/assets-v1/8eb022a2-b4ad-4a98-98c4-82b943ba8e1c/lisboa-23.png"
       },
       {
         "nome": "Azul 2",
@@ -301,7 +301,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#0490cb"
       ],
-        "imagem": "/__l5e/assets-v1/2f654ff9-85f0-4ef4-9873-442bf04f1e37/racing-azul2.webp"
+        "imagem": "/__l5e/assets-v1/e2649ed3-7927-4dae-930a-a400ae328e9a/lisboa-24.png"
       },
       {
         "nome": "Azul 3",
@@ -309,7 +309,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#215d98"
       ],
-        "imagem": "/__l5e/assets-v1/f75d7a93-9770-47d9-abf4-268c691ca063/racing-azul3.webp"
+        "imagem": "/__l5e/assets-v1/cc7d2835-a295-4cb8-b057-95fa55448529/lisboa-25.png"
       },
       {
         "nome": "Azul 4",
@@ -317,7 +317,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#5475a8"
       ],
-        "imagem": "/__l5e/assets-v1/6a088b68-cf11-4d82-920b-3eb5bc9f20ad/racing-azul4.webp"
+        "imagem": "/__l5e/assets-v1/63142417-db71-4082-8a57-8c7e9c396734/lisboa-26.png"
       },
       {
         "nome": "Azul 5",
@@ -325,7 +325,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#263962"
       ],
-        "imagem": "/__l5e/assets-v1/7ec0cf6a-2031-44f6-a00c-a01c849409a8/racing-azul5.webp"
+        "imagem": "/__l5e/assets-v1/71320613-4697-4377-ac51-08c49d5203ed/lisboa-27.png"
       },
       {
         "nome": "Azul 6",
@@ -333,7 +333,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#144267"
       ],
-        "imagem": "/__l5e/assets-v1/58aef014-f456-4cb8-85fb-ed235fe04a24/racing-azul6.webp"
+        "imagem": "/__l5e/assets-v1/5a72e232-6e7f-4595-943c-e756aaf87a06/lisboa-28.png"
       },
       {
         "nome": "Azul 7",
@@ -341,7 +341,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#0a3755"
       ],
-        "imagem": "/__l5e/assets-v1/2f8bf91c-9e8f-4781-9284-947d8faf6f4d/racing-azul7.webp"
+        "imagem": "/__l5e/assets-v1/031bf332-0564-4b99-987a-905f0e5cd3a0/lisboa-29.png"
       },
       {
         "nome": "Cinzento 1",
@@ -349,7 +349,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#777c90"
       ],
-        "imagem": "/__l5e/assets-v1/480b58e1-29d4-40af-912f-cdd0d783ac96/racing-cinzento1.webp"
+        "imagem": "/__l5e/assets-v1/ac29ad62-99cd-4c4b-af69-25b6da4e62f6/lisboa-30.png"
       },
       {
         "nome": "Cinzento 2",
@@ -357,7 +357,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#e6e5eb"
       ],
-        "imagem": "/__l5e/assets-v1/b5d848a0-d2c5-4582-8ac0-c974ce3d7a38/racing-cinzento2.webp"
+        "imagem": "/__l5e/assets-v1/86177454-d104-471e-a551-0971e3a11155/lisboa-31.png"
       },
       {
         "nome": "Cinzento 3",
@@ -365,7 +365,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#b5b3bf"
       ],
-        "imagem": "/__l5e/assets-v1/950f0976-489a-4500-8054-625a51ab6e62/racing-cinzento3.webp"
+        "imagem": "/__l5e/assets-v1/b1d9317e-e588-4430-9611-7f1d193a892d/lisboa-32.png"
       },
       {
         "nome": "Cinzento 4",
@@ -373,7 +373,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#646c79"
       ],
-        "imagem": "/__l5e/assets-v1/6b13b4b1-5ecd-45d2-8786-51e353416df0/racing-cinzento4.webp"
+        "imagem": "/__l5e/assets-v1/d8744c6b-92a3-485c-9cdb-5af67b6c593a/lisboa-33.png"
       },
       {
         "nome": "Cinzento 5",
@@ -381,7 +381,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#58575d"
       ],
-        "imagem": "/__l5e/assets-v1/e89190f6-ee31-4fe4-b839-9965640c7953/racing-cinzento5.webp"
+        "imagem": "/__l5e/assets-v1/bf246fec-8d02-4e27-b592-484d6ddb7d48/lisboa-34.png"
       },
       {
         "nome": "Preto",
@@ -389,7 +389,7 @@ export const modelos: Modelo[] = [
         "hexes": [
         "#332e2a"
       ],
-        "imagem": "/__l5e/assets-v1/e67c8533-10c0-4bed-bd3a-5bce4db9f23f/racing-preto.webp"
+        "imagem": "/__l5e/assets-v1/650a88a8-e9e2-4421-b6ec-81673829dc11/lisboa-35.png"
       }
     ],
     "tamanhos": [
