@@ -2501,13 +2501,13 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "arizona",
-    "nome": "Hoodie ARIZONA",
-    "referenciaNome": "ARIZONA",
+    "nome": "Hoodie LIMA",
+    "referenciaNome": "LIMA",
     "categoria": "sweats",
     "subcategoria": "Com Capuz",
-    "descricao": "Hoodie ARIZONA disponível em 20 cores. 100% Poliéster",
+    "descricao": "Hoodie LIMA disponível em 20 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
-    "referencia": "#ARI-ARI",
+    "referencia": "#LIM-LIM",
     "imagem": "/__l5e/assets-v1/66db4335-a27f-4f27-bb32-a94d941e6b79/arizona-branco.webp",
     "lifestyle": "/lifestyle/arizona.jpg",
     "cores": [
