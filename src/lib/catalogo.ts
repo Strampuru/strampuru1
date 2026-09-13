@@ -3417,13 +3417,13 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "manitoba",
-    "nome": "Jaqueta MANITOBA",
-    "referenciaNome": "MANITOBA",
+    "nome": "Jaqueta NAIROBI",
+    "referenciaNome": "NAIROBI",
     "categoria": "jaquetas",
     "subcategoria": "Com Capuz",
-    "descricao": "Jaqueta MANITOBA disponível em 8 cores. Interior: 100% Poliéster (225 g/m²)",
+    "descricao": "Jaqueta NAIROBI disponível em 8 cores. Interior: 100% Poliéster (225 g/m²)",
     "composicao": "Interior: 100% Poliéster (225 g/m²), Exterior: 70% Poliéster, 30% PVC (200 g/m²)",
-    "referencia": "#MAN-MAN",
+    "referencia": "#NAI-NAI",
     "imagem": "/__l5e/assets-v1/0c0569d8-29f2-43d4-ae16-09e7749880cb/manitoba-branco.webp",
     "lifestyle": "/lifestyle/manitoba.jpg",
     "cores": [
