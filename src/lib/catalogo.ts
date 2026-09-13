@@ -1167,14 +1167,14 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "brickplus",
-    "nome": "T-shirt BRICKPLUS",
-    "referenciaNome": "BRICKPLUS",
+    "nome": "T-shirt BRATISLAVA",
+    "referenciaNome": "BRATISLAVA",
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "homem",
-    "descricao": "T-shirt BRICKPLUS disponível em 5 cores. 100% Poliéster",
+    "descricao": "T-shirt BRATISLAVA disponível em 5 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
-    "referencia": "#BRI-BRI",
+    "referencia": "#BRA-BRA",
     "imagem": "/__l5e/assets-v1/7bddb081-68f1-4cf7-9dbb-cef43d014a43/brickplus-verde.webp",
     "lifestyle": "/lifestyle/brickplus.jpg",
     "cores": [
