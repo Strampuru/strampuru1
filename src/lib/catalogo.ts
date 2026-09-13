@@ -1580,14 +1580,14 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "moscow",
-    "nome": "T-shirt DUBLIN",
-    "referenciaNome": "DUBLIN",
+    "nome": "T-shirt MELODIAS",
+    "referenciaNome": "MELODIAS",
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "homem",
-    "descricao": "T-shirt DUBLIN — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt MELODIAS — modelo em preparação, fotografias a adicionar brevemente.",
     "composicao": "100% Poliéster",
-    "referencia": "#DUB-DUB",
+    "referencia": "#MEL-MEL",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
       {
@@ -3041,13 +3041,13 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "dublin",
-    "nome": "Sweatshirt DUBLIN",
-    "referenciaNome": "DUBLIN",
+    "nome": "Sweatshirt MELODIAS",
+    "referenciaNome": "MELODIAS",
     "categoria": "sweats",
     "subcategoria": "Sem Capuz",
-    "descricao": "Sweatshirt DUBLIN disponível em 25 cores. 65% Poliéster",
+    "descricao": "Sweatshirt MELODIAS disponível em 25 cores. 65% Poliéster",
     "composicao": "65% Poliéster, 35% Algodão, Densidade: 300 g/m²",
-    "referencia": "#DUB-DUB",
+    "referencia": "#MEL-MEL",
     "imagem": "/__l5e/assets-v1/65e2a488-b6b9-4d1d-b6d9-ec7527c57739/dublin-branco.webp",
     "lifestyle": "/lifestyle/dublin.jpg",
     "cores": [
