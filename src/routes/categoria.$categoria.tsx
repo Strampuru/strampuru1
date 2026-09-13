@@ -97,27 +97,31 @@ function CategoriaPage() {
               >
                 ← {familia.nome}
               </button>
-              <span className="w-px bg-border shrink-0" />
-              {tipos.map((t) => (
-                <button
-                  key={t}
-                  onClick={() =>
-                    navigate({
-                      search: {
-                        sub: filtro,
-                        tipo: t === "Todos" ? undefined : t,
-                      } as any,
-                    })
-                  }
-                  className={`shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest transition-colors ${
-                    tipo === t
-                      ? "bg-primary text-primary-foreground"
-                      : "border border-border text-muted-foreground hover:text-foreground hover:border-foreground/30"
-                  }`}
-                >
-                  {t}
-                </button>
-              ))}
+              {familia.subcategorias.length > 1 && (
+                <>
+                  <span className="w-px bg-border shrink-0" />
+                  {tipos.map((t) => (
+                    <button
+                      key={t}
+                      onClick={() =>
+                        navigate({
+                          search: {
+                            sub: filtro,
+                            tipo: t === "Todos" ? undefined : t,
+                          } as any,
+                        })
+                      }
+                      className={`shrink-0 px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-[11px] uppercase tracking-widest transition-colors ${
+                        tipo === t
+                          ? "bg-primary text-primary-foreground"
+                          : "border border-border text-muted-foreground hover:text-foreground hover:border-foreground/30"
+                      }`}
+                    >
+                      {t}
+                    </button>
+                  ))}
+                </>
+              )}
             </>
           ) : (
             opcoes.map((op) => (
