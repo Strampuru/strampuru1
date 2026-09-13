@@ -7,7 +7,7 @@ export const Route = createFileRoute("/modelo/$id")({
   loader: ({ params }) => {
     const modelo = getModelo(params.id);
     if (!modelo) throw notFound();
-    const categoria = getCategoria(modelo.categoria)!;
+    const categoria = getCategoria(modelo.categoria) ?? null;
     return { modelo, categoria };
   },
   head: ({ loaderData }) => {
@@ -146,14 +146,18 @@ function ModeloPage() {
         <div className="space-y-10 md:space-y-12">
           <div className="space-y-4 md:space-y-6">
             <nav className="text-[10px] uppercase tracking-widest text-muted-foreground flex flex-wrap gap-3 sm:gap-4">
-              <Link
-                to="/categoria/$categoria"
-                params={{ categoria: categoria.id }}
-                className="hover:text-foreground transition-colors"
-              >
-                {categoria.nome}
-              </Link>
-              <span>/</span>
+              {categoria && (
+                <>
+                  <Link
+                    to="/categoria/$categoria"
+                    params={{ categoria: categoria.id }}
+                    className="hover:text-foreground transition-colors"
+                  >
+                    {categoria.nome}
+                  </Link>
+                  <span>/</span>
+                </>
+              )}
               <span>{modelo.subcategoria}</span>
             </nav>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-display leading-tight">
@@ -214,7 +218,7 @@ function ModeloPage() {
             <div className="flex justify-between items-center">
               <span className="text-sm">Família</span>
               <span className="text-sm text-muted-foreground">
-                {categoria.titulo}
+                {categoria?.titulo ?? modelo.subcategoria}
               </span>
             </div>
           </div>
@@ -236,13 +240,22 @@ function ModeloPage() {
             </div>
           )}
 
-          <Link
-            to="/categoria/$categoria"
-            params={{ categoria: categoria.id }}
-            className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
-          >
-            ← Voltar a {categoria.titulo}
-          </Link>
+          {categoria ? (
+            <Link
+              to="/categoria/$categoria"
+              params={{ categoria: categoria.id }}
+              className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
+            >
+              ← Voltar a {categoria.titulo}
+            </Link>
+          ) : (
+            <Link
+              to="/"
+              className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
+            >
+              ← Voltar ao catálogo
+            </Link>
+          )}
         </div>
       </section>
 
