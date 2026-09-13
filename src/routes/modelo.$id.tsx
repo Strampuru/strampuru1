@@ -146,14 +146,18 @@ function ModeloPage() {
         <div className="space-y-10 md:space-y-12">
           <div className="space-y-4 md:space-y-6">
             <nav className="text-[10px] uppercase tracking-widest text-muted-foreground flex flex-wrap gap-3 sm:gap-4">
-              <Link
-                to="/categoria/$categoria"
-                params={{ categoria: categoria.id }}
-                className="hover:text-foreground transition-colors"
-              >
-                {categoria.nome}
-              </Link>
-              <span>/</span>
+              {categoria && (
+                <>
+                  <Link
+                    to="/categoria/$categoria"
+                    params={{ categoria: categoria.id }}
+                    className="hover:text-foreground transition-colors"
+                  >
+                    {categoria.nome}
+                  </Link>
+                  <span>/</span>
+                </>
+              )}
               <span>{modelo.subcategoria}</span>
             </nav>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-display leading-tight">
