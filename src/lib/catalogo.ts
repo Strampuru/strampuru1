@@ -100,14 +100,14 @@ export function getFamiliaPorSubcategoria(nome: string | undefined): Categoria |
 export const modelos: Modelo[] = [
   {
     "id": "racing",
-    "nome": "T-shirt RACING",
-    "referenciaNome": "RACING",
+    "nome": "T-shirt LISBOA",
+    "referenciaNome": "LISBOA",
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "homem",
-    "descricao": "T-shirt RACING disponível em 35 cores. 100% Algodão",
+    "descricao": "T-shirt LISBOA disponível em 35 cores. 100% Algodão",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
-    "referencia": "#RAC-RAC",
+    "referencia": "#LIS-LIS",
     "imagem": "/__l5e/assets-v1/20ef2e18-6467-4bc7-a363-ba32dac9532f/racing-branco.webp",
     "lifestyle": "/lifestyle/racing.jpg",
     "cores": [
@@ -3616,14 +3616,14 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "racing-crianca",
-    "nome": "T-shirt RACING",
-    "referenciaNome": "RACING",
+    "nome": "T-shirt LISBOA",
+    "referenciaNome": "LISBOA",
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "crianca",
-    "descricao": "T-shirt RACING disponível em 35 cores. 100% Algodão",
+    "descricao": "T-shirt LISBOA disponível em 35 cores. 100% Algodão",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
-    "referencia": "#RAC-RAC",
+    "referencia": "#LIS-LIS",
     "imagem": "/__l5e/assets-v1/20ef2e18-6467-4bc7-a363-ba32dac9532f/racing-branco.webp",
     "lifestyle": "/lifestyle/racing.jpg",
     "cores": [
