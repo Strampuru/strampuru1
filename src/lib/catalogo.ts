@@ -2025,14 +2025,14 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "sagano",
-    "nome": "Polo SAGANO",
-    "referenciaNome": "SAGANO",
+    "nome": "Polo BUENOS AIRES",
+    "referenciaNome": "BUENOS AIRES",
     "categoria": "polos",
     "subcategoria": "Polos",
     "genero": "homem",
-    "descricao": "Polo SAGANO disponível em 4 cores. 100% Poliéster",
+    "descricao": "Polo BUENOS AIRES disponível em 4 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
-    "referencia": "#SAG-SAG",
+    "referencia": "#BUE-BUE",
     "imagem": "/__l5e/assets-v1/0c57f1e1-019d-4025-9292-e0b669ee0631/sagano-verde.webp",
     "lifestyle": "/lifestyle/sagano.jpg",
     "cores": [
