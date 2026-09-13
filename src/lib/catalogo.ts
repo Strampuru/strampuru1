@@ -570,13 +570,13 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "nappa",
-    "nome": "T-shirt NAPPA",
-    "referenciaNome": "NAPPA",
+    "nome": "T-shirt ROMA",
+    "referenciaNome": "ROMA",
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
-    "descricao": "T-shirt NAPPA disponível em 2 cores. 95% Algodão",
+    "descricao": "T-shirt ROMA disponível em 2 cores. 95% Algodão",
     "composicao": "95% Algodão, 5% Elastano, Densidade: 190 g/m²",
-    "referencia": "#NAP-NAP",
+    "referencia": "#ROM-ROM",
     "imagem": "/__l5e/assets-v1/f504c71a-263d-4545-a48b-f4e9a2045f55/nappa-branco.webp",
     "lifestyle": "/lifestyle/nappa.jpg",
     "cores": [
