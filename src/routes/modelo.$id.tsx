@@ -240,13 +240,22 @@ function ModeloPage() {
             </div>
           )}
 
-          <Link
-            to="/categoria/$categoria"
-            params={{ categoria: categoria.id }}
-            className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
-          >
-            ← Voltar a {categoria.titulo}
-          </Link>
+          {categoria ? (
+            <Link
+              to="/categoria/$categoria"
+              params={{ categoria: categoria.id }}
+              className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
+            >
+              ← Voltar a {categoria.titulo}
+            </Link>
+          ) : (
+            <Link
+              to="/"
+              className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
+            >
+              ← Voltar ao catálogo
+            </Link>
+          )}
         </div>
       </section>
 
