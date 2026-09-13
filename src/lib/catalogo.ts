@@ -460,14 +460,14 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "wave",
-    "nome": "T-shirt WAVE",
-    "referenciaNome": "WAVE",
+    "nome": "T-shirt MADRID",
+    "referenciaNome": "MADRID",
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "homem",
-    "descricao": "T-shirt WAVE disponível em 6 cores. 100% Algodão",
+    "descricao": "T-shirt MADRID disponível em 6 cores. 100% Algodão",
     "composicao": "100% Algodão, Densidade: 190 g/m²",
-    "referencia": "#WAV-WAV",
+    "referencia": "#MAD-MAD",
     "imagem": "/__l5e/assets-v1/09000929-4e2d-4c84-8d0c-adce6f713b35/wave-branco.webp",
     "lifestyle": "/lifestyle/wave.jpg",
     "cores": [
