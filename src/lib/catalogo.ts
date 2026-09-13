@@ -3040,6 +3040,40 @@ export const modelos: Modelo[] = [
     ]
   },
   {
+    "id": "bissau",
+    "nome": "Sweatshirt BISSAU",
+    "referenciaNome": "BISSAU",
+    "categoria": "sweats",
+    "subcategoria": "Sem Capuz",
+    "genero": "unissexo",
+    "descricao": "Sweatshirt BISSAU — modelo em preparação, fotografias a adicionar brevemente.",
+    "composicao": "100% Poliéster, Densidade: 280 g/m²",
+    "referencia": "#BIS-BIS",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": ["#eaedf1"],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      ["Tamanho", "S", "M", "L", "XL", "XXL", "3XL"],
+      ["Comprimento", "66", "69", "72", "75", "78", "81"],
+      ["Largura", "52", "55", "58", "61", "64", "67"]
+    ],
+    "precos": [
+      ["0–49 unidades", "20,00€"],
+      ["50–249 unidades", "18,50€"],
+      ["+249 unidades", "17,50€"]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
     "id": "dublin",
     "nome": "Sweatshirt MELODIAS",
     "referenciaNome": "MELODIAS",
