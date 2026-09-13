@@ -1493,14 +1493,14 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "dacita",
-    "nome": "T-shirt DACITA",
-    "referenciaNome": "DACITA",
+    "nome": "T-shirt BUDAPESTE",
+    "referenciaNome": "BUDAPESTE",
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "homem",
-    "descricao": "T-shirt DACITA disponível em 3 cores. 23% Poliéster",
+    "descricao": "T-shirt BUDAPESTE disponível em 3 cores. 23% Poliéster",
     "composicao": "23% Poliéster, 77% Poliamida, Densidade: 180 g/m²",
-    "referencia": "#DAC-DAC",
+    "referencia": "#BUD-BUD",
     "imagem": "/__l5e/assets-v1/8456277d-91a9-46b8-81c1-d06cba3ff602/dacita-azul.webp",
     "lifestyle": "/lifestyle/dacita.jpg",
     "cores": [
