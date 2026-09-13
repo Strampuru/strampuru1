@@ -5771,6 +5771,60 @@ export const modelos: Modelo[] = [
       "100% Poliéster",
       "Detalhes e cores a confirmar"
     ]
+  },
+  {
+    "id": "tonga",
+    "nome": "TONGA",
+    "referenciaNome": "TONGA",
+    "categoria": "brindes",
+    "subcategoria": "Cozinha",
+    "genero": "unissexo",
+    "descricao": "Artigo TONGA da coleção Cozinha em preparação, fotografias e detalhes a adicionar brevemente.",
+    "composicao": "Composição a confirmar",
+    "referencia": "#TON-TON",
+    "imagem": "/placeholder-modelo.svg",
+    "cores": [
+      {
+        "nome": "Branco",
+        "hex": "#eaedf1",
+        "hexes": [
+          "#eaedf1"
+        ],
+        "imagem": "/placeholder-modelo.svg"
+      }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "Único"
+      ],
+      [
+        "Comprimento",
+        "–"
+      ],
+      [
+        "Largura",
+        "–"
+      ]
+    ],
+    "precos": [
+      [
+        "0–99 unidades",
+        "5,00€"
+      ],
+      [
+        "100–499 unidades",
+        "4,50€"
+      ],
+      [
+        "+499 unidades",
+        "4,00€"
+      ]
+    ],
+    "caracteristicas": [
+      "Material e dimensões a confirmar",
+      "Detalhes e cores a confirmar"
+    ]
   }];
 
 export function getCategoria(id: string): Categoria | undefined {
