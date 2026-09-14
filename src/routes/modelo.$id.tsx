@@ -41,7 +41,7 @@ type Vista = {
   cores: Cor[];
   tamanhos: string[][];
   precos: [string, string][];
-  lifestyle?: string;
+  lifestyle?: string | undefined;
 };
 
 function ModeloPage() {
