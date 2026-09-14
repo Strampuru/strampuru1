@@ -4519,7 +4519,7 @@ export const modelos: Modelo[] = [
     "categoria": "crianca",
     "subcategoria": "Bodies",
     "genero": "crianca",
-    "descricao": "Body RIGA — modelo de criança disponível em 1 cores.",
+    "descricao": "Body RIGA — modelo de criança disponível em 1 cor.",
     "composicao": "100% Algodão",
     "referencia": "#RIG-RIG",
     "imagem": "/__l5e/assets-v1/76fa6a47-125a-427e-9589-c05a946c762b/riga-1.png",
