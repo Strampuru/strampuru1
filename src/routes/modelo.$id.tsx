@@ -48,7 +48,10 @@ function ModeloPage() {
   const { modelo, categoria } = Route.useLoaderData();
   const pecas = modelo.pecas ?? [];
 
-  if (pecas.length > 0) {
+  const mostraComoConjunto =
+    (modelo.id === "pequim" || modelo.id === "jacarta") && pecas.length > 0;
+
+  if (mostraComoConjunto) {
     return (
       <SiteLayout>
         <DetalheConjunto modelo={modelo} categoria={categoria} pecas={pecas} />
