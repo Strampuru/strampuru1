@@ -4992,9 +4992,84 @@ export const modelos: Modelo[] = [
           ["Largura","49","52","55","58","61","64","67"]
         ],
         "precos": [
-          ["0–99 unidades", "15,00€"],
-          ["100–499 unidades", "14,00€"],
-          ["+499 unidades", "13,00€"]
+          ["0–99 unidades", "25,00€"],
+          ["100–499 unidades", "23,00€"],
+          ["+499 unidades", "21,00€"]
+        ]
+      },
+      {
+        "nome": "Polo manga curta",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","69","72","75","78","81","84"],
+          ["Largura","50","53","56","59","62","65"]
+        ],
+        "precos": [
+          ["0–99 unidades", "25,00€"],
+          ["100–499 unidades", "23,00€"],
+          ["+499 unidades", "21,00€"]
+        ]
+      },
+      {
+        "nome": "Polo manga comprida",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","70","73","76","79","82","85"],
+          ["Largura","51","54","57","60","63","66"],
+          ["Manga","62","63","64","65","66","67"]
+        ],
+        "precos": [
+          ["0–99 unidades", "25,00€"],
+          ["100–499 unidades", "23,00€"],
+          ["+499 unidades", "21,00€"]
+        ]
+      },
+      {
+        "nome": "Sweatshirt",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","68","71","74","77","80","83"],
+          ["Largura","52","55","58","61","64","67"],
+          ["Manga","63","64","65","66","67","68"]
+        ],
+        "precos": [
+          ["0–99 unidades", "25,00€"],
+          ["100–499 unidades", "23,00€"],
+          ["+499 unidades", "21,00€"]
+        ]
+      },
+      {
+        "nome": "Sweat com zip",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","69","72","75","78","81","84"],
+          ["Largura","53","56","59","62","65","68"],
+          ["Manga","64","65","66","67","68","69"]
+        ],
+        "precos": [
+          ["0–99 unidades", "25,00€"],
+          ["100–499 unidades", "23,00€"],
+          ["+499 unidades", "21,00€"]
         ]
       },
       {
@@ -5010,9 +5085,9 @@ export const modelos: Modelo[] = [
           ["Cintura","34","37","40","43","46","49","52"]
         ],
         "precos": [
-          ["0–99 unidades", "15,00€"],
-          ["100–499 unidades", "14,00€"],
-          ["+499 unidades", "13,00€"]
+          ["0–99 unidades", "25,00€"],
+          ["100–499 unidades", "23,00€"],
+          ["+499 unidades", "21,00€"]
         ]
       }
     ],
