@@ -2,7 +2,7 @@ import { createFileRoute, notFound, Link } from "@tanstack/react-router";
 import { useRef, useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
 import { getModelo, getCategoria } from "@/lib/catalogo";
-import type { Categoria, Cor, Modelo } from "@/lib/catalogo";
+import type { Categoria, Cor, Modelo, Peca } from "@/lib/catalogo";
 
 export const Route = createFileRoute("/modelo/$id")({
   loader: ({ params }) => {
@@ -47,63 +47,220 @@ type Vista = {
 function ModeloPage() {
   const { modelo, categoria } = Route.useLoaderData();
   const pecas = modelo.pecas ?? [];
-  const [peca, setPeca] = useState(0);
 
-  const vista: Vista =
-    pecas.length > 0
-      ? {
-          titulo: pecas[peca]?.nome ?? "",
-          composicao: pecas[peca]?.composicao ?? modelo.composicao,
-          referencia: pecas[peca]?.referencia ?? modelo.referencia,
-          imagem: pecas[peca]?.imagem ?? modelo.imagem,
-          cores: pecas[peca]?.cores ?? [],
-          tamanhos: pecas[peca]?.tamanhos ?? [],
-          precos: pecas[peca]?.precos ?? [],
-        }
-      : {
-          titulo: "",
-          composicao: modelo.composicao,
-          referencia: modelo.referencia,
-          imagem: modelo.imagem,
-          cores: modelo.cores,
-          tamanhos: modelo.tamanhos,
-          precos: modelo.precos,
-          lifestyle: modelo.lifestyle,
-        };
+  if (pecas.length > 0) {
+    return (
+      <SiteLayout>
+        <DetalheConjunto modelo={modelo} categoria={categoria} pecas={pecas} />
+      </SiteLayout>
+    );
+  }
+
+  const vista: Vista = {
+    titulo: "",
+    composicao: modelo.composicao,
+    referencia: modelo.referencia,
+    imagem: modelo.imagem,
+    cores: modelo.cores,
+    tamanhos: modelo.tamanhos,
+    precos: modelo.precos,
+    lifestyle: modelo.lifestyle,
+  };
 
   return (
     <SiteLayout>
-      {pecas.length > 0 && (
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 md:pt-10">
-          <p className="text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
-            Este conjunto tem {pecas.length} peças — escolha uma peça
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {pecas.map((p, i) => (
-              <button
-                key={p.nome}
-                onClick={() => setPeca(i)}
-                aria-pressed={i === peca}
-                className={`px-4 py-2 text-[11px] uppercase tracking-widest rounded-full ring-1 transition-colors ${
-                  i === peca
-                    ? "bg-foreground text-background ring-foreground"
-                    : "ring-black/10 text-muted-foreground hover:text-foreground"
-                }`}
-              >
-                {p.nome}
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-
-      <DetalheModelo
-        key={peca}
-        modelo={modelo}
-        categoria={categoria}
-        vista={vista}
-      />
+      <DetalheModelo modelo={modelo} categoria={categoria} vista={vista} />
     </SiteLayout>
+  );
+}
+
+/* ---------- Vista de conjunto: todas as peças visíveis, preço do conjunto ---------- */
+
+function PecaCard({ peca, modelo }: { peca: Peca; modelo: Modelo }) {
+  const [cor, setCor] = useState(0);
+  const atual = peca.cores[cor] ?? peca.cores[0];
+  const imagem = atual?.imagem ?? peca.imagem;
+  const [cabecalho, ...linhas] = peca.tamanhos;
+
+  return (
+    <article className="space-y-3">
+      <div className="relative aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden">
+        <img
+          key={imagem}
+          src={imagem}
+          alt={`${modelo.nome} — ${peca.nome}${atual ? ` — ${atual.nome}` : ""}`}
+          width={1024}
+          height={1280}
+          className="w-full h-full object-contain p-4 sm:p-6"
+        />
+        <span className="absolute top-3 left-3 text-[10px] uppercase tracking-widest bg-background/80 backdrop-blur px-2 py-1 ring-1 ring-black/10">
+          {peca.nome}
+        </span>
+      </div>
+
+      <div className="space-y-2">
+        <div className="flex items-baseline justify-between gap-3">
+          <h3 className="font-display text-lg sm:text-xl">{peca.nome}</h3>
+          <span className="text-[10px] uppercase tracking-widest text-muted-foreground">
+            {peca.referencia ?? modelo.referencia}
+          </span>
+        </div>
+        <p className="text-[11px] text-muted-foreground">{peca.composicao}</p>
+
+        {peca.cores.length > 0 && (
+          <div className="flex flex-wrap items-center gap-2 pt-1">
+            {peca.cores.map((c, i) => (
+              <button
+                key={c.nome}
+                onClick={() => setCor(i)}
+                aria-label={`${peca.nome} — ${c.nome}`}
+                aria-pressed={i === cor}
+                className={`size-6 rounded-full transition-all ring-offset-2 ring-offset-background outline-none ${
+                  i === cor
+                    ? "ring-2 ring-foreground"
+                    : "ring-1 ring-black/10 hover:ring-foreground/30"
+                }`}
+                style={{
+                  background:
+                    c.hexes.length > 1
+                      ? `linear-gradient(180deg, ${c.hexes.join(", ")})`
+                      : c.hex,
+                }}
+              />
+            ))}
+            <span className="text-[10px] uppercase tracking-widest text-muted-foreground ml-1">
+              {atual?.nome}
+            </span>
+          </div>
+        )}
+
+        {cabecalho && (
+          <details className="group pt-2">
+            <summary className="cursor-pointer list-none flex items-center justify-between text-[11px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors border-t border-border pt-3">
+              Tamanhos — {peca.nome}
+              <span className="transition-transform group-open:rotate-180">⌄</span>
+            </summary>
+            <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0 pt-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+              <table className="min-w-full text-[12px] sm:text-[13px] border-collapse">
+                <thead>
+                  <tr>
+                    {cabecalho.map((h) => (
+                      <th
+                        key={h}
+                        className="border border-border px-3 py-1.5 text-left text-[10px] uppercase tracking-widest font-semibold whitespace-nowrap"
+                      >
+                        {h}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {linhas.map((linha) => (
+                    <tr key={linha[0]}>
+                      {linha.map((celula, i) => (
+                        <td
+                          key={i}
+                          className={`border border-border px-3 py-1.5 whitespace-nowrap ${
+                            i === 0 ? "font-medium" : "text-muted-foreground"
+                          }`}
+                        >
+                          {celula}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </details>
+        )}
+      </div>
+    </article>
+  );
+}
+
+function DetalheConjunto({
+  modelo,
+  categoria,
+  pecas,
+}: {
+  modelo: Modelo;
+  categoria: Categoria | null;
+  pecas: Peca[];
+}) {
+  return (
+    <>
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-16 space-y-10 md:space-y-14">
+        <div className="space-y-4 md:space-y-6 max-w-2xl">
+          <nav className="text-[10px] uppercase tracking-widest text-muted-foreground flex flex-wrap gap-3 sm:gap-4">
+            {categoria && (
+              <>
+                <Link
+                  to="/categoria/$categoria"
+                  params={{ categoria: categoria.id }}
+                  className="hover:text-foreground transition-colors"
+                >
+                  {categoria.nome}
+                </Link>
+                <span>/</span>
+              </>
+            )}
+            <span>{modelo.subcategoria}</span>
+          </nav>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-display leading-tight">
+            {modelo.nome}
+          </h1>
+          <p className="text-[13px] sm:text-base text-muted-foreground text-pretty leading-relaxed">
+            {modelo.descricao}
+          </p>
+          <p className="text-[11px] uppercase tracking-widest text-muted-foreground">
+            Conjunto de {pecas.length} peças —{" "}
+            {pecas.map((p) => p.nome).join(" + ")}
+          </p>
+        </div>
+
+        {/* Peças lado a lado */}
+        <div className="grid sm:grid-cols-2 gap-8 md:gap-12 items-start">
+          {pecas.map((p) => (
+            <PecaCard key={p.nome} peca={p} modelo={modelo} />
+          ))}
+        </div>
+
+        {/* Preço do conjunto completo */}
+        {modelo.precos.length > 0 && (
+          <div className="space-y-4 max-w-xl">
+            <h2 className="text-[11px] uppercase tracking-widest font-semibold">
+              Preço do conjunto completo
+            </h2>
+            <div className="divide-y divide-border border-y border-border">
+              {modelo.precos.map(([qtd, preco]) => (
+                <div key={qtd} className="flex justify-between py-3">
+                  <span className="text-sm text-muted-foreground">{qtd}</span>
+                  <span className="text-sm font-medium">{preco}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {categoria ? (
+          <Link
+            to="/categoria/$categoria"
+            params={{ categoria: categoria.id }}
+            className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
+          >
+            ← Voltar a {categoria.titulo}
+          </Link>
+        ) : (
+          <Link
+            to="/"
+            className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
+          >
+            ← Voltar ao catálogo
+          </Link>
+        )}
+      </section>
+    </>
   );
 }
 
