@@ -280,7 +280,7 @@ function valorNumerico(preco: string) {
 }
 
 function precoParaQuantidade(peca: Peca, quantidade: number) {
-  const indice = quantidade >= 500 ? 2 : quantidade >= 100 ? 1 : 0;
+  const indice = quantidade > 100 ? 2 : quantidade > 50 ? 1 : 0;
   const faixa = peca.precos[indice] ?? peca.precos[0];
   return faixa ? valorNumerico(faixa[1]) : 0;
 }
