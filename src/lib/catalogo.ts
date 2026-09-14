@@ -38,6 +38,9 @@ export type Modelo = {
   /** Foto de uma pessoa a usar o modelo (opcional). */
   lifestyle?: string;
   cores: Cor[];
+  /** Peças que compõem o conjunto (opcional). */
+  pecas?: Peca[];
+
   /** Primeira linha = cabeçalho de tamanhos; restantes = medidas em cm. */
   tamanhos: string[][];
   /** [quantidade, preço] */
