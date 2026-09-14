@@ -2,7 +2,7 @@ import { createFileRoute, notFound, Link } from "@tanstack/react-router";
 import { useRef, useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
 import { getModelo, getCategoria } from "@/lib/catalogo";
-import type { Categoria, Cor, Modelo } from "@/lib/catalogo";
+import type { Categoria, Cor, Modelo, Peca } from "@/lib/catalogo";
 
 export const Route = createFileRoute("/modelo/$id")({
   loader: ({ params }) => {
