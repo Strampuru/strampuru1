@@ -7468,7 +7468,7 @@ export const modelos: Modelo[] = [
     "categoria": "crianca",
     "subcategoria": "Babetes",
     "genero": "crianca",
-    "descricao": "Babete CAMBERRA em preparação, fotografias e detalhes a adicionar brevemente.",
+    "descricao": "Babete de bebé em tamanho único, com interior em poliéster e exterior em poliéster e algodão.",
     "composicao": "Interior: 100% Poliéster (170 g/m²) · Exterior: 65% Poliéster, 35% Algodão (115 g/m²)",
     "referencia": "#CAM-CAM",
     "imagem": "/placeholder-modelo.svg",
@@ -7485,7 +7485,7 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Única"
+        "Única (bebé)"
       ],
       [
         "Comprimento",
@@ -7511,8 +7511,8 @@ export const modelos: Modelo[] = [
       ]
     ],
     "caracteristicas": [
-      "100% Poliéster",
-      "Detalhes e cores a confirmar"
+      "Tamanho único de bebé",
+      "Interior em poliéster, exterior em poliéster e algodão"
     ]
   },
   {
@@ -7522,7 +7522,7 @@ export const modelos: Modelo[] = [
     "categoria": "crianca",
     "subcategoria": "Babetes",
     "genero": "crianca",
-    "descricao": "Babete FIJI em preparação, fotografias e detalhes a adicionar brevemente.",
+    "descricao": "Babete de bebé em tamanho único, em algodão com poliéster e poliuretano.",
     "composicao": "70% Algodão, 20% Poliéster, 10% Poliuretano, Densidade: 230 g/m²",
     "referencia": "#FIJ-FIJ",
     "imagem": "/placeholder-modelo.svg",
@@ -7539,10 +7539,10 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Única"
+        "Única (bebé)"
       ],
       [
-        "Comprimento",
+        "Altura",
         "30"
       ],
       [
@@ -7565,8 +7565,8 @@ export const modelos: Modelo[] = [
       ]
     ],
     "caracteristicas": [
-      "100% Poliéster",
-      "Detalhes e cores a confirmar"
+      "Tamanho único de bebé",
+      "Tecido com camada impermeável em poliuretano"
     ]
   },
   {
@@ -7576,7 +7576,7 @@ export const modelos: Modelo[] = [
     "categoria": "crianca",
     "subcategoria": "Babetes",
     "genero": "crianca",
-    "descricao": "Babete PALAU em preparação, fotografias e detalhes a adicionar brevemente.",
+    "descricao": "Babete de bebé em tamanho único.",
     "composicao": "Composição a confirmar",
     "referencia": "#PAL-PAL",
     "imagem": "/placeholder-modelo.svg",
@@ -7593,43 +7593,34 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "0–6M",
-        "6–12M",
-        "12–18M",
-        "18–24M"
+        "Única (bebé)"
       ],
       [
-        "Comprimento",
-        "34",
-        "37",
-        "40",
-        "43"
+        "Altura",
+        "29"
       ],
       [
         "Largura",
-        "28",
-        "30",
-        "32",
-        "34"
+        "19"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "9,00€"
+        "7,00€"
       ],
       [
         "100–499 unidades",
-        "8,00€"
+        "6,50€"
       ],
       [
-        "+499 unidades",
-        "7,00€"
+        "Mais de 499 unidades",
+        "5,75€"
       ]
     ],
     "caracteristicas": [
-      "100% Poliéster",
-      "Detalhes e cores a confirmar"
+      "Tamanho único de bebé",
+      "Composição a confirmar"
     ]
   },
   {
@@ -7639,8 +7630,8 @@ export const modelos: Modelo[] = [
     "categoria": "crianca",
     "subcategoria": "Babetes",
     "genero": "crianca",
-    "descricao": "Babete SAMOA em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Babete em tamanho adulto, em tecido leve.",
+    "composicao": "Densidade: 70 g/m²",
     "referencia": "#SAM-SAM",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -7656,53 +7647,44 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "0–6M",
-        "6–12M",
-        "12–18M",
-        "18–24M"
+        "Adulto"
       ],
       [
         "Comprimento",
-        "34",
-        "37",
-        "40",
         "43"
       ],
       [
         "Largura",
-        "28",
-        "30",
-        "32",
-        "34"
+        "31"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "9,00€"
+        "7,00€"
       ],
       [
         "100–499 unidades",
-        "8,00€"
+        "6,50€"
       ],
       [
-        "+499 unidades",
-        "7,00€"
+        "Mais de 499 unidades",
+        "5,75€"
       ]
     ],
     "caracteristicas": [
-      "100% Poliéster",
-      "Detalhes e cores a confirmar"
+      "Tamanho adulto",
+      "Tecido leve de 70 g/m²"
     ]
   },
   {
     "id": "tonga",
-    "nome": "TONGA",
+    "nome": "Avental TONGA",
     "referenciaNome": "TONGA",
     "categoria": "brindes",
     "subcategoria": "Cozinha",
     "genero": "unissexo",
-    "descricao": "Artigo TONGA da coleção Cozinha em preparação, fotografias e detalhes a adicionar brevemente.",
+    "descricao": "Avental curto de cintura em tamanho único.",
     "composicao": "Composição a confirmar",
     "referencia": "#TON-TON",
     "imagem": "/placeholder-modelo.svg",
@@ -7719,45 +7701,45 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
+        "Única"
       ],
       [
         "Comprimento",
-        "–"
+        "31"
       ],
       [
         "Largura",
-        "–"
+        "58"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "5,00€"
+        "7,00€"
       ],
       [
         "100–499 unidades",
-        "4,50€"
+        "6,50€"
       ],
       [
-        "+499 unidades",
-        "4,00€"
+        "Mais de 499 unidades",
+        "5,75€"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "Tamanho único",
+      "Avental de cintura"
     ]
   },
   {
     "id": "bangkok",
-    "nome": "BANGKOK",
+    "nome": "Avental BANGUECOQUE",
     "referenciaNome": "BANGKOK",
     "categoria": "brindes",
     "subcategoria": "Cozinha",
     "genero": "unissexo",
-    "descricao": "Artigo BANGKOK da coleção Cozinha em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Avental com peitilho e bolso triplo, em tamanho único.",
+    "composicao": "65% Poliéster, 35% Algodão, Densidade: 200 g/m²",
     "referencia": "#BAN-BAN",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -7773,44 +7755,52 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
+        "Única"
       ],
       [
         "Comprimento",
-        "–"
+        "70"
       ],
       [
         "Largura",
-        "–"
+        "65"
+      ],
+      [
+        "Comprimento bolso",
+        "17"
+      ],
+      [
+        "Largura bolso",
+        "23+24+22"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "5,00€"
+        "8,50€"
       ],
       [
         "100–499 unidades",
-        "4,50€"
+        "8,00€"
       ],
       [
-        "+499 unidades",
-        "4,00€"
+        "Mais de 499 unidades",
+        "7,50€"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "Tamanho único",
+      "Bolso frontal com três divisões"
     ]
   },
   {
     "id": "otava",
-    "nome": "OTAVA",
+    "nome": "Avental OTAVA",
     "referenciaNome": "OTAVA",
     "categoria": "brindes",
     "subcategoria": "Cozinha",
     "genero": "unissexo",
-    "descricao": "Artigo OTAVA da coleção Cozinha em preparação, fotografias e detalhes a adicionar brevemente.",
+    "descricao": "Avental comprido com peitilho e bolso frontal, em tamanho único.",
     "composicao": "Composição a confirmar",
     "referencia": "#OTA-OTA",
     "imagem": "/placeholder-modelo.svg",
@@ -7827,44 +7817,52 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
+        "Única"
       ],
       [
         "Comprimento",
-        "–"
+        "96"
       ],
       [
         "Largura",
-        "–"
+        "73"
+      ],
+      [
+        "Comprimento bolso",
+        "19"
+      ],
+      [
+        "Largura bolso",
+        "26"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "5,00€"
+        "12,00€"
       ],
       [
         "100–499 unidades",
-        "4,50€"
+        "10,50€"
       ],
       [
-        "+499 unidades",
-        "4,00€"
+        "Mais de 499 unidades",
+        "8,75€"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "Tamanho único",
+      "Avental comprido com bolso frontal"
     ]
   },
   {
     "id": "doa",
-    "nome": "DOA",
+    "nome": "Jaleca DOA",
     "referenciaNome": "DOA",
     "categoria": "brindes",
     "subcategoria": "Cozinha",
     "genero": "unissexo",
-    "descricao": "Artigo DOA da coleção Cozinha em preparação, fotografias e detalhes a adicionar brevemente.",
+    "descricao": "Jaleca de trabalho disponível de S a 3XL.",
     "composicao": "Composição a confirmar",
     "referencia": "#DOA-DOA",
     "imagem": "/placeholder-modelo.svg",
@@ -7881,45 +7879,60 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
       ],
       [
-        "Comprimento",
-        "–"
+        "Altura",
+        "69",
+        "72",
+        "75",
+        "78",
+        "81",
+        "84"
       ],
       [
         "Largura",
-        "–"
+        "54",
+        "57",
+        "60",
+        "63",
+        "66",
+        "69"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "5,00€"
+        "20,00€"
       ],
       [
         "100–499 unidades",
-        "4,50€"
+        "18,50€"
       ],
       [
-        "+499 unidades",
-        "4,00€"
+        "Mais de 499 unidades",
+        "16,75€"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "Tamanhos S a 3XL",
+      "Jaleca de trabalho"
     ]
   },
   {
     "id": "jamena",
-    "nome": "JAMENA",
+    "nome": "Colete JAMENA",
     "referenciaNome": "JAMENA",
     "categoria": "brindes",
     "subcategoria": "Coletes desportivos",
     "genero": "unissexo",
-    "descricao": "Artigo JAMENA da coleção Coletes desportivos em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Colete desportivo em poliéster, disponível em criança, júnior e adulto.",
+    "composicao": "100% Poliéster, Densidade: 150 g/m²",
     "referencia": "#JAM-JAM",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -7935,45 +7948,51 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
+        "Criança",
+        "Júnior",
+        "Adulto"
       ],
       [
         "Comprimento",
-        "–"
+        "50",
+        "60",
+        "69"
       ],
       [
         "Largura",
-        "–"
+        "44",
+        "56",
+        "66"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "5,00€"
+        "9,50€"
       ],
       [
         "100–499 unidades",
-        "4,50€"
+        "9,25€"
       ],
       [
-        "+499 unidades",
-        "4,00€"
+        "Mais de 499 unidades",
+        "8,75€"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "100% Poliéster, 150 g/m²",
+      "Criança, júnior e adulto"
     ]
   },
   {
     "id": "moroni",
-    "nome": "MORONI",
+    "nome": "Colete MORONI",
     "referenciaNome": "MORONI",
     "categoria": "brindes",
     "subcategoria": "Coletes desportivos",
     "genero": "unissexo",
-    "descricao": "Artigo MORONI da coleção Coletes desportivos em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Colete desportivo leve em poliéster, disponível em criança, júnior e adulto.",
+    "composicao": "100% Poliéster, Densidade: 75 g/m²",
     "referencia": "#MOR-MOR",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -7989,45 +8008,51 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
+        "Criança",
+        "Júnior",
+        "Adulto"
       ],
       [
         "Comprimento",
-        "–"
+        "45",
+        "54",
+        "63"
       ],
       [
         "Largura",
-        "–"
+        "38",
+        "46",
+        "54"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "5,00€"
+        "9,25€"
       ],
       [
         "100–499 unidades",
-        "4,50€"
+        "9,00€"
       ],
       [
-        "+499 unidades",
-        "4,00€"
+        "Mais de 499 unidades",
+        "8,50€"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "100% Poliéster, 75 g/m²",
+      "Criança, júnior e adulto"
     ]
   },
   {
     "id": "seul",
-    "nome": "SEUL",
+    "nome": "Saco SEUL",
     "referenciaNome": "SEUL",
     "categoria": "brindes",
     "subcategoria": "Sacos",
     "genero": "unissexo",
-    "descricao": "Artigo SEUL da coleção Sacos em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Saco de cordas em poliéster, em tamanho criança e adulto.",
+    "composicao": "100% Poliéster, Densidade: 65 g/m²",
     "referencia": "#SEU-SEU",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -8043,45 +8068,48 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
+        "Criança",
+        "Adulto"
       ],
       [
-        "Comprimento",
-        "–"
+        "Altura",
+        "35",
+        "45"
       ],
       [
         "Largura",
-        "–"
+        "27",
+        "38"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "5,00€"
+        "3,50€"
       ],
       [
         "100–499 unidades",
-        "4,50€"
+        "3,25€"
       ],
       [
-        "+499 unidades",
-        "4,00€"
+        "Mais de 499 unidades",
+        "2,75€"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "100% Poliéster, 65 g/m²",
+      "Tamanho criança e adulto"
     ]
   },
   {
     "id": "havana",
-    "nome": "HAVANA",
+    "nome": "Saco HAVANA",
     "referenciaNome": "HAVANA",
     "categoria": "brindes",
     "subcategoria": "Sacos",
     "genero": "unissexo",
-    "descricao": "Artigo HAVANA da coleção Sacos em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Saco estreito em polipropileno, em tamanho único.",
+    "composicao": "100% Polipropileno, Densidade: 75 g/m²",
     "referencia": "#HAV-HAV",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -8097,45 +8125,45 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
+        "Única"
       ],
       [
-        "Comprimento",
-        "–"
+        "Altura",
+        "40"
       ],
       [
         "Largura",
-        "–"
+        "16"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "5,00€"
+        "1,50€"
       ],
       [
         "100–499 unidades",
-        "4,50€"
+        "1,25€"
       ],
       [
-        "+499 unidades",
-        "4,00€"
+        "Mais de 499 unidades",
+        "0,75€"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "100% Polipropileno, 75 g/m²",
+      "Tamanho único"
     ]
   },
   {
     "id": "quito",
-    "nome": "QUITO",
+    "nome": "Saco QUITO",
     "referenciaNome": "QUITO",
     "categoria": "brindes",
     "subcategoria": "Sacos",
     "genero": "unissexo",
-    "descricao": "Artigo QUITO da coleção Sacos em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Saco em poliéster e algodão, disponível em quatro tamanhos com preço próprio.",
+    "composicao": "65% Poliéster, 35% Algodão, Densidade: 120 g/m²",
     "referencia": "#QUI-QUI",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -8151,45 +8179,58 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
+        "Pequeno",
+        "Médio",
+        "Grande",
+        "Extragrande"
       ],
       [
-        "Comprimento",
-        "–"
+        "Altura",
+        "16",
+        "25",
+        "32",
+        "39"
       ],
       [
         "Largura",
-        "–"
+        "13",
+        "20",
+        "27",
+        "35"
       ]
     ],
     "precos": [
       [
-        "0–99 unidades",
-        "5,00€"
+        "Pequeno — 0–499 / 500–1999 / +1999 uni.",
+        "1,50€ / 1,45€ / 1,40€"
       ],
       [
-        "100–499 unidades",
-        "4,50€"
+        "Médio — 0–499 / 500–1999 / +1999 uni.",
+        "1,70€ / 1,65€ / 1,60€"
       ],
       [
-        "+499 unidades",
-        "4,00€"
+        "Grande — 0–499 / 500–1999 / +1999 uni.",
+        "1,90€ / 1,85€ / 1,80€"
+      ],
+      [
+        "Extragrande — 0–499 / 500–1999 / +1999 uni.",
+        "2,10€ / 2,00€ / 1,90€"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "Quatro tamanhos disponíveis",
+      "65% Poliéster, 35% Algodão"
     ]
   },
   {
     "id": "washington",
-    "nome": "WASHINGTON",
+    "nome": "Saco WASHINGTON",
     "referenciaNome": "WASHINGTON",
     "categoria": "brindes",
     "subcategoria": "Sacos",
     "genero": "unissexo",
-    "descricao": "Artigo WASHINGTON da coleção Sacos em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Saco de compras em poliéster resistente, com asas de 70 cm.",
+    "composicao": "100% Poliéster, Densidade: 175 g/m²",
     "referencia": "#WAS-WAS",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -8205,45 +8246,49 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
+        "Única"
       ],
       [
-        "Comprimento",
-        "–"
+        "Altura",
+        "42"
       ],
       [
         "Largura",
-        "–"
+        "38"
+      ],
+      [
+        "Asas",
+        "70"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "5,00€"
+        "2,50€"
       ],
       [
         "100–499 unidades",
-        "4,50€"
+        "2,25€"
       ],
       [
-        "+499 unidades",
-        "4,00€"
+        "Mais de 499 unidades",
+        "1,75€"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "100% Poliéster, 175 g/m²",
+      "Asas de 70 cm"
     ]
   },
   {
     "id": "suva",
-    "nome": "SUVA",
+    "nome": "Saco SUVA",
     "referenciaNome": "SUVA",
     "categoria": "brindes",
     "subcategoria": "Sacos",
     "genero": "unissexo",
-    "descricao": "Artigo SUVA da coleção Sacos em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Saco de compras em algodão, com asas de 71 cm.",
+    "composicao": "Algodão",
     "referencia": "#SUV-SUV",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -8259,45 +8304,49 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
+        "Única"
       ],
       [
-        "Comprimento",
-        "–"
+        "Altura",
+        "42"
       ],
       [
         "Largura",
-        "–"
+        "37"
+      ],
+      [
+        "Asas",
+        "71"
       ]
     ],
     "precos": [
       [
         "0–99 unidades",
-        "5,00€"
+        "2,50€"
       ],
       [
         "100–499 unidades",
-        "4,50€"
+        "2,25€"
       ],
       [
-        "+499 unidades",
-        "4,00€"
+        "Mais de 499 unidades",
+        "1,75€"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "Tecido de algodão",
+      "Asas de 71 cm"
     ]
   },
   {
     "id": "motu-nui",
-    "nome": "MOTU NUI",
+    "nome": "Caneca MOTU NUI",
     "referenciaNome": "MOTU NUI",
     "categoria": "brindes",
     "subcategoria": "Canecas",
     "genero": "unissexo",
-    "descricao": "Artigo MOTU NUI da coleção Canecas em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Caneca mágica preta que revela a imagem com o calor da bebida.",
+    "composicao": "Cerâmica com revestimento termossensível",
     "referencia": "#MOT-MOT",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -8313,45 +8362,33 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
-      ],
-      [
-        "Comprimento",
-        "–"
-      ],
-      [
-        "Largura",
-        "–"
+        "Única"
       ]
     ],
     "precos": [
       [
-        "0–99 unidades",
-        "5,00€"
+        "Personalização por unidade",
+        "9,99€"
       ],
       [
-        "100–499 unidades",
-        "4,50€"
-      ],
-      [
-        "+499 unidades",
-        "4,00€"
+        "Grandes quantidades",
+        "Sob consulta"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "Caneca mágica termossensível",
+      "Preço pode variar consoante a quantidade"
     ]
   },
   {
     "id": "vaduz",
-    "nome": "VADUZ",
+    "nome": "Caneca VADUZ",
     "referenciaNome": "VADUZ",
     "categoria": "brindes",
     "subcategoria": "Canecas",
     "genero": "unissexo",
-    "descricao": "Artigo VADUZ da coleção Canecas em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Caneca branca para sublimação, personalizada com a sua imagem.",
+    "composicao": "Cerâmica para sublimação",
     "referencia": "#VAD-VAD",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -8367,45 +8404,33 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
-      ],
-      [
-        "Comprimento",
-        "–"
-      ],
-      [
-        "Largura",
-        "–"
+        "Única"
       ]
     ],
     "precos": [
       [
-        "0–99 unidades",
-        "5,00€"
+        "Personalização por unidade",
+        "9,99€"
       ],
       [
-        "100–499 unidades",
-        "4,50€"
-      ],
-      [
-        "+499 unidades",
-        "4,00€"
+        "Grandes quantidades",
+        "Sob consulta"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "Caneca de sublimação",
+      "Preço pode variar consoante a quantidade"
     ]
   },
   {
     "id": "abuja",
-    "nome": "ABUJA",
+    "nome": "Base ABUJA",
     "referenciaNome": "ABUJA",
     "categoria": "brindes",
     "subcategoria": "Bases",
     "genero": "unissexo",
-    "descricao": "Artigo ABUJA da coleção Bases em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição a confirmar",
+    "descricao": "Base para canecas personalizável.",
+    "composicao": "Material a confirmar",
     "referencia": "#ABU-ABU",
     "imagem": "/placeholder-modelo.svg",
     "cores": [
@@ -8421,34 +8446,22 @@ export const modelos: Modelo[] = [
     "tamanhos": [
       [
         "Tamanho",
-        "Único"
-      ],
-      [
-        "Comprimento",
-        "–"
-      ],
-      [
-        "Largura",
-        "–"
+        "Única"
       ]
     ],
     "precos": [
       [
-        "0–99 unidades",
-        "5,00€"
+        "Personalização por unidade",
+        "4,99€"
       ],
       [
-        "100–499 unidades",
-        "4,50€"
-      ],
-      [
-        "+499 unidades",
-        "4,00€"
+        "Grandes quantidades",
+        "Sob consulta"
       ]
     ],
     "caracteristicas": [
-      "Material e dimensões a confirmar",
-      "Detalhes e cores a confirmar"
+      "Base para canecas",
+      "Preço pode variar consoante a quantidade"
     ]
   },
   {
