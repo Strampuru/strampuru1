@@ -51,6 +51,14 @@ function ModeloPage() {
   const mostraComoConjunto =
     (modelo.id === "pequim" || modelo.id === "jacarta") && pecas.length > 0;
 
+  if (modelo.id === "abu-dhabi" && pecas.length > 0) {
+    return (
+      <SiteLayout>
+        <ConfiguradorAbuDhabi modelo={modelo} categoria={categoria} pecas={pecas} />
+      </SiteLayout>
+    );
+  }
+
   if (mostraComoConjunto) {
     return (
       <SiteLayout>
@@ -264,6 +272,153 @@ function DetalheConjunto({
         )}
       </section>
     </>
+  );
+}
+
+function valorNumerico(preco: string) {
+  return Number(preco.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+}
+
+function precoParaQuantidade(peca: Peca, quantidade: number) {
+  const indice = quantidade >= 500 ? 2 : quantidade >= 100 ? 1 : 0;
+  const faixa = peca.precos[indice] ?? peca.precos[0];
+  return faixa ? valorNumerico(faixa[1]) : 0;
+}
+
+function ConfiguradorAbuDhabi({ modelo, categoria, pecas }: {
+  modelo: Modelo;
+  categoria: Categoria | null;
+  pecas: Peca[];
+}) {
+  const [ativa, setAtiva] = useState(0);
+  const [cor, setCor] = useState(0);
+  const [quantidades, setQuantidades] = useState(() => pecas.map(() => 0));
+  const peca = pecas[ativa] ?? pecas[0];
+  if (!peca) return null;
+
+  const corAtual = peca.cores[cor] ?? peca.cores[0];
+  const imagem = corAtual?.imagem ?? peca.imagem;
+  const [cabecalho, ...linhas] = peca.tamanhos;
+  const totalUnidades = quantidades.reduce((total, quantidade) => total + quantidade, 0);
+  const total = pecas.reduce((soma, item, indice) => {
+    const quantidade = quantidades[indice] ?? 0;
+    return soma + quantidade * precoParaQuantidade(item, quantidade);
+  }, 0);
+  const moeda = new Intl.NumberFormat("pt-PT", { style: "currency", currency: "EUR" });
+
+  const escolherPeca = (indice: number) => {
+    setAtiva(indice);
+    setCor(0);
+  };
+
+  const alterarQuantidade = (indice: number, valor: string) => {
+    const quantidade = Math.max(0, Math.floor(Number(valor) || 0));
+    setQuantidades((anteriores) =>
+      anteriores.map((atual, i) => (i === indice ? quantidade : atual)),
+    );
+  };
+
+  return (
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-16 space-y-10 md:space-y-14">
+      <div className="space-y-4 max-w-2xl">
+        <nav className="text-[10px] uppercase tracking-widest text-muted-foreground flex gap-3">
+          {categoria && <Link to="/categoria/$categoria" params={{ categoria: categoria.id }}>{categoria.nome}</Link>}
+          <span>/</span><span>{modelo.subcategoria}</span>
+        </nav>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-display leading-tight">{modelo.nome}</h1>
+        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+          Escolha os modelos, as cores e a quantidade de cada peça.
+        </p>
+      </div>
+
+      <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(22rem,0.8fr)] gap-10 lg:gap-16 items-start">
+        <div className="space-y-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2" role="tablist" aria-label="Modelos Abu Dhabi">
+            {pecas.map((item, indice) => (
+              <button key={item.nome} type="button" role="tab" aria-selected={indice === ativa}
+                onClick={() => escolherPeca(indice)}
+                className={`min-h-14 px-3 py-2 text-left text-[11px] uppercase tracking-widest border transition-colors ${indice === ativa ? "border-foreground bg-foreground text-background" : "border-border hover:border-foreground/40"}`}>
+                {item.nome}
+              </button>
+            ))}
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-6 items-start">
+            <div className="aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden">
+              <img key={`${peca.nome}-${imagem}`} src={imagem}
+                alt={`${modelo.nome} — ${peca.nome}${corAtual ? ` — ${corAtual.nome}` : ""}`}
+                width={1024} height={1280} className="w-full h-full object-contain p-5" />
+            </div>
+            <div className="space-y-6">
+              <div>
+                <p className="text-[10px] uppercase tracking-widest text-muted-foreground">Modelo selecionado</p>
+                <h2 className="font-display text-2xl mt-1">{peca.nome}</h2>
+                <p className="text-xs text-muted-foreground mt-2">{peca.composicao}</p>
+              </div>
+              {peca.cores.length > 0 && (
+                <div className="space-y-3">
+                  <div className="flex justify-between gap-4 text-[10px] uppercase tracking-widest">
+                    <span>Cor</span><span className="text-muted-foreground">{corAtual?.nome}</span>
+                  </div>
+                  <div className="flex flex-wrap gap-3">
+                    {peca.cores.map((item, indice) => (
+                      <button key={item.nome} type="button" aria-label={`${peca.nome} — ${item.nome}`}
+                        aria-pressed={indice === cor} onClick={() => setCor(indice)}
+                        className={`size-9 rounded-full ring-offset-2 ring-offset-background outline-none ${indice === cor ? "ring-2 ring-foreground" : "ring-1 ring-black/10"}`}
+                        style={{ background: item.hexes.length > 1 ? `linear-gradient(180deg, ${item.hexes.join(", ")})` : item.hex }} />
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {cabecalho && (
+            <div className="space-y-3">
+              <h2 className="text-[11px] uppercase tracking-widest font-semibold">Tamanhos — {peca.nome}</h2>
+              <div className="overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                <table className="min-w-full text-[12px] border-collapse">
+                  <thead><tr>{cabecalho.map((item) => <th key={item} className="border border-border px-3 py-2 text-left text-[10px] uppercase tracking-widest whitespace-nowrap">{item}</th>)}</tr></thead>
+                  <tbody>{linhas.map((linha) => <tr key={linha[0]}>{linha.map((item, indice) => <td key={indice} className={`border border-border px-3 py-2 whitespace-nowrap ${indice === 0 ? "font-medium" : "text-muted-foreground"}`}>{item}</td>)}</tr>)}</tbody>
+                </table>
+              </div>
+            </div>
+          )}
+        </div>
+
+        <aside className="lg:sticky lg:top-28 border-y border-border py-5 space-y-6">
+          <div><h2 className="font-display text-2xl">A sua combinação</h2><p className="text-xs text-muted-foreground mt-1">Indique a quantidade de cada modelo.</p></div>
+          <div className="divide-y divide-border">
+            {pecas.map((item, indice) => {
+              const quantidade = quantidades[indice] ?? 0;
+              const precoUnitario = precoParaQuantidade(item, quantidade);
+              return (
+                <div key={item.nome} className="grid grid-cols-[minmax(0,1fr)_5.5rem] gap-4 py-3 items-center">
+                  <button type="button" onClick={() => escolherPeca(indice)} className="text-left min-w-0">
+                    <span className="block text-sm truncate">{item.nome}</span>
+                    <span className="block text-[10px] uppercase tracking-widest text-muted-foreground mt-1">{quantidade > 0 ? `${moeda.format(precoUnitario)} / un.` : "Sem unidades"}</span>
+                  </button>
+                  <input type="number" min="0" step="1" inputMode="numeric" aria-label={`Quantidade de ${item.nome}`}
+                    value={quantidade} onChange={(evento) => alterarQuantidade(indice, evento.target.value)}
+                    className="w-full h-10 border border-border bg-background px-3 text-right text-sm outline-none focus:border-foreground" />
+                </div>
+              );
+            })}
+          </div>
+          <div className="space-y-2 border-t border-border pt-4">
+            <div className="flex justify-between text-sm text-muted-foreground"><span>Total de unidades</span><span>{totalUnidades}</span></div>
+            <div className="flex justify-between items-baseline gap-4"><span className="text-[11px] uppercase tracking-widest font-semibold">Total estimado</span><strong className="font-display text-3xl font-normal">{moeda.format(total)}</strong></div>
+          </div>
+          {modelo.precos.length > 0 && (
+            <details className="group border-t border-border pt-4">
+              <summary className="cursor-pointer list-none flex justify-between text-[11px] uppercase tracking-widest">Tabela de preços<span className="transition-transform group-open:rotate-180">⌄</span></summary>
+              <div className="divide-y divide-border mt-3">{modelo.precos.map(([quantidade, preco]) => <div key={quantidade} className="flex justify-between py-2 text-xs"><span className="text-muted-foreground">{quantidade}</span><span>{preco} / unidade</span></div>)}</div>
+            </details>
+          )}
+        </aside>
+      </div>
+      <Link to="/categoria/$categoria" params={{ categoria: "conjuntos" }} className="inline-flex text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors">← Voltar a Conjuntos</Link>
+    </section>
   );
 }
 
