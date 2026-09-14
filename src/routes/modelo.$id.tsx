@@ -2,6 +2,7 @@ import { createFileRoute, notFound, Link } from "@tanstack/react-router";
 import { useRef, useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
 import { getModelo, getCategoria } from "@/lib/catalogo";
+import type { Categoria, Cor, Modelo } from "@/lib/catalogo";
 
 export const Route = createFileRoute("/modelo/$id")({
   loader: ({ params }) => {
@@ -32,57 +33,142 @@ export const Route = createFileRoute("/modelo/$id")({
   component: ModeloPage,
 });
 
+type Vista = {
+  titulo: string;
+  composicao: string;
+  referencia: string;
+  imagem: string;
+  cores: Cor[];
+  tamanhos: string[][];
+  precos: [string, string][];
+  lifestyle?: string | undefined;
+};
+
 function ModeloPage() {
   const { modelo, categoria } = Route.useLoaderData();
+  const pecas = modelo.pecas ?? [];
+  const [peca, setPeca] = useState(0);
 
+  const vista: Vista =
+    pecas.length > 0
+      ? {
+          titulo: pecas[peca]?.nome ?? "",
+          composicao: pecas[peca]?.composicao ?? modelo.composicao,
+          referencia: pecas[peca]?.referencia ?? modelo.referencia,
+          imagem: pecas[peca]?.imagem ?? modelo.imagem,
+          cores: pecas[peca]?.cores ?? [],
+          tamanhos: pecas[peca]?.tamanhos ?? [],
+          precos: pecas[peca]?.precos ?? [],
+        }
+      : {
+          titulo: "",
+          composicao: modelo.composicao,
+          referencia: modelo.referencia,
+          imagem: modelo.imagem,
+          cores: modelo.cores,
+          tamanhos: modelo.tamanhos,
+          precos: modelo.precos,
+          lifestyle: modelo.lifestyle,
+        };
+
+  return (
+    <SiteLayout>
+      {pecas.length > 0 && (
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 md:pt-10">
+          <p className="text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
+            Este conjunto tem {pecas.length} peças — escolha uma peça
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {pecas.map((p, i) => (
+              <button
+                key={p.nome}
+                onClick={() => setPeca(i)}
+                aria-pressed={i === peca}
+                className={`px-4 py-2 text-[11px] uppercase tracking-widest rounded-full ring-1 transition-colors ${
+                  i === peca
+                    ? "bg-foreground text-background ring-foreground"
+                    : "ring-black/10 text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                {p.nome}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <DetalheModelo
+        key={peca}
+        modelo={modelo}
+        categoria={categoria}
+        vista={vista}
+      />
+    </SiteLayout>
+  );
+}
+
+function DetalheModelo({
+  modelo,
+  categoria,
+  vista,
+}: {
+  modelo: Modelo;
+  categoria: Categoria | null;
+  vista: Vista;
+}) {
   // Diapositivos: foto lifestyle primeiro, depois uma imagem por cor
   const slides = [
-    ...(modelo.lifestyle
+    ...(vista.lifestyle
       ? [
           {
-            src: modelo.lifestyle,
+            src: vista.lifestyle,
             alt: `Pessoa a usar a ${modelo.nome}`,
             legenda: "Em uso",
             corIndex: -1,
           },
         ]
       : []),
-    ...modelo.cores.map((c, i) => ({
+    ...vista.cores.map((c, i) => ({
       src: c.imagem,
       alt: `${modelo.nome} — ${c.nome}`,
-      legenda: `${modelo.referenciaNome} — ${c.nome}`,
+      legenda: `${modelo.referenciaNome}${vista.titulo ? ` ${vista.titulo}` : ""} — ${c.nome}`,
       corIndex: i,
     })),
   ];
 
   const [slide, setSlide] = useState(0);
   const toqueX = useRef<number | null>(null);
-  const atual = slides[slide] ?? slides[0]!;
+  const atual =
+    slides[slide] ??
+    slides[0] ?? {
+      src: vista.imagem,
+      alt: modelo.nome,
+      legenda: modelo.referenciaNome,
+      corIndex: -1,
+    };
   const ativa = atual.corIndex;
   const cor =
-    (ativa >= 0 ? modelo.cores[ativa] : undefined) ??
-    modelo.cores[0] ?? {
+    (ativa >= 0 ? vista.cores[ativa] : undefined) ??
+    vista.cores[0] ?? {
       nome: "",
       hex: "",
       hexes: [] as string[],
-      imagem: modelo.imagem,
+      imagem: vista.imagem,
     };
 
-  const irParaCor = (i: number) => {
-    setAtivaSlide(i);
-  };
   const setAtivaSlide = (i: number) => {
     const idx = slides.findIndex((s) => s.corIndex === i);
     if (idx >= 0) setSlide(idx);
   };
+  const irParaCor = (i: number) => setAtivaSlide(i);
   const anterior = () =>
     setSlide((s) => (s - 1 + slides.length) % slides.length);
   const seguinte = () => setSlide((s) => (s + 1) % slides.length);
 
-  const [cabecalho, ...linhas] = modelo.tamanhos;
+  const [cabecalho, ...linhas] = vista.tamanhos;
 
   return (
-    <SiteLayout>
+    <>
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-20 grid md:grid-cols-2 gap-10 md:gap-20 items-start">
         {/* Galeria */}
         <div className="md:sticky md:top-32 space-y-2">
@@ -140,8 +226,6 @@ function ModeloPage() {
           </p>
         </div>
 
-
-
         {/* Conteúdo */}
         <div className="space-y-10 md:space-y-12">
           <div className="space-y-4 md:space-y-6">
@@ -162,6 +246,11 @@ function ModeloPage() {
             </nav>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-display leading-tight">
               {modelo.nome}
+              {vista.titulo && (
+                <span className="block text-xl sm:text-2xl md:text-3xl italic text-muted-foreground">
+                  {vista.titulo}
+                </span>
+              )}
             </h1>
             <p className="text-[13px] sm:text-base text-muted-foreground text-pretty leading-relaxed max-w-sm">
               {modelo.descricao}
@@ -169,50 +258,52 @@ function ModeloPage() {
           </div>
 
           {/* Cores */}
-          <div className="space-y-4">
-            <div className="flex items-baseline justify-between">
-              <span className="text-[11px] uppercase tracking-widest font-semibold">
-                Cores Disponíveis ({modelo.cores.length})
-              </span>
-              <span className="text-[11px] uppercase tracking-widest text-muted-foreground">
-                {cor.nome}
-              </span>
+          {vista.cores.length > 0 && (
+            <div className="space-y-4">
+              <div className="flex items-baseline justify-between">
+                <span className="text-[11px] uppercase tracking-widest font-semibold">
+                  Cores Disponíveis ({vista.cores.length})
+                </span>
+                <span className="text-[11px] uppercase tracking-widest text-muted-foreground">
+                  {cor.nome}
+                </span>
+              </div>
+              <div className="flex flex-wrap gap-3">
+                {vista.cores.map((c, i) => (
+                  <button
+                    key={c.nome}
+                    onClick={() => irParaCor(i)}
+                    aria-label={c.nome}
+                    aria-pressed={i === ativa}
+                    className={`size-9 rounded-full transition-all ring-offset-2 ring-offset-background outline-none ${
+                      i === ativa
+                        ? "ring-2 ring-foreground"
+                        : "ring-1 ring-black/10 hover:ring-foreground/30"
+                    }`}
+                    style={{
+                      background:
+                        c.hexes.length > 1
+                          ? `linear-gradient(180deg, ${c.hexes.join(", ")})`
+                          : c.hex,
+                    }}
+                  />
+                ))}
+              </div>
             </div>
-            <div className="flex flex-wrap gap-3">
-              {modelo.cores.map((c, i) => (
-                <button
-                  key={c.nome}
-                  onClick={() => irParaCor(i)}
-                  aria-label={c.nome}
-                  aria-pressed={i === ativa}
-                  className={`size-9 rounded-full transition-all ring-offset-2 ring-offset-background outline-none ${
-                    i === ativa
-                      ? "ring-2 ring-foreground"
-                      : "ring-1 ring-black/10 hover:ring-foreground/30"
-                  }`}
-                  style={{
-                    background:
-                      c.hexes.length > 1
-                        ? `linear-gradient(180deg, ${c.hexes.join(", ")})`
-                        : c.hex,
-                  }}
-                />
-              ))}
-            </div>
-          </div>
+          )}
 
           {/* Ficha */}
           <div className="pt-10 border-t border-border flex flex-col gap-6">
             <div className="flex justify-between items-start gap-6">
               <span className="text-sm">Composição</span>
               <span className="text-sm text-muted-foreground text-right">
-                {modelo.composicao}
+                {vista.composicao}
               </span>
             </div>
             <div className="flex justify-between items-center">
               <span className="text-sm">Referência</span>
               <span className="text-sm text-muted-foreground">
-                {modelo.referencia}
+                {vista.referencia}
               </span>
             </div>
             <div className="flex justify-between items-center">
@@ -224,13 +315,14 @@ function ModeloPage() {
           </div>
 
           {/* Preços */}
-          {modelo.precos.length > 0 && (
+          {vista.precos.length > 0 && (
             <div className="space-y-4">
               <h2 className="text-[11px] uppercase tracking-widest font-semibold">
                 Preços por quantidade
+                {vista.titulo ? ` — ${vista.titulo}` : ""}
               </h2>
               <div className="divide-y divide-border border-y border-border">
-                {modelo.precos.map(([qtd, preco]) => (
+                {vista.precos.map(([qtd, preco]) => (
                   <div key={qtd} className="flex justify-between py-3">
                     <span className="text-sm text-muted-foreground">{qtd}</span>
                     <span className="text-sm font-medium">{preco}</span>
@@ -263,7 +355,9 @@ function ModeloPage() {
       {cabecalho && (
         <section className="bg-card border-t border-border py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 space-y-4 md:space-y-6">
-            <h2 className="font-display text-2xl sm:text-3xl">Tamanhos</h2>
+            <h2 className="font-display text-2xl sm:text-3xl">
+              Tamanhos{vista.titulo ? ` — ${vista.titulo}` : ""}
+            </h2>
             <p className="text-[11px] uppercase tracking-widest text-muted-foreground">
               Medidas em centímetros — desliza para ver toda a tabela
             </p>
@@ -302,6 +396,6 @@ function ModeloPage() {
           </div>
         </section>
       )}
-    </SiteLayout>
+    </>
   );
 }

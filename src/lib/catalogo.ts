@@ -11,7 +11,19 @@ export type Cor = {
   imagem: string;
 };
 
+/** Peça individual de um conjunto (ex.: T-shirt, calças). */
+export type Peca = {
+  nome: string;
+  composicao: string;
+  imagem: string;
+  cores: Cor[];
+  tamanhos: string[][];
+  precos: [string, string][];
+  referencia?: string;
+};
+
 export type Modelo = {
+
   id: string;
   nome: string;
   referenciaNome: string;
@@ -26,6 +38,9 @@ export type Modelo = {
   /** Foto de uma pessoa a usar o modelo (opcional). */
   lifestyle?: string;
   cores: Cor[];
+  /** Peças que compõem o conjunto (opcional). */
+  pecas?: Peca[];
+
   /** Primeira linha = cabeçalho de tamanhos; restantes = medidas em cm. */
   tamanhos: string[][];
   /** [quantidade, preço] */
@@ -4963,6 +4978,44 @@ export const modelos: Modelo[] = [
     "composicao": "Composição a confirmar",
     "referencia": "#PEQ-PEQ",
     "imagem": "/placeholder-modelo.svg",
+    "pecas": [
+      {
+        "nome": "T-shirt",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","66","69","72","75","78","81","84"],
+          ["Largura","49","52","55","58","61","64","67"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      },
+      {
+        "nome": "Calças",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","96","99","102","105","108","111","114"],
+          ["Cintura","34","37","40","43","46","49","52"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      }
+    ],
     "cores": [
       {
         "nome": "Branco",
@@ -5035,6 +5088,44 @@ export const modelos: Modelo[] = [
     "composicao": "Composição a confirmar",
     "referencia": "#JAC-JAC",
     "imagem": "/placeholder-modelo.svg",
+    "pecas": [
+      {
+        "nome": "T-shirt",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","66","69","72","75","78","81","84"],
+          ["Largura","49","52","55","58","61","64","67"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      },
+      {
+        "nome": "Calças",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","96","99","102","105","108","111","114"],
+          ["Cintura","34","37","40","43","46","49","52"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      }
+    ],
     "cores": [
       {
         "nome": "Branco",
@@ -5107,6 +5198,44 @@ export const modelos: Modelo[] = [
     "composicao": "Composição a confirmar",
     "referencia": "#MAN-MAN",
     "imagem": "/placeholder-modelo.svg",
+    "pecas": [
+      {
+        "nome": "T-shirt",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","66","69","72","75","78","81","84"],
+          ["Largura","49","52","55","58","61","64","67"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      },
+      {
+        "nome": "Calças",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","96","99","102","105","108","111","114"],
+          ["Cintura","34","37","40","43","46","49","52"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      }
+    ],
     "cores": [
       {
         "nome": "Branco",
@@ -5179,6 +5308,44 @@ export const modelos: Modelo[] = [
     "composicao": "Composição a confirmar",
     "referencia": "#SIN-SIN",
     "imagem": "/placeholder-modelo.svg",
+    "pecas": [
+      {
+        "nome": "T-shirt",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","66","69","72","75","78","81","84"],
+          ["Largura","49","52","55","58","61","64","67"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      },
+      {
+        "nome": "Calças",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","96","99","102","105","108","111","114"],
+          ["Cintura","34","37","40","43","46","49","52"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      }
+    ],
     "cores": [
       {
         "nome": "Branco",
@@ -5251,6 +5418,44 @@ export const modelos: Modelo[] = [
     "composicao": "Composição a confirmar",
     "referencia": "#COL-COL",
     "imagem": "/placeholder-modelo.svg",
+    "pecas": [
+      {
+        "nome": "T-shirt",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","66","69","72","75","78","81","84"],
+          ["Largura","49","52","55","58","61","64","67"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      },
+      {
+        "nome": "Calças",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","96","99","102","105","108","111","114"],
+          ["Cintura","34","37","40","43","46","49","52"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      }
+    ],
     "cores": [
       {
         "nome": "Branco",
@@ -5323,6 +5528,44 @@ export const modelos: Modelo[] = [
     "composicao": "Composição a confirmar",
     "referencia": "#ABU-ABU",
     "imagem": "/placeholder-modelo.svg",
+    "pecas": [
+      {
+        "nome": "T-shirt",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","66","69","72","75","78","81","84"],
+          ["Largura","49","52","55","58","61","64","67"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      },
+      {
+        "nome": "Calças",
+        "composicao": "Composição a confirmar",
+        "imagem": "/placeholder-modelo.svg",
+        "cores": [
+          { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+        ],
+        "tamanhos": [
+          ["Tamanho","XS","S","M","L","XL","XXL","3XL"],
+          ["Comprimento","96","99","102","105","108","111","114"],
+          ["Cintura","34","37","40","43","46","49","52"]
+        ],
+        "precos": [
+          ["0–99 unidades", "15,00€"],
+          ["100–499 unidades", "14,00€"],
+          ["+499 unidades", "13,00€"]
+        ]
+      }
+    ],
     "cores": [
       {
         "nome": "Branco",
