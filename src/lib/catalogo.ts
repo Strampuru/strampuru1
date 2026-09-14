@@ -11,7 +11,19 @@ export type Cor = {
   imagem: string;
 };
 
+/** Peça individual de um conjunto (ex.: T-shirt, calças). */
+export type Peca = {
+  nome: string;
+  composicao: string;
+  imagem: string;
+  cores: Cor[];
+  tamanhos: string[][];
+  precos: [string, string][];
+  referencia?: string;
+};
+
 export type Modelo = {
+
   id: string;
   nome: string;
   referenciaNome: string;
