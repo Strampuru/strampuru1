@@ -800,219 +800,155 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "homem",
-    "descricao": "T-shirt ZAGREB disponível em 26 cores. 100% Poliéster",
+    "descricao": "T-shirt ZAGREB disponível em 24 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#ZAG-ZAG",
-    "imagem": "/__l5e/assets-v1/216d75f1-82a2-47c5-b9df-730e60066a78/resistance-branco.webp",
+    "imagem": "/__l5e/assets-v1/e7b6f801-7e45-41f5-8496-e5cfe4cc7d5e/zagreb-24.png",
     "lifestyle": "/lifestyle/resistance.jpg",
     "cores": [
       {
         "nome": "Branco",
         "hex": "#efeff3",
-        "hexes": [
-        "#efeff3"
-      ],
-        "imagem": "/__l5e/assets-v1/216d75f1-82a2-47c5-b9df-730e60066a78/resistance-branco.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/e7b6f801-7e45-41f5-8496-e5cfe4cc7d5e/zagreb-24.png"
       },
       {
         "nome": "Bege",
         "hex": "#aba89a",
-        "hexes": [
-        "#aba89a"
-      ],
-        "imagem": "/__l5e/assets-v1/c76e66ae-eac5-4a03-ad80-3ad767b153dc/resistance-beje.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/8472cb04-371b-414d-8617-c97ff1654620/zagreb-19.png"
       },
       {
         "nome": "Castanho",
         "hex": "#543d34",
-        "hexes": [
-        "#543d34"
-      ],
-        "imagem": "/__l5e/assets-v1/b366a160-30dd-48f2-8721-a953356406f2/resistance-castanho.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/71f9b5a2-4635-4ed0-babf-cc8c9ead13aa/zagreb-20.png"
       },
       {
         "nome": "Verde 1",
         "hex": "#92b553",
-        "hexes": [
-        "#92b553"
-      ],
-        "imagem": "/__l5e/assets-v1/911351a2-97a0-4a63-a4ea-de77ffe6d32a/resistance-verde1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/34ba5e0c-add4-4bd0-89f9-e10aeec0d8cc/zagreb-21.png"
       },
       {
         "nome": "Verde 2",
         "hex": "#1a704e",
-        "hexes": [
-        "#1a704e"
-      ],
-        "imagem": "/__l5e/assets-v1/3f63664e-f619-4f45-973d-5bb905ec0227/resistance-verde2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3efa9028-5646-4035-bf92-70ca1baa3227/zagreb-22.png"
       },
       {
         "nome": "Verde 3",
         "hex": "#025443",
-        "hexes": [
-        "#025443"
-      ],
-        "imagem": "/__l5e/assets-v1/070e1099-cd81-48da-a087-d944ac146d32/resistance-verde3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/5bc0fbf1-cfe2-43d4-901a-767f377329cd/zagreb-14.png"
       },
       {
         "nome": "Verde 4",
         "hex": "#51553f",
-        "hexes": [
-        "#51553f"
-      ],
-        "imagem": "/__l5e/assets-v1/dd979047-fad3-4045-8730-9f70d1b1f099/resistance-verde4.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/397a1b12-e9e9-4e58-9d4c-2f383b2b73c3/zagreb-13.png"
       },
       {
         "nome": "Verde 5",
         "hex": "#9fba37",
-        "hexes": [
-        "#9fba37"
-      ],
-        "imagem": "/__l5e/assets-v1/cbdc1ca0-b981-436d-9ac2-b6c53d1fea71/resistance-verde5.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/d6cd94ab-13c5-4cc6-967d-cf1b7d203be7/zagreb-12.png"
       },
       {
         "nome": "Amarelo 1",
         "hex": "#dcd71e",
-        "hexes": [
-        "#dcd71e"
-      ],
-        "imagem": "/__l5e/assets-v1/62c9d753-64b8-484b-809e-52fb0d0a93b7/resistance-amarelo1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/cd9cc272-c81d-44f9-9146-20148abbf308/zagreb-11.png"
       },
       {
         "nome": "Amarelo 2",
         "hex": "#f1db4c",
-        "hexes": [
-        "#f1db4c"
-      ],
-        "imagem": "/__l5e/assets-v1/e07f99a3-a5d7-4a05-9427-55150fc0877e/resistance-amarelo2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/c43c474c-ec1f-4fb7-a58b-426083b2b241/zagreb-10.png"
       },
       {
         "nome": "Amarelo 3",
         "hex": "#f1b803",
-        "hexes": [
-        "#f1b803"
-      ],
-        "imagem": "/__l5e/assets-v1/c9ed2f80-dd77-4028-baf7-06a5a5a49207/resistance-amarelo3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/2cee2b29-66cb-45d2-b96b-def28bbd8f33/zagreb-5.png"
       },
       {
         "nome": "Laranja 1",
         "hex": "#c4521d",
-        "hexes": [
-        "#c4521d"
-      ],
-        "imagem": "/__l5e/assets-v1/a72bbdf4-d11c-45ba-9b70-62e809aab8cf/resistance-laranja1.webp"
-      },
-      {
-        "nome": "Laranja 2",
-        "hex": "#c35923",
-        "hexes": [
-        "#c35923"
-      ],
-        "imagem": "/__l5e/assets-v1/6cc8b03b-6764-4a69-9b04-e7c6ae8c7449/resistance-laranja2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/1129ca87-b5d7-4b91-8fb9-83b30f8d28e8/zagreb-4.png"
       },
       {
         "nome": "Vermelho",
         "hex": "#8b1727",
-        "hexes": [
-        "#8b1727"
-      ],
-        "imagem": "/__l5e/assets-v1/983a6613-81cf-495a-b0bb-797368c2f71c/resistance-vermelho.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/c47425e8-67c9-4914-96d2-a1a4c31d3e9b/zagreb-3.png"
       },
       {
         "nome": "Rosa 1",
         "hex": "#eec3d4",
-        "hexes": [
-        "#eec3d4"
-      ],
-        "imagem": "/__l5e/assets-v1/bf1114b9-d7e6-4f78-97b4-2fbee0c1f5d6/resistance-rosa1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/2dd631aa-f87a-42c5-8f00-02c627a3fbd0/zagreb-2.png"
       },
       {
         "nome": "Rosa 2",
         "hex": "#c0437f",
-        "hexes": [
-        "#c0437f"
-      ],
-        "imagem": "/__l5e/assets-v1/624c3978-e8e3-4147-86d5-7e6c365c88d0/resistance-rosa2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/1c8dd78c-9f37-4588-8d06-64914d17cb44/zagreb-1.png"
       },
       {
         "nome": "Rosa 3",
         "hex": "#c46097",
-        "hexes": [
-        "#c46097"
-      ],
-        "imagem": "/__l5e/assets-v1/cc4cb164-72f4-4195-b8a8-4f2c686a9319/resistance-rosa3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/9ce57c33-2c45-44b7-b0d6-44ad8205ff2b/zagreb-23.png"
       },
       {
         "nome": "Roxo 1",
         "hex": "#503677",
-        "hexes": [
-        "#503677"
-      ],
-        "imagem": "/__l5e/assets-v1/4b61784e-cf5a-4419-9834-6bbb9b008a85/resistance-roxo1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/abcc5a44-7d9a-4600-946b-d17034d3af66/zagreb-18.png"
       },
       {
         "nome": "Roxo 2",
         "hex": "#272863",
-        "hexes": [
-        "#272863"
-      ],
-        "imagem": "/__l5e/assets-v1/4c2abc52-2185-42d1-9f61-6e2cd2325e78/resistance-roxo2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/abfe831b-d352-4c75-962d-bf22b6d9b55d/zagreb-17.png"
       },
       {
         "nome": "Azul 1",
         "hex": "#7ca4d1",
-        "hexes": [
-        "#7ca4d1"
-      ],
-        "imagem": "/__l5e/assets-v1/e82bcc73-2ac7-4193-a577-574e1750da17/resistance-azul1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/f709a41a-0f6d-436c-ba5a-29d1e763f4cd/zagreb-16.png"
       },
       {
         "nome": "Azul 2",
         "hex": "#047db7",
-        "hexes": [
-        "#047db7"
-      ],
-        "imagem": "/__l5e/assets-v1/33d78303-da7e-400a-a8c6-3c5615995e78/resistance-azul2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3f41ad4c-d2a5-4f30-9ccd-f7e3df93e823/zagreb-15.png"
       },
       {
         "nome": "Azul 3",
         "hex": "#205c95",
-        "hexes": [
-        "#205c95"
-      ],
-        "imagem": "/__l5e/assets-v1/e7c369e0-92f8-4394-8c5c-593250c97fe7/resistance-azul3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/4bdc7d42-4c42-4eea-9ec7-c1fa1791f71e/zagreb-9.png"
       },
       {
         "nome": "Azul 4",
         "hex": "#11324f",
-        "hexes": [
-        "#11324f"
-      ],
-        "imagem": "/__l5e/assets-v1/9fdc8544-55e2-4aed-99f5-3c7bca63f435/resistance-azul4.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/fb3859c2-419d-4571-b487-829fa69d08fa/zagreb-7.png"
       },
       {
         "nome": "Cinzento 1",
         "hex": "#616976",
-        "hexes": [
-        "#616976"
-      ],
-        "imagem": "/__l5e/assets-v1/f45d06ac-9d86-47fd-842a-fe17de3ee713/resistance-cinzento1.webp"
-      },
-      {
-        "nome": "Cinzento 2",
-        "hex": "#525159",
-        "hexes": [
-        "#525159"
-      ],
-        "imagem": "/__l5e/assets-v1/4f3180f6-f7df-4ca3-8698-7c578b38299c/resistance-cinzento2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/a3202a03-1f22-4e9b-9d46-e02c3f55b872/zagreb-8.png"
       },
       {
         "nome": "Preto",
         "hex": "#342f2b",
-        "hexes": [
-        "#342f2b"
-      ],
-        "imagem": "/__l5e/assets-v1/f3843ddd-f4d7-4050-addd-96c630da6fe8/resistance-preto.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3dee18a7-2335-4999-9f2a-f5ab1bb2c0a6/zagreb-6.png"
       }
     ],
     "tamanhos": [
@@ -1082,53 +1018,38 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt COPENHAGA disponível em 5 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#COP-COP",
-    "imagem": "/__l5e/assets-v1/5b3ae55f-c0c5-4b00-8e47-26fa9bf62195/rockspeed-cinzento.webp",
+    "imagem": "/__l5e/assets-v1/bea9f71a-db83-4911-9cb0-acc0485c6ea5/copenhaga-5.png",
     "lifestyle": "/lifestyle/rockspeed.jpg",
     "cores": [
       {
-        "nome": "Cinzento",
-        "hex": "#eaeaea",
-        "hexes": [
-        "#eaeaea",
-        "#82868c"
-      ],
-        "imagem": "/__l5e/assets-v1/5b3ae55f-c0c5-4b00-8e47-26fa9bf62195/rockspeed-cinzento.webp"
+        "nome": "Branco",
+        "hex": "#e8e8e8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/bea9f71a-db83-4911-9cb0-acc0485c6ea5/copenhaga-5.png"
       },
       {
         "nome": "Verde",
-        "hex": "#97bc53",
-        "hexes": [
-        "#97bc53",
-        "#639843"
-      ],
-        "imagem": "/__l5e/assets-v1/35f275cb-8956-45ec-a967-e8ea374a09ac/rockspeed-verde.webp"
+        "hex": "#88b848",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/fb22774d-238a-4de7-b33f-4ea289fecd09/copenhaga-4.png"
       },
       {
-        "nome": "Laranja",
-        "hex": "#e2de1e",
-        "hexes": [
-        "#e2de1e",
-        "#ab8c1e"
-      ],
-        "imagem": "/__l5e/assets-v1/ae4bcb4f-54f2-40a2-be88-ce57a7d4c76c/rockspeed-laranja.webp"
+        "nome": "Amarelo",
+        "hex": "#e8d808",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/238d19c8-a32b-43e8-94ba-9b7ec63e425b/copenhaga-3.png"
       },
       {
         "nome": "Rosa",
-        "hex": "#db9ab9",
-        "hexes": [
-        "#db9ab9",
-        "#a76684"
-      ],
-        "imagem": "/__l5e/assets-v1/129bbc87-2827-4c01-87b6-4772a42144fc/rockspeed-rosa.webp"
+        "hex": "#e898b8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/1db8da2f-0a91-4b2a-b8aa-2ac414bbd9bb/copenhaga-2.png"
       },
       {
         "nome": "Azul",
-        "hex": "#0291cc",
-        "hexes": [
-        "#0291cc",
-        "#196998"
-      ],
-        "imagem": "/__l5e/assets-v1/b5730bb0-eec7-49b8-8324-4b038b095899/rockspeed-azul.webp"
+        "hex": "#0888c8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/0ed3499e-c8fb-4b24-8c5d-8a4e365249de/copenhaga-1.png"
       }
     ],
     "tamanhos": [
@@ -1186,53 +1107,38 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt BRATISLAVA disponível em 5 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#BRA-BRA",
-    "imagem": "/__l5e/assets-v1/7bddb081-68f1-4cf7-9dbb-cef43d014a43/brickplus-verde.webp",
+    "imagem": "/__l5e/assets-v1/cc8a9651-b300-4343-a886-b9f773ef66b6/bratislava-2.png",
     "lifestyle": "/lifestyle/brickplus.jpg",
     "cores": [
       {
         "nome": "Verde",
         "hex": "#f0f2f2",
-        "hexes": [
-        "#f0f2f2",
-        "#aebd8a"
-      ],
-        "imagem": "/__l5e/assets-v1/7bddb081-68f1-4cf7-9dbb-cef43d014a43/brickplus-verde.webp"
+        "hexes": ["#f0f2f2", "#78a838"],
+        "imagem": "/__l5e/assets-v1/cc8a9651-b300-4343-a886-b9f773ef66b6/bratislava-2.png"
       },
       {
         "nome": "Amarelo",
-        "hex": "#f0f1f2",
-        "hexes": [
-        "#f0f1f2",
-        "#d9d66a"
-      ],
-        "imagem": "/__l5e/assets-v1/40c0f730-feae-4176-ba5f-a4f0408d888f/brickplus-amarelo.webp"
+        "hex": "#f0f2f2",
+        "hexes": ["#f0f2f2", "#c8c808"],
+        "imagem": "/__l5e/assets-v1/57593b04-e03d-4d74-afc8-fc63bba45c74/bratislava-3.png"
       },
       {
         "nome": "Laranja",
-        "hex": "#f0f1f2",
-        "hexes": [
-        "#f0f1f2",
-        "#b49378"
-      ],
-        "imagem": "/__l5e/assets-v1/8cc4af4f-51bf-42d4-aac2-3e5d949d1d61/brickplus-laranja.webp"
+        "hex": "#f0f2f2",
+        "hexes": ["#f0f2f2", "#c84808"],
+        "imagem": "/__l5e/assets-v1/8939c34a-b050-449b-b04e-726247a222a9/bratislava-1.png"
       },
       {
         "nome": "Rosa",
-        "hex": "#f0f1f2",
-        "hexes": [
-        "#f0f1f2",
-        "#b694a2"
-      ],
-        "imagem": "/__l5e/assets-v1/944fc5e8-1a49-4afd-8caa-714e7ad1426d/brickplus-rosa.webp"
+        "hex": "#f0f2f2",
+        "hexes": ["#f0f2f2", "#d84878"],
+        "imagem": "/__l5e/assets-v1/0d3bf5e7-17e5-46fe-852d-4457560d1175/bratislava-4.png"
       },
       {
         "nome": "Preto",
         "hex": "#f0f2f2",
-        "hexes": [
-        "#f0f2f2",
-        "#868583"
-      ],
-        "imagem": "/__l5e/assets-v1/d0d3da1d-feb8-4217-8dbe-fb057071cd26/brickplus-preto.webp"
+        "hexes": ["#f0f2f2", "#3a332e"],
+        "imagem": "/__l5e/assets-v1/8133fdac-9707-492f-a443-cc49247a9027/bratislava-5.png"
       }
     ],
     "tamanhos": [
@@ -1290,44 +1196,32 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt HELSÍNQUIA disponível em 4 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#HEL-HEL",
-    "imagem": "/__l5e/assets-v1/458eef55-1728-447a-8030-707750084547/leopard-verde.webp",
+    "imagem": "/__l5e/assets-v1/c2d5f353-c871-4d26-9fca-3fbd34c0f428/helsinquia-4.png",
     "lifestyle": "/lifestyle/leopard.jpg",
     "cores": [
       {
         "nome": "Verde",
         "hex": "#f1f1f1",
-        "hexes": [
-        "#f1f1f1",
-        "#97ab70"
-      ],
-        "imagem": "/__l5e/assets-v1/458eef55-1728-447a-8030-707750084547/leopard-verde.webp"
+        "hexes": ["#f1f1f1", "#689838"],
+        "imagem": "/__l5e/assets-v1/c2d5f353-c871-4d26-9fca-3fbd34c0f428/helsinquia-4.png"
       },
       {
         "nome": "Vermelho",
         "hex": "#f1f1f1",
-        "hexes": [
-        "#f1f1f1",
-        "#84454b"
-      ],
-        "imagem": "/__l5e/assets-v1/975d969d-f9ce-44a1-a709-c8e70f2ef897/leopard-vermelho.webp"
+        "hexes": ["#f1f1f1", "#980818"],
+        "imagem": "/__l5e/assets-v1/43962334-3136-4a1e-a791-688dca56f235/helsinquia-3.png"
       },
       {
         "nome": "Azul",
         "hex": "#f1f1f1",
-        "hexes": [
-        "#f1f1f1",
-        "#516e8b"
-      ],
-        "imagem": "/__l5e/assets-v1/9c3d7397-8762-4cae-a08e-6150fc9b1bb8/leopard-azul.webp"
+        "hexes": ["#f1f1f1", "#085898"],
+        "imagem": "/__l5e/assets-v1/9a046c16-f335-47b8-9893-a03e47f790ed/helsinquia-2.png"
       },
       {
         "nome": "Preto",
         "hex": "#f1f1f1",
-        "hexes": [
-        "#f1f1f1",
-        "#514e4b"
-      ],
-        "imagem": "/__l5e/assets-v1/ad168f58-1d3d-48d1-9ba2-ade7ea56d8f7/leopard-preto.webp"
+        "hexes": ["#f1f1f1", "#181818"],
+        "imagem": "/__l5e/assets-v1/047cb56f-ba31-4763-9e37-e37b9ab5600d/helsinquia-1.png"
       }
     ],
     "tamanhos": [
@@ -1394,58 +1288,38 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt MOSCOVO disponível em 5 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#DUB-DUB",
-    "imagem": "/__l5e/assets-v1/a946776f-b459-40d2-946b-b756be7e7608/maurice-verde.webp",
+    "imagem": "/__l5e/assets-v1/3d4760fa-28ca-4c8e-8c66-9dbf04567f1e/moscovo-5.png",
     "lifestyle": "/lifestyle/maurice.jpg",
     "cores": [
       {
         "nome": "Verde",
-        "hex": "#a2c15c",
-        "hexes": [
-        "#a2c15c",
-        "#8db650",
-        "#33382c"
-      ],
-        "imagem": "/__l5e/assets-v1/a946776f-b459-40d2-946b-b756be7e7608/maurice-verde.webp"
+        "hex": "#98b858",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3d4760fa-28ca-4c8e-8c66-9dbf04567f1e/moscovo-5.png"
       },
       {
         "nome": "Laranja",
-        "hex": "#c85b2a",
-        "hexes": [
-        "#c85b2a",
-        "#c54f20",
-        "#382e28"
-      ],
-        "imagem": "/__l5e/assets-v1/0414a116-d100-49a7-8b2b-a99b73035fda/maurice-laranja.webp"
+        "hex": "#c85828",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/7c7b8ca2-46fc-4f97-a7e0-c5f924317f77/moscovo-4.png"
       },
       {
         "nome": "Vermelho",
-        "hex": "#8d2429",
-        "hexes": [
-        "#8d2429",
-        "#332d29",
-        "#c5b5b4"
-      ],
-        "imagem": "/__l5e/assets-v1/81f7729a-5316-48b4-9017-e7aaaed0a89a/maurice-vermelho.webp"
+        "hex": "#881828",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/74a94a6b-cb3e-4c4c-9de4-6a7e9b67c823/moscovo-3.png"
       },
       {
         "nome": "Azul",
-        "hex": "#275d98",
-        "hexes": [
-        "#275d98",
-        "#406b9f",
-        "#312e2c"
-      ],
-        "imagem": "/__l5e/assets-v1/710e89f3-082a-448d-96fb-d99bc1556b96/maurice-azul.webp"
+        "hex": "#285898",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/96c0495a-7611-4215-8895-f6821b7556cd/moscovo-2.png"
       },
       {
         "nome": "Cinzento",
-        "hex": "#545359",
-        "hexes": [
-        "#545359",
-        "#5c5d62",
-        "#302d29"
-      ],
-        "imagem": "/__l5e/assets-v1/cfc12358-35d8-4e3e-bed4-bde686407172/maurice-cinzento.webp"
+        "hex": "#585858",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/e0550993-1bad-4316-8ed6-0d02c8572a32/moscovo-1.png"
       }
     ],
     "tamanhos": [
@@ -3728,219 +3602,155 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "mulher",
-    "descricao": "T-shirt ZAGREB disponível em 26 cores. 100% Poliéster",
+    "descricao": "T-shirt ZAGREB disponível em 24 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#ZAG-MUL",
-    "imagem": "/__l5e/assets-v1/216d75f1-82a2-47c5-b9df-730e60066a78/resistance-branco.webp",
+    "imagem": "/__l5e/assets-v1/e7b6f801-7e45-41f5-8496-e5cfe4cc7d5e/zagreb-24.png",
     "lifestyle": "/lifestyle/resistance.jpg",
     "cores": [
       {
         "nome": "Branco",
         "hex": "#efeff3",
-        "hexes": [
-        "#efeff3"
-      ],
-        "imagem": "/__l5e/assets-v1/216d75f1-82a2-47c5-b9df-730e60066a78/resistance-branco.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/e7b6f801-7e45-41f5-8496-e5cfe4cc7d5e/zagreb-24.png"
       },
       {
         "nome": "Bege",
         "hex": "#aba89a",
-        "hexes": [
-        "#aba89a"
-      ],
-        "imagem": "/__l5e/assets-v1/c76e66ae-eac5-4a03-ad80-3ad767b153dc/resistance-beje.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/8472cb04-371b-414d-8617-c97ff1654620/zagreb-19.png"
       },
       {
         "nome": "Castanho",
         "hex": "#543d34",
-        "hexes": [
-        "#543d34"
-      ],
-        "imagem": "/__l5e/assets-v1/b366a160-30dd-48f2-8721-a953356406f2/resistance-castanho.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/71f9b5a2-4635-4ed0-babf-cc8c9ead13aa/zagreb-20.png"
       },
       {
         "nome": "Verde 1",
         "hex": "#92b553",
-        "hexes": [
-        "#92b553"
-      ],
-        "imagem": "/__l5e/assets-v1/911351a2-97a0-4a63-a4ea-de77ffe6d32a/resistance-verde1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/34ba5e0c-add4-4bd0-89f9-e10aeec0d8cc/zagreb-21.png"
       },
       {
         "nome": "Verde 2",
         "hex": "#1a704e",
-        "hexes": [
-        "#1a704e"
-      ],
-        "imagem": "/__l5e/assets-v1/3f63664e-f619-4f45-973d-5bb905ec0227/resistance-verde2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3efa9028-5646-4035-bf92-70ca1baa3227/zagreb-22.png"
       },
       {
         "nome": "Verde 3",
         "hex": "#025443",
-        "hexes": [
-        "#025443"
-      ],
-        "imagem": "/__l5e/assets-v1/070e1099-cd81-48da-a087-d944ac146d32/resistance-verde3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/5bc0fbf1-cfe2-43d4-901a-767f377329cd/zagreb-14.png"
       },
       {
         "nome": "Verde 4",
         "hex": "#51553f",
-        "hexes": [
-        "#51553f"
-      ],
-        "imagem": "/__l5e/assets-v1/dd979047-fad3-4045-8730-9f70d1b1f099/resistance-verde4.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/397a1b12-e9e9-4e58-9d4c-2f383b2b73c3/zagreb-13.png"
       },
       {
         "nome": "Verde 5",
         "hex": "#9fba37",
-        "hexes": [
-        "#9fba37"
-      ],
-        "imagem": "/__l5e/assets-v1/cbdc1ca0-b981-436d-9ac2-b6c53d1fea71/resistance-verde5.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/d6cd94ab-13c5-4cc6-967d-cf1b7d203be7/zagreb-12.png"
       },
       {
         "nome": "Amarelo 1",
         "hex": "#dcd71e",
-        "hexes": [
-        "#dcd71e"
-      ],
-        "imagem": "/__l5e/assets-v1/62c9d753-64b8-484b-809e-52fb0d0a93b7/resistance-amarelo1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/cd9cc272-c81d-44f9-9146-20148abbf308/zagreb-11.png"
       },
       {
         "nome": "Amarelo 2",
         "hex": "#f1db4c",
-        "hexes": [
-        "#f1db4c"
-      ],
-        "imagem": "/__l5e/assets-v1/e07f99a3-a5d7-4a05-9427-55150fc0877e/resistance-amarelo2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/c43c474c-ec1f-4fb7-a58b-426083b2b241/zagreb-10.png"
       },
       {
         "nome": "Amarelo 3",
         "hex": "#f1b803",
-        "hexes": [
-        "#f1b803"
-      ],
-        "imagem": "/__l5e/assets-v1/c9ed2f80-dd77-4028-baf7-06a5a5a49207/resistance-amarelo3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/2cee2b29-66cb-45d2-b96b-def28bbd8f33/zagreb-5.png"
       },
       {
         "nome": "Laranja 1",
         "hex": "#c4521d",
-        "hexes": [
-        "#c4521d"
-      ],
-        "imagem": "/__l5e/assets-v1/a72bbdf4-d11c-45ba-9b70-62e809aab8cf/resistance-laranja1.webp"
-      },
-      {
-        "nome": "Laranja 2",
-        "hex": "#c35923",
-        "hexes": [
-        "#c35923"
-      ],
-        "imagem": "/__l5e/assets-v1/6cc8b03b-6764-4a69-9b04-e7c6ae8c7449/resistance-laranja2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/1129ca87-b5d7-4b91-8fb9-83b30f8d28e8/zagreb-4.png"
       },
       {
         "nome": "Vermelho",
         "hex": "#8b1727",
-        "hexes": [
-        "#8b1727"
-      ],
-        "imagem": "/__l5e/assets-v1/983a6613-81cf-495a-b0bb-797368c2f71c/resistance-vermelho.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/c47425e8-67c9-4914-96d2-a1a4c31d3e9b/zagreb-3.png"
       },
       {
         "nome": "Rosa 1",
         "hex": "#eec3d4",
-        "hexes": [
-        "#eec3d4"
-      ],
-        "imagem": "/__l5e/assets-v1/bf1114b9-d7e6-4f78-97b4-2fbee0c1f5d6/resistance-rosa1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/2dd631aa-f87a-42c5-8f00-02c627a3fbd0/zagreb-2.png"
       },
       {
         "nome": "Rosa 2",
         "hex": "#c0437f",
-        "hexes": [
-        "#c0437f"
-      ],
-        "imagem": "/__l5e/assets-v1/624c3978-e8e3-4147-86d5-7e6c365c88d0/resistance-rosa2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/1c8dd78c-9f37-4588-8d06-64914d17cb44/zagreb-1.png"
       },
       {
         "nome": "Rosa 3",
         "hex": "#c46097",
-        "hexes": [
-        "#c46097"
-      ],
-        "imagem": "/__l5e/assets-v1/cc4cb164-72f4-4195-b8a8-4f2c686a9319/resistance-rosa3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/9ce57c33-2c45-44b7-b0d6-44ad8205ff2b/zagreb-23.png"
       },
       {
         "nome": "Roxo 1",
         "hex": "#503677",
-        "hexes": [
-        "#503677"
-      ],
-        "imagem": "/__l5e/assets-v1/4b61784e-cf5a-4419-9834-6bbb9b008a85/resistance-roxo1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/abcc5a44-7d9a-4600-946b-d17034d3af66/zagreb-18.png"
       },
       {
         "nome": "Roxo 2",
         "hex": "#272863",
-        "hexes": [
-        "#272863"
-      ],
-        "imagem": "/__l5e/assets-v1/4c2abc52-2185-42d1-9f61-6e2cd2325e78/resistance-roxo2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/abfe831b-d352-4c75-962d-bf22b6d9b55d/zagreb-17.png"
       },
       {
         "nome": "Azul 1",
         "hex": "#7ca4d1",
-        "hexes": [
-        "#7ca4d1"
-      ],
-        "imagem": "/__l5e/assets-v1/e82bcc73-2ac7-4193-a577-574e1750da17/resistance-azul1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/f709a41a-0f6d-436c-ba5a-29d1e763f4cd/zagreb-16.png"
       },
       {
         "nome": "Azul 2",
         "hex": "#047db7",
-        "hexes": [
-        "#047db7"
-      ],
-        "imagem": "/__l5e/assets-v1/33d78303-da7e-400a-a8c6-3c5615995e78/resistance-azul2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3f41ad4c-d2a5-4f30-9ccd-f7e3df93e823/zagreb-15.png"
       },
       {
         "nome": "Azul 3",
         "hex": "#205c95",
-        "hexes": [
-        "#205c95"
-      ],
-        "imagem": "/__l5e/assets-v1/e7c369e0-92f8-4394-8c5c-593250c97fe7/resistance-azul3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/4bdc7d42-4c42-4eea-9ec7-c1fa1791f71e/zagreb-9.png"
       },
       {
         "nome": "Azul 4",
         "hex": "#11324f",
-        "hexes": [
-        "#11324f"
-      ],
-        "imagem": "/__l5e/assets-v1/9fdc8544-55e2-4aed-99f5-3c7bca63f435/resistance-azul4.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/fb3859c2-419d-4571-b487-829fa69d08fa/zagreb-7.png"
       },
       {
         "nome": "Cinzento 1",
         "hex": "#616976",
-        "hexes": [
-        "#616976"
-      ],
-        "imagem": "/__l5e/assets-v1/f45d06ac-9d86-47fd-842a-fe17de3ee713/resistance-cinzento1.webp"
-      },
-      {
-        "nome": "Cinzento 2",
-        "hex": "#525159",
-        "hexes": [
-        "#525159"
-      ],
-        "imagem": "/__l5e/assets-v1/4f3180f6-f7df-4ca3-8698-7c578b38299c/resistance-cinzento2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/a3202a03-1f22-4e9b-9d46-e02c3f55b872/zagreb-8.png"
       },
       {
         "nome": "Preto",
         "hex": "#342f2b",
-        "hexes": [
-        "#342f2b"
-      ],
-        "imagem": "/__l5e/assets-v1/f3843ddd-f4d7-4050-addd-96c630da6fe8/resistance-preto.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3dee18a7-2335-4999-9f2a-f5ab1bb2c0a6/zagreb-6.png"
       }
     ],
     "tamanhos": [
@@ -4007,16 +3817,34 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "mulher",
-    "descricao": "T-shirt ATENAS — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt ATENAS — modelo disponível em 4 cores.",
     "composicao": "100% Poliéster",
     "referencia": "#ATE-ATE",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": "/__l5e/assets-v1/698bee58-9fd3-45e3-a306-242bf2ff1965/atenas-1.png",
     "cores": [
       {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": ["#eaedf1"],
-        "imagem": "/placeholder-modelo.svg"
+        "nome": "Cinzento",
+        "hex": "#484848",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/698bee58-9fd3-45e3-a306-242bf2ff1965/atenas-1.png"
+      },
+      {
+        "nome": "Verde Escuro",
+        "hex": "#383818",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/c6914c5a-613c-474a-bcf5-2a8d5b8f6bcb/atenas-2.png"
+      },
+      {
+        "nome": "Rosa",
+        "hex": "#d86898",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/1576718a-4321-41a3-baf0-1ef9dffb7757/atenas-3.png"
+      },
+      {
+        "nome": "Lilás",
+        "hex": "#b8a8c8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/52d6096a-5ced-4f25-a746-5ba0ad5fd95d/atenas-4.png"
       }
     ],
     "tamanhos": [
@@ -4459,12 +4287,53 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "crianca",
-    "descricao": "T-shirt BAKU — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt BAKU — modelo de criança disponível em 7 cores.",
     "composicao": "100% Algodão",
     "referencia": "#BAK",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": "/__l5e/assets-v1/780b9800-b5d8-4043-80e3-5b396b73ae98/baku-1.png",
     "cores": [
-      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+      {
+        "nome": "Branco",
+        "hex": "#f8f8f8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/780b9800-b5d8-4043-80e3-5b396b73ae98/baku-1.png"
+      },
+      {
+        "nome": "Verde",
+        "hex": "#086848",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/26af46cd-5b13-46e8-b5de-f7ad8cadd047/baku-2.png"
+      },
+      {
+        "nome": "Laranja",
+        "hex": "#c86808",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/df2dbb3a-95f6-47a7-a812-65667acb9f2a/baku-3.png"
+      },
+      {
+        "nome": "Vermelho",
+        "hex": "#781828",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/1899f16f-a383-4b0d-846d-b37c25cebf14/baku-4.png"
+      },
+      {
+        "nome": "Azul",
+        "hex": "#085888",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3ff0a47e-6c0b-499a-82ac-5774b1fdea87/baku-5.png"
+      },
+      {
+        "nome": "Azul Escuro",
+        "hex": "#082848",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/df971fde-0631-4173-b167-459a9e07412a/baku-6.png"
+      },
+      {
+        "nome": "Preto",
+        "hex": "#282818",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/782a1ffc-8dad-46e6-a021-e3a373110fd9/baku-7.png"
+      }
     ],
     "tamanhos": [
       ["Tamanho", "2", "4", "6", "8", "10", "12"],
@@ -4488,12 +4357,41 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "crianca",
-    "descricao": "T-shirt OSLO — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt OSLO — modelo de criança disponível em 5 cores.",
     "composicao": "100% Algodão",
     "referencia": "#OSL",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": "/__l5e/assets-v1/a9c7c0f2-9519-4eea-bd2c-55f4ec29833c/oslo-1.png",
     "cores": [
-      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+      {
+        "nome": "Branco",
+        "hex": "#f8f8f8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/a9c7c0f2-9519-4eea-bd2c-55f4ec29833c/oslo-1.png"
+      },
+      {
+        "nome": "Vermelho",
+        "hex": "#881828",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/d0d854bb-05d7-4a05-995c-0edddf586180/oslo-2.png"
+      },
+      {
+        "nome": "Azul",
+        "hex": "#085898",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/a97db265-fee0-4ba0-9a82-dca68b01cf66/oslo-3.png"
+      },
+      {
+        "nome": "Preto",
+        "hex": "#282828",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/9ea2a8d0-a57c-43a6-a4c5-6c15f25311bd/oslo-4.png"
+      },
+      {
+        "nome": "Azul Escuro",
+        "hex": "#083858",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/e16c8223-3727-44a3-ac97-42c53392de92/oslo-5.png"
+      }
     ],
     "tamanhos": [
       ["Tamanho", "2", "4", "6", "8", "10", "12"],
@@ -4517,12 +4415,41 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "crianca",
-    "descricao": "T-shirt SARAVEJO — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt SARAVEJO — modelo de criança disponível em 5 cores.",
     "composicao": "100% Algodão",
     "referencia": "#SAR",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": "/__l5e/assets-v1/4b4f6f8b-ebed-4685-8e69-31ed71e22fae/saravejo-1.png",
     "cores": [
-      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+      {
+        "nome": "Branco",
+        "hex": "#f8f8f8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/4b4f6f8b-ebed-4685-8e69-31ed71e22fae/saravejo-1.png"
+      },
+      {
+        "nome": "Vermelho",
+        "hex": "#881828",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/b6e77635-d64f-4b76-8ff1-9f4f567786b1/saravejo-2.png"
+      },
+      {
+        "nome": "Rosa Claro",
+        "hex": "#e8c8d8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/ab1015a5-cc71-4d76-83d0-c2c27ca3cf07/saravejo-3.png"
+      },
+      {
+        "nome": "Preto",
+        "hex": "#282818",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/6cd5e17e-1607-4dc5-8427-b88eb3fe6d36/saravejo-4.png"
+      },
+      {
+        "nome": "Rosa",
+        "hex": "#b85888",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/f740cbd4-e705-4d3f-95d8-082a7bf38433/saravejo-5.png"
+      }
     ],
     "tamanhos": [
       ["Tamanho", "2", "4", "6", "8", "10", "12"],
@@ -4546,12 +4473,29 @@ export const modelos: Modelo[] = [
     "categoria": "crianca",
     "subcategoria": "Bodies",
     "genero": "crianca",
-    "descricao": "Body SÓFIA — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "descricao": "Body SÓFIA — modelo de criança disponível em 3 cores.",
     "composicao": "100% Algodão",
     "referencia": "#SOF-SOF",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": "/__l5e/assets-v1/b5778fc0-9542-4b92-bd47-8c98af392777/sofia-3.png",
     "cores": [
-      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+      {
+        "nome": "Branco",
+        "hex": "#e8e8e8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/b5778fc0-9542-4b92-bd47-8c98af392777/sofia-3.png"
+      },
+      {
+        "nome": "Azul Claro",
+        "hex": "#88a8c8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/a0cdadf6-441f-461e-a002-f5fb4d01611e/sofia-1.png"
+      },
+      {
+        "nome": "Rosa Claro",
+        "hex": "#e8c8d8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/85389146-2607-488b-94e2-50d33a55c2ef/sofia-2.png"
+      }
     ],
     "tamanhos": [
       ["Tamanho", "2", "4", "6", "8", "10", "12"],
@@ -4575,12 +4519,17 @@ export const modelos: Modelo[] = [
     "categoria": "crianca",
     "subcategoria": "Bodies",
     "genero": "crianca",
-    "descricao": "Body RIGA — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "descricao": "Body RIGA — modelo de criança disponível em 1 cor.",
     "composicao": "100% Algodão",
     "referencia": "#RIG-RIG",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": "/__l5e/assets-v1/76fa6a47-125a-427e-9589-c05a946c762b/riga-1.png",
     "cores": [
-      { "nome": "Branco", "hex": "#eaedf1", "hexes": ["#eaedf1"], "imagem": "/placeholder-modelo.svg" }
+      {
+        "nome": "Branco",
+        "hex": "#e8e8e8",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/76fa6a47-125a-427e-9589-c05a946c762b/riga-1.png"
+      }
     ],
     "tamanhos": [
       ["Tamanho", "2", "4", "6", "8", "10", "12"],
@@ -4605,219 +4554,155 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "crianca",
-    "descricao": "T-shirt ZAGREB disponível em 26 cores. 100% Poliéster",
+    "descricao": "T-shirt ZAGREB disponível em 24 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#ZAG-ZAG",
-    "imagem": "/__l5e/assets-v1/216d75f1-82a2-47c5-b9df-730e60066a78/resistance-branco.webp",
+    "imagem": "/__l5e/assets-v1/e7b6f801-7e45-41f5-8496-e5cfe4cc7d5e/zagreb-24.png",
     "lifestyle": "/lifestyle/resistance.jpg",
     "cores": [
       {
         "nome": "Branco",
         "hex": "#efeff3",
-        "hexes": [
-          "#efeff3"
-        ],
-        "imagem": "/__l5e/assets-v1/216d75f1-82a2-47c5-b9df-730e60066a78/resistance-branco.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/e7b6f801-7e45-41f5-8496-e5cfe4cc7d5e/zagreb-24.png"
       },
       {
         "nome": "Bege",
         "hex": "#aba89a",
-        "hexes": [
-          "#aba89a"
-        ],
-        "imagem": "/__l5e/assets-v1/c76e66ae-eac5-4a03-ad80-3ad767b153dc/resistance-beje.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/8472cb04-371b-414d-8617-c97ff1654620/zagreb-19.png"
       },
       {
         "nome": "Castanho",
         "hex": "#543d34",
-        "hexes": [
-          "#543d34"
-        ],
-        "imagem": "/__l5e/assets-v1/b366a160-30dd-48f2-8721-a953356406f2/resistance-castanho.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/71f9b5a2-4635-4ed0-babf-cc8c9ead13aa/zagreb-20.png"
       },
       {
         "nome": "Verde 1",
         "hex": "#92b553",
-        "hexes": [
-          "#92b553"
-        ],
-        "imagem": "/__l5e/assets-v1/911351a2-97a0-4a63-a4ea-de77ffe6d32a/resistance-verde1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/34ba5e0c-add4-4bd0-89f9-e10aeec0d8cc/zagreb-21.png"
       },
       {
         "nome": "Verde 2",
         "hex": "#1a704e",
-        "hexes": [
-          "#1a704e"
-        ],
-        "imagem": "/__l5e/assets-v1/3f63664e-f619-4f45-973d-5bb905ec0227/resistance-verde2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3efa9028-5646-4035-bf92-70ca1baa3227/zagreb-22.png"
       },
       {
         "nome": "Verde 3",
         "hex": "#025443",
-        "hexes": [
-          "#025443"
-        ],
-        "imagem": "/__l5e/assets-v1/070e1099-cd81-48da-a087-d944ac146d32/resistance-verde3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/5bc0fbf1-cfe2-43d4-901a-767f377329cd/zagreb-14.png"
       },
       {
         "nome": "Verde 4",
         "hex": "#51553f",
-        "hexes": [
-          "#51553f"
-        ],
-        "imagem": "/__l5e/assets-v1/dd979047-fad3-4045-8730-9f70d1b1f099/resistance-verde4.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/397a1b12-e9e9-4e58-9d4c-2f383b2b73c3/zagreb-13.png"
       },
       {
         "nome": "Verde 5",
         "hex": "#9fba37",
-        "hexes": [
-          "#9fba37"
-        ],
-        "imagem": "/__l5e/assets-v1/cbdc1ca0-b981-436d-9ac2-b6c53d1fea71/resistance-verde5.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/d6cd94ab-13c5-4cc6-967d-cf1b7d203be7/zagreb-12.png"
       },
       {
         "nome": "Amarelo 1",
         "hex": "#dcd71e",
-        "hexes": [
-          "#dcd71e"
-        ],
-        "imagem": "/__l5e/assets-v1/62c9d753-64b8-484b-809e-52fb0d0a93b7/resistance-amarelo1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/cd9cc272-c81d-44f9-9146-20148abbf308/zagreb-11.png"
       },
       {
         "nome": "Amarelo 2",
         "hex": "#f1db4c",
-        "hexes": [
-          "#f1db4c"
-        ],
-        "imagem": "/__l5e/assets-v1/e07f99a3-a5d7-4a05-9427-55150fc0877e/resistance-amarelo2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/c43c474c-ec1f-4fb7-a58b-426083b2b241/zagreb-10.png"
       },
       {
         "nome": "Amarelo 3",
         "hex": "#f1b803",
-        "hexes": [
-          "#f1b803"
-        ],
-        "imagem": "/__l5e/assets-v1/c9ed2f80-dd77-4028-baf7-06a5a5a49207/resistance-amarelo3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/2cee2b29-66cb-45d2-b96b-def28bbd8f33/zagreb-5.png"
       },
       {
         "nome": "Laranja 1",
         "hex": "#c4521d",
-        "hexes": [
-          "#c4521d"
-        ],
-        "imagem": "/__l5e/assets-v1/a72bbdf4-d11c-45ba-9b70-62e809aab8cf/resistance-laranja1.webp"
-      },
-      {
-        "nome": "Laranja 2",
-        "hex": "#c35923",
-        "hexes": [
-          "#c35923"
-        ],
-        "imagem": "/__l5e/assets-v1/6cc8b03b-6764-4a69-9b04-e7c6ae8c7449/resistance-laranja2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/1129ca87-b5d7-4b91-8fb9-83b30f8d28e8/zagreb-4.png"
       },
       {
         "nome": "Vermelho",
         "hex": "#8b1727",
-        "hexes": [
-          "#8b1727"
-        ],
-        "imagem": "/__l5e/assets-v1/983a6613-81cf-495a-b0bb-797368c2f71c/resistance-vermelho.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/c47425e8-67c9-4914-96d2-a1a4c31d3e9b/zagreb-3.png"
       },
       {
         "nome": "Rosa 1",
         "hex": "#eec3d4",
-        "hexes": [
-          "#eec3d4"
-        ],
-        "imagem": "/__l5e/assets-v1/bf1114b9-d7e6-4f78-97b4-2fbee0c1f5d6/resistance-rosa1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/2dd631aa-f87a-42c5-8f00-02c627a3fbd0/zagreb-2.png"
       },
       {
         "nome": "Rosa 2",
         "hex": "#c0437f",
-        "hexes": [
-          "#c0437f"
-        ],
-        "imagem": "/__l5e/assets-v1/624c3978-e8e3-4147-86d5-7e6c365c88d0/resistance-rosa2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/1c8dd78c-9f37-4588-8d06-64914d17cb44/zagreb-1.png"
       },
       {
         "nome": "Rosa 3",
         "hex": "#c46097",
-        "hexes": [
-          "#c46097"
-        ],
-        "imagem": "/__l5e/assets-v1/cc4cb164-72f4-4195-b8a8-4f2c686a9319/resistance-rosa3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/9ce57c33-2c45-44b7-b0d6-44ad8205ff2b/zagreb-23.png"
       },
       {
         "nome": "Roxo 1",
         "hex": "#503677",
-        "hexes": [
-          "#503677"
-        ],
-        "imagem": "/__l5e/assets-v1/4b61784e-cf5a-4419-9834-6bbb9b008a85/resistance-roxo1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/abcc5a44-7d9a-4600-946b-d17034d3af66/zagreb-18.png"
       },
       {
         "nome": "Roxo 2",
         "hex": "#272863",
-        "hexes": [
-          "#272863"
-        ],
-        "imagem": "/__l5e/assets-v1/4c2abc52-2185-42d1-9f61-6e2cd2325e78/resistance-roxo2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/abfe831b-d352-4c75-962d-bf22b6d9b55d/zagreb-17.png"
       },
       {
         "nome": "Azul 1",
         "hex": "#7ca4d1",
-        "hexes": [
-          "#7ca4d1"
-        ],
-        "imagem": "/__l5e/assets-v1/e82bcc73-2ac7-4193-a577-574e1750da17/resistance-azul1.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/f709a41a-0f6d-436c-ba5a-29d1e763f4cd/zagreb-16.png"
       },
       {
         "nome": "Azul 2",
         "hex": "#047db7",
-        "hexes": [
-          "#047db7"
-        ],
-        "imagem": "/__l5e/assets-v1/33d78303-da7e-400a-a8c6-3c5615995e78/resistance-azul2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3f41ad4c-d2a5-4f30-9ccd-f7e3df93e823/zagreb-15.png"
       },
       {
         "nome": "Azul 3",
         "hex": "#205c95",
-        "hexes": [
-          "#205c95"
-        ],
-        "imagem": "/__l5e/assets-v1/e7c369e0-92f8-4394-8c5c-593250c97fe7/resistance-azul3.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/4bdc7d42-4c42-4eea-9ec7-c1fa1791f71e/zagreb-9.png"
       },
       {
         "nome": "Azul 4",
         "hex": "#11324f",
-        "hexes": [
-          "#11324f"
-        ],
-        "imagem": "/__l5e/assets-v1/9fdc8544-55e2-4aed-99f5-3c7bca63f435/resistance-azul4.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/fb3859c2-419d-4571-b487-829fa69d08fa/zagreb-7.png"
       },
       {
         "nome": "Cinzento 1",
         "hex": "#616976",
-        "hexes": [
-          "#616976"
-        ],
-        "imagem": "/__l5e/assets-v1/f45d06ac-9d86-47fd-842a-fe17de3ee713/resistance-cinzento1.webp"
-      },
-      {
-        "nome": "Cinzento 2",
-        "hex": "#525159",
-        "hexes": [
-          "#525159"
-        ],
-        "imagem": "/__l5e/assets-v1/4f3180f6-f7df-4ca3-8698-7c578b38299c/resistance-cinzento2.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/a3202a03-1f22-4e9b-9d46-e02c3f55b872/zagreb-8.png"
       },
       {
         "nome": "Preto",
         "hex": "#342f2b",
-        "hexes": [
-          "#342f2b"
-        ],
-        "imagem": "/__l5e/assets-v1/f3843ddd-f4d7-4050-addd-96c630da6fe8/resistance-preto.webp"
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3dee18a7-2335-4999-9f2a-f5ab1bb2c0a6/zagreb-6.png"
       }
     ],
     "tamanhos": [
@@ -4887,44 +4772,32 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt HELSÍNQUIA disponível em 4 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#HEL-HEL",
-    "imagem": "/__l5e/assets-v1/458eef55-1728-447a-8030-707750084547/leopard-verde.webp",
+    "imagem": "/__l5e/assets-v1/c2d5f353-c871-4d26-9fca-3fbd34c0f428/helsinquia-4.png",
     "lifestyle": "/lifestyle/leopard.jpg",
     "cores": [
       {
         "nome": "Verde",
         "hex": "#f1f1f1",
-        "hexes": [
-          "#f1f1f1",
-          "#97ab70"
-        ],
-        "imagem": "/__l5e/assets-v1/458eef55-1728-447a-8030-707750084547/leopard-verde.webp"
+        "hexes": ["#f1f1f1", "#689838"],
+        "imagem": "/__l5e/assets-v1/c2d5f353-c871-4d26-9fca-3fbd34c0f428/helsinquia-4.png"
       },
       {
         "nome": "Vermelho",
         "hex": "#f1f1f1",
-        "hexes": [
-          "#f1f1f1",
-          "#84454b"
-        ],
-        "imagem": "/__l5e/assets-v1/975d969d-f9ce-44a1-a709-c8e70f2ef897/leopard-vermelho.webp"
+        "hexes": ["#f1f1f1", "#980818"],
+        "imagem": "/__l5e/assets-v1/43962334-3136-4a1e-a791-688dca56f235/helsinquia-3.png"
       },
       {
         "nome": "Azul",
         "hex": "#f1f1f1",
-        "hexes": [
-          "#f1f1f1",
-          "#516e8b"
-        ],
-        "imagem": "/__l5e/assets-v1/9c3d7397-8762-4cae-a08e-6150fc9b1bb8/leopard-azul.webp"
+        "hexes": ["#f1f1f1", "#085898"],
+        "imagem": "/__l5e/assets-v1/9a046c16-f335-47b8-9893-a03e47f790ed/helsinquia-2.png"
       },
       {
         "nome": "Preto",
         "hex": "#f1f1f1",
-        "hexes": [
-          "#f1f1f1",
-          "#514e4b"
-        ],
-        "imagem": "/__l5e/assets-v1/ad168f58-1d3d-48d1-9ba2-ade7ea56d8f7/leopard-preto.webp"
+        "hexes": ["#f1f1f1", "#181818"],
+        "imagem": "/__l5e/assets-v1/047cb56f-ba31-4763-9e37-e37b9ab5600d/helsinquia-1.png"
       }
     ],
     "tamanhos": [
@@ -4991,58 +4864,38 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt MOSCOVO disponível em 5 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#DUB-DUB",
-    "imagem": "/__l5e/assets-v1/a946776f-b459-40d2-946b-b756be7e7608/maurice-verde.webp",
+    "imagem": "/__l5e/assets-v1/3d4760fa-28ca-4c8e-8c66-9dbf04567f1e/moscovo-5.png",
     "lifestyle": "/lifestyle/maurice.jpg",
     "cores": [
       {
         "nome": "Verde",
-        "hex": "#a2c15c",
-        "hexes": [
-          "#a2c15c",
-          "#8db650",
-          "#33382c"
-        ],
-        "imagem": "/__l5e/assets-v1/a946776f-b459-40d2-946b-b756be7e7608/maurice-verde.webp"
+        "hex": "#98b858",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/3d4760fa-28ca-4c8e-8c66-9dbf04567f1e/moscovo-5.png"
       },
       {
         "nome": "Laranja",
-        "hex": "#c85b2a",
-        "hexes": [
-          "#c85b2a",
-          "#c54f20",
-          "#382e28"
-        ],
-        "imagem": "/__l5e/assets-v1/0414a116-d100-49a7-8b2b-a99b73035fda/maurice-laranja.webp"
+        "hex": "#c85828",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/7c7b8ca2-46fc-4f97-a7e0-c5f924317f77/moscovo-4.png"
       },
       {
         "nome": "Vermelho",
-        "hex": "#8d2429",
-        "hexes": [
-          "#8d2429",
-          "#332d29",
-          "#c5b5b4"
-        ],
-        "imagem": "/__l5e/assets-v1/81f7729a-5316-48b4-9017-e7aaaed0a89a/maurice-vermelho.webp"
+        "hex": "#881828",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/74a94a6b-cb3e-4c4c-9de4-6a7e9b67c823/moscovo-3.png"
       },
       {
         "nome": "Azul",
-        "hex": "#275d98",
-        "hexes": [
-          "#275d98",
-          "#406b9f",
-          "#312e2c"
-        ],
-        "imagem": "/__l5e/assets-v1/710e89f3-082a-448d-96fb-d99bc1556b96/maurice-azul.webp"
+        "hex": "#285898",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/96c0495a-7611-4215-8895-f6821b7556cd/moscovo-2.png"
       },
       {
         "nome": "Cinzento",
-        "hex": "#545359",
-        "hexes": [
-          "#545359",
-          "#5c5d62",
-          "#302d29"
-        ],
-        "imagem": "/__l5e/assets-v1/cfc12358-35d8-4e3e-bed4-bde686407172/maurice-cinzento.webp"
+        "hex": "#585858",
+        "hexes": [],
+        "imagem": "/__l5e/assets-v1/e0550993-1bad-4316-8ed6-0d02c8572a32/moscovo-1.png"
       }
     ],
     "tamanhos": [
