@@ -7,6 +7,19 @@ import suvaEditorial2 from "@/assets/suva-editorial-2.jpg";
 import vaduzEditorial from "@/assets/vaduz-editorial.jpg";
 import washingtonEditorial from "@/assets/washington-editorial.jpg";
 import washingtonEditorial2 from "@/assets/washington-editorial-2.jpg";
+import quitoEditorial from "@/assets/quito-editorial.jpg";
+import quito1 from "@/assets/quito/quito-1.png.asset.json";
+import quito2 from "@/assets/quito/quito-2.png.asset.json";
+import quito3 from "@/assets/quito/quito-3.png.asset.json";
+import quito4 from "@/assets/quito/quito-4.png.asset.json";
+import quito5 from "@/assets/quito/quito-5.png.asset.json";
+import quito6 from "@/assets/quito/quito-6.png.asset.json";
+import quito7 from "@/assets/quito/quito-7.png.asset.json";
+import quito8 from "@/assets/quito/quito-8.png.asset.json";
+import quito9 from "@/assets/quito/quito-9.png.asset.json";
+import quito10 from "@/assets/quito/quito-10.png.asset.json";
+import quito11 from "@/assets/quito/quito-11.png.asset.json";
+import quito12 from "@/assets/quito/quito-12.png.asset.json";
 
 
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
