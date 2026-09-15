@@ -84,7 +84,7 @@ import otava11 from "@/assets/otava/otava-11.jpg.asset.json";
 import otava12 from "@/assets/otava/otava-12.jpg.asset.json";
 import otava13 from "@/assets/otava/otava-13.jpg.asset.json";
 import otava14 from "@/assets/otava/otava-14.jpg.asset.json";
-import otava15 from "@/assets/otava/otava-15.jpg.asset.json";
+import otava15 from "@/assets/otava/otava-azul-turquesa.png.asset.json";
 import otava16 from "@/assets/otava/otava-16.jpg.asset.json";
 import otava17 from "@/assets/otava/otava-17.jpg.asset.json";
 import otava18 from "@/assets/otava/otava-18.jpg.asset.json";
@@ -8180,9 +8180,9 @@ export const modelos: Modelo[] = [
         "imagem": otava14.url
       },
       {
-        "nome": "Branco e azul",
-        "hex": "#dedfe2",
-        "hexes": ["#dedfe2"],
+        "nome": "Azul turquesa",
+        "hex": "#008cc7",
+        "hexes": ["#008cc7"],
         "imagem": otava15.url
       },
       {
