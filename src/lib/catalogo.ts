@@ -3,6 +3,7 @@
 import abujaEditorial from "@/assets/abuja-editorial.jpg";
 import motuNuiEditorial from "@/assets/motu-nui-editorial.jpg";
 import suvaEditorial from "@/assets/suva-editorial.jpg";
+import suvaEditorial2 from "@/assets/suva-editorial-2.jpg";
 import vaduzEditorial from "@/assets/vaduz-editorial.jpg";
 
 
@@ -8235,7 +8236,7 @@ export const modelos: Modelo[] = [
     "descricao": "Saco de compras em algodão, com asas de 71 cm.",
     "composicao": "Algodão",
     "referencia": "#SUV-SUV",
-    "imagem": suvaEditorial,
+    "imagem": suvaEditorial2,
     "lifestyle": suvaEditorial,
     "cores": [
       {
@@ -8244,7 +8245,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#f5f0e6"
         ],
-        "imagem": suvaEditorial
+        "imagem": suvaEditorial2
       }
     ],
     "tamanhos": [
