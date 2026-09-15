@@ -685,7 +685,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt TIRANA — modelo em preparação, fotografias a adicionar brevemente.",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#TIR-TIR",
-    "imagem": vaduzEditorial,
+    "imagem": "/placeholder-modelo.svg",
     "cores": [
       {
         "nome": "Branco",
@@ -693,7 +693,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#eaedf1"
         ],
-        "imagem": vaduzEditorial
+        "imagem": "/placeholder-modelo.svg"
       }
     ],
     "tamanhos": [
@@ -8332,7 +8332,7 @@ export const modelos: Modelo[] = [
     "descricao": "Caneca branca para sublimação, personalizada com a sua imagem.",
     "composicao": "Cerâmica para sublimação",
     "referencia": "#VAD-VAD",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": vaduzEditorial,
     "cores": [
       {
         "nome": "Branco",
@@ -8340,7 +8340,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#eaedf1"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": vaduzEditorial
       }
     ],
     "tamanhos": [
