@@ -8015,16 +8015,23 @@ export const modelos: Modelo[] = [
     "descricao": "Saco de cordas em poliéster, em tamanho criança e adulto.",
     "composicao": "100% Poliéster, Densidade: 65 g/m²",
     "referencia": "#SEU-SEU",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": seul12.url,
+    "lifestyle": seulEditorial,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+      { "nome": "Branco", "hex": "#e6e6e9", "hexes": ["#e6e6e9"], "imagem": seul1.url },
+      { "nome": "Verde lima", "hex": "#8eae50", "hexes": ["#8eae50"], "imagem": seul2.url },
+      { "nome": "Verde água", "hex": "#006a65", "hexes": ["#006a65"], "imagem": seul3.url },
+      { "nome": "Verde escuro", "hex": "#004538", "hexes": ["#004538"], "imagem": seul4.url },
+      { "nome": "Amarelo", "hex": "#e9d54e", "hexes": ["#e9d54e"], "imagem": seul5.url },
+      { "nome": "Laranja", "hex": "#b24f1a", "hexes": ["#b24f1a"], "imagem": seul6.url },
+      { "nome": "Vermelho", "hex": "#821524", "hexes": ["#821524"], "imagem": seul7.url },
+      { "nome": "Bordô", "hex": "#63082d", "hexes": ["#63082d"], "imagem": seul8.url },
+      { "nome": "Rosa", "hex": "#debfce", "hexes": ["#debfce"], "imagem": seul9.url },
+      { "nome": "Azul claro", "hex": "#94aed0", "hexes": ["#94aed0"], "imagem": seul10.url },
+      { "nome": "Azul céu", "hex": "#2a87b5", "hexes": ["#2a87b5"], "imagem": seul11.url },
+      { "nome": "Azul", "hex": "#1a568c", "hexes": ["#1a568c"], "imagem": seul12.url },
+      { "nome": "Azul marinho", "hex": "#023250", "hexes": ["#023250"], "imagem": seul13.url },
+      { "nome": "Preto", "hex": "#322d2a", "hexes": ["#322d2a"], "imagem": seul14.url }
     ],
     "tamanhos": [
       [
