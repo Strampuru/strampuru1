@@ -1,5 +1,6 @@
 # Organização do catálogo
 
+- [ ] Aplicar as fotografias por cor e criar capas infantis para os babetes Camberra, Fiji, Palau e Samoa.
 - [x] Aplicar as fotografias por cor e criar capas editoriais para os aventais Tonga, Banguecoque e Otava.
 - [x] Organizar Homem, Mulher, Criança, Conjuntos e Brindes, com as sete subcategorias de brindes indicadas.
 - [ ] Definir coleções de Conjuntos; aguarda nomes das coleções e respetivas peças.
