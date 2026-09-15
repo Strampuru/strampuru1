@@ -1,7 +1,9 @@
 // Catálogo STRAM PURU — dados dos produtos (gerado a partir do catálogo original).
 
 import abujaEditorial from "@/assets/abuja-editorial.jpg";
+import motuNuiEditorial from "@/assets/motu-nui-editorial.jpg";
 import vaduzEditorial from "@/assets/vaduz-editorial.jpg";
+
 
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
 export type CategoriaId = FamiliaId | "homem" | "mulher" | "crianca" | "conjuntos" | "brindes";
@@ -8290,15 +8292,15 @@ export const modelos: Modelo[] = [
     "descricao": "Caneca mágica preta que revela a imagem com o calor da bebida.",
     "composicao": "Cerâmica com revestimento termossensível",
     "referencia": "#MOT-MOT",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": motuNuiEditorial,
     "cores": [
       {
-        "nome": "Branco",
-        "hex": "#eaedf1",
+        "nome": "Preto",
+        "hex": "#2a2a2a",
         "hexes": [
-          "#eaedf1"
+          "#2a2a2a"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": motuNuiEditorial
       }
     ],
     "tamanhos": [
