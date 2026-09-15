@@ -5292,7 +5292,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#SAR",
     "imagem": "/__l5e/assets-v1/4b4f6f8b-ebed-4685-8e69-31ed71e22fae/saravejo-1.png",
-    "lifestyle": "/lifestyle/saravejo-new.jpg",
+    "lifestyle": "/lifestyle/saravejo-corrected.jpg",
     "cores": [
       {
         "nome": "Branco",
@@ -5390,7 +5390,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 210 g/m²",
     "referencia": "#SOF-SOF",
     "imagem": "/__l5e/assets-v1/b5778fc0-9542-4b92-bd47-8c98af392777/sofia-3.png",
-    "lifestyle": "/lifestyle/sofia-new.jpg",
+    "lifestyle": "/lifestyle/sofia-corrected.jpg",
     "cores": [
       {
         "nome": "Branco",
