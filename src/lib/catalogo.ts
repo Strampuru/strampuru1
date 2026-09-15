@@ -92,6 +92,28 @@ import otava19 from "@/assets/otava/otava-19.jpg.asset.json";
 import otava20 from "@/assets/otava/otava-20.jpg.asset.json";
 import otava21 from "@/assets/otava/otava-21.jpg.asset.json";
 import otava22 from "@/assets/otava/otava-22.jpg.asset.json";
+import camberraEditorial from "@/assets/camberra-editorial.jpg";
+import camberra1 from "@/assets/camberra/camberra-1.jpg.asset.json";
+import camberra2 from "@/assets/camberra/camberra-2.jpg.asset.json";
+import camberra3 from "@/assets/camberra/camberra-3.jpg.asset.json";
+import camberra4 from "@/assets/camberra/camberra-4.jpg.asset.json";
+import fijiEditorial from "@/assets/fiji-editorial.jpg";
+import fiji1 from "@/assets/fiji/fiji-1.jpg.asset.json";
+import fiji2 from "@/assets/fiji/fiji-2.jpg.asset.json";
+import fiji3 from "@/assets/fiji/fiji-3.jpg.asset.json";
+import fiji4 from "@/assets/fiji/fiji-4.jpg.asset.json";
+import fiji5 from "@/assets/fiji/fiji-5.jpg.asset.json";
+import palauEditorial from "@/assets/palau-editorial.jpg";
+import palau1 from "@/assets/palau/palau-1.jpg.asset.json";
+import palau2 from "@/assets/palau/palau-2.jpg.asset.json";
+import palau3 from "@/assets/palau/palau-3.jpg.asset.json";
+import palau4 from "@/assets/palau/palau-4.jpg.asset.json";
+import palau5 from "@/assets/palau/palau-5.jpg.asset.json";
+import samoaEditorial from "@/assets/samoa-editorial.jpg";
+import samoa1 from "@/assets/samoa/samoa-1.jpg.asset.json";
+import samoa2 from "@/assets/samoa/samoa-2.jpg.asset.json";
+import samoa3 from "@/assets/samoa/samoa-3.jpg.asset.json";
+import samoa4 from "@/assets/samoa/samoa-4.jpg.asset.json";
 
 
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
@@ -7504,15 +7526,32 @@ export const modelos: Modelo[] = [
     "descricao": "Babete de bebé em tamanho único, com interior em poliéster e exterior em poliéster e algodão.",
     "composicao": "Interior: 100% Poliéster (170 g/m²) · Exterior: 65% Poliéster, 35% Algodão (115 g/m²)",
     "referencia": "#CAM-CAM",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": camberra1.url,
+    "lifestyle": camberraEditorial,
     "cores": [
       {
         "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
+        "hex": "#eaeaed",
+        "hexes": ["#eaeaed"],
+        "imagem": camberra1.url
+      },
+      {
+        "nome": "Rosa",
+        "hex": "#d3b2ca",
+        "hexes": ["#d3b2ca"],
+        "imagem": camberra2.url
+      },
+      {
+        "nome": "Azul claro",
+        "hex": "#8eafd0",
+        "hexes": ["#8eafd0"],
+        "imagem": camberra3.url
+      },
+      {
+        "nome": "Preto",
+        "hex": "#2a2521",
+        "hexes": ["#2a2521"],
+        "imagem": camberra4.url
       }
     ],
     "tamanhos": [
@@ -7558,15 +7597,38 @@ export const modelos: Modelo[] = [
     "descricao": "Babete de bebé em tamanho único, em algodão com poliéster e poliuretano.",
     "composicao": "70% Algodão, 20% Poliéster, 10% Poliuretano, Densidade: 230 g/m²",
     "referencia": "#FIJ-FIJ",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": fiji1.url,
+    "lifestyle": fijiEditorial,
     "cores": [
       {
         "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
+        "hex": "#f9f6f5",
+        "hexes": ["#f9f6f5"],
+        "imagem": fiji1.url
+      },
+      {
+        "nome": "Branco e bordô",
+        "hex": "#7b1024",
+        "hexes": ["#7b1024"],
+        "imagem": fiji2.url
+      },
+      {
+        "nome": "Branco e rosa",
+        "hex": "#d7b8d0",
+        "hexes": ["#d7b8d0"],
+        "imagem": fiji3.url
+      },
+      {
+        "nome": "Branco e azul",
+        "hex": "#91b0d0",
+        "hexes": ["#91b0d0"],
+        "imagem": fiji4.url
+      },
+      {
+        "nome": "Branco e preto",
+        "hex": "#2a2521",
+        "hexes": ["#2a2521"],
+        "imagem": fiji5.url
       }
     ],
     "tamanhos": [
@@ -7612,15 +7674,38 @@ export const modelos: Modelo[] = [
     "descricao": "Babete de bebé em tamanho único.",
     "composicao": "Composição a confirmar",
     "referencia": "#PAL-PAL",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": palau1.url,
+    "lifestyle": palauEditorial,
     "cores": [
       {
         "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
+        "hex": "#f3f2f2",
+        "hexes": ["#f3f2f2"],
+        "imagem": palau1.url
+      },
+      {
+        "nome": "Branco e bordô",
+        "hex": "#7b1024",
+        "hexes": ["#7b1024"],
+        "imagem": palau2.url
+      },
+      {
+        "nome": "Branco e rosa",
+        "hex": "#d5b4cc",
+        "hexes": ["#d5b4cc"],
+        "imagem": palau3.url
+      },
+      {
+        "nome": "Branco e azul",
+        "hex": "#87a8cb",
+        "hexes": ["#87a8cb"],
+        "imagem": palau4.url
+      },
+      {
+        "nome": "Branco e preto",
+        "hex": "#25221f",
+        "hexes": ["#25221f"],
+        "imagem": palau5.url
       }
     ],
     "tamanhos": [
@@ -7666,15 +7751,32 @@ export const modelos: Modelo[] = [
     "descricao": "Babete em tamanho adulto, em tecido leve.",
     "composicao": "Densidade: 70 g/m²",
     "referencia": "#SAM-SAM",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": samoa1.url,
+    "lifestyle": samoaEditorial,
     "cores": [
       {
         "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
+        "hex": "#eaeaea",
+        "hexes": ["#eaeaea"],
+        "imagem": samoa1.url
+      },
+      {
+        "nome": "Verde lima",
+        "hex": "#95b258",
+        "hexes": ["#95b258"],
+        "imagem": samoa2.url
+      },
+      {
+        "nome": "Azul",
+        "hex": "#123957",
+        "hexes": ["#123957"],
+        "imagem": samoa3.url
+      },
+      {
+        "nome": "Preto",
+        "hex": "#342f2b",
+        "hexes": ["#342f2b"],
+        "imagem": samoa4.url
       }
     ],
     "tamanhos": [
