@@ -2163,7 +2163,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#BUE-BUE",
     "imagem": "/__l5e/assets-v1/0c57f1e1-019d-4025-9292-e0b669ee0631/sagano-verde.webp",
-    "lifestyle": "/lifestyle/buenos-aires-new.jpg",
+    "lifestyle": "/lifestyle/buenos-aires-corrected.jpg",
     "cores": [
       {
         "nome": "Verde",
@@ -2258,7 +2258,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#STR-SNT",
     "imagem": "/__l5e/assets-v1/26e95779-b082-4b12-abb9-f6143d564c4d/strategy-vermelhov1.webp",
-    "lifestyle": "/lifestyle/santiago-new.jpg",
+    "lifestyle": "/lifestyle/santiago-corrected.jpg",
     "cores": [
       {
         "nome": "Vermelhov 1",
