@@ -5,6 +5,8 @@ import motuNuiEditorial from "@/assets/motu-nui-editorial.jpg";
 import suvaEditorial from "@/assets/suva-editorial.jpg";
 import suvaEditorial2 from "@/assets/suva-editorial-2.jpg";
 import vaduzEditorial from "@/assets/vaduz-editorial.jpg";
+import washingtonEditorial from "@/assets/washington-editorial.jpg";
+import washingtonEditorial2 from "@/assets/washington-editorial-2.jpg";
 
 
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
@@ -8178,15 +8180,16 @@ export const modelos: Modelo[] = [
     "descricao": "Saco de compras em poliéster resistente, com asas de 70 cm.",
     "composicao": "100% Poliéster, Densidade: 175 g/m²",
     "referencia": "#WAS-WAS",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": washingtonEditorial2,
+    "lifestyle": washingtonEditorial,
     "cores": [
       {
         "nome": "Branco",
-        "hex": "#eaedf1",
+        "hex": "#f7f7f7",
         "hexes": [
-          "#eaedf1"
+          "#f7f7f7"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": washingtonEditorial2
       }
     ],
     "tamanhos": [
