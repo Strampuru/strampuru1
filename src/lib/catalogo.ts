@@ -8113,16 +8113,21 @@ export const modelos: Modelo[] = [
     "descricao": "Saco em poliéster e algodão, disponível em quatro tamanhos com preço próprio.",
     "composicao": "65% Poliéster, 35% Algodão, Densidade: 120 g/m²",
     "referencia": "#QUI-QUI",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": quito2.url,
+    "lifestyle": quitoEditorial,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+      { "nome": "Branco", "hex": "#eaebed", "hexes": ["#eaebed"], "imagem": quito1.url },
+      { "nome": "Cinza pedra", "hex": "#a4a294", "hexes": ["#a4a294"], "imagem": quito2.url },
+      { "nome": "Verde", "hex": "#559840", "hexes": ["#559840"], "imagem": quito3.url },
+      { "nome": "Verde escuro", "hex": "#024538", "hexes": ["#024538"], "imagem": quito4.url },
+      { "nome": "Amarelo", "hex": "#e7d34b", "hexes": ["#e7d34b"], "imagem": quito5.url },
+      { "nome": "Bordô", "hex": "#861624", "hexes": ["#861624"], "imagem": quito6.url },
+      { "nome": "Rosa", "hex": "#dbbcca", "hexes": ["#dbbcca"], "imagem": quito7.url },
+      { "nome": "Azul claro", "hex": "#90abcd", "hexes": ["#90abcd"], "imagem": quito8.url },
+      { "nome": "Azul", "hex": "#1e5890", "hexes": ["#1e5890"], "imagem": quito9.url },
+      { "nome": "Azul marinho", "hex": "#063351", "hexes": ["#063351"], "imagem": quito10.url },
+      { "nome": "Cinzento", "hex": "#767d8b", "hexes": ["#767d8b"], "imagem": quito11.url },
+      { "nome": "Preto", "hex": "#322d2a", "hexes": ["#322d2a"], "imagem": quito12.url }
     ],
     "tamanhos": [
       [
