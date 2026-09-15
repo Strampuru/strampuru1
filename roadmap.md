@@ -1,5 +1,6 @@
 # Organização do catálogo
 
+- [x] Aplicar as fotografias por cor e criar capas editoriais para os aventais Tonga, Banguecoque e Otava.
 - [x] Organizar Homem, Mulher, Criança, Conjuntos e Brindes, com as sete subcategorias de brindes indicadas.
 - [ ] Definir coleções de Conjuntos; aguarda nomes das coleções e respetivas peças.
 - [ ] Adicionar novos modelos; aguarda nomes, fotografias e dados dos produtos.
