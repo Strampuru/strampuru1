@@ -39,6 +39,59 @@ import seul11 from "@/assets/seul/seul-11.png.asset.json";
 import seul12 from "@/assets/seul/seul-12.png.asset.json";
 import seul13 from "@/assets/seul/seul-13.png.asset.json";
 import seul14 from "@/assets/seul/seul-14.png.asset.json";
+import tongaEditorial from "@/assets/tonga-editorial.jpg";
+import tonga1 from "@/assets/tonga/tonga-1.jpg.asset.json";
+import tonga2 from "@/assets/tonga/tonga-2.jpg.asset.json";
+import tonga3 from "@/assets/tonga/tonga-3.jpg.asset.json";
+import tonga4 from "@/assets/tonga/tonga-4.jpg.asset.json";
+import tonga5 from "@/assets/tonga/tonga-5.jpg.asset.json";
+import tonga6 from "@/assets/tonga/tonga-6.jpg.asset.json";
+import tonga7 from "@/assets/tonga/tonga-7.jpg.asset.json";
+import tonga8 from "@/assets/tonga/tonga-8.jpg.asset.json";
+import tonga9 from "@/assets/tonga/tonga-9.jpg.asset.json";
+import tonga10 from "@/assets/tonga/tonga-10.jpg.asset.json";
+import tonga11 from "@/assets/tonga/tonga-11.jpg.asset.json";
+import tonga12 from "@/assets/tonga/tonga-12.jpg.asset.json";
+import tonga13 from "@/assets/tonga/tonga-13.jpg.asset.json";
+import tonga14 from "@/assets/tonga/tonga-14.jpg.asset.json";
+import tonga15 from "@/assets/tonga/tonga-15.jpg.asset.json";
+import banguecoqueEditorial from "@/assets/banguecoque-editorial.jpg";
+import banguecoque1 from "@/assets/banguecoque/banguecoque-1.jpg.asset.json";
+import banguecoque2 from "@/assets/banguecoque/banguecoque-2.jpg.asset.json";
+import banguecoque3 from "@/assets/banguecoque/banguecoque-3.jpg.asset.json";
+import banguecoque4 from "@/assets/banguecoque/banguecoque-4.jpg.asset.json";
+import banguecoque5 from "@/assets/banguecoque/banguecoque-5.jpg.asset.json";
+import banguecoque6 from "@/assets/banguecoque/banguecoque-6.jpg.asset.json";
+import banguecoque7 from "@/assets/banguecoque/banguecoque-7.jpg.asset.json";
+import banguecoque8 from "@/assets/banguecoque/banguecoque-8.jpg.asset.json";
+import banguecoque9 from "@/assets/banguecoque/banguecoque-9.jpg.asset.json";
+import banguecoque10 from "@/assets/banguecoque/banguecoque-10.jpg.asset.json";
+import banguecoque11 from "@/assets/banguecoque/banguecoque-11.jpg.asset.json";
+import banguecoque12 from "@/assets/banguecoque/banguecoque-12.jpg.asset.json";
+import banguecoque13 from "@/assets/banguecoque/banguecoque-13.jpg.asset.json";
+import otavaEditorial from "@/assets/otava-editorial.jpg";
+import otava1 from "@/assets/otava/otava-1.jpg.asset.json";
+import otava2 from "@/assets/otava/otava-2.jpg.asset.json";
+import otava3 from "@/assets/otava/otava-3.jpg.asset.json";
+import otava4 from "@/assets/otava/otava-4.jpg.asset.json";
+import otava5 from "@/assets/otava/otava-5.jpg.asset.json";
+import otava6 from "@/assets/otava/otava-6.jpg.asset.json";
+import otava7 from "@/assets/otava/otava-7.jpg.asset.json";
+import otava8 from "@/assets/otava/otava-8.jpg.asset.json";
+import otava9 from "@/assets/otava/otava-9.jpg.asset.json";
+import otava10 from "@/assets/otava/otava-10.jpg.asset.json";
+import otava11 from "@/assets/otava/otava-11.jpg.asset.json";
+import otava12 from "@/assets/otava/otava-12.jpg.asset.json";
+import otava13 from "@/assets/otava/otava-13.jpg.asset.json";
+import otava14 from "@/assets/otava/otava-14.jpg.asset.json";
+import otava15 from "@/assets/otava/otava-15.jpg.asset.json";
+import otava16 from "@/assets/otava/otava-16.jpg.asset.json";
+import otava17 from "@/assets/otava/otava-17.jpg.asset.json";
+import otava18 from "@/assets/otava/otava-18.jpg.asset.json";
+import otava19 from "@/assets/otava/otava-19.jpg.asset.json";
+import otava20 from "@/assets/otava/otava-20.jpg.asset.json";
+import otava21 from "@/assets/otava/otava-21.jpg.asset.json";
+import otava22 from "@/assets/otava/otava-22.jpg.asset.json";
 
 
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
@@ -7667,15 +7720,98 @@ export const modelos: Modelo[] = [
     "descricao": "Avental curto de cintura em tamanho único.",
     "composicao": "Composição a confirmar",
     "referencia": "#TON-TON",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": tonga1.url,
+    "lifestyle": tongaEditorial,
     "cores": [
       {
         "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
+        "hex": "#e6e6e9",
+        "hexes": ["#e6e6e9"],
+        "imagem": tonga1.url
+      },
+      {
+        "nome": "Cinza pedra",
+        "hex": "#9f9d90",
+        "hexes": ["#9f9d90"],
+        "imagem": tonga2.url
+      },
+      {
+        "nome": "Caqui",
+        "hex": "#8d7b5b",
+        "hexes": ["#8d7b5b"],
+        "imagem": tonga3.url
+      },
+      {
+        "nome": "Verde caqui",
+        "hex": "#494c37",
+        "hexes": ["#494c37"],
+        "imagem": tonga4.url
+      },
+      {
+        "nome": "Amarelo",
+        "hex": "#d1ab15",
+        "hexes": ["#d1ab15"],
+        "imagem": tonga5.url
+      },
+      {
+        "nome": "Mostarda",
+        "hex": "#c58918",
+        "hexes": ["#c58918"],
+        "imagem": tonga6.url
+      },
+      {
+        "nome": "Laranja",
+        "hex": "#af4c17",
+        "hexes": ["#af4c17"],
+        "imagem": tonga7.url
+      },
+      {
+        "nome": "Vermelho",
+        "hex": "#7c1420",
+        "hexes": ["#7c1420"],
+        "imagem": tonga8.url
+      },
+      {
+        "nome": "Bordô",
+        "hex": "#5c0729",
+        "hexes": ["#5c0729"],
+        "imagem": tonga9.url
+      },
+      {
+        "nome": "Azul",
+        "hex": "#0f3c5f",
+        "hexes": ["#0f3c5f"],
+        "imagem": tonga10.url
+      },
+      {
+        "nome": "Azul marinho",
+        "hex": "#012f49",
+        "hexes": ["#012f49"],
+        "imagem": tonga11.url
+      },
+      {
+        "nome": "Cinzento claro",
+        "hex": "#6e7481",
+        "hexes": ["#6e7481"],
+        "imagem": tonga12.url
+      },
+      {
+        "nome": "Cinzento",
+        "hex": "#5c626e",
+        "hexes": ["#5c626e"],
+        "imagem": tonga13.url
+      },
+      {
+        "nome": "Cinzento escuro",
+        "hex": "#4f4e54",
+        "hexes": ["#4f4e54"],
+        "imagem": tonga14.url
+      },
+      {
+        "nome": "Preto",
+        "hex": "#2c2825",
+        "hexes": ["#2c2825"],
+        "imagem": tonga15.url
       }
     ],
     "tamanhos": [
@@ -7721,15 +7857,86 @@ export const modelos: Modelo[] = [
     "descricao": "Avental com peitilho e bolso triplo, em tamanho único.",
     "composicao": "65% Poliéster, 35% Algodão, Densidade: 200 g/m²",
     "referencia": "#BAN-BAN",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": banguecoque1.url,
+    "lifestyle": banguecoqueEditorial,
     "cores": [
       {
         "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
+        "hex": "#dedfe3",
+        "hexes": ["#dedfe3"],
+        "imagem": banguecoque1.url
+      },
+      {
+        "nome": "Cinza pedra",
+        "hex": "#939184",
+        "hexes": ["#939184"],
+        "imagem": banguecoque2.url
+      },
+      {
+        "nome": "Caqui",
+        "hex": "#857456",
+        "hexes": ["#857456"],
+        "imagem": banguecoque3.url
+      },
+      {
+        "nome": "Verde caqui",
+        "hex": "#454933",
+        "hexes": ["#454933"],
+        "imagem": banguecoque4.url
+      },
+      {
+        "nome": "Amarelo",
+        "hex": "#cba515",
+        "hexes": ["#cba515"],
+        "imagem": banguecoque5.url
+      },
+      {
+        "nome": "Mostarda",
+        "hex": "#ba8117",
+        "hexes": ["#ba8117"],
+        "imagem": banguecoque6.url
+      },
+      {
+        "nome": "Laranja",
+        "hex": "#a74716",
+        "hexes": ["#a74716"],
+        "imagem": banguecoque7.url
+      },
+      {
+        "nome": "Vermelho",
+        "hex": "#72141d",
+        "hexes": ["#72141d"],
+        "imagem": banguecoque8.url
+      },
+      {
+        "nome": "Bordô",
+        "hex": "#570527",
+        "hexes": ["#570527"],
+        "imagem": banguecoque9.url
+      },
+      {
+        "nome": "Azul",
+        "hex": "#0b3555",
+        "hexes": ["#0b3555"],
+        "imagem": banguecoque10.url
+      },
+      {
+        "nome": "Azul marinho",
+        "hex": "#012b45",
+        "hexes": ["#012b45"],
+        "imagem": banguecoque11.url
+      },
+      {
+        "nome": "Cinzento",
+        "hex": "#676d7a",
+        "hexes": ["#676d7a"],
+        "imagem": banguecoque12.url
+      },
+      {
+        "nome": "Preto",
+        "hex": "#2b2622",
+        "hexes": ["#2b2622"],
+        "imagem": banguecoque13.url
       }
     ],
     "tamanhos": [
@@ -7783,15 +7990,140 @@ export const modelos: Modelo[] = [
     "descricao": "Avental comprido com peitilho e bolso frontal, em tamanho único.",
     "composicao": "Composição a confirmar",
     "referencia": "#OTA-OTA",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": otava1.url,
+    "lifestyle": otavaEditorial,
     "cores": [
       {
         "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
+        "hex": "#dfdfe2",
+        "hexes": ["#dfdfe2"],
+        "imagem": otava1.url
+      },
+      {
+        "nome": "Cinza pedra",
+        "hex": "#999789",
+        "hexes": ["#999789"],
+        "imagem": otava2.url
+      },
+      {
+        "nome": "Caqui",
+        "hex": "#887656",
+        "hexes": ["#887656"],
+        "imagem": otava3.url
+      },
+      {
+        "nome": "Castanho",
+        "hex": "#483730",
+        "hexes": ["#483730"],
+        "imagem": otava4.url
+      },
+      {
+        "nome": "Verde lima",
+        "hex": "#80a148",
+        "hexes": ["#80a148"],
+        "imagem": otava5.url
+      },
+      {
+        "nome": "Verde",
+        "hex": "#004838",
+        "hexes": ["#004838"],
+        "imagem": otava6.url
+      },
+      {
+        "nome": "Verde caqui",
+        "hex": "#464934",
+        "hexes": ["#464934"],
+        "imagem": otava7.url
+      },
+      {
+        "nome": "Amarelo",
+        "hex": "#cba515",
+        "hexes": ["#cba515"],
+        "imagem": otava8.url
+      },
+      {
+        "nome": "Mostarda",
+        "hex": "#c18918",
+        "hexes": ["#c18918"],
+        "imagem": otava9.url
+      },
+      {
+        "nome": "Laranja",
+        "hex": "#ab4717",
+        "hexes": ["#ab4717"],
+        "imagem": otava10.url
+      },
+      {
+        "nome": "Vermelho",
+        "hex": "#76151e",
+        "hexes": ["#76151e"],
+        "imagem": otava11.url
+      },
+      {
+        "nome": "Bordô",
+        "hex": "#590627",
+        "hexes": ["#590627"],
+        "imagem": otava12.url
+      },
+      {
+        "nome": "Rosa",
+        "hex": "#ac3770",
+        "hexes": ["#ac3770"],
+        "imagem": otava13.url
+      },
+      {
+        "nome": "Roxo",
+        "hex": "#442d66",
+        "hexes": ["#442d66"],
+        "imagem": otava14.url
+      },
+      {
+        "nome": "Branco e azul",
+        "hex": "#dedfe2",
+        "hexes": ["#dedfe2"],
+        "imagem": otava15.url
+      },
+      {
+        "nome": "Azul",
+        "hex": "#1c5084",
+        "hexes": ["#1c5084"],
+        "imagem": otava16.url
+      },
+      {
+        "nome": "Azul escuro",
+        "hex": "#0e3657",
+        "hexes": ["#0e3657"],
+        "imagem": otava17.url
+      },
+      {
+        "nome": "Azul marinho",
+        "hex": "#102b46",
+        "hexes": ["#102b46"],
+        "imagem": otava18.url
+      },
+      {
+        "nome": "Cinzento claro",
+        "hex": "#68707c",
+        "hexes": ["#68707c"],
+        "imagem": otava19.url
+      },
+      {
+        "nome": "Cinzento",
+        "hex": "#535a65",
+        "hexes": ["#535a65"],
+        "imagem": otava20.url
+      },
+      {
+        "nome": "Cinzento escuro",
+        "hex": "#47464c",
+        "hexes": ["#47464c"],
+        "imagem": otava21.url
+      },
+      {
+        "nome": "Preto",
+        "hex": "#292521",
+        "hexes": ["#292521"],
+        "imagem": otava22.url
       }
     ],
     "tamanhos": [
