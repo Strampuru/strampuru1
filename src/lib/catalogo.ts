@@ -8072,16 +8072,12 @@ export const modelos: Modelo[] = [
     "descricao": "Saco estreito em polipropileno, em tamanho único.",
     "composicao": "100% Polipropileno, Densidade: 75 g/m²",
     "referencia": "#HAV-HAV",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": havana2.url,
+    "lifestyle": havanaEditorial,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+      { "nome": "Preto", "hex": "#26211b", "hexes": ["#26211b"], "imagem": havana1.url },
+      { "nome": "Azul marinho", "hex": "#002948", "hexes": ["#002948"], "imagem": havana2.url },
+      { "nome": "Bordô", "hex": "#560029", "hexes": ["#560029"], "imagem": havana3.url }
     ],
     "tamanhos": [
       [
