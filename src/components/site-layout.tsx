@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
 import { categorias } from "@/lib/catalogo";
 import { CatalogoSidebar } from "@/components/catalogo-sidebar";
+import { PesquisaModelos } from "@/components/pesquisa-modelos";
 import logo from "@/assets/strampuru-logo.png.asset.json";
 
 export function SiteLayout({ children }: { children: ReactNode }) {
@@ -40,7 +41,8 @@ export function SiteLayout({ children }: { children: ReactNode }) {
             <span className="sr-only">Strampuru</span>
           </Link>
 
-          <div className="flex items-center gap-6 text-[10px] md:text-[11px] uppercase tracking-[0.2em] whitespace-nowrap">
+          <div className="flex items-center gap-3 sm:gap-6 text-[10px] md:text-[11px] uppercase tracking-[0.2em] whitespace-nowrap">
+            <PesquisaModelos />
             <Link
               to="/contactos"
               className="text-muted-foreground hover:text-accent transition-colors"
