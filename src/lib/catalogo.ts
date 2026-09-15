@@ -1,5 +1,7 @@
 // Catálogo STRAM PURU — dados dos produtos (gerado a partir do catálogo original).
 
+import abujaEditorial from "@/assets/abuja-editorial.jpg";
+
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
 export type CategoriaId = FamiliaId | "homem" | "mulher" | "crianca" | "conjuntos" | "brindes";
 
@@ -682,7 +684,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt TIRANA — modelo em preparação, fotografias a adicionar brevemente.",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#TIR-TIR",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": abujaEditorial,
     "cores": [
       {
         "nome": "Branco",
@@ -690,7 +692,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#eaedf1"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": abujaEditorial
       }
     ],
     "tamanhos": [
