@@ -1,5 +1,7 @@
 // Catálogo STRAM PURU — dados dos produtos (gerado a partir do catálogo original).
 
+import abujaEditorial from "@/assets/abuja-editorial.jpg";
+
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
 export type CategoriaId = FamiliaId | "homem" | "mulher" | "crianca" | "conjuntos" | "brindes";
 
@@ -8371,7 +8373,7 @@ export const modelos: Modelo[] = [
     "descricao": "Base para canecas personalizável.",
     "composicao": "Material a confirmar",
     "referencia": "#ABU-ABU",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": abujaEditorial,
     "cores": [
       {
         "nome": "Branco",
@@ -8379,7 +8381,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#eaedf1"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": abujaEditorial
       }
     ],
     "tamanhos": [
