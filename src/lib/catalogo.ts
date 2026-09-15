@@ -684,7 +684,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt TIRANA — modelo em preparação, fotografias a adicionar brevemente.",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#TIR-TIR",
-    "imagem": abujaEditorial,
+    "imagem": "/placeholder-modelo.svg",
     "cores": [
       {
         "nome": "Branco",
@@ -692,7 +692,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#eaedf1"
         ],
-        "imagem": abujaEditorial
+        "imagem": "/placeholder-modelo.svg"
       }
     ],
     "tamanhos": [
@@ -8373,7 +8373,7 @@ export const modelos: Modelo[] = [
     "descricao": "Base para canecas personalizável.",
     "composicao": "Material a confirmar",
     "referencia": "#ABU-ABU",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": abujaEditorial,
     "cores": [
       {
         "nome": "Branco",
@@ -8381,7 +8381,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#eaedf1"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": abujaEditorial
       }
     ],
     "tamanhos": [
