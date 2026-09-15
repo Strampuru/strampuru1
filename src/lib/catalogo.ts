@@ -1,6 +1,7 @@
 // Catálogo STRAM PURU — dados dos produtos (gerado a partir do catálogo original).
 
 import abujaEditorial from "@/assets/abuja-editorial.jpg";
+import vaduzEditorial from "@/assets/vaduz-editorial.jpg";
 
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
 export type CategoriaId = FamiliaId | "homem" | "mulher" | "crianca" | "conjuntos" | "brindes";
@@ -8331,7 +8332,7 @@ export const modelos: Modelo[] = [
     "descricao": "Caneca branca para sublimação, personalizada com a sua imagem.",
     "composicao": "Cerâmica para sublimação",
     "referencia": "#VAD-VAD",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": vaduzEditorial,
     "cores": [
       {
         "nome": "Branco",
@@ -8339,7 +8340,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#eaedf1"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": vaduzEditorial
       }
     ],
     "tamanhos": [
