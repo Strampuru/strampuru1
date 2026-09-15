@@ -8413,15 +8413,16 @@ export const modelos: Modelo[] = [
     "descricao": "Artigo TORRE DE MADEIRA da coleção Jogos em preparação, fotografias e detalhes a adicionar brevemente.",
     "composicao": "Composição a confirmar",
     "referencia": "#TOR-TOR",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": "/lifestyle/torre-de-madeira.jpg",
+    "lifestyle": "/lifestyle/torre-de-madeira.jpg",
     "cores": [
       {
-        "nome": "Branco",
-        "hex": "#eaedf1",
+        "nome": "Madeira",
+        "hex": "#c4a77d",
         "hexes": [
-          "#eaedf1"
+          "#c4a77d"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": "/lifestyle/torre-de-madeira.jpg"
       }
     ],
     "tamanhos": [
