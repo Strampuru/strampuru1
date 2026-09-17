@@ -35,16 +35,32 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
     >
       <div className="relative overflow-hidden rounded-sm bg-card ring-1 ring-black/5 aspect-[3/4] shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow duration-500 group-hover:shadow-[0_18px_40px_-18px_rgba(0,0,0,0.28)]">
         <div className="absolute inset-0 bg-gradient-to-b from-secondary/60 to-background" />
-        <img
-          src={src}
-          alt={`${modelo.nome}${corAtiva ? ` — ${corAtiva.nome}` : ""}`}
-          loading="lazy"
-          width={800}
-          height={1067}
-          className={`relative w-full h-full transition-transform ${
-            emUso ? "object-cover" : "object-contain p-4"
-          } duration-700 ease-out group-hover:scale-[1.07]`}
-        />
+        {imagensPecas ? (
+          <div className="relative w-full h-full flex transition-transform duration-700 ease-out group-hover:scale-[1.07]">
+            {imagensPecas.map((imgSrc, i) => (
+              <img
+                key={i}
+                src={imgSrc}
+                alt={`${modelo.nome}${corAtiva ? ` — ${corAtiva.nome}` : ""} — peça ${i + 1}`}
+                loading="lazy"
+                width={400}
+                height={1067}
+                className="h-full w-1/2 object-contain p-3"
+              />
+            ))}
+          </div>
+        ) : (
+          <img
+            src={src}
+            alt={`${modelo.nome}${corAtiva ? ` — ${corAtiva.nome}` : ""}`}
+            loading="lazy"
+            width={800}
+            height={1067}
+            className={`relative w-full h-full transition-transform ${
+              emUso ? "object-cover" : "object-contain p-4"
+            } duration-700 ease-out group-hover:scale-[1.07]`}
+          />
+        )}
         <span className="absolute left-3 top-3 rounded-full bg-background/85 px-2.5 py-1 text-[9px] uppercase tracking-[0.18em] text-muted-foreground backdrop-blur-sm">
           {modelo.subcategoria}
         </span>
