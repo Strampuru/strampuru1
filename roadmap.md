@@ -6,3 +6,4 @@
 - [ ] Definir coleções de Conjuntos; aguarda nomes das coleções e respetivas peças.
 - [ ] Adicionar novos modelos; aguarda nomes, fotografias e dados dos produtos.
 - [x] Criar configurador do conjunto Abu Dhabi com seis modelos, cores, tamanhos e cálculo por quantidades.
+- [x] Aplicar as 183 fotografias dos ficheiros EM FALTA 2 e EM FALTA 3 aos 22 modelos correspondentes.
