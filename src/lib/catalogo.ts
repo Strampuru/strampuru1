@@ -394,6 +394,59 @@ import abu_calcas_17 from "@/assets/abu-dhabi/calcas-17.jpg.asset.json";
 import abu_calcas_18 from "@/assets/abu-dhabi/calcas-18.jpg.asset.json";
 import abu_calcas_19 from "@/assets/abu-dhabi/calcas-19.jpg.asset.json";
 import abu_calcas_20 from "@/assets/abu-dhabi/calcas-20.jpg.asset.json";
+import asset_berlim_1 from "@/assets/berlim/berlim-1.jpg.asset.json";
+import asset_berlim_2 from "@/assets/berlim/berlim-2.jpg.asset.json";
+import asset_berlim_3 from "@/assets/berlim/berlim-3.jpg.asset.json";
+import asset_berlim_4 from "@/assets/berlim/berlim-4.jpg.asset.json";
+import asset_berlim_5 from "@/assets/berlim/berlim-5.jpg.asset.json";
+import asset_berlim_6 from "@/assets/berlim/berlim-6.jpg.asset.json";
+import asset_berlim_7 from "@/assets/berlim/berlim-7.jpg.asset.json";
+import asset_berlim_8 from "@/assets/berlim/berlim-8.jpg.asset.json";
+import asset_berlim_9 from "@/assets/berlim/berlim-9.jpg.asset.json";
+import asset_bissau_1 from "@/assets/bissau/bissau-1.jpg.asset.json";
+import asset_bissau_2 from "@/assets/bissau/bissau-2.jpg.asset.json";
+import asset_bissau_3 from "@/assets/bissau/bissau-3.jpg.asset.json";
+import asset_bissau_4 from "@/assets/bissau/bissau-4.jpg.asset.json";
+import asset_bissau_5 from "@/assets/bissau/bissau-5.jpg.asset.json";
+import asset_bissau_6 from "@/assets/bissau/bissau-6.jpg.asset.json";
+import asset_bissau_7 from "@/assets/bissau/bissau-7.jpg.asset.json";
+import asset_bissau_8 from "@/assets/bissau/bissau-8.jpg.asset.json";
+import asset_bissau_9 from "@/assets/bissau/bissau-9.jpg.asset.json";
+import asset_bissau_10 from "@/assets/bissau/bissau-10.jpg.asset.json";
+import asset_bogota_1 from "@/assets/bogota/bogota-1.jpg.asset.json";
+import asset_bogota_2 from "@/assets/bogota/bogota-2.jpg.asset.json";
+import asset_bogota_3 from "@/assets/bogota/bogota-3.jpg.asset.json";
+import asset_bogota_4 from "@/assets/bogota/bogota-4.jpg.asset.json";
+import asset_bogota_5 from "@/assets/bogota/bogota-5.jpg.asset.json";
+import asset_bogota_6 from "@/assets/bogota/bogota-6.jpg.asset.json";
+import asset_bogota_7 from "@/assets/bogota/bogota-7.jpg.asset.json";
+import asset_bogota_8 from "@/assets/bogota/bogota-8.jpg.asset.json";
+import asset_bogota_9 from "@/assets/bogota/bogota-9.jpg.asset.json";
+import asset_bogota_10 from "@/assets/bogota/bogota-10.jpg.asset.json";
+import asset_bogota_11 from "@/assets/bogota/bogota-11.jpg.asset.json";
+import asset_bogota_12 from "@/assets/bogota/bogota-12.jpg.asset.json";
+import asset_bogota_13 from "@/assets/bogota/bogota-13.jpg.asset.json";
+import asset_bogota_14 from "@/assets/bogota/bogota-14.jpg.asset.json";
+import asset_bogota_15 from "@/assets/bogota/bogota-15.jpg.asset.json";
+import asset_bogota_16 from "@/assets/bogota/bogota-16.jpg.asset.json";
+import asset_bogota_17 from "@/assets/bogota/bogota-17.jpg.asset.json";
+import asset_bogota_18 from "@/assets/bogota/bogota-18.jpg.asset.json";
+import asset_bogota_19 from "@/assets/bogota/bogota-19.jpg.asset.json";
+import asset_bogota_20 from "@/assets/bogota/bogota-20.jpg.asset.json";
+import asset_bogota_21 from "@/assets/bogota/bogota-21.jpg.asset.json";
+import asset_bogota_22 from "@/assets/bogota/bogota-22.jpg.asset.json";
+import asset_bogota_23 from "@/assets/bogota/bogota-23.jpg.asset.json";
+import asset_bogota_24 from "@/assets/bogota/bogota-24.jpg.asset.json";
+import asset_bogota_25 from "@/assets/bogota/bogota-25.jpg.asset.json";
+import asset_brasilia_1 from "@/assets/brasilia/brasilia-1.jpg.asset.json";
+import asset_brasilia_2 from "@/assets/brasilia/brasilia-2.jpg.asset.json";
+import asset_brasilia_3 from "@/assets/brasilia/brasilia-3.jpg.asset.json";
+import asset_brasilia_4 from "@/assets/brasilia/brasilia-4.jpg.asset.json";
+import asset_brasilia_5 from "@/assets/brasilia/brasilia-5.jpg.asset.json";
+import asset_brasilia_6 from "@/assets/brasilia/brasilia-6.jpg.asset.json";
+import asset_brasilia_7 from "@/assets/brasilia/brasilia-7.jpg.asset.json";
+import asset_brasilia_8 from "@/assets/brasilia/brasilia-8.jpg.asset.json";
+import asset_brasilia_9 from "@/assets/brasilia/brasilia-9.jpg.asset.json";
 
 
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
@@ -1449,18 +1502,82 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "mulher",
-    "descricao": "T-shirt BERLIM — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt BERLIM disponível em 9 cores.",
     "composicao": "95% Algodão, 5% Elastano, Densidade: 190 g/m²",
     "referencia": "#BER-BER",
-    "imagem": "/placeholder-modelo.svg",
-    "cores": [
+    "imagem": asset_berlim_1.url,
+"cores": [
       {
         "nome": "Branco",
-        "hex": "#eaedf1",
+        "hex": "#e4e4e4",
         "hexes": [
-          "#eaedf1"
+          "#e4e4e4"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": asset_berlim_1.url
+      },
+      {
+        "nome": "Verde lima",
+        "hex": "#84a848",
+        "hexes": [
+          "#84a848"
+        ],
+        "imagem": asset_berlim_2.url
+      },
+      {
+        "nome": "Laranja",
+        "hex": "#c05418",
+        "hexes": [
+          "#c05418"
+        ],
+        "imagem": asset_berlim_3.url
+      },
+      {
+        "nome": "Bordô",
+        "hex": "#840c24",
+        "hexes": [
+          "#840c24"
+        ],
+        "imagem": asset_berlim_4.url
+      },
+      {
+        "nome": "Cinzento claro",
+        "hex": "#d8c0cc",
+        "hexes": [
+          "#d8c0cc"
+        ],
+        "imagem": asset_berlim_5.url
+      },
+      {
+        "nome": "Rosa",
+        "hex": "#b43c78",
+        "hexes": [
+          "#b43c78"
+        ],
+        "imagem": asset_berlim_6.url
+      },
+      {
+        "nome": "Azul",
+        "hex": "#789ccc",
+        "hexes": [
+          "#789ccc"
+        ],
+        "imagem": asset_berlim_7.url
+      },
+      {
+        "nome": "Turquesa",
+        "hex": "#0084c0",
+        "hexes": [
+          "#0084c0"
+        ],
+        "imagem": asset_berlim_8.url
+      },
+      {
+        "nome": "Preto",
+        "hex": "#303024",
+        "hexes": [
+          "#303024"
+        ],
+        "imagem": asset_berlim_9.url
       }
     ],
     "tamanhos": [
@@ -2328,208 +2445,208 @@ export const modelos: Modelo[] = [
     "descricao": "Polo BOGOTÁ disponível em 25 cores. 100% Algodão",
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#BOG-BOG",
-    "imagem": "/__l5e/assets-v1/9935d49d-15ea-4911-bc6b-412fe3104ea9/patrol-branco.webp",
+    "imagem": asset_bogota_1.url,
     "lifestyle": "/lifestyle/bogota-new.jpg",
-    "cores": [
+"cores": [
       {
-        "nome": "Branco",
-        "hex": "#efeff1",
+        "nome": "Branco 1",
+        "hex": "#e4e4e4",
         "hexes": [
-          "#efeff1"
+          "#e4e4e4"
         ],
-        "imagem": "/__l5e/assets-v1/9935d49d-15ea-4911-bc6b-412fe3104ea9/patrol-branco.webp"
+        "imagem": asset_bogota_1.url
       },
       {
-        "nome": "Bege",
-        "hex": "#aba899",
+        "nome": "Cinzento claro 1",
+        "hex": "#9c9c90",
         "hexes": [
-          "#aba899"
+          "#9c9c90"
         ],
-        "imagem": "/__l5e/assets-v1/8946251c-1c0f-4d7c-8f64-85ed1aecc846/patrol-beje.webp"
+        "imagem": asset_bogota_2.url
       },
       {
         "nome": "Castanho",
-        "hex": "#6a5749",
+        "hex": "#54483c",
         "hexes": [
-          "#6a5749"
+          "#54483c"
         ],
-        "imagem": "/__l5e/assets-v1/2e6c6584-fad5-418d-9ad9-9a1184c578da/patrol-castanho.webp"
-      },
-      {
-        "nome": "Verde 1",
-        "hex": "#b3bb48",
-        "hexes": [
-          "#b3bb48"
-        ],
-        "imagem": "/__l5e/assets-v1/c564f4d5-d1fa-4bcc-9c9e-01f9342019ea/patrol-verde1.webp"
-      },
-      {
-        "nome": "Verde 2",
-        "hex": "#3b9189",
-        "hexes": [
-          "#3b9189"
-        ],
-        "imagem": "/__l5e/assets-v1/4e9d70bc-15de-4e84-a65e-3ffa2d2d1097/patrol-verde2.webp"
-      },
-      {
-        "nome": "Verde 3",
-        "hex": "#176d4c",
-        "hexes": [
-          "#176d4c"
-        ],
-        "imagem": "/__l5e/assets-v1/7f229d3f-064b-4a2f-b12e-e83abc7f5d6b/patrol-verde3.webp"
-      },
-      {
-        "nome": "Verde 4",
-        "hex": "#015243",
-        "hexes": [
-          "#015243"
-        ],
-        "imagem": "/__l5e/assets-v1/ed2e005e-a6db-4344-9ebc-2a7be2605650/patrol-verde4.webp"
+        "imagem": asset_bogota_3.url
       },
       {
         "nome": "Amarelo 1",
-        "hex": "#f1da4c",
+        "hex": "#a8b43c",
         "hexes": [
-          "#f1da4c"
+          "#a8b43c"
         ],
-        "imagem": "/__l5e/assets-v1/11cfb278-7850-4f55-99e0-99e22198bbfe/patrol-amarelo1.webp"
+        "imagem": asset_bogota_4.url
+      },
+      {
+        "nome": "Turquesa",
+        "hex": "#308484",
+        "hexes": [
+          "#308484"
+        ],
+        "imagem": asset_bogota_5.url
+      },
+      {
+        "nome": "Verde",
+        "hex": "#0c603c",
+        "hexes": [
+          "#0c603c"
+        ],
+        "imagem": asset_bogota_6.url
+      },
+      {
+        "nome": "Verde escuro",
+        "hex": "#00483c",
+        "hexes": [
+          "#00483c"
+        ],
+        "imagem": asset_bogota_7.url
       },
       {
         "nome": "Amarelo 2",
-        "hex": "#e5b917",
+        "hex": "#f0d848",
         "hexes": [
-          "#e5b917"
+          "#f0d848"
         ],
-        "imagem": "/__l5e/assets-v1/00ed4147-a922-4a3d-a92d-c84d1c2ec4d2/patrol-amarelo2.webp"
+        "imagem": asset_bogota_8.url
+      },
+      {
+        "nome": "Amarelo 3",
+        "hex": "#e4b40c",
+        "hexes": [
+          "#e4b40c"
+        ],
+        "imagem": asset_bogota_9.url
       },
       {
         "nome": "Laranja",
-        "hex": "#c4531c",
+        "hex": "#b44818",
         "hexes": [
-          "#c4531c"
+          "#b44818"
         ],
-        "imagem": "/__l5e/assets-v1/4f7e23b4-558f-4936-9a87-5bab3cad9374/patrol-laranja.webp"
+        "imagem": asset_bogota_10.url
       },
       {
-        "nome": "Vermelho 1",
-        "hex": "#8a1525",
+        "nome": "Bordô",
+        "hex": "#840c24",
         "hexes": [
-          "#8a1525"
+          "#840c24"
         ],
-        "imagem": "/__l5e/assets-v1/954dd333-aaba-459b-8586-7a3acd774234/patrol-vermelho1.webp"
+        "imagem": asset_bogota_11.url
       },
       {
-        "nome": "Vermelho 2",
-        "hex": "#680c30",
+        "nome": "Vinho",
+        "hex": "#540024",
         "hexes": [
-          "#680c30"
+          "#540024"
         ],
-        "imagem": "/__l5e/assets-v1/fc95c5c7-e3e5-4c95-b05e-0aaa24554b7b/patrol-vermelho2.webp"
+        "imagem": asset_bogota_12.url
       },
       {
         "nome": "Rosa",
-        "hex": "#c34480",
+        "hex": "#c03c78",
         "hexes": [
-          "#c34480"
+          "#c03c78"
         ],
-        "imagem": "/__l5e/assets-v1/6f89d212-fa6a-4e50-a077-32d938b62b66/patrol-rosa.webp"
+        "imagem": asset_bogota_13.url
       },
       {
         "nome": "Roxo",
-        "hex": "#331850",
+        "hex": "#300c48",
         "hexes": [
-          "#331850"
+          "#300c48"
         ],
-        "imagem": "/__l5e/assets-v1/6c762029-eef2-40ca-a786-25b4e9ce7cd9/patrol-roxo.webp"
+        "imagem": asset_bogota_14.url
+      },
+      {
+        "nome": "Azul claro",
+        "hex": "#90a8cc",
+        "hexes": [
+          "#90a8cc"
+        ],
+        "imagem": asset_bogota_15.url
       },
       {
         "nome": "Azul 1",
-        "hex": "#94b1d5",
+        "hex": "#185490",
         "hexes": [
-          "#94b1d5"
+          "#185490"
         ],
-        "imagem": "/__l5e/assets-v1/d2b1383b-866d-49f8-b063-806d864335bd/patrol-azul1.webp"
+        "imagem": asset_bogota_16.url
       },
       {
         "nome": "Azul 2",
-        "hex": "#1e5a93",
+        "hex": "#486c9c",
         "hexes": [
-          "#1e5a93"
+          "#486c9c"
         ],
-        "imagem": "/__l5e/assets-v1/e1ffb658-911b-48ee-a715-dc4ce8532e04/patrol-azul2.webp"
+        "imagem": asset_bogota_17.url
       },
       {
-        "nome": "Azul 3",
-        "hex": "#5374a4",
+        "nome": "Azul petróleo 1",
+        "hex": "#184854",
         "hexes": [
-          "#5374a4"
+          "#184854"
         ],
-        "imagem": "/__l5e/assets-v1/c4bb9921-dfc4-4d40-8a78-dd365cc81a43/patrol-azul3.webp"
+        "imagem": asset_bogota_18.url
       },
       {
-        "nome": "Azul 4",
-        "hex": "#184c5d",
+        "nome": "Azul marinho",
+        "hex": "#243054",
         "hexes": [
-          "#184c5d"
+          "#243054"
         ],
-        "imagem": "/__l5e/assets-v1/540f98a2-be87-407e-b5e1-f21dab7eda60/patrol-azul4.webp"
+        "imagem": asset_bogota_19.url
       },
       {
-        "nome": "Azul 5",
-        "hex": "#26375f",
+        "nome": "Azul petróleo 2",
+        "hex": "#003048",
         "hexes": [
-          "#26375f"
+          "#003048"
         ],
-        "imagem": "/__l5e/assets-v1/ac2ba0b6-8a92-43b9-aeaf-5cc0037329af/patrol-azul5.webp"
+        "imagem": asset_bogota_20.url
       },
       {
-        "nome": "Azul 6",
-        "hex": "#073553",
+        "nome": "Branco 2",
+        "hex": "#d8d8e4",
         "hexes": [
-          "#073553"
+          "#d8d8e4"
         ],
-        "imagem": "/__l5e/assets-v1/2d5916c9-e44c-403f-83f1-d739af1dd6b2/patrol-azul6.webp"
+        "imagem": asset_bogota_21.url
       },
       {
-        "nome": "Cinzento 1",
-        "hex": "#e4e5eb",
+        "nome": "Cinzento claro 2",
+        "hex": "#9c9ca8",
         "hexes": [
-          "#e4e5eb"
+          "#9c9ca8"
         ],
-        "imagem": "/__l5e/assets-v1/2a94bb8d-0814-4ebd-adab-fb2538e5cc93/patrol-cinzento1.webp"
+        "imagem": asset_bogota_22.url
       },
       {
-        "nome": "Cinzento 2",
-        "hex": "#aeacb9",
+        "nome": "Azul petróleo 3",
+        "hex": "#54606c",
         "hexes": [
-          "#aeacb9"
+          "#54606c"
         ],
-        "imagem": "/__l5e/assets-v1/1a19a936-51f0-4f6c-98ca-f834a4985d04/patrol-cinzento2.webp"
+        "imagem": asset_bogota_23.url
       },
       {
-        "nome": "Cinzento 3",
-        "hex": "#646a78",
+        "nome": "Cinzento escuro",
+        "hex": "#484848",
         "hexes": [
-          "#646a78"
+          "#484848"
         ],
-        "imagem": "/__l5e/assets-v1/87a65c46-e649-430c-8007-2f91f6faabca/patrol-cinzento3.webp"
-      },
-      {
-        "nome": "Cinzento 4",
-        "hex": "#55545a",
-        "hexes": [
-          "#55545a"
-        ],
-        "imagem": "/__l5e/assets-v1/e5c4140a-e2bd-48fd-9a18-adfb2d0c271d/patrol-cinzento4.webp"
+        "imagem": asset_bogota_24.url
       },
       {
         "nome": "Preto",
-        "hex": "#312c28",
+        "hex": "#242418",
         "hexes": [
-          "#312c28"
+          "#242418"
         ],
-        "imagem": "/__l5e/assets-v1/4248e1c1-f9e0-4984-aef2-b2df5a2e0a3f/patrol-preto.webp"
+        "imagem": asset_bogota_25.url
       }
     ],
     "tamanhos": [
@@ -2605,80 +2722,80 @@ export const modelos: Modelo[] = [
     "descricao": "Polo BRASILIA disponível em 9 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#BRA-BRA",
-    "imagem": "/__l5e/assets-v1/4b207e39-c231-4545-b5d1-45ff824a1af7/kentuky-branco.webp",
+    "imagem": asset_brasilia_1.url,
     "lifestyle": "/lifestyle/brasilia-new.jpg",
-    "cores": [
+"cores": [
       {
-        "nome": "Branco",
-        "hex": "#ebecf0",
+        "nome": "Preto",
+        "hex": "#242424",
         "hexes": [
-          "#ebecf0"
+          "#242424"
         ],
-        "imagem": "/__l5e/assets-v1/4b207e39-c231-4545-b5d1-45ff824a1af7/kentuky-branco.webp"
+        "imagem": asset_brasilia_1.url
       },
       {
-        "nome": "Verde",
-        "hex": "#8eb250",
+        "nome": "Azul petróleo",
+        "hex": "#003048",
         "hexes": [
-          "#8eb250"
+          "#003048"
         ],
-        "imagem": "/__l5e/assets-v1/319b157e-f479-40a9-8579-f165ecf2a182/kentuky-verde.webp"
+        "imagem": asset_brasilia_2.url
+      },
+      {
+        "nome": "Azul",
+        "hex": "#185484",
+        "hexes": [
+          "#185484"
+        ],
+        "imagem": asset_brasilia_3.url
+      },
+      {
+        "nome": "Turquesa",
+        "hex": "#0084b4",
+        "hexes": [
+          "#0084b4"
+        ],
+        "imagem": asset_brasilia_4.url
+      },
+      {
+        "nome": "Vinho",
+        "hex": "#600024",
+        "hexes": [
+          "#600024"
+        ],
+        "imagem": asset_brasilia_5.url
+      },
+      {
+        "nome": "Bordô",
+        "hex": "#840c18",
+        "hexes": [
+          "#840c18"
+        ],
+        "imagem": asset_brasilia_6.url
       },
       {
         "nome": "Laranja",
-        "hex": "#c04e1b",
+        "hex": "#b44818",
         "hexes": [
-          "#c04e1b"
+          "#b44818"
         ],
-        "imagem": "/__l5e/assets-v1/8d06cb9b-75d8-4dea-9a29-280655578f5b/kentuky-laranja.webp"
+        "imagem": asset_brasilia_7.url
       },
       {
-        "nome": "Vermelho 1",
-        "hex": "#871723",
+        "nome": "Verde lima",
+        "hex": "#84a848",
         "hexes": [
-          "#871723"
+          "#84a848"
         ],
-        "imagem": "/__l5e/assets-v1/76ae6bc7-c2e8-480e-a8de-e1ca58918a61/kentuky-vermelho1.webp"
+        "imagem": asset_brasilia_8.url
       },
       {
-        "nome": "Vermelho 2",
-        "hex": "#670b30",
+        "nome": "Branco",
+        "hex": "#f0f0f0",
         "hexes": [
-          "#670b30"
+          "#f0f0f0"
         ],
-        "imagem": "/__l5e/assets-v1/f9c493cb-efce-4811-90aa-1f5e2cf0ae2b/kentuky-vermelho2.webp"
-      },
-      {
-        "nome": "Azul 1",
-        "hex": "#0287be",
-        "hexes": [
-          "#0287be"
-        ],
-        "imagem": "/__l5e/assets-v1/8b4884ae-550f-4121-b85a-07de6c670ad4/kentuky-azul1.webp"
-      },
-      {
-        "nome": "Azul 2",
-        "hex": "#1e5890",
-        "hexes": [
-          "#1e5890"
-        ],
-        "imagem": "/__l5e/assets-v1/ae7dd1f0-b7ec-42ba-9b94-0430dcd692fb/kentuky-azul2.webp"
-      },
-      {
-        "nome": "Azul 3",
-        "hex": "#083350",
-        "hexes": [
-          "#083350"
-        ],
-        "imagem": "/__l5e/assets-v1/e387917a-abe5-406d-9c16-0faf1e0ab3b6/kentuky-azul3.webp"
-      },
-      {
-        "nome": "Preto",
-        "hex": "#302b27",
-        "hexes": [
-          "#302b27"
-        ],
-        "imagem": "/__l5e/assets-v1/18087d8f-1d5f-4615-bbc6-11ed1299b9aa/kentuky-preto.webp"
+        "imagem": asset_brasilia_9.url
       }
     ],
     "tamanhos": [
@@ -3267,208 +3384,208 @@ export const modelos: Modelo[] = [
     "descricao": "Polo BOGOTÁ disponível em 25 cores. 100% Algodão (tamanhos de criança)",
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#BOG-BOG-C",
-    "imagem": "/__l5e/assets-v1/9935d49d-15ea-4911-bc6b-412fe3104ea9/patrol-branco.webp",
+    "imagem": asset_bogota_1.url,
     "lifestyle": "/lifestyle/bogota-new.jpg",
-    "cores": [
+"cores": [
       {
-        "nome": "Branco",
-        "hex": "#efeff1",
+        "nome": "Branco 1",
+        "hex": "#e4e4e4",
         "hexes": [
-          "#efeff1"
+          "#e4e4e4"
         ],
-        "imagem": "/__l5e/assets-v1/9935d49d-15ea-4911-bc6b-412fe3104ea9/patrol-branco.webp"
+        "imagem": asset_bogota_1.url
       },
       {
-        "nome": "Bege",
-        "hex": "#aba899",
+        "nome": "Cinzento claro 1",
+        "hex": "#9c9c90",
         "hexes": [
-          "#aba899"
+          "#9c9c90"
         ],
-        "imagem": "/__l5e/assets-v1/8946251c-1c0f-4d7c-8f64-85ed1aecc846/patrol-beje.webp"
+        "imagem": asset_bogota_2.url
       },
       {
         "nome": "Castanho",
-        "hex": "#6a5749",
+        "hex": "#54483c",
         "hexes": [
-          "#6a5749"
+          "#54483c"
         ],
-        "imagem": "/__l5e/assets-v1/2e6c6584-fad5-418d-9ad9-9a1184c578da/patrol-castanho.webp"
-      },
-      {
-        "nome": "Verde 1",
-        "hex": "#b3bb48",
-        "hexes": [
-          "#b3bb48"
-        ],
-        "imagem": "/__l5e/assets-v1/c564f4d5-d1fa-4bcc-9c9e-01f9342019ea/patrol-verde1.webp"
-      },
-      {
-        "nome": "Verde 2",
-        "hex": "#3b9189",
-        "hexes": [
-          "#3b9189"
-        ],
-        "imagem": "/__l5e/assets-v1/4e9d70bc-15de-4e84-a65e-3ffa2d2d1097/patrol-verde2.webp"
-      },
-      {
-        "nome": "Verde 3",
-        "hex": "#176d4c",
-        "hexes": [
-          "#176d4c"
-        ],
-        "imagem": "/__l5e/assets-v1/7f229d3f-064b-4a2f-b12e-e83abc7f5d6b/patrol-verde3.webp"
-      },
-      {
-        "nome": "Verde 4",
-        "hex": "#015243",
-        "hexes": [
-          "#015243"
-        ],
-        "imagem": "/__l5e/assets-v1/ed2e005e-a6db-4344-9ebc-2a7be2605650/patrol-verde4.webp"
+        "imagem": asset_bogota_3.url
       },
       {
         "nome": "Amarelo 1",
-        "hex": "#f1da4c",
+        "hex": "#a8b43c",
         "hexes": [
-          "#f1da4c"
+          "#a8b43c"
         ],
-        "imagem": "/__l5e/assets-v1/11cfb278-7850-4f55-99e0-99e22198bbfe/patrol-amarelo1.webp"
+        "imagem": asset_bogota_4.url
+      },
+      {
+        "nome": "Turquesa",
+        "hex": "#308484",
+        "hexes": [
+          "#308484"
+        ],
+        "imagem": asset_bogota_5.url
+      },
+      {
+        "nome": "Verde",
+        "hex": "#0c603c",
+        "hexes": [
+          "#0c603c"
+        ],
+        "imagem": asset_bogota_6.url
+      },
+      {
+        "nome": "Verde escuro",
+        "hex": "#00483c",
+        "hexes": [
+          "#00483c"
+        ],
+        "imagem": asset_bogota_7.url
       },
       {
         "nome": "Amarelo 2",
-        "hex": "#e5b917",
+        "hex": "#f0d848",
         "hexes": [
-          "#e5b917"
+          "#f0d848"
         ],
-        "imagem": "/__l5e/assets-v1/00ed4147-a922-4a3d-a92d-c84d1c2ec4d2/patrol-amarelo2.webp"
+        "imagem": asset_bogota_8.url
+      },
+      {
+        "nome": "Amarelo 3",
+        "hex": "#e4b40c",
+        "hexes": [
+          "#e4b40c"
+        ],
+        "imagem": asset_bogota_9.url
       },
       {
         "nome": "Laranja",
-        "hex": "#c4531c",
+        "hex": "#b44818",
         "hexes": [
-          "#c4531c"
+          "#b44818"
         ],
-        "imagem": "/__l5e/assets-v1/4f7e23b4-558f-4936-9a87-5bab3cad9374/patrol-laranja.webp"
+        "imagem": asset_bogota_10.url
       },
       {
-        "nome": "Vermelho 1",
-        "hex": "#8a1525",
+        "nome": "Bordô",
+        "hex": "#840c24",
         "hexes": [
-          "#8a1525"
+          "#840c24"
         ],
-        "imagem": "/__l5e/assets-v1/954dd333-aaba-459b-8586-7a3acd774234/patrol-vermelho1.webp"
+        "imagem": asset_bogota_11.url
       },
       {
-        "nome": "Vermelho 2",
-        "hex": "#680c30",
+        "nome": "Vinho",
+        "hex": "#540024",
         "hexes": [
-          "#680c30"
+          "#540024"
         ],
-        "imagem": "/__l5e/assets-v1/fc95c5c7-e3e5-4c95-b05e-0aaa24554b7b/patrol-vermelho2.webp"
+        "imagem": asset_bogota_12.url
       },
       {
         "nome": "Rosa",
-        "hex": "#c34480",
+        "hex": "#c03c78",
         "hexes": [
-          "#c34480"
+          "#c03c78"
         ],
-        "imagem": "/__l5e/assets-v1/6f89d212-fa6a-4e50-a077-32d938b62b66/patrol-rosa.webp"
+        "imagem": asset_bogota_13.url
       },
       {
         "nome": "Roxo",
-        "hex": "#331850",
+        "hex": "#300c48",
         "hexes": [
-          "#331850"
+          "#300c48"
         ],
-        "imagem": "/__l5e/assets-v1/6c762029-eef2-40ca-a786-25b4e9ce7cd9/patrol-roxo.webp"
+        "imagem": asset_bogota_14.url
+      },
+      {
+        "nome": "Azul claro",
+        "hex": "#90a8cc",
+        "hexes": [
+          "#90a8cc"
+        ],
+        "imagem": asset_bogota_15.url
       },
       {
         "nome": "Azul 1",
-        "hex": "#94b1d5",
+        "hex": "#185490",
         "hexes": [
-          "#94b1d5"
+          "#185490"
         ],
-        "imagem": "/__l5e/assets-v1/d2b1383b-866d-49f8-b063-806d864335bd/patrol-azul1.webp"
+        "imagem": asset_bogota_16.url
       },
       {
         "nome": "Azul 2",
-        "hex": "#1e5a93",
+        "hex": "#486c9c",
         "hexes": [
-          "#1e5a93"
+          "#486c9c"
         ],
-        "imagem": "/__l5e/assets-v1/e1ffb658-911b-48ee-a715-dc4ce8532e04/patrol-azul2.webp"
+        "imagem": asset_bogota_17.url
       },
       {
-        "nome": "Azul 3",
-        "hex": "#5374a4",
+        "nome": "Azul petróleo 1",
+        "hex": "#184854",
         "hexes": [
-          "#5374a4"
+          "#184854"
         ],
-        "imagem": "/__l5e/assets-v1/c4bb9921-dfc4-4d40-8a78-dd365cc81a43/patrol-azul3.webp"
+        "imagem": asset_bogota_18.url
       },
       {
-        "nome": "Azul 4",
-        "hex": "#184c5d",
+        "nome": "Azul marinho",
+        "hex": "#243054",
         "hexes": [
-          "#184c5d"
+          "#243054"
         ],
-        "imagem": "/__l5e/assets-v1/540f98a2-be87-407e-b5e1-f21dab7eda60/patrol-azul4.webp"
+        "imagem": asset_bogota_19.url
       },
       {
-        "nome": "Azul 5",
-        "hex": "#26375f",
+        "nome": "Azul petróleo 2",
+        "hex": "#003048",
         "hexes": [
-          "#26375f"
+          "#003048"
         ],
-        "imagem": "/__l5e/assets-v1/ac2ba0b6-8a92-43b9-aeaf-5cc0037329af/patrol-azul5.webp"
+        "imagem": asset_bogota_20.url
       },
       {
-        "nome": "Azul 6",
-        "hex": "#073553",
+        "nome": "Branco 2",
+        "hex": "#d8d8e4",
         "hexes": [
-          "#073553"
+          "#d8d8e4"
         ],
-        "imagem": "/__l5e/assets-v1/2d5916c9-e44c-403f-83f1-d739af1dd6b2/patrol-azul6.webp"
+        "imagem": asset_bogota_21.url
       },
       {
-        "nome": "Cinzento 1",
-        "hex": "#e4e5eb",
+        "nome": "Cinzento claro 2",
+        "hex": "#9c9ca8",
         "hexes": [
-          "#e4e5eb"
+          "#9c9ca8"
         ],
-        "imagem": "/__l5e/assets-v1/2a94bb8d-0814-4ebd-adab-fb2538e5cc93/patrol-cinzento1.webp"
+        "imagem": asset_bogota_22.url
       },
       {
-        "nome": "Cinzento 2",
-        "hex": "#aeacb9",
+        "nome": "Azul petróleo 3",
+        "hex": "#54606c",
         "hexes": [
-          "#aeacb9"
+          "#54606c"
         ],
-        "imagem": "/__l5e/assets-v1/1a19a936-51f0-4f6c-98ca-f834a4985d04/patrol-cinzento2.webp"
+        "imagem": asset_bogota_23.url
       },
       {
-        "nome": "Cinzento 3",
-        "hex": "#646a78",
+        "nome": "Cinzento escuro",
+        "hex": "#484848",
         "hexes": [
-          "#646a78"
+          "#484848"
         ],
-        "imagem": "/__l5e/assets-v1/87a65c46-e649-430c-8007-2f91f6faabca/patrol-cinzento3.webp"
-      },
-      {
-        "nome": "Cinzento 4",
-        "hex": "#55545a",
-        "hexes": [
-          "#55545a"
-        ],
-        "imagem": "/__l5e/assets-v1/e5c4140a-e2bd-48fd-9a18-adfb2d0c271d/patrol-cinzento4.webp"
+        "imagem": asset_bogota_24.url
       },
       {
         "nome": "Preto",
-        "hex": "#312c28",
+        "hex": "#242418",
         "hexes": [
-          "#312c28"
+          "#242418"
         ],
-        "imagem": "/__l5e/assets-v1/4248e1c1-f9e0-4984-aef2-b2df5a2e0a3f/patrol-preto.webp"
+        "imagem": asset_bogota_25.url
       }
     ],
     "tamanhos": [
@@ -4346,18 +4463,90 @@ export const modelos: Modelo[] = [
     "categoria": "sweats",
     "subcategoria": "Sem Capuz",
     "genero": "unissexo",
-    "descricao": "Sweatshirt BISSAU — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "Sweatshirt BISSAU disponível em 10 cores.",
     "composicao": "65% Poliéster, 35% Algodão, Densidade: 300 g/m²",
     "referencia": "#BIS-BIS",
-    "imagem": "/placeholder-modelo.svg",
-    "cores": [
+    "imagem": asset_bissau_1.url,
+"cores": [
       {
         "nome": "Branco",
-        "hex": "#eaedf1",
+        "hex": "#f0f0f0",
         "hexes": [
-          "#eaedf1"
+          "#f0f0f0"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": asset_bissau_1.url
+      },
+      {
+        "nome": "Preto",
+        "hex": "#302424",
+        "hexes": [
+          "#302424"
+        ],
+        "imagem": asset_bissau_2.url
+      },
+      {
+        "nome": "Verde escuro",
+        "hex": "#18483c",
+        "hexes": [
+          "#18483c"
+        ],
+        "imagem": asset_bissau_3.url
+      },
+      {
+        "nome": "Bordô",
+        "hex": "#781824",
+        "hexes": [
+          "#781824"
+        ],
+        "imagem": asset_bissau_4.url
+      },
+      {
+        "nome": "Vinho",
+        "hex": "#600c30",
+        "hexes": [
+          "#600c30"
+        ],
+        "imagem": asset_bissau_5.url
+      },
+      {
+        "nome": "Azul marinho 1",
+        "hex": "#305490",
+        "hexes": [
+          "#305490"
+        ],
+        "imagem": asset_bissau_6.url
+      },
+      {
+        "nome": "Azul petróleo",
+        "hex": "#0c3048",
+        "hexes": [
+          "#0c3048"
+        ],
+        "imagem": asset_bissau_7.url
+      },
+      {
+        "nome": "Cinzento claro",
+        "hex": "#a8a8b4",
+        "hexes": [
+          "#a8a8b4"
+        ],
+        "imagem": asset_bissau_8.url
+      },
+      {
+        "nome": "Cinzento",
+        "hex": "#60606c",
+        "hexes": [
+          "#60606c"
+        ],
+        "imagem": asset_bissau_9.url
+      },
+      {
+        "nome": "Azul marinho 2",
+        "hex": "#484854",
+        "hexes": [
+          "#484854"
+        ],
+        "imagem": asset_bissau_10.url
       }
     ],
     "tamanhos": [
