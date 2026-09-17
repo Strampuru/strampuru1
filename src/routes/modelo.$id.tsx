@@ -231,6 +231,13 @@ function DetalheConjunto({
   categoria: Categoria | null;
   pecas: Peca[];
 }) {
+  const coresConjunto = pecas[0]?.cores ?? [];
+  const partilhamCores =
+    coresConjunto.length > 0 &&
+    pecas.every((p) => p.cores.length === coresConjunto.length);
+  const [cor, setCor] = useState(0);
+  const corAtual = coresConjunto[cor] ?? coresConjunto[0];
+
   return (
     <>
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-16 space-y-10 md:space-y-14">
