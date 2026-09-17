@@ -117,7 +117,7 @@ function PecaCard({
 }: {
   peca: Peca;
   modelo: Modelo;
-  corControlada?: number;
+  corControlada?: number | undefined;
 }) {
   const [corLocal, setCor] = useState(0);
   const cor = corControlada ?? corLocal;
