@@ -297,6 +297,103 @@ import asset_viena_cor_4 from "@/assets/viena/viena-cor-4.png.asset.json";
 import asset_viena_cor_5 from "@/assets/viena/viena-cor-5.png.asset.json";
 import asset_viena_cor_6 from "@/assets/viena/viena-cor-6.png.asset.json";
 import asset_viena_cor_7 from "@/assets/viena/viena-cor-7.png.asset.json";
+import abu_tshirt_1 from "@/assets/abu-dhabi/tshirt-1.jpg.asset.json";
+import abu_tshirt_2 from "@/assets/abu-dhabi/tshirt-2.jpg.asset.json";
+import abu_tshirt_3 from "@/assets/abu-dhabi/tshirt-3.jpg.asset.json";
+import abu_tshirt_4 from "@/assets/abu-dhabi/tshirt-4.jpg.asset.json";
+import abu_tshirt_5 from "@/assets/abu-dhabi/tshirt-5.jpg.asset.json";
+import abu_tshirt_6 from "@/assets/abu-dhabi/tshirt-6.jpg.asset.json";
+import abu_tshirt_7 from "@/assets/abu-dhabi/tshirt-7.jpg.asset.json";
+import abu_tshirt_8 from "@/assets/abu-dhabi/tshirt-8.jpg.asset.json";
+import abu_tshirt_9 from "@/assets/abu-dhabi/tshirt-9.jpg.asset.json";
+import abu_tshirt_10 from "@/assets/abu-dhabi/tshirt-10.jpg.asset.json";
+import abu_tshirt_11 from "@/assets/abu-dhabi/tshirt-11.jpg.asset.json";
+import abu_tshirt_12 from "@/assets/abu-dhabi/tshirt-12.jpg.asset.json";
+import abu_tshirt_13 from "@/assets/abu-dhabi/tshirt-13.jpg.asset.json";
+import abu_tshirt_14 from "@/assets/abu-dhabi/tshirt-14.jpg.asset.json";
+import abu_tshirt_15 from "@/assets/abu-dhabi/tshirt-15.jpg.asset.json";
+import abu_tshirt_16 from "@/assets/abu-dhabi/tshirt-16.jpg.asset.json";
+import abu_tshirt_17 from "@/assets/abu-dhabi/tshirt-17.jpg.asset.json";
+import abu_tshirt_18 from "@/assets/abu-dhabi/tshirt-18.jpg.asset.json";
+import abu_tshirt_19 from "@/assets/abu-dhabi/tshirt-19.jpg.asset.json";
+import abu_tshirt_20 from "@/assets/abu-dhabi/tshirt-20.jpg.asset.json";
+import abu_polosm_1 from "@/assets/abu-dhabi/polosm-1.jpg.asset.json";
+import abu_polosm_2 from "@/assets/abu-dhabi/polosm-2.jpg.asset.json";
+import abu_polosm_3 from "@/assets/abu-dhabi/polosm-3.jpg.asset.json";
+import abu_polosm_4 from "@/assets/abu-dhabi/polosm-4.jpg.asset.json";
+import abu_polosm_5 from "@/assets/abu-dhabi/polosm-5.jpg.asset.json";
+import abu_polosm_6 from "@/assets/abu-dhabi/polosm-6.jpg.asset.json";
+import abu_polosm_7 from "@/assets/abu-dhabi/polosm-7.jpg.asset.json";
+import abu_polosm_8 from "@/assets/abu-dhabi/polosm-8.jpg.asset.json";
+import abu_polosm_9 from "@/assets/abu-dhabi/polosm-9.jpg.asset.json";
+import abu_polosm_10 from "@/assets/abu-dhabi/polosm-10.jpg.asset.json";
+import abu_polosm_11 from "@/assets/abu-dhabi/polosm-11.jpg.asset.json";
+import abu_polosm_12 from "@/assets/abu-dhabi/polosm-12.jpg.asset.json";
+import abu_polosm_13 from "@/assets/abu-dhabi/polosm-13.jpg.asset.json";
+import abu_polosm_14 from "@/assets/abu-dhabi/polosm-14.jpg.asset.json";
+import abu_polosm_15 from "@/assets/abu-dhabi/polosm-15.jpg.asset.json";
+import abu_polosm_16 from "@/assets/abu-dhabi/polosm-16.jpg.asset.json";
+import abu_polosm_17 from "@/assets/abu-dhabi/polosm-17.jpg.asset.json";
+import abu_polosm_18 from "@/assets/abu-dhabi/polosm-18.jpg.asset.json";
+import abu_polosm_19 from "@/assets/abu-dhabi/polosm-19.jpg.asset.json";
+import abu_polosm_20 from "@/assets/abu-dhabi/polosm-20.jpg.asset.json";
+import abu_polocm_1 from "@/assets/abu-dhabi/polocm-1.jpg.asset.json";
+import abu_polocm_2 from "@/assets/abu-dhabi/polocm-2.jpg.asset.json";
+import abu_polocm_3 from "@/assets/abu-dhabi/polocm-3.jpg.asset.json";
+import abu_polocm_4 from "@/assets/abu-dhabi/polocm-4.jpg.asset.json";
+import abu_polocm_5 from "@/assets/abu-dhabi/polocm-5.jpg.asset.json";
+import abu_polocm_6 from "@/assets/abu-dhabi/polocm-6.jpg.asset.json";
+import abu_polocm_7 from "@/assets/abu-dhabi/polocm-7.jpg.asset.json";
+import abu_polocm_8 from "@/assets/abu-dhabi/polocm-8.jpg.asset.json";
+import abu_polocm_10 from "@/assets/abu-dhabi/polocm-10.jpg.asset.json";
+import abu_polocm_11 from "@/assets/abu-dhabi/polocm-11.jpg.asset.json";
+import abu_polocm_12 from "@/assets/abu-dhabi/polocm-12.jpg.asset.json";
+import abu_polocm_13 from "@/assets/abu-dhabi/polocm-13.jpg.asset.json";
+import abu_polocm_14 from "@/assets/abu-dhabi/polocm-14.jpg.asset.json";
+import abu_polocm_15 from "@/assets/abu-dhabi/polocm-15.jpg.asset.json";
+import abu_polocm_16 from "@/assets/abu-dhabi/polocm-16.jpg.asset.json";
+import abu_polocm_17 from "@/assets/abu-dhabi/polocm-17.jpg.asset.json";
+import abu_polocm_18 from "@/assets/abu-dhabi/polocm-18.jpg.asset.json";
+import abu_polocm_19 from "@/assets/abu-dhabi/polocm-19.jpg.asset.json";
+import abu_polocm_20 from "@/assets/abu-dhabi/polocm-20.jpg.asset.json";
+import abu_sweat_1 from "@/assets/abu-dhabi/sweat-1.jpg.asset.json";
+import abu_sweat_2 from "@/assets/abu-dhabi/sweat-2.jpg.asset.json";
+import abu_sweat_3 from "@/assets/abu-dhabi/sweat-3.jpg.asset.json";
+import abu_sweat_4 from "@/assets/abu-dhabi/sweat-4.jpg.asset.json";
+import abu_sweat_5 from "@/assets/abu-dhabi/sweat-5.jpg.asset.json";
+import abu_sweat_6 from "@/assets/abu-dhabi/sweat-6.jpg.asset.json";
+import abu_sweat_7 from "@/assets/abu-dhabi/sweat-7.jpg.asset.json";
+import abu_sweat_8 from "@/assets/abu-dhabi/sweat-8.jpg.asset.json";
+import abu_sweat_9 from "@/assets/abu-dhabi/sweat-9.jpg.asset.json";
+import abu_sweat_10 from "@/assets/abu-dhabi/sweat-10.jpg.asset.json";
+import abu_sweat_11 from "@/assets/abu-dhabi/sweat-11.jpg.asset.json";
+import abu_sweat_12 from "@/assets/abu-dhabi/sweat-12.jpg.asset.json";
+import abu_sweat_13 from "@/assets/abu-dhabi/sweat-13.jpg.asset.json";
+import abu_sweat_14 from "@/assets/abu-dhabi/sweat-14.jpg.asset.json";
+import abu_sweat_15 from "@/assets/abu-dhabi/sweat-15.jpg.asset.json";
+import abu_sweat_16 from "@/assets/abu-dhabi/sweat-16.jpg.asset.json";
+import abu_sweat_17 from "@/assets/abu-dhabi/sweat-17.jpg.asset.json";
+import abu_sweat_18 from "@/assets/abu-dhabi/sweat-18.jpg.asset.json";
+import abu_sweat_19 from "@/assets/abu-dhabi/sweat-19.jpg.asset.json";
+import abu_sweat_20 from "@/assets/abu-dhabi/sweat-20.jpg.asset.json";
+import abu_calcas_1 from "@/assets/abu-dhabi/calcas-1.jpg.asset.json";
+import abu_calcas_2 from "@/assets/abu-dhabi/calcas-2.jpg.asset.json";
+import abu_calcas_3 from "@/assets/abu-dhabi/calcas-3.jpg.asset.json";
+import abu_calcas_4 from "@/assets/abu-dhabi/calcas-4.jpg.asset.json";
+import abu_calcas_5 from "@/assets/abu-dhabi/calcas-5.jpg.asset.json";
+import abu_calcas_6 from "@/assets/abu-dhabi/calcas-6.jpg.asset.json";
+import abu_calcas_7 from "@/assets/abu-dhabi/calcas-7.jpg.asset.json";
+import abu_calcas_8 from "@/assets/abu-dhabi/calcas-8.jpg.asset.json";
+import abu_calcas_11 from "@/assets/abu-dhabi/calcas-11.jpg.asset.json";
+import abu_calcas_12 from "@/assets/abu-dhabi/calcas-12.jpg.asset.json";
+import abu_calcas_13 from "@/assets/abu-dhabi/calcas-13.jpg.asset.json";
+import abu_calcas_14 from "@/assets/abu-dhabi/calcas-14.jpg.asset.json";
+import abu_calcas_15 from "@/assets/abu-dhabi/calcas-15.jpg.asset.json";
+import abu_calcas_16 from "@/assets/abu-dhabi/calcas-16.jpg.asset.json";
+import abu_calcas_17 from "@/assets/abu-dhabi/calcas-17.jpg.asset.json";
+import abu_calcas_18 from "@/assets/abu-dhabi/calcas-18.jpg.asset.json";
+import abu_calcas_19 from "@/assets/abu-dhabi/calcas-19.jpg.asset.json";
+import abu_calcas_20 from "@/assets/abu-dhabi/calcas-20.jpg.asset.json";
 
 
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
@@ -8659,369 +8756,1202 @@ export const modelos: Modelo[] = [
     ]
   },
   {
-    "id": "abu-dhabi",
-    "nome": "Conjunto ABU DHABI",
-    "referenciaNome": "ABU DHABI",
-    "categoria": "conjuntos",
-    "subcategoria": "Conjuntos",
-    "genero": "unissexo",
-    "descricao": "Conjunto ABU DHABI em preparação, fotografias e detalhes a adicionar brevemente.",
-    "composicao": "Composição por peça (ver cada modelo)",
-    "referencia": "#ABU-ABU",
-    "imagem": "/placeholder-modelo.svg",
-    "pecas": [
-      {
-        "nome": "T-shirt",
-        "composicao": "100% Algodão, Densidade: 160 g/m²",
-        "imagem": "/placeholder-modelo.svg",
+        "id": "abu-dhabi",
+        "nome": "Conjunto ABU DHABI",
+        "referenciaNome": "ABU DHABI",
+        "categoria": "conjuntos",
+        "subcategoria": "Conjuntos",
+        "genero": "unissexo",
+        "descricao": "Conjunto ABU DHABI em preparação, fotografias e detalhes a adicionar brevemente.",
+        "composicao": "Composição por peça (ver cada modelo)",
+        "referencia": "#ABU-ABU",
+        "imagem": abu_tshirt_1.url,
+        "pecas": [
+            {
+                "nome": "T-shirt",
+                "composicao": "100% Algodão, Densidade: 160 g/m²",
+                "imagem": abu_tshirt_1.url,
+                "cores": [
+                    {
+                        "nome": "Marinho e amarelo",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#d8ca55"
+                        ],
+                        "imagem": abu_tshirt_1.url
+                    },
+                    {
+                        "nome": "Marinho e cinzento claro",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#b0b4b8"
+                        ],
+                        "imagem": abu_tshirt_2.url
+                    },
+                    {
+                        "nome": "Marinho e verde lima",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#94b05c"
+                        ],
+                        "imagem": abu_tshirt_3.url
+                    },
+                    {
+                        "nome": "Marinho e verde",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#356e4e"
+                        ],
+                        "imagem": abu_tshirt_4.url
+                    },
+                    {
+                        "nome": "Marinho e verde escuro",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#1f5a3f"
+                        ],
+                        "imagem": abu_tshirt_5.url
+                    },
+                    {
+                        "nome": "Marinho e laranja",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_tshirt_6.url
+                    },
+                    {
+                        "nome": "Marinho e bordô",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#601631"
+                        ],
+                        "imagem": abu_tshirt_7.url
+                    },
+                    {
+                        "nome": "Marinho e vermelho",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#7c2128"
+                        ],
+                        "imagem": abu_tshirt_8.url
+                    },
+                    {
+                        "nome": "Marinho e azul",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_tshirt_9.url
+                    },
+                    {
+                        "nome": "Marinho e cinzento",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#5b616b"
+                        ],
+                        "imagem": abu_tshirt_10.url
+                    },
+                    {
+                        "nome": "Cinzento e amarelo",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#d8ca55"
+                        ],
+                        "imagem": abu_tshirt_11.url
+                    },
+                    {
+                        "nome": "Cinzento e laranja",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_tshirt_12.url
+                    },
+                    {
+                        "nome": "Cinzento e bordô",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#6c2a2e"
+                        ],
+                        "imagem": abu_tshirt_13.url
+                    },
+                    {
+                        "nome": "Cinzento e azul",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_tshirt_14.url
+                    },
+                    {
+                        "nome": "Cinzento e preto",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#26221f"
+                        ],
+                        "imagem": abu_tshirt_15.url
+                    },
+                    {
+                        "nome": "Preto e verde lima",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#94b05c"
+                        ],
+                        "imagem": abu_tshirt_16.url
+                    },
+                    {
+                        "nome": "Preto e laranja",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_tshirt_17.url
+                    },
+                    {
+                        "nome": "Preto e rosa",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#ac4678"
+                        ],
+                        "imagem": abu_tshirt_18.url
+                    },
+                    {
+                        "nome": "Preto e azul",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_tshirt_19.url
+                    },
+                    {
+                        "nome": "Preto e cinzento",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#5b616b"
+                        ],
+                        "imagem": abu_tshirt_20.url
+                    }
+                ],
+                "tamanhos": [
+                    [
+                        "Tamanho",
+                        "S",
+                        "M",
+                        "L",
+                        "XL",
+                        "XXL",
+                        "3XL"
+                    ],
+                    [
+                        "Comprimento",
+                        "64",
+                        "68",
+                        "72",
+                        "76",
+                        "80",
+                        "84"
+                    ],
+                    [
+                        "Largura",
+                        "48",
+                        "52",
+                        "56",
+                        "59",
+                        "62",
+                        "66"
+                    ]
+                ],
+                "precos": [
+                    [
+                        "0–50 unidades",
+                        "12,00€"
+                    ],
+                    [
+                        "50–100 unidades",
+                        "11,00€"
+                    ],
+                    [
+                        "Mais de 100 unidades",
+                        "10,00€"
+                    ]
+                ]
+            },
+            {
+                "nome": "Polo manga curta",
+                "composicao": "50% Poliéster, 50% Algodão, Densidade: 220 g/m²",
+                "imagem": abu_polosm_1.url,
+                "cores": [
+                    {
+                        "nome": "Marinho e amarelo",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#d8ca55"
+                        ],
+                        "imagem": abu_polosm_1.url
+                    },
+                    {
+                        "nome": "Marinho e cinzento claro",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#b0b4b8"
+                        ],
+                        "imagem": abu_polosm_2.url
+                    },
+                    {
+                        "nome": "Marinho e verde lima",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#94b05c"
+                        ],
+                        "imagem": abu_polosm_3.url
+                    },
+                    {
+                        "nome": "Marinho e verde",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#356e4e"
+                        ],
+                        "imagem": abu_polosm_4.url
+                    },
+                    {
+                        "nome": "Marinho e verde escuro",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#1f5a3f"
+                        ],
+                        "imagem": abu_polosm_5.url
+                    },
+                    {
+                        "nome": "Marinho e laranja",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_polosm_6.url
+                    },
+                    {
+                        "nome": "Marinho e bordô",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#601631"
+                        ],
+                        "imagem": abu_polosm_7.url
+                    },
+                    {
+                        "nome": "Marinho e vermelho",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#7c2128"
+                        ],
+                        "imagem": abu_polosm_8.url
+                    },
+                    {
+                        "nome": "Marinho e azul",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_polosm_9.url
+                    },
+                    {
+                        "nome": "Marinho e cinzento",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#5b616b"
+                        ],
+                        "imagem": abu_polosm_10.url
+                    },
+                    {
+                        "nome": "Cinzento e amarelo",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#d8ca55"
+                        ],
+                        "imagem": abu_polosm_11.url
+                    },
+                    {
+                        "nome": "Cinzento e laranja",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_polosm_12.url
+                    },
+                    {
+                        "nome": "Cinzento e bordô",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#6c2a2e"
+                        ],
+                        "imagem": abu_polosm_13.url
+                    },
+                    {
+                        "nome": "Cinzento e azul",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_polosm_14.url
+                    },
+                    {
+                        "nome": "Cinzento e preto",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#26221f"
+                        ],
+                        "imagem": abu_polosm_15.url
+                    },
+                    {
+                        "nome": "Preto e verde lima",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#94b05c"
+                        ],
+                        "imagem": abu_polosm_16.url
+                    },
+                    {
+                        "nome": "Preto e laranja",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_polosm_17.url
+                    },
+                    {
+                        "nome": "Preto e rosa",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#ac4678"
+                        ],
+                        "imagem": abu_polosm_18.url
+                    },
+                    {
+                        "nome": "Preto e azul",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_polosm_19.url
+                    },
+                    {
+                        "nome": "Preto e cinzento",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#5b616b"
+                        ],
+                        "imagem": abu_polosm_20.url
+                    }
+                ],
+                "tamanhos": [
+                    [
+                        "Tamanho",
+                        "S",
+                        "M",
+                        "L",
+                        "XL",
+                        "XXL",
+                        "3XL"
+                    ],
+                    [
+                        "Comprimento",
+                        "69",
+                        "72",
+                        "75",
+                        "78",
+                        "81",
+                        "84"
+                    ],
+                    [
+                        "Largura",
+                        "51",
+                        "54",
+                        "57",
+                        "60",
+                        "63",
+                        "66"
+                    ]
+                ],
+                "precos": [
+                    [
+                        "0–50 unidades",
+                        "17,50€"
+                    ],
+                    [
+                        "50–100 unidades",
+                        "16,50€"
+                    ],
+                    [
+                        "Mais de 100 unidades",
+                        "15,00€"
+                    ]
+                ]
+            },
+            {
+                "nome": "Polo manga comprida",
+                "composicao": "50% Poliéster, 50% Algodão, Densidade: 220 g/m²",
+                "imagem": abu_polocm_1.url,
+                "cores": [
+                    {
+                        "nome": "Marinho e amarelo",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#d8ca55"
+                        ],
+                        "imagem": abu_polocm_1.url
+                    },
+                    {
+                        "nome": "Marinho e cinzento claro",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#b0b4b8"
+                        ],
+                        "imagem": abu_polocm_2.url
+                    },
+                    {
+                        "nome": "Marinho e verde lima",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#94b05c"
+                        ],
+                        "imagem": abu_polocm_3.url
+                    },
+                    {
+                        "nome": "Marinho e verde",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#356e4e"
+                        ],
+                        "imagem": abu_polocm_4.url
+                    },
+                    {
+                        "nome": "Marinho e verde escuro",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#1f5a3f"
+                        ],
+                        "imagem": abu_polocm_5.url
+                    },
+                    {
+                        "nome": "Marinho e laranja",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_polocm_6.url
+                    },
+                    {
+                        "nome": "Marinho e bordô",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#601631"
+                        ],
+                        "imagem": abu_polocm_7.url
+                    },
+                    {
+                        "nome": "Marinho e vermelho",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#7c2128"
+                        ],
+                        "imagem": abu_polocm_8.url
+                    },
+                    {
+                        "nome": "Marinho e cinzento",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#5b616b"
+                        ],
+                        "imagem": abu_polocm_10.url
+                    },
+                    {
+                        "nome": "Cinzento e amarelo",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#d8ca55"
+                        ],
+                        "imagem": abu_polocm_11.url
+                    },
+                    {
+                        "nome": "Cinzento e laranja",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_polocm_12.url
+                    },
+                    {
+                        "nome": "Cinzento e bordô",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#6c2a2e"
+                        ],
+                        "imagem": abu_polocm_13.url
+                    },
+                    {
+                        "nome": "Cinzento e azul",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_polocm_14.url
+                    },
+                    {
+                        "nome": "Cinzento e preto",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#26221f"
+                        ],
+                        "imagem": abu_polocm_15.url
+                    },
+                    {
+                        "nome": "Preto e verde lima",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#94b05c"
+                        ],
+                        "imagem": abu_polocm_16.url
+                    },
+                    {
+                        "nome": "Preto e laranja",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_polocm_17.url
+                    },
+                    {
+                        "nome": "Preto e rosa",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#ac4678"
+                        ],
+                        "imagem": abu_polocm_18.url
+                    },
+                    {
+                        "nome": "Preto e azul",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_polocm_19.url
+                    },
+                    {
+                        "nome": "Preto e cinzento",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#5b616b"
+                        ],
+                        "imagem": abu_polocm_20.url
+                    }
+                ],
+                "tamanhos": [
+                    [
+                        "Tamanho",
+                        "S",
+                        "M",
+                        "L",
+                        "XL",
+                        "XXL",
+                        "3XL"
+                    ],
+                    [
+                        "Comprimento",
+                        "70",
+                        "73",
+                        "76",
+                        "79",
+                        "82",
+                        "85"
+                    ],
+                    [
+                        "Largura",
+                        "50",
+                        "53",
+                        "56",
+                        "59",
+                        "62",
+                        "65"
+                    ]
+                ],
+                "precos": [
+                    [
+                        "0–50 unidades",
+                        "20,00€"
+                    ],
+                    [
+                        "50–100 unidades",
+                        "18,50€"
+                    ],
+                    [
+                        "Mais de 100 unidades",
+                        "17,00€"
+                    ]
+                ]
+            },
+            {
+                "nome": "Sweat com zip",
+                "composicao": "65% Poliéster, 35% Algodão, Densidade: 300 g/m²",
+                "imagem": abu_sweat_1.url,
+                "cores": [
+                    {
+                        "nome": "Marinho e amarelo",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#d8ca55"
+                        ],
+                        "imagem": abu_sweat_1.url
+                    },
+                    {
+                        "nome": "Marinho e cinzento claro",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#b0b4b8"
+                        ],
+                        "imagem": abu_sweat_2.url
+                    },
+                    {
+                        "nome": "Marinho e verde lima",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#94b05c"
+                        ],
+                        "imagem": abu_sweat_3.url
+                    },
+                    {
+                        "nome": "Marinho e verde",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#356e4e"
+                        ],
+                        "imagem": abu_sweat_4.url
+                    },
+                    {
+                        "nome": "Marinho e verde escuro",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#1f5a3f"
+                        ],
+                        "imagem": abu_sweat_5.url
+                    },
+                    {
+                        "nome": "Marinho e laranja",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_sweat_6.url
+                    },
+                    {
+                        "nome": "Marinho e bordô",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#601631"
+                        ],
+                        "imagem": abu_sweat_7.url
+                    },
+                    {
+                        "nome": "Marinho e vermelho",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#7c2128"
+                        ],
+                        "imagem": abu_sweat_8.url
+                    },
+                    {
+                        "nome": "Marinho e azul",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_sweat_9.url
+                    },
+                    {
+                        "nome": "Marinho e cinzento",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#5b616b"
+                        ],
+                        "imagem": abu_sweat_10.url
+                    },
+                    {
+                        "nome": "Cinzento e amarelo",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#d8ca55"
+                        ],
+                        "imagem": abu_sweat_11.url
+                    },
+                    {
+                        "nome": "Cinzento e laranja",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_sweat_12.url
+                    },
+                    {
+                        "nome": "Cinzento e bordô",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#6c2a2e"
+                        ],
+                        "imagem": abu_sweat_13.url
+                    },
+                    {
+                        "nome": "Cinzento e azul",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_sweat_14.url
+                    },
+                    {
+                        "nome": "Cinzento e preto",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#26221f"
+                        ],
+                        "imagem": abu_sweat_15.url
+                    },
+                    {
+                        "nome": "Preto e verde lima",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#94b05c"
+                        ],
+                        "imagem": abu_sweat_16.url
+                    },
+                    {
+                        "nome": "Preto e laranja",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_sweat_17.url
+                    },
+                    {
+                        "nome": "Preto e rosa",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#ac4678"
+                        ],
+                        "imagem": abu_sweat_18.url
+                    },
+                    {
+                        "nome": "Preto e azul",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_sweat_19.url
+                    },
+                    {
+                        "nome": "Preto e cinzento",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#5b616b"
+                        ],
+                        "imagem": abu_sweat_20.url
+                    }
+                ],
+                "tamanhos": [
+                    [
+                        "Tamanho",
+                        "S",
+                        "M",
+                        "L",
+                        "XL",
+                        "XXL",
+                        "3XL"
+                    ],
+                    [
+                        "Comprimento",
+                        "63",
+                        "67",
+                        "70",
+                        "73",
+                        "76",
+                        "79"
+                    ],
+                    [
+                        "Largura",
+                        "53",
+                        "56",
+                        "59",
+                        "62",
+                        "65",
+                        "68"
+                    ]
+                ],
+                "precos": [
+                    [
+                        "0–50 unidades",
+                        "25,00€"
+                    ],
+                    [
+                        "50–100 unidades",
+                        "23,00€"
+                    ],
+                    [
+                        "Mais de 100 unidades",
+                        "21,00€"
+                    ]
+                ]
+            },
+            {
+                "nome": "Calças",
+                "composicao": "65% Poliéster, Densidade: 250 g/m²",
+                "imagem": abu_calcas_1.url,
+                "cores": [
+                    {
+                        "nome": "Marinho e amarelo",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#d8ca55"
+                        ],
+                        "imagem": abu_calcas_1.url
+                    },
+                    {
+                        "nome": "Marinho e cinzento claro",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#b0b4b8"
+                        ],
+                        "imagem": abu_calcas_2.url
+                    },
+                    {
+                        "nome": "Marinho e verde lima",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#94b05c"
+                        ],
+                        "imagem": abu_calcas_3.url
+                    },
+                    {
+                        "nome": "Marinho e verde",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#356e4e"
+                        ],
+                        "imagem": abu_calcas_4.url
+                    },
+                    {
+                        "nome": "Marinho e verde escuro",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#1f5a3f"
+                        ],
+                        "imagem": abu_calcas_5.url
+                    },
+                    {
+                        "nome": "Marinho e laranja",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_calcas_6.url
+                    },
+                    {
+                        "nome": "Marinho e bordô",
+                        "hex": "#123049",
+                        "hexes": [
+                            "#123049",
+                            "#601631"
+                        ],
+                        "imagem": abu_calcas_7.url
+                    },
+                    {
+                        "nome": "Marinho e vermelho",
+                        "hex": "#1a2f47",
+                        "hexes": [
+                            "#1a2f47",
+                            "#7c2128"
+                        ],
+                        "imagem": abu_calcas_8.url
+                    },
+                    {
+                        "nome": "Cinzento e amarelo",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#d8ca55"
+                        ],
+                        "imagem": abu_calcas_11.url
+                    },
+                    {
+                        "nome": "Cinzento e laranja",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_calcas_12.url
+                    },
+                    {
+                        "nome": "Cinzento e bordô",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#6c2a2e"
+                        ],
+                        "imagem": abu_calcas_13.url
+                    },
+                    {
+                        "nome": "Cinzento e azul",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_calcas_14.url
+                    },
+                    {
+                        "nome": "Cinzento e preto",
+                        "hex": "#535a63",
+                        "hexes": [
+                            "#535a63",
+                            "#26221f"
+                        ],
+                        "imagem": abu_calcas_15.url
+                    },
+                    {
+                        "nome": "Preto e verde lima",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#94b05c"
+                        ],
+                        "imagem": abu_calcas_16.url
+                    },
+                    {
+                        "nome": "Preto e laranja",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#b0552a"
+                        ],
+                        "imagem": abu_calcas_17.url
+                    },
+                    {
+                        "nome": "Preto e rosa",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#ac4678"
+                        ],
+                        "imagem": abu_calcas_18.url
+                    },
+                    {
+                        "nome": "Preto e azul",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#2d5589"
+                        ],
+                        "imagem": abu_calcas_19.url
+                    },
+                    {
+                        "nome": "Preto e cinzento",
+                        "hex": "#2e2a26",
+                        "hexes": [
+                            "#2e2a26",
+                            "#5b616b"
+                        ],
+                        "imagem": abu_calcas_20.url
+                    }
+                ],
+                "tamanhos": [
+                    [
+                        "Tamanho",
+                        "S",
+                        "M",
+                        "L",
+                        "XL",
+                        "XXL",
+                        "3XL"
+                    ],
+                    [
+                        "Comprimento",
+                        "104",
+                        "106",
+                        "108",
+                        "110",
+                        "112",
+                        "114"
+                    ],
+                    [
+                        "Equivalência",
+                        "37-38-39",
+                        "40-41-42",
+                        "43-44-45",
+                        "46-47-48",
+                        "49-50-51",
+                        "52-53-54"
+                    ]
+                ],
+                "precos": [
+                    [
+                        "0–50 unidades",
+                        "27,50€"
+                    ],
+                    [
+                        "50–100 unidades",
+                        "25,00€"
+                    ],
+                    [
+                        "Mais de 100 unidades",
+                        "22,50€"
+                    ]
+                ]
+            }
+        ],
         "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
-            ],
-            "imagem": "/placeholder-modelo.svg"
-          }
+            {
+                "nome": "Branco",
+                "hex": "#eaedf1",
+                "hexes": [
+                    "#eaedf1"
+                ],
+                "imagem": "/placeholder-modelo.svg"
+            }
         ],
         "tamanhos": [
-          [
-            "Tamanho",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "3XL"
-          ],
-          [
-            "Comprimento",
-            "64",
-            "68",
-            "72",
-            "76",
-            "80",
-            "84"
-          ],
-          [
-            "Largura",
-            "48",
-            "52",
-            "56",
-            "59",
-            "62",
-            "66"
-          ]
-        ],
-        "precos": [
-          [
-            "0–50 unidades",
-            "12,00€"
-          ],
-          [
-            "50–100 unidades",
-            "11,00€"
-          ],
-          [
-            "Mais de 100 unidades",
-            "10,00€"
-          ]
-        ]
-      },
-      {
-        "nome": "Polo manga curta",
-        "composicao": "50% Poliéster, 50% Algodão, Densidade: 220 g/m²",
-        "imagem": "/placeholder-modelo.svg",
-        "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
+            [
+                "Tamanho",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL",
+                "3XL"
             ],
-            "imagem": "/placeholder-modelo.svg"
-          }
-        ],
-        "tamanhos": [
-          [
-            "Tamanho",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "3XL"
-          ],
-          [
-            "Comprimento",
-            "69",
-            "72",
-            "75",
-            "78",
-            "81",
-            "84"
-          ],
-          [
-            "Largura",
-            "51",
-            "54",
-            "57",
-            "60",
-            "63",
-            "66"
-          ]
-        ],
-        "precos": [
-          [
-            "0–50 unidades",
-            "17,50€"
-          ],
-          [
-            "50–100 unidades",
-            "16,50€"
-          ],
-          [
-            "Mais de 100 unidades",
-            "15,00€"
-          ]
-        ]
-      },
-      {
-        "nome": "Polo manga comprida",
-        "composicao": "50% Poliéster, 50% Algodão, Densidade: 220 g/m²",
-        "imagem": "/placeholder-modelo.svg",
-        "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
+            [
+                "Comprimento",
+                "66",
+                "69",
+                "72",
+                "75",
+                "78",
+                "81",
+                "84"
             ],
-            "imagem": "/placeholder-modelo.svg"
-          }
-        ],
-        "tamanhos": [
-          [
-            "Tamanho",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "3XL"
-          ],
-          [
-            "Comprimento",
-            "70",
-            "73",
-            "76",
-            "79",
-            "82",
-            "85"
-          ],
-          [
-            "Largura",
-            "50",
-            "53",
-            "56",
-            "59",
-            "62",
-            "65"
-          ]
+            [
+                "Largura",
+                "49",
+                "52",
+                "55",
+                "58",
+                "61",
+                "64",
+                "67"
+            ]
         ],
         "precos": [
-          [
-            "0–50 unidades",
-            "20,00€"
-          ],
-          [
-            "50–100 unidades",
-            "18,50€"
-          ],
-          [
-            "Mais de 100 unidades",
-            "17,00€"
-          ]
-        ]
-      },
-      {
-        "nome": "Sweat com zip",
-        "composicao": "65% Poliéster, 35% Algodão, Densidade: 300 g/m²",
-        "imagem": "/placeholder-modelo.svg",
-        "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
+            [
+                "0–50 unidades",
+                "12,00€ – 27,50€"
             ],
-            "imagem": "/placeholder-modelo.svg"
-          }
-        ],
-        "tamanhos": [
-          [
-            "Tamanho",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "3XL"
-          ],
-          [
-            "Comprimento",
-            "63",
-            "67",
-            "70",
-            "73",
-            "76",
-            "79"
-          ],
-          [
-            "Largura",
-            "53",
-            "56",
-            "59",
-            "62",
-            "65",
-            "68"
-          ]
-        ],
-        "precos": [
-          [
-            "0–50 unidades",
-            "25,00€"
-          ],
-          [
-            "50–100 unidades",
-            "23,00€"
-          ],
-          [
-            "Mais de 100 unidades",
-            "21,00€"
-          ]
-        ]
-      },
-      {
-        "nome": "Calças",
-        "composicao": "65% Poliéster, Densidade: 250 g/m²",
-        "imagem": "/placeholder-modelo.svg",
-        "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
+            [
+                "50–100 unidades",
+                "11,00€ – 25,00€"
             ],
-            "imagem": "/placeholder-modelo.svg"
-          }
+            [
+                "Mais de 100 unidades",
+                "10,00€ – 22,50€"
+            ]
         ],
-        "tamanhos": [
-          [
-            "Tamanho",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "3XL"
-          ],
-          [
-            "Comprimento",
-            "104",
-            "106",
-            "108",
-            "110",
-            "112",
-            "114"
-          ],
-          [
-            "Equivalência",
-            "37-38-39",
-            "40-41-42",
-            "43-44-45",
-            "46-47-48",
-            "49-50-51",
-            "52-53-54"
-          ]
-        ],
-        "precos": [
-          [
-            "0–50 unidades",
-            "27,50€"
-          ],
-          [
-            "50–100 unidades",
-            "25,00€"
-          ],
-          [
-            "Mais de 100 unidades",
-            "22,50€"
-          ]
+        "caracteristicas": [
+            "100% Poliéster",
+            "Detalhes e cores a confirmar"
         ]
-      }
-    ],
-    "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
-    ],
-    "tamanhos": [
-      [
-        "Tamanho",
-        "XS",
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL",
-        "3XL"
-      ],
-      [
-        "Comprimento",
-        "66",
-        "69",
-        "72",
-        "75",
-        "78",
-        "81",
-        "84"
-      ],
-      [
-        "Largura",
-        "49",
-        "52",
-        "55",
-        "58",
-        "61",
-        "64",
-        "67"
-      ]
-    ],
-    "precos": [
-      [
-        "0–50 unidades",
-        "12,00€ – 27,50€"
-      ],
-      [
-        "50–100 unidades",
-        "11,00€ – 25,00€"
-      ],
-      [
-        "Mais de 100 unidades",
-        "10,00€ – 22,50€"
-      ]
-    ],
-    "caracteristicas": [
-      "100% Poliéster",
-      "Detalhes e cores a confirmar"
-    ]
-  },
+    },
   {
     "id": "camberra",
     "nome": "Babete CAMBERRA",
