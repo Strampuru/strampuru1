@@ -110,8 +110,17 @@ function ModeloPage() {
 
 /* ---------- Vista de conjunto: todas as peças visíveis, preço do conjunto ---------- */
 
-function PecaCard({ peca, modelo }: { peca: Peca; modelo: Modelo }) {
-  const [cor, setCor] = useState(0);
+function PecaCard({
+  peca,
+  modelo,
+  corControlada,
+}: {
+  peca: Peca;
+  modelo: Modelo;
+  corControlada?: number | undefined;
+}) {
+  const [corLocal, setCor] = useState(0);
+  const cor = corControlada ?? corLocal;
   const atual = peca.cores[cor] ?? peca.cores[0];
   const imagem = atual?.imagem ?? peca.imagem;
   const [cabecalho, ...linhas] = peca.tamanhos;
@@ -141,7 +150,7 @@ function PecaCard({ peca, modelo }: { peca: Peca; modelo: Modelo }) {
         </div>
         <p className="text-[11px] text-muted-foreground">{peca.composicao}</p>
 
-        {peca.cores.length > 0 && (
+        {corControlada === undefined && peca.cores.length > 0 && (
           <div className="flex flex-wrap items-center gap-2 pt-1">
             {peca.cores.map((c, i) => (
               <button
@@ -222,6 +231,13 @@ function DetalheConjunto({
   categoria: Categoria | null;
   pecas: Peca[];
 }) {
+  const coresConjunto = pecas[0]?.cores ?? [];
+  const partilhamCores =
+    coresConjunto.length > 0 &&
+    pecas.every((p) => p.cores.length === coresConjunto.length);
+  const [cor, setCor] = useState(0);
+  const corAtual = coresConjunto[cor] ?? coresConjunto[0];
+
   return (
     <>
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-16 space-y-10 md:space-y-14">
@@ -253,10 +269,48 @@ function DetalheConjunto({
           </p>
         </div>
 
+        {/* Seletor de cor comum ao conjunto */}
+        {partilhamCores && (
+          <div className="space-y-3">
+            <h2 className="text-[11px] uppercase tracking-widest font-semibold">
+              Cor do conjunto
+            </h2>
+            <div className="flex flex-wrap items-center gap-2">
+              {coresConjunto.map((c, i) => (
+                <button
+                  key={c.nome}
+                  onClick={() => setCor(i)}
+                  aria-label={c.nome}
+                  aria-pressed={i === cor}
+                  className={`size-7 rounded-full transition-all ring-offset-2 ring-offset-background outline-none ${
+                    i === cor
+                      ? "ring-2 ring-foreground"
+                      : "ring-1 ring-black/10 hover:ring-foreground/30"
+                  }`}
+                  style={{
+                    background:
+                      c.hexes.length > 1
+                        ? `linear-gradient(180deg, ${c.hexes.join(", ")})`
+                        : c.hex,
+                  }}
+                />
+              ))}
+              <span className="text-[10px] uppercase tracking-widest text-muted-foreground ml-1">
+                {corAtual?.nome}
+              </span>
+            </div>
+          </div>
+        )}
+
         {/* Peças lado a lado */}
         <div className="grid sm:grid-cols-2 gap-8 md:gap-12 items-start">
           {pecas.map((p) => (
-            <PecaCard key={p.nome} peca={p} modelo={modelo} />
+            <PecaCard
+              key={p.nome}
+              peca={p}
+              modelo={modelo}
+              corControlada={partilhamCores ? cor : undefined}
+            />
           ))}
         </div>
 
