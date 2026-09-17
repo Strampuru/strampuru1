@@ -12,7 +12,7 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
     Boolean(pecas && pecas.length > 1) &&
     !["manila", "singapura", "colombo"].includes(modelo.id);
   const imagensPecas = mostraPecas
-    ? pecas!.map((p) => {
+    ? pecas!.slice(0, 2).map((p) => {
         const idx = Math.min(ativa ?? 0, Math.max(p.cores.length - 1, 0));
         return p.cores[idx]?.imagem ?? p.imagem;
       })
