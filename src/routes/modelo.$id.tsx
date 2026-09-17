@@ -380,106 +380,147 @@ function ConfiguradorAbuDhabi({ modelo, categoria, pecas }: {
     );
   };
 
-  return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-16 space-y-10 md:space-y-14">
-      <div className="space-y-4 max-w-2xl">
-        <nav className="text-[10px] uppercase tracking-widest text-muted-foreground flex gap-3">
-          {categoria && <Link to="/categoria/$categoria" params={{ categoria: categoria.id }}>{categoria.nome}</Link>}
-          <span>/</span><span>{modelo.subcategoria}</span>
-        </nav>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-display leading-tight">{modelo.nome}</h1>
-        <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-          Escolha os modelos, as cores e a quantidade de cada peça.
-        </p>
-      </div>
+  const faixaAtiva = totalUnidades > 100 ? 2 : totalUnidades > 50 ? 1 : 0;
 
-      <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(22rem,0.8fr)] gap-10 lg:gap-16 items-start">
-        <div className="space-y-6">
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2" role="tablist" aria-label="Modelos Abu Dhabi">
+  return (
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-16">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+        {/* Configuração */}
+        <div className="lg:col-span-8 space-y-10">
+          <header className="space-y-3">
+            <nav className="text-[10px] uppercase tracking-[0.3em] text-accent font-semibold italic flex gap-3">
+              {categoria && <Link to="/categoria/$categoria" params={{ categoria: categoria.id }}>{categoria.nome}</Link>}
+              <span>/</span><span>{modelo.subcategoria}</span>
+            </nav>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-display italic leading-tight">{modelo.nome}</h1>
+          </header>
+
+          {/* Separadores de peças */}
+          <nav className="flex flex-wrap gap-x-8 gap-y-2 border-b border-border" role="tablist" aria-label="Peças Abu Dhabi">
             {pecas.map((item, indice) => (
               <button key={item.nome} type="button" role="tab" aria-selected={indice === ativa}
                 onClick={() => escolherPeca(indice)}
-                className={`min-h-14 px-3 py-2 text-left text-[11px] uppercase tracking-widest border transition-colors ${indice === ativa ? "border-foreground bg-foreground text-background" : "border-border hover:border-foreground/40"}`}>
+                className={`pb-4 -mb-px text-[11px] tracking-widest uppercase transition-colors ${indice === ativa ? "font-bold border-b-2 border-accent text-foreground" : "font-medium text-muted-foreground hover:text-foreground"}`}>
                 {item.nome}
               </button>
             ))}
-          </div>
+          </nav>
 
-          <div className="grid sm:grid-cols-2 gap-6 items-start">
-            <div className="aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden">
-              <img key={`${peca.nome}-${imagem}`} src={imagem}
-                alt={`${modelo.nome} — ${peca.nome}${corAtual ? ` — ${corAtual.nome}` : ""}`}
-                width={1024} height={1280} className="w-full h-full object-contain p-5" />
-            </div>
-            <div className="space-y-6">
-              <div>
-                <p className="text-[10px] uppercase tracking-widest text-muted-foreground">Modelo selecionado</p>
-                <h2 className="font-display text-2xl mt-1">{peca.nome}</h2>
-                <p className="text-xs text-muted-foreground mt-2">{peca.composicao}</p>
+          <div className="grid md:grid-cols-2 gap-10">
+            {/* Fotografia */}
+            <div className="space-y-4">
+              <div className="aspect-[3/4] bg-secondary border border-border overflow-hidden">
+                <img key={`${peca.nome}-${imagem}`} src={imagem}
+                  alt={`${modelo.nome} — ${peca.nome}${corAtual ? ` — ${corAtual.nome}` : ""}`}
+                  width={1024} height={1280} className="w-full h-full object-contain p-5" />
               </div>
+              <div className="flex justify-between items-baseline gap-4">
+                <h2 className="font-display text-2xl italic">{peca.nome}</h2>
+                <p className="text-[9px] tracking-[0.2em] uppercase text-accent font-medium">{corAtual?.nome}</p>
+              </div>
+              <p className="text-xs text-muted-foreground">{peca.composicao}</p>
+            </div>
+
+            {/* Controlos */}
+            <div className="space-y-10">
               {peca.cores.length > 0 && (
-                <div className="space-y-3">
-                  <div className="flex justify-between gap-4 text-[10px] uppercase tracking-widest">
-                    <span>Cor</span><span className="text-muted-foreground">{corAtual?.nome}</span>
+                <div>
+                  <div className="flex justify-between items-center mb-5">
+                    <span className="text-[10px] tracking-[0.2em] uppercase font-bold text-accent">Cor</span>
+                    <span className="text-[9px] text-muted-foreground italic">{peca.cores.length} cores disponíveis</span>
                   </div>
-                  <div className="flex flex-wrap gap-3">
+                  <div className="grid grid-cols-5 gap-3">
                     {peca.cores.map((item, indice) => (
                       <button key={item.nome} type="button" aria-label={`${peca.nome} — ${item.nome}`}
-                        aria-pressed={indice === cor} onClick={() => setCor(indice)}
-                        className={`size-9 rounded-full ring-offset-2 ring-offset-background outline-none ${indice === cor ? "ring-2 ring-foreground" : "ring-1 ring-black/10"}`}
-                        style={{ background: item.hexes.length > 1 ? `linear-gradient(180deg, ${item.hexes.join(", ")})` : item.hex }} />
+                        aria-pressed={indice === cor} onClick={() => setCor(indice)} title={item.nome}
+                        className={`size-10 rounded-full border border-background ring-offset-2 ring-offset-background outline-none transition-all ${indice === cor ? "ring-2 ring-accent" : "hover:ring-1 ring-border"}`}
+                        style={{ background: item.hexes.length > 1 ? `conic-gradient(${item.hexes[0]} 50%, ${item.hexes[1]} 50%)` : item.hex }} />
                     ))}
+                  </div>
+                </div>
+              )}
+
+              {cabecalho && (
+                <div className="space-y-5">
+                  <span className="text-[10px] tracking-[0.2em] uppercase font-bold text-accent block">Tamanhos — {peca.nome}</span>
+                  <div className="border border-border bg-card overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                    <table className="w-full text-center text-[11px] border-collapse">
+                      <thead className="bg-secondary border-b border-border">
+                        <tr>{cabecalho.map((item) => <th key={item} className="py-3 px-3 font-bold text-muted-foreground border-r border-border last:border-r-0 whitespace-nowrap">{item}</th>)}</tr>
+                      </thead>
+                      <tbody>
+                        {linhas.map((linha) => (
+                          <tr key={linha[0]} className="border-t border-border first:border-t-0">
+                            {linha.map((item, indice) => (
+                              <td key={indice} className={`py-3 px-3 border-r border-border last:border-r-0 whitespace-nowrap ${indice === 0 ? "font-medium" : "text-muted-foreground"}`}>{item}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               )}
             </div>
           </div>
-
-          {cabecalho && (
-            <div className="space-y-3">
-              <h2 className="text-[11px] uppercase tracking-widest font-semibold">Tamanhos — {peca.nome}</h2>
-              <div className="overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-                <table className="min-w-full text-[12px] border-collapse">
-                  <thead><tr>{cabecalho.map((item) => <th key={item} className="border border-border px-3 py-2 text-left text-[10px] uppercase tracking-widest whitespace-nowrap">{item}</th>)}</tr></thead>
-                  <tbody>{linhas.map((linha) => <tr key={linha[0]}>{linha.map((item, indice) => <td key={indice} className={`border border-border px-3 py-2 whitespace-nowrap ${indice === 0 ? "font-medium" : "text-muted-foreground"}`}>{item}</td>)}</tr>)}</tbody>
-                </table>
-              </div>
-            </div>
-          )}
         </div>
 
-        <aside className="lg:sticky lg:top-28 border-y border-border py-5 space-y-6">
-          <div><h2 className="font-display text-2xl">A sua combinação</h2><p className="text-xs text-muted-foreground mt-1">Indique a quantidade de cada modelo.</p></div>
+        {/* Resumo */}
+        <aside className="lg:col-span-4 bg-card border border-border p-8 md:p-10 space-y-8 lg:sticky lg:top-12 shadow-[0_10px_30px_-15px_rgba(0,0,0,0.05)]">
+          <div className="space-y-1">
+            <h2 className="font-display text-3xl md:text-4xl italic">Resumo</h2>
+            <p className="text-xs text-muted-foreground">Indique a quantidade de cada peça.</p>
+          </div>
+
           <div className="divide-y divide-border">
             {pecas.map((item, indice) => {
               const quantidade = quantidades[indice] ?? 0;
               const precoUnitario = precoParaQuantidade(item, quantidade);
               return (
-                <div key={item.nome} className="grid grid-cols-[minmax(0,1fr)_5.5rem] gap-4 py-3 items-center">
-                  <button type="button" onClick={() => escolherPeca(indice)} className="text-left min-w-0">
-                    <span className="block text-sm truncate">{item.nome}</span>
-                    <span className="block text-[10px] uppercase tracking-widest text-muted-foreground mt-1">{quantidade > 0 ? `${moeda.format(precoUnitario)} / un.` : "Sem unidades"}</span>
+                <div key={item.nome} className={`flex justify-between items-center gap-4 py-4 ${quantidade === 0 ? "opacity-40" : ""}`}>
+                  <button type="button" onClick={() => escolherPeca(indice)} className="text-left min-w-0 space-y-1">
+                    <span className="block text-xs font-bold uppercase tracking-tight truncate">{item.nome}</span>
+                    <span className="block text-[10px] font-medium uppercase tracking-widest text-accent">
+                      {quantidade > 0 ? `${moeda.format(precoUnitario)} / un.` : "Pendente"}
+                    </span>
                   </button>
                   <input type="number" min="0" step="1" inputMode="numeric" aria-label={`Quantidade de ${item.nome}`}
                     value={quantidade} onChange={(evento) => alterarQuantidade(indice, evento.target.value)}
-                    className="w-full h-10 border border-border bg-background px-3 text-right text-sm outline-none focus:border-foreground" />
+                    className="w-16 h-10 border border-border bg-background px-2 text-right text-xs font-bold outline-none focus:border-accent" />
                 </div>
               );
             })}
           </div>
-          <div className="space-y-2 border-t border-border pt-4">
-            <div className="flex justify-between text-sm text-muted-foreground"><span>Total de unidades</span><span>{totalUnidades}</span></div>
-            <div className="flex justify-between items-baseline gap-4"><span className="text-[11px] uppercase tracking-widest font-semibold">Total estimado</span><strong className="font-display text-3xl font-normal">{moeda.format(total)}</strong></div>
+
+          <div className="space-y-4 pt-2">
+            <div className="flex justify-between items-end">
+              <span className="text-[10px] tracking-[0.25em] uppercase font-bold text-muted-foreground">Estimativa</span>
+              <span className="font-display text-4xl font-light text-accent">{moeda.format(total)}</span>
+            </div>
+            <div className="space-y-2">
+              <div className="h-1 w-full bg-secondary rounded-full overflow-hidden flex gap-1">
+                {[0, 1, 2].map((i) => (
+                  <div key={i} className={`h-full w-1/3 bg-accent ${i === faixaAtiva ? "" : i < faixaAtiva ? "opacity-40" : "opacity-20"}`} />
+                ))}
+              </div>
+              <div className="flex justify-between text-[8px] text-accent font-bold uppercase tracking-widest">
+                {["0–50 un.", "50–100 un.", "+100 un."].map((rotulo, i) => (
+                  <span key={rotulo} className={i === faixaAtiva ? "" : "opacity-40"}>{rotulo}</span>
+                ))}
+              </div>
+            </div>
+            <p className="text-[10px] text-muted-foreground text-center">Total de unidades: {totalUnidades}</p>
           </div>
+
           {modelo.precos.length > 0 && (
-            <details className="group border-t border-border pt-4">
-              <summary className="cursor-pointer list-none flex justify-between text-[11px] uppercase tracking-widest">Tabela de preços<span className="transition-transform group-open:rotate-180">⌄</span></summary>
-              <div className="divide-y divide-border mt-3">{modelo.precos.map(([quantidade, preco]) => <div key={quantidade} className="flex justify-between py-2 text-xs"><span className="text-muted-foreground">{quantidade}</span><span>{preco} / unidade</span></div>)}</div>
+            <details className="group border-t border-border pt-5">
+              <summary className="cursor-pointer list-none flex justify-between text-[10px] uppercase tracking-[0.2em] font-bold">Tabela de preços<span className="transition-transform group-open:rotate-180">⌄</span></summary>
+              <div className="divide-y divide-border mt-4">{modelo.precos.map(([quantidade, preco]) => <div key={quantidade} className="flex justify-between py-2 text-xs"><span className="text-muted-foreground">{quantidade}</span><span>{preco} / unidade</span></div>)}</div>
             </details>
           )}
         </aside>
       </div>
-      <VoltarPaginaAnterior />
+      <div className="mt-12"><VoltarPaginaAnterior /></div>
     </section>
   );
 }
