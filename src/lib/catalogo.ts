@@ -213,6 +213,7 @@ import asset_dacar_cor_8 from "@/assets/dacar/dacar-cor-8.png.asset.json";
 import asset_dacar_cor_9 from "@/assets/dacar/dacar-cor-9.png.asset.json";
 import asset_doa_cor_1 from "@/assets/doa/doa-cor-1.png.asset.json";
 import asset_doa_cor_2 from "@/assets/doa/doa-cor-2.png.asset.json";
+import doaEditorial from "@/assets/doa-editorial.jpg";
 import asset_dublin_cor_1 from "@/assets/dublin/dublin-cor-1.png.asset.json";
 import asset_dublin_cor_2 from "@/assets/dublin/dublin-cor-2.png.asset.json";
 import asset_dublin_cor_3 from "@/assets/dublin/dublin-cor-3.png.asset.json";
@@ -11290,6 +11291,7 @@ export const modelos: Modelo[] = [
     "composicao": "Composição a confirmar",
     "referencia": "#DOA-DOA",
     "imagem": asset_doa_cor_1.url,
+    "lifestyle": doaEditorial,
     "cores": [
   {
     "nome": "Branco",
