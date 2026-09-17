@@ -8,3 +8,4 @@
 - [x] Criar configurador do conjunto Abu Dhabi com seis modelos, cores, tamanhos e cálculo por quantidades.
 - [x] Aplicar as 183 fotografias dos ficheiros EM FALTA 2 e EM FALTA 3 aos 22 modelos correspondentes.
 - [x] Aplicar as fotografias e cores reais aos modelos Cairo e Rabat.
+- [x] Aplicar as fotografias e cores reais aos modelos Manila, Melodias, Roma e Colombo.
