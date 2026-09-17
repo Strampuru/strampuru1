@@ -275,6 +275,8 @@ import asset_moroni_cor_3 from "@/assets/moroni/moroni-cor-3.png.asset.json";
 import asset_moroni_cor_4 from "@/assets/moroni/moroni-cor-4.png.asset.json";
 import asset_moroni_cor_5 from "@/assets/moroni/moroni-cor-5.png.asset.json";
 import asset_moroni_cor_6 from "@/assets/moroni/moroni-cor-6.png.asset.json";
+import jamenaEditorial from "@/assets/jamena-editorial.jpg";
+import moroniEditorial from "@/assets/moroni-editorial.jpg";
 import asset_nairobi_cor_1 from "@/assets/nairobi/nairobi-cor-1.png.asset.json";
 import asset_nairobi_cor_2 from "@/assets/nairobi/nairobi-cor-2.png.asset.json";
 import asset_nairobi_cor_3 from "@/assets/nairobi/nairobi-cor-3.png.asset.json";
@@ -11369,6 +11371,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 150 g/m²",
     "referencia": "#JAM-JAM",
     "imagem": asset_jamena_cor_1.url,
+    "lifestyle": jamenaEditorial,
     "cores": [
   {
     "nome": "Branco",
@@ -11501,6 +11504,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 75 g/m²",
     "referencia": "#MOR-MOR",
     "imagem": asset_moroni_cor_1.url,
+    "lifestyle": moroniEditorial,
     "cores": [
   {
     "nome": "Branco",
