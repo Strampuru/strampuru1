@@ -114,6 +114,189 @@ import samoa1 from "@/assets/samoa/samoa-1.jpg.asset.json";
 import samoa2 from "@/assets/samoa/samoa-2.jpg.asset.json";
 import samoa3 from "@/assets/samoa/samoa-3.jpg.asset.json";
 import samoa4 from "@/assets/samoa/samoa-4.jpg.asset.json";
+import asset_bruxelas_cor_1 from "@/assets/bruxelas/bruxelas-cor-1.png.asset.json";
+import asset_bruxelas_cor_2 from "@/assets/bruxelas/bruxelas-cor-2.png.asset.json";
+import asset_bruxelas_cor_3 from "@/assets/bruxelas/bruxelas-cor-3.png.asset.json";
+import asset_bruxelas_cor_4 from "@/assets/bruxelas/bruxelas-cor-4.png.asset.json";
+import asset_bruxelas_cor_5 from "@/assets/bruxelas/bruxelas-cor-5.png.asset.json";
+import asset_bruxelas_cor_6 from "@/assets/bruxelas/bruxelas-cor-6.png.asset.json";
+import asset_bruxelas_cor_7 from "@/assets/bruxelas/bruxelas-cor-7.png.asset.json";
+import asset_bruxelas_cor_8 from "@/assets/bruxelas/bruxelas-cor-8.png.asset.json";
+import asset_bruxelas_cor_9 from "@/assets/bruxelas/bruxelas-cor-9.png.asset.json";
+import asset_bruxelas_cor_10 from "@/assets/bruxelas/bruxelas-cor-10.png.asset.json";
+import asset_bruxelas_cor_11 from "@/assets/bruxelas/bruxelas-cor-11.png.asset.json";
+import asset_bruxelas_cor_12 from "@/assets/bruxelas/bruxelas-cor-12.png.asset.json";
+import asset_bruxelas_cor_13 from "@/assets/bruxelas/bruxelas-cor-13.png.asset.json";
+import asset_bruxelas_cor_14 from "@/assets/bruxelas/bruxelas-cor-14.png.asset.json";
+import asset_bruxelas_cor_15 from "@/assets/bruxelas/bruxelas-cor-15.png.asset.json";
+import asset_budapeste_cor_1 from "@/assets/budapeste/budapeste-cor-1.png.asset.json";
+import asset_budapeste_cor_2 from "@/assets/budapeste/budapeste-cor-2.png.asset.json";
+import asset_budapeste_cor_3 from "@/assets/budapeste/budapeste-cor-3.png.asset.json";
+import asset_buenos_aires_cor_1 from "@/assets/buenos-aires/buenos-aires-cor-1.png.asset.json";
+import asset_buenos_aires_cor_2 from "@/assets/buenos-aires/buenos-aires-cor-2.png.asset.json";
+import asset_buenos_aires_cor_3 from "@/assets/buenos-aires/buenos-aires-cor-3.png.asset.json";
+import asset_buenos_aires_cor_4 from "@/assets/buenos-aires/buenos-aires-cor-4.png.asset.json";
+import asset_caracas_cor_1 from "@/assets/caracas/caracas-cor-1.png.asset.json";
+import asset_caracas_cor_2 from "@/assets/caracas/caracas-cor-2.png.asset.json";
+import asset_caracas_cor_3 from "@/assets/caracas/caracas-cor-3.png.asset.json";
+import asset_caracas_cor_4 from "@/assets/caracas/caracas-cor-4.png.asset.json";
+import asset_caracas_cor_5 from "@/assets/caracas/caracas-cor-5.png.asset.json";
+import asset_caracas_cor_6 from "@/assets/caracas/caracas-cor-6.png.asset.json";
+import asset_caracas_cor_7 from "@/assets/caracas/caracas-cor-7.png.asset.json";
+import asset_caracas_cor_8 from "@/assets/caracas/caracas-cor-8.png.asset.json";
+import asset_caracas_cor_9 from "@/assets/caracas/caracas-cor-9.png.asset.json";
+import asset_caracas_cor_10 from "@/assets/caracas/caracas-cor-10.png.asset.json";
+import asset_caracas_cor_11 from "@/assets/caracas/caracas-cor-11.png.asset.json";
+import asset_caracas_cor_12 from "@/assets/caracas/caracas-cor-12.png.asset.json";
+import asset_caracas_cor_13 from "@/assets/caracas/caracas-cor-13.png.asset.json";
+import asset_caracas_cor_14 from "@/assets/caracas/caracas-cor-14.png.asset.json";
+import asset_caracas_cor_15 from "@/assets/caracas/caracas-cor-15.png.asset.json";
+import asset_caracas_cor_16 from "@/assets/caracas/caracas-cor-16.png.asset.json";
+import asset_caracas_cor_17 from "@/assets/caracas/caracas-cor-17.png.asset.json";
+import asset_caracas_cor_18 from "@/assets/caracas/caracas-cor-18.png.asset.json";
+import asset_colombo_cor_1 from "@/assets/colombo/colombo-cor-1.png.asset.json";
+import asset_colombo_cor_2 from "@/assets/colombo/colombo-cor-2.png.asset.json";
+import asset_colombo_cor_3 from "@/assets/colombo/colombo-cor-3.png.asset.json";
+import asset_colombo_cor_4 from "@/assets/colombo/colombo-cor-4.png.asset.json";
+import asset_colombo_cor_5 from "@/assets/colombo/colombo-cor-5.png.asset.json";
+import asset_dacar_cor_1 from "@/assets/dacar/dacar-cor-1.png.asset.json";
+import asset_dacar_cor_2 from "@/assets/dacar/dacar-cor-2.png.asset.json";
+import asset_dacar_cor_3 from "@/assets/dacar/dacar-cor-3.png.asset.json";
+import asset_dacar_cor_4 from "@/assets/dacar/dacar-cor-4.png.asset.json";
+import asset_dacar_cor_5 from "@/assets/dacar/dacar-cor-5.png.asset.json";
+import asset_dacar_cor_6 from "@/assets/dacar/dacar-cor-6.png.asset.json";
+import asset_dacar_cor_7 from "@/assets/dacar/dacar-cor-7.png.asset.json";
+import asset_dacar_cor_8 from "@/assets/dacar/dacar-cor-8.png.asset.json";
+import asset_dacar_cor_9 from "@/assets/dacar/dacar-cor-9.png.asset.json";
+import asset_doa_cor_1 from "@/assets/doa/doa-cor-1.png.asset.json";
+import asset_doa_cor_2 from "@/assets/doa/doa-cor-2.png.asset.json";
+import asset_dublin_cor_1 from "@/assets/dublin/dublin-cor-1.png.asset.json";
+import asset_dublin_cor_2 from "@/assets/dublin/dublin-cor-2.png.asset.json";
+import asset_dublin_cor_3 from "@/assets/dublin/dublin-cor-3.png.asset.json";
+import asset_dublin_cor_4 from "@/assets/dublin/dublin-cor-4.png.asset.json";
+import asset_dublin_cor_5 from "@/assets/dublin/dublin-cor-5.png.asset.json";
+import asset_jacarta_calcas_1 from "@/assets/jacarta/jacarta-calcas-1.png.asset.json";
+import asset_jacarta_calcas_2 from "@/assets/jacarta/jacarta-calcas-2.png.asset.json";
+import asset_jacarta_calcas_3 from "@/assets/jacarta/jacarta-calcas-3.png.asset.json";
+import asset_jacarta_calcas_4 from "@/assets/jacarta/jacarta-calcas-4.png.asset.json";
+import asset_jacarta_calcas_5 from "@/assets/jacarta/jacarta-calcas-5.png.asset.json";
+import asset_jacarta_calcas_6 from "@/assets/jacarta/jacarta-calcas-6.png.asset.json";
+import asset_jacarta_calcas_7 from "@/assets/jacarta/jacarta-calcas-7.png.asset.json";
+import asset_jacarta_calcas_8 from "@/assets/jacarta/jacarta-calcas-8.png.asset.json";
+import asset_jacarta_calcas_9 from "@/assets/jacarta/jacarta-calcas-9.png.asset.json";
+import asset_jacarta_calcas_10 from "@/assets/jacarta/jacarta-calcas-10.png.asset.json";
+import asset_jacarta_calcas_11 from "@/assets/jacarta/jacarta-calcas-11.png.asset.json";
+import asset_jacarta_calcas_12 from "@/assets/jacarta/jacarta-calcas-12.png.asset.json";
+import asset_jacarta_calcas_13 from "@/assets/jacarta/jacarta-calcas-13.png.asset.json";
+import asset_jacarta_calcas_14 from "@/assets/jacarta/jacarta-calcas-14.png.asset.json";
+import asset_jacarta_casaco_1 from "@/assets/jacarta/jacarta-casaco-1.png.asset.json";
+import asset_jacarta_casaco_2 from "@/assets/jacarta/jacarta-casaco-2.png.asset.json";
+import asset_jacarta_casaco_3 from "@/assets/jacarta/jacarta-casaco-3.png.asset.json";
+import asset_jacarta_casaco_4 from "@/assets/jacarta/jacarta-casaco-4.png.asset.json";
+import asset_jacarta_casaco_5 from "@/assets/jacarta/jacarta-casaco-5.png.asset.json";
+import asset_jacarta_casaco_6 from "@/assets/jacarta/jacarta-casaco-6.png.asset.json";
+import asset_jacarta_casaco_7 from "@/assets/jacarta/jacarta-casaco-7.png.asset.json";
+import asset_jacarta_casaco_8 from "@/assets/jacarta/jacarta-casaco-8.png.asset.json";
+import asset_jacarta_casaco_9 from "@/assets/jacarta/jacarta-casaco-9.png.asset.json";
+import asset_jacarta_casaco_10 from "@/assets/jacarta/jacarta-casaco-10.png.asset.json";
+import asset_jacarta_casaco_11 from "@/assets/jacarta/jacarta-casaco-11.png.asset.json";
+import asset_jacarta_casaco_12 from "@/assets/jacarta/jacarta-casaco-12.png.asset.json";
+import asset_jacarta_casaco_13 from "@/assets/jacarta/jacarta-casaco-13.png.asset.json";
+import asset_jacarta_casaco_14 from "@/assets/jacarta/jacarta-casaco-14.png.asset.json";
+import asset_jamena_cor_1 from "@/assets/jamena/jamena-cor-1.png.asset.json";
+import asset_jamena_cor_2 from "@/assets/jamena/jamena-cor-2.png.asset.json";
+import asset_jamena_cor_3 from "@/assets/jamena/jamena-cor-3.png.asset.json";
+import asset_jamena_cor_4 from "@/assets/jamena/jamena-cor-4.png.asset.json";
+import asset_jamena_cor_5 from "@/assets/jamena/jamena-cor-5.png.asset.json";
+import asset_jamena_cor_6 from "@/assets/jamena/jamena-cor-6.png.asset.json";
+import asset_jamena_cor_7 from "@/assets/jamena/jamena-cor-7.png.asset.json";
+import asset_jamena_cor_8 from "@/assets/jamena/jamena-cor-8.png.asset.json";
+import asset_jamena_cor_9 from "@/assets/jamena/jamena-cor-9.png.asset.json";
+import asset_jamena_cor_10 from "@/assets/jamena/jamena-cor-10.png.asset.json";
+import asset_luanda_cor_1 from "@/assets/luanda/luanda-cor-1.png.asset.json";
+import asset_luanda_cor_2 from "@/assets/luanda/luanda-cor-2.png.asset.json";
+import asset_luanda_cor_3 from "@/assets/luanda/luanda-cor-3.png.asset.json";
+import asset_luanda_cor_4 from "@/assets/luanda/luanda-cor-4.png.asset.json";
+import asset_luanda_cor_5 from "@/assets/luanda/luanda-cor-5.png.asset.json";
+import asset_luanda_cor_6 from "@/assets/luanda/luanda-cor-6.png.asset.json";
+import asset_madrid_cor_1 from "@/assets/madrid/madrid-cor-1.png.asset.json";
+import asset_madrid_cor_2 from "@/assets/madrid/madrid-cor-2.png.asset.json";
+import asset_madrid_cor_3 from "@/assets/madrid/madrid-cor-3.png.asset.json";
+import asset_madrid_cor_4 from "@/assets/madrid/madrid-cor-4.png.asset.json";
+import asset_madrid_cor_5 from "@/assets/madrid/madrid-cor-5.png.asset.json";
+import asset_madrid_cor_6 from "@/assets/madrid/madrid-cor-6.png.asset.json";
+import asset_moroni_cor_1 from "@/assets/moroni/moroni-cor-1.png.asset.json";
+import asset_moroni_cor_2 from "@/assets/moroni/moroni-cor-2.png.asset.json";
+import asset_moroni_cor_3 from "@/assets/moroni/moroni-cor-3.png.asset.json";
+import asset_moroni_cor_4 from "@/assets/moroni/moroni-cor-4.png.asset.json";
+import asset_moroni_cor_5 from "@/assets/moroni/moroni-cor-5.png.asset.json";
+import asset_moroni_cor_6 from "@/assets/moroni/moroni-cor-6.png.asset.json";
+import asset_nairobi_cor_1 from "@/assets/nairobi/nairobi-cor-1.png.asset.json";
+import asset_nairobi_cor_2 from "@/assets/nairobi/nairobi-cor-2.png.asset.json";
+import asset_nairobi_cor_3 from "@/assets/nairobi/nairobi-cor-3.png.asset.json";
+import asset_nairobi_cor_4 from "@/assets/nairobi/nairobi-cor-4.png.asset.json";
+import asset_nairobi_cor_5 from "@/assets/nairobi/nairobi-cor-5.png.asset.json";
+import asset_nairobi_cor_6 from "@/assets/nairobi/nairobi-cor-6.png.asset.json";
+import asset_nairobi_cor_7 from "@/assets/nairobi/nairobi-cor-7.png.asset.json";
+import asset_nairobi_cor_8 from "@/assets/nairobi/nairobi-cor-8.png.asset.json";
+import asset_paris_cor_1 from "@/assets/paris/paris-cor-1.png.asset.json";
+import asset_paris_cor_2 from "@/assets/paris/paris-cor-2.png.asset.json";
+import asset_paris_cor_3 from "@/assets/paris/paris-cor-3.png.asset.json";
+import asset_paris_cor_4 from "@/assets/paris/paris-cor-4.png.asset.json";
+import asset_paris_cor_5 from "@/assets/paris/paris-cor-5.png.asset.json";
+import asset_paris_cor_6 from "@/assets/paris/paris-cor-6.png.asset.json";
+import asset_paris_cor_7 from "@/assets/paris/paris-cor-7.png.asset.json";
+import asset_pequim_calcas_1 from "@/assets/pequim/pequim-calcas-1.png.asset.json";
+import asset_pequim_calcas_2 from "@/assets/pequim/pequim-calcas-2.png.asset.json";
+import asset_pequim_calcas_3 from "@/assets/pequim/pequim-calcas-3.png.asset.json";
+import asset_pequim_calcas_4 from "@/assets/pequim/pequim-calcas-4.png.asset.json";
+import asset_pequim_tshirt_1 from "@/assets/pequim/pequim-tshirt-1.png.asset.json";
+import asset_pequim_tshirt_2 from "@/assets/pequim/pequim-tshirt-2.png.asset.json";
+import asset_pequim_tshirt_3 from "@/assets/pequim/pequim-tshirt-3.png.asset.json";
+import asset_pequim_tshirt_4 from "@/assets/pequim/pequim-tshirt-4.png.asset.json";
+import asset_santiago_cor_1 from "@/assets/santiago/santiago-cor-1.png.asset.json";
+import asset_santiago_cor_2 from "@/assets/santiago/santiago-cor-2.png.asset.json";
+import asset_santiago_cor_3 from "@/assets/santiago/santiago-cor-3.png.asset.json";
+import asset_santiago_cor_4 from "@/assets/santiago/santiago-cor-4.png.asset.json";
+import asset_santiago_cor_5 from "@/assets/santiago/santiago-cor-5.png.asset.json";
+import asset_santiago_cor_6 from "@/assets/santiago/santiago-cor-6.png.asset.json";
+import asset_singapura_cor_1 from "@/assets/singapura/singapura-cor-1.png.asset.json";
+import asset_singapura_cor_2 from "@/assets/singapura/singapura-cor-2.png.asset.json";
+import asset_singapura_cor_3 from "@/assets/singapura/singapura-cor-3.png.asset.json";
+import asset_singapura_cor_4 from "@/assets/singapura/singapura-cor-4.png.asset.json";
+import asset_singapura_cor_5 from "@/assets/singapura/singapura-cor-5.png.asset.json";
+import asset_singapura_cor_6 from "@/assets/singapura/singapura-cor-6.png.asset.json";
+import asset_singapura_cor_7 from "@/assets/singapura/singapura-cor-7.png.asset.json";
+import asset_singapura_cor_8 from "@/assets/singapura/singapura-cor-8.png.asset.json";
+import asset_singapura_cor_9 from "@/assets/singapura/singapura-cor-9.png.asset.json";
+import asset_singapura_cor_10 from "@/assets/singapura/singapura-cor-10.png.asset.json";
+import asset_singapura_cor_11 from "@/assets/singapura/singapura-cor-11.png.asset.json";
+import asset_singapura_cor_12 from "@/assets/singapura/singapura-cor-12.png.asset.json";
+import asset_singapura_cor_13 from "@/assets/singapura/singapura-cor-13.png.asset.json";
+import asset_sucre_cor_1 from "@/assets/sucre/sucre-cor-1.png.asset.json";
+import asset_sucre_cor_2 from "@/assets/sucre/sucre-cor-2.png.asset.json";
+import asset_sucre_cor_3 from "@/assets/sucre/sucre-cor-3.png.asset.json";
+import asset_sucre_cor_4 from "@/assets/sucre/sucre-cor-4.png.asset.json";
+import asset_sucre_cor_5 from "@/assets/sucre/sucre-cor-5.png.asset.json";
+import asset_tirana_cor_1 from "@/assets/tirana/tirana-cor-1.png.asset.json";
+import asset_tirana_cor_2 from "@/assets/tirana/tirana-cor-2.png.asset.json";
+import asset_tirana_cor_3 from "@/assets/tirana/tirana-cor-3.png.asset.json";
+import asset_tirana_cor_4 from "@/assets/tirana/tirana-cor-4.png.asset.json";
+import asset_tirana_cor_5 from "@/assets/tirana/tirana-cor-5.png.asset.json";
+import asset_tirana_cor_6 from "@/assets/tirana/tirana-cor-6.png.asset.json";
+import asset_tirana_cor_7 from "@/assets/tirana/tirana-cor-7.png.asset.json";
+import asset_tirana_cor_8 from "@/assets/tirana/tirana-cor-8.png.asset.json";
+import asset_toquio_cor_1 from "@/assets/toquio/toquio-cor-1.png.asset.json";
+import asset_toquio_cor_2 from "@/assets/toquio/toquio-cor-2.png.asset.json";
+import asset_toquio_cor_3 from "@/assets/toquio/toquio-cor-3.png.asset.json";
+import asset_toquio_cor_4 from "@/assets/toquio/toquio-cor-4.png.asset.json";
+import asset_viena_cor_1 from "@/assets/viena/viena-cor-1.png.asset.json";
+import asset_viena_cor_2 from "@/assets/viena/viena-cor-2.png.asset.json";
+import asset_viena_cor_3 from "@/assets/viena/viena-cor-3.png.asset.json";
+import asset_viena_cor_4 from "@/assets/viena/viena-cor-4.png.asset.json";
+import asset_viena_cor_5 from "@/assets/viena/viena-cor-5.png.asset.json";
+import asset_viena_cor_6 from "@/assets/viena/viena-cor-6.png.asset.json";
+import asset_viena_cor_7 from "@/assets/viena/viena-cor-7.png.asset.json";
 
 
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
@@ -610,58 +793,58 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt MADRID disponível em 6 cores. 100% Algodão",
     "composicao": "100% Algodão, Densidade: 190 g/m²",
     "referencia": "#MAD-MAD",
-    "imagem": "/__l5e/assets-v1/09000929-4e2d-4c84-8d0c-adce6f713b35/wave-branco.webp",
+    "imagem": asset_madrid_cor_1.url,
     "lifestyle": "/lifestyle/madrid-new.jpg",
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf2",
-        "hexes": [
-          "#eaedf2"
-        ],
-        "imagem": "/__l5e/assets-v1/09000929-4e2d-4c84-8d0c-adce6f713b35/wave-branco.webp"
-      },
-      {
-        "nome": "Bege",
-        "hex": "#a08b66",
-        "hexes": [
-          "#a08b66"
-        ],
-        "imagem": "/__l5e/assets-v1/c99f122a-66b4-4698-84ef-674e139937fb/wave-beje.webp"
-      },
-      {
-        "nome": "Vermelho",
-        "hex": "#8d1626",
-        "hexes": [
-          "#8d1626"
-        ],
-        "imagem": "/__l5e/assets-v1/5291ae38-94ef-43aa-826c-dc2bcc34119f/wave-vermelho.webp"
-      },
-      {
-        "nome": "Azul 1",
-        "hex": "#205e99",
-        "hexes": [
-          "#205e99"
-        ],
-        "imagem": "/__l5e/assets-v1/0918f264-a12d-475c-b903-8c323f5530e3/wave-azul1.webp"
-      },
-      {
-        "nome": "Azul 2",
-        "hex": "#0a3755",
-        "hexes": [
-          "#0a3755"
-        ],
-        "imagem": "/__l5e/assets-v1/4825e95f-5026-4b86-83bc-da4c4d5386c2/wave-azul2.webp"
-      },
-      {
-        "nome": "Preto",
-        "hex": "#332e2a",
-        "hexes": [
-          "#332e2a"
-        ],
-        "imagem": "/__l5e/assets-v1/f43ad84e-5603-4993-bd98-a6752ed56f04/wave-preto.webp"
-      }
+  {
+    "nome": "Preto",
+    "hex": "#2b2622",
+    "hexes": [
+      "#2b2622"
     ],
+    "imagem": asset_madrid_cor_1.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#063453",
+    "hexes": [
+      "#063453"
+    ],
+    "imagem": asset_madrid_cor_2.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#1d5c98",
+    "hexes": [
+      "#1d5c98"
+    ],
+    "imagem": asset_madrid_cor_3.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#8c1425",
+    "hexes": [
+      "#8c1425"
+    ],
+    "imagem": asset_madrid_cor_4.url
+  },
+  {
+    "nome": "Bege",
+    "hex": "#9c8662",
+    "hexes": [
+      "#9c8662"
+    ],
+    "imagem": asset_madrid_cor_5.url
+  },
+  {
+    "nome": "Branco",
+    "hex": "#dde1e6",
+    "hexes": [
+      "#dde1e6"
+    ],
+    "imagem": asset_madrid_cor_6.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -795,20 +978,76 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "homem",
-    "descricao": "T-shirt TIRANA — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt TIRANA disponível em 8 cores..",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#TIR-TIR",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_tirana_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#caccd0",
+    "hexes": [
+      "#caccd0"
     ],
+    "imagem": asset_tirana_cor_1.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#8c9095",
+    "hexes": [
+      "#8c9095"
+    ],
+    "imagem": asset_tirana_cor_2.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#2b2622",
+    "hexes": [
+      "#2b2622"
+    ],
+    "imagem": asset_tirana_cor_3.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#166e4a",
+    "hexes": [
+      "#166e4a"
+    ],
+    "imagem": asset_tirana_cor_4.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#c6501a",
+    "hexes": [
+      "#c6501a"
+    ],
+    "imagem": asset_tirana_cor_5.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#8b1524",
+    "hexes": [
+      "#8b1524"
+    ],
+    "imagem": asset_tirana_cor_6.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#1d5b97",
+    "hexes": [
+      "#1d5b97"
+    ],
+    "imagem": asset_tirana_cor_7.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#053352",
+    "hexes": [
+      "#053352"
+    ],
+    "imagem": asset_tirana_cor_8.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -861,20 +1100,68 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "homem",
-    "descricao": "T-shirt VIENA — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt VIENA disponível em 7 cores..",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#VIE-VIE",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_viena_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#c1c7cb",
+    "hexes": [
+      "#c1c7cb"
     ],
+    "imagem": asset_viena_cor_1.url
+  },
+  {
+    "nome": "Cinzento claro",
+    "hex": "#d8d8e1",
+    "hexes": [
+      "#d8d8e1"
+    ],
+    "imagem": asset_viena_cor_2.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#2d2824",
+    "hexes": [
+      "#2d2824"
+    ],
+    "imagem": asset_viena_cor_3.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#005445",
+    "hexes": [
+      "#005445"
+    ],
+    "imagem": asset_viena_cor_4.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#8e1426",
+    "hexes": [
+      "#8e1426"
+    ],
+    "imagem": asset_viena_cor_5.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#1f528d",
+    "hexes": [
+      "#1f528d"
+    ],
+    "imagem": asset_viena_cor_6.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#063657",
+    "hexes": [
+      "#063657"
+    ],
+    "imagem": asset_viena_cor_7.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -939,20 +1226,68 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "mulher",
-    "descricao": "T-shirt PARIS — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt PARIS disponível em 7 cores..",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#PAR-PAR",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_paris_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Preto",
+    "hex": "#2e2925",
+    "hexes": [
+      "#2e2925"
     ],
+    "imagem": asset_paris_cor_1.url
+  },
+  {
+    "nome": "Azul turquesa",
+    "hex": "#0092d0",
+    "hexes": [
+      "#0092d0"
+    ],
+    "imagem": asset_paris_cor_2.url
+  },
+  {
+    "nome": "Rosa",
+    "hex": "#c23d7f",
+    "hexes": [
+      "#c23d7f"
+    ],
+    "imagem": asset_paris_cor_3.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#95132e",
+    "hexes": [
+      "#95132e"
+    ],
+    "imagem": asset_paris_cor_4.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#c9571a",
+    "hexes": [
+      "#c9571a"
+    ],
+    "imagem": asset_paris_cor_5.url
+  },
+  {
+    "nome": "Verde lima",
+    "hex": "#93b953",
+    "hexes": [
+      "#93b953"
+    ],
+    "imagem": asset_paris_cor_6.url
+  },
+  {
+    "nome": "Branco",
+    "hex": "#dee4e9",
+    "hexes": [
+      "#dee4e9"
+    ],
+    "imagem": asset_paris_cor_7.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -1708,37 +2043,34 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt BUDAPESTE disponível em 3 cores. 23% Poliéster",
     "composicao": "77% Poliamida, 23% Poliéster, Densidade: 180 g/m²",
     "referencia": "#BUD-BUD",
-    "imagem": "/__l5e/assets-v1/8456277d-91a9-46b8-81c1-d06cba3ff602/dacita-azul.webp",
+    "imagem": asset_budapeste_cor_1.url,
     "lifestyle": "/lifestyle/budapeste-new.jpg",
     "cores": [
-      {
-        "nome": "Azul",
-        "hex": "#043a5f",
-        "hexes": [
-          "#043a5f",
-          "#051d36"
-        ],
-        "imagem": "/__l5e/assets-v1/8456277d-91a9-46b8-81c1-d06cba3ff602/dacita-azul.webp"
-      },
-      {
-        "nome": "Preto",
-        "hex": "#464b52",
-        "hexes": [
-          "#464b52",
-          "#626a76"
-        ],
-        "imagem": "/__l5e/assets-v1/4386bd99-c41f-4985-b38f-6ea4d35dd4d0/dacita-preto.webp"
-      },
-      {
-        "nome": "Cinzento",
-        "hex": "#2c2820",
-        "hexes": [
-          "#2c2820",
-          "#383839"
-        ],
-        "imagem": "/__l5e/assets-v1/9c5d5366-1319-4a07-b6af-64b7bdecfbe3/dacita-cinzento.webp"
-      }
+  {
+    "nome": "Azul",
+    "hex": "#01365a",
+    "hexes": [
+      "#01365a"
     ],
+    "imagem": asset_budapeste_cor_1.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#41464c",
+    "hexes": [
+      "#41464c"
+    ],
+    "imagem": asset_budapeste_cor_2.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#2b271d",
+    "hexes": [
+      "#2b271d"
+    ],
+    "imagem": asset_budapeste_cor_3.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -1792,20 +2124,52 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Desportivas",
     "genero": "homem",
-    "descricao": "T-shirt DUBLIN — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt DUBLIN disponível em 5 cores..",
     "composicao": "90% Poliamida, 10% Elastano, Densidade: 230 g/m²",
     "referencia": "#MEL-MEL",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_dublin_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#dedede",
+    "hexes": [
+      "#dedede"
     ],
+    "imagem": asset_dublin_cor_1.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#8a1427",
+    "hexes": [
+      "#8a1427"
+    ],
+    "imagem": asset_dublin_cor_2.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#1e528b",
+    "hexes": [
+      "#1e528b"
+    ],
+    "imagem": asset_dublin_cor_3.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#033553",
+    "hexes": [
+      "#033553"
+    ],
+    "imagem": asset_dublin_cor_4.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#0e1003",
+    "hexes": [
+      "#0e1003"
+    ],
+    "imagem": asset_dublin_cor_5.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -2278,46 +2642,42 @@ export const modelos: Modelo[] = [
     "descricao": "Polo BUENOS AIRES disponível em 4 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#BUE-BUE",
-    "imagem": "/__l5e/assets-v1/0c57f1e1-019d-4025-9292-e0b669ee0631/sagano-verde.webp",
+    "imagem": asset_buenos_aires_cor_1.url,
     "lifestyle": "/lifestyle/buenos-aires-corrected.jpg",
     "cores": [
-      {
-        "nome": "Verde",
-        "hex": "#ebebed",
-        "hexes": [
-          "#ebebed",
-          "#9cadad"
-        ],
-        "imagem": "/__l5e/assets-v1/0c57f1e1-019d-4025-9292-e0b669ee0631/sagano-verde.webp"
-      },
-      {
-        "nome": "Vermelho",
-        "hex": "#f0f0f1",
-        "hexes": [
-          "#f0f0f1",
-          "#b3a3a6"
-        ],
-        "imagem": "/__l5e/assets-v1/a65e6cf2-15b8-4ffd-813f-e958c0a2709e/sagano-vermelho.webp"
-      },
-      {
-        "nome": "Azul",
-        "hex": "#f0f0f1",
-        "hexes": [
-          "#f0f0f1",
-          "#b0b5bb"
-        ],
-        "imagem": "/__l5e/assets-v1/197f7571-f5a4-4401-ad61-99049fe27677/sagano-azul.webp"
-      },
-      {
-        "nome": "Preto",
-        "hex": "#ebebed",
-        "hexes": [
-          "#ebebed",
-          "#a7a5a4"
-        ],
-        "imagem": "/__l5e/assets-v1/8820b73e-cebe-470a-b5d8-db5b3ee72b49/sagano-preto.webp"
-      }
+  {
+    "nome": "Branco e verde",
+    "hex": "#dfdee1",
+    "hexes": [
+      "#dfdee1"
     ],
+    "imagem": asset_buenos_aires_cor_1.url
+  },
+  {
+    "nome": "Branco e azul",
+    "hex": "#5b8aa5",
+    "hexes": [
+      "#5b8aa5"
+    ],
+    "imagem": asset_buenos_aires_cor_2.url
+  },
+  {
+    "nome": "Branco e vermelho",
+    "hex": "#a2656d",
+    "hexes": [
+      "#a2656d"
+    ],
+    "imagem": asset_buenos_aires_cor_3.url
+  },
+  {
+    "nome": "Branco e verde água",
+    "hex": "#599292",
+    "hexes": [
+      "#599292"
+    ],
+    "imagem": asset_buenos_aires_cor_4.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -2373,64 +2733,58 @@ export const modelos: Modelo[] = [
     "descricao": "Polo SANTIAGO disponível em 6 cores. 100% Poliéster",
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#STR-SNT",
-    "imagem": "/__l5e/assets-v1/26e95779-b082-4b12-abb9-f6143d564c4d/strategy-vermelhov1.webp",
+    "imagem": asset_santiago_cor_1.url,
     "lifestyle": "/lifestyle/santiago-corrected.jpg",
     "cores": [
-      {
-        "nome": "Vermelhov 1",
-        "hex": "#ebebeb",
-        "hexes": [
-          "#ebebeb",
-          "#883841"
-        ],
-        "imagem": "/__l5e/assets-v1/26e95779-b082-4b12-abb9-f6143d564c4d/strategy-vermelhov1.webp"
-      },
-      {
-        "nome": "Azulv 1",
-        "hex": "#ebebeb",
-        "hexes": [
-          "#ebebeb",
-          "#4d6f91"
-        ],
-        "imagem": "/__l5e/assets-v1/dd5806be-db18-489b-8eec-ebee872df08b/strategy-azulv1.webp"
-      },
-      {
-        "nome": "Pretov 1",
-        "hex": "#ebebeb",
-        "hexes": [
-          "#ebebeb",
-          "#494542"
-        ],
-        "imagem": "/__l5e/assets-v1/49595174-96cb-404d-968f-b9280d7becc9/strategy-pretov1.webp"
-      },
-      {
-        "nome": "Vermelhov 2",
-        "hex": "#8d192b",
-        "hexes": [
-          "#8d192b",
-          "#eaebeb"
-        ],
-        "imagem": "/__l5e/assets-v1/6a013d02-5b84-49ee-b01b-868723193abf/strategy-vermelhov2.webp"
-      },
-      {
-        "nome": "Azulv 2",
-        "hex": "#1f6098",
-        "hexes": [
-          "#1f6098",
-          "#e7e6e6"
-        ],
-        "imagem": "/__l5e/assets-v1/ec1cac99-86e8-409c-b235-4d38d89f2f7b/strategy-azulv2.webp"
-      },
-      {
-        "nome": "Pretov 2",
-        "hex": "#35302c",
-        "hexes": [
-          "#35302c",
-          "#e5e4e4"
-        ],
-        "imagem": "/__l5e/assets-v1/652debb7-72c9-4d10-82fa-927630070d46/strategy-pretov2.webp"
-      }
+  {
+    "nome": "Vermelho e branco",
+    "hex": "#7d1520",
+    "hexes": [
+      "#7d1520"
     ],
+    "imagem": asset_santiago_cor_1.url
+  },
+  {
+    "nome": "Azul e branco",
+    "hex": "#1a5287",
+    "hexes": [
+      "#1a5287"
+    ],
+    "imagem": asset_santiago_cor_2.url
+  },
+  {
+    "nome": "Preto e branco",
+    "hex": "#2f2a26",
+    "hexes": [
+      "#2f2a26"
+    ],
+    "imagem": asset_santiago_cor_3.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#8b1428",
+    "hexes": [
+      "#8b1428"
+    ],
+    "imagem": asset_santiago_cor_4.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#1b5d97",
+    "hexes": [
+      "#1b5d97"
+    ],
+    "imagem": asset_santiago_cor_5.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#2e2925",
+    "hexes": [
+      "#2e2925"
+    ],
+    "imagem": asset_santiago_cor_6.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -2483,20 +2837,156 @@ export const modelos: Modelo[] = [
     "categoria": "polos",
     "subcategoria": "Polos",
     "genero": "homem",
-    "descricao": "Polo CARACAS — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "Polo CARACAS disponível em 18 cores..",
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#CAR-CAR",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_caracas_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#cacbcf",
+    "hexes": [
+      "#cacbcf"
     ],
+    "imagem": asset_caracas_cor_1.url
+  },
+  {
+    "nome": "Cinza pedra",
+    "hex": "#918f83",
+    "hexes": [
+      "#918f83"
+    ],
+    "imagem": asset_caracas_cor_2.url
+  },
+  {
+    "nome": "Castanho",
+    "hex": "#5b4d40",
+    "hexes": [
+      "#5b4d40"
+    ],
+    "imagem": asset_caracas_cor_3.url
+  },
+  {
+    "nome": "Verde lima",
+    "hex": "#aeb555",
+    "hexes": [
+      "#aeb555"
+    ],
+    "imagem": asset_caracas_cor_4.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#346b4d",
+    "hexes": [
+      "#346b4d"
+    ],
+    "imagem": asset_caracas_cor_5.url
+  },
+  {
+    "nome": "Verde escuro",
+    "hex": "#1b4539",
+    "hexes": [
+      "#1b4539"
+    ],
+    "imagem": asset_caracas_cor_6.url
+  },
+  {
+    "nome": "Amarelo claro",
+    "hex": "#ecd965",
+    "hexes": [
+      "#ecd965"
+    ],
+    "imagem": asset_caracas_cor_7.url
+  },
+  {
+    "nome": "Amarelo",
+    "hex": "#dab843",
+    "hexes": [
+      "#dab843"
+    ],
+    "imagem": asset_caracas_cor_8.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#b2552a",
+    "hexes": [
+      "#b2552a"
+    ],
+    "imagem": asset_caracas_cor_9.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#7c2128",
+    "hexes": [
+      "#7c2128"
+    ],
+    "imagem": asset_caracas_cor_10.url
+  },
+  {
+    "nome": "Bordô",
+    "hex": "#5c152f",
+    "hexes": [
+      "#5c152f"
+    ],
+    "imagem": asset_caracas_cor_11.url
+  },
+  {
+    "nome": "Azul claro",
+    "hex": "#91a8c8",
+    "hexes": [
+      "#91a8c8"
+    ],
+    "imagem": asset_caracas_cor_12.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#2f588e",
+    "hexes": [
+      "#2f588e"
+    ],
+    "imagem": asset_caracas_cor_13.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#153250",
+    "hexes": [
+      "#153250"
+    ],
+    "imagem": asset_caracas_cor_14.url
+  },
+  {
+    "nome": "Cinzento claro",
+    "hex": "#8e8e98",
+    "hexes": [
+      "#8e8e98"
+    ],
+    "imagem": asset_caracas_cor_15.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#50555f",
+    "hexes": [
+      "#50555f"
+    ],
+    "imagem": asset_caracas_cor_16.url
+  },
+  {
+    "nome": "Cinzento escuro",
+    "hex": "#414046",
+    "hexes": [
+      "#414046"
+    ],
+    "imagem": asset_caracas_cor_17.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#110e03",
+    "hexes": [
+      "#110e03"
+    ],
+    "imagem": asset_caracas_cor_18.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -2567,20 +3057,52 @@ export const modelos: Modelo[] = [
     "categoria": "polos",
     "subcategoria": "Polos",
     "genero": "mulher",
-    "descricao": "Polo SUCRE — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "Polo SUCRE disponível em 5 cores..",
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#SUC-SUC",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_sucre_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Preto",
+    "hex": "#120f06",
+    "hexes": [
+      "#120f06"
     ],
+    "imagem": asset_sucre_cor_1.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#023554",
+    "hexes": [
+      "#023554"
+    ],
+    "imagem": asset_sucre_cor_2.url
+  },
+  {
+    "nome": "Azul claro",
+    "hex": "#8099b8",
+    "hexes": [
+      "#8099b8"
+    ],
+    "imagem": asset_sucre_cor_3.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#841426",
+    "hexes": [
+      "#841426"
+    ],
+    "imagem": asset_sucre_cor_4.url
+  },
+  {
+    "nome": "Branco",
+    "hex": "#d5d6da",
+    "hexes": [
+      "#d5d6da"
+    ],
+    "imagem": asset_sucre_cor_5.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -3615,20 +4137,60 @@ export const modelos: Modelo[] = [
     "categoria": "sweats",
     "subcategoria": "Com Capuz",
     "genero": "unissexo",
-    "descricao": "Hoodie LUANDA — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "Hoodie LUANDA disponível em 6 cores..",
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#LUA-LUA",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_luanda_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#d2d3d7",
+    "hexes": [
+      "#d2d3d7"
     ],
+    "imagem": asset_luanda_cor_1.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#782127",
+    "hexes": [
+      "#782127"
+    ],
+    "imagem": asset_luanda_cor_2.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#2c5589",
+    "hexes": [
+      "#2c5589"
+    ],
+    "imagem": asset_luanda_cor_3.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#13324e",
+    "hexes": [
+      "#13324e"
+    ],
+    "imagem": asset_luanda_cor_4.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#878994",
+    "hexes": [
+      "#878994"
+    ],
+    "imagem": asset_luanda_cor_5.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#0e0c05",
+    "hexes": [
+      "#0e0c05"
+    ],
+    "imagem": asset_luanda_cor_6.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -3756,20 +4318,84 @@ export const modelos: Modelo[] = [
     "categoria": "sweats",
     "subcategoria": "Sem Capuz",
     "genero": "unissexo",
-    "descricao": "Sweatshirt DACAR — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "Sweatshirt DACAR disponível em 9 cores..",
     "composicao": "65% Poliéster, 35% Algodão, Densidade: 300 g/m²",
     "referencia": "#DAC-DAC",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_dacar_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#cbccd0",
+    "hexes": [
+      "#cbccd0"
     ],
+    "imagem": asset_dacar_cor_1.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#225345",
+    "hexes": [
+      "#225345"
+    ],
+    "imagem": asset_dacar_cor_2.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#81222c",
+    "hexes": [
+      "#81222c"
+    ],
+    "imagem": asset_dacar_cor_3.url
+  },
+  {
+    "nome": "Bordô",
+    "hex": "#601631",
+    "hexes": [
+      "#601631"
+    ],
+    "imagem": asset_dacar_cor_4.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#305b92",
+    "hexes": [
+      "#305b92"
+    ],
+    "imagem": asset_dacar_cor_5.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#163653",
+    "hexes": [
+      "#163653"
+    ],
+    "imagem": asset_dacar_cor_6.url
+  },
+  {
+    "nome": "Cinzento claro",
+    "hex": "#8a8c98",
+    "hexes": [
+      "#8a8c98"
+    ],
+    "imagem": asset_dacar_cor_7.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#535862",
+    "hexes": [
+      "#535862"
+    ],
+    "imagem": asset_dacar_cor_8.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#110e05",
+    "hexes": [
+      "#110e05"
+    ],
+    "imagem": asset_dacar_cor_9.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -4101,74 +4727,74 @@ export const modelos: Modelo[] = [
     "descricao": "Jaqueta NAIROBI disponível em 8 cores. Interior: 100% Poliéster (225 g/m²)",
     "composicao": "Interior: 100% Poliéster (225 g/m²) · Exterior: 70% Poliéster, 30% PVC (200 g/m²)",
     "referencia": "#NAI-NAI",
-    "imagem": "/__l5e/assets-v1/0c0569d8-29f2-43d4-ae16-09e7749880cb/manitoba-branco.webp",
+    "imagem": asset_nairobi_cor_1.url,
     "lifestyle": "/lifestyle/nairobi-new.jpg",
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eff0f4",
-        "hexes": [
-          "#eff0f4"
-        ],
-        "imagem": "/__l5e/assets-v1/0c0569d8-29f2-43d4-ae16-09e7749880cb/manitoba-branco.webp"
-      },
-      {
-        "nome": "Verde 1",
-        "hex": "#0f5e4c",
-        "hexes": [
-          "#0f5e4c"
-        ],
-        "imagem": "/__l5e/assets-v1/a1b0366d-c50b-4b4a-91cb-465c0420a8c4/manitoba-verde1.webp"
-      },
-      {
-        "nome": "Verde 2",
-        "hex": "#545c45",
-        "hexes": [
-          "#545c45"
-        ],
-        "imagem": "/__l5e/assets-v1/fb3a8e02-0cd4-4816-bae9-4424afb34850/manitoba-verde2.webp"
-      },
-      {
-        "nome": "Vermelho",
-        "hex": "#8d1e2c",
-        "hexes": [
-          "#8d1e2c"
-        ],
-        "imagem": "/__l5e/assets-v1/763614ff-77d8-4d8e-b5a2-2b514e219563/manitoba-vermelho.webp"
-      },
-      {
-        "nome": "Azul 1",
-        "hex": "#215f96",
-        "hexes": [
-          "#215f96"
-        ],
-        "imagem": "/__l5e/assets-v1/ae3c4147-66dd-4749-b323-ef41b174aca1/manitoba-azul1.webp"
-      },
-      {
-        "nome": "Azul 2",
-        "hex": "#133f5f",
-        "hexes": [
-          "#133f5f"
-        ],
-        "imagem": "/__l5e/assets-v1/1679880f-cd8e-4f97-83bd-484ce1f9c44a/manitoba-azul2.webp"
-      },
-      {
-        "nome": "Cinzento",
-        "hex": "#575a62",
-        "hexes": [
-          "#575a62"
-        ],
-        "imagem": "/__l5e/assets-v1/0c448b39-500e-49f8-9581-897b3d9b675c/manitoba-cinzento.webp"
-      },
-      {
-        "nome": "Preto",
-        "hex": "#3c3935",
-        "hexes": [
-          "#3c3935"
-        ],
-        "imagem": "/__l5e/assets-v1/4369b85a-353b-49a3-92ca-dd999ede6aba/manitoba-preto.webp"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#c3c7ca",
+    "hexes": [
+      "#c3c7ca"
     ],
+    "imagem": asset_nairobi_cor_1.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#0d5d4b",
+    "hexes": [
+      "#0d5d4b"
+    ],
+    "imagem": asset_nairobi_cor_2.url
+  },
+  {
+    "nome": "Verde caqui",
+    "hex": "#3b3f2e",
+    "hexes": [
+      "#3b3f2e"
+    ],
+    "imagem": asset_nairobi_cor_3.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#8e1a2c",
+    "hexes": [
+      "#8e1a2c"
+    ],
+    "imagem": asset_nairobi_cor_4.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#215e95",
+    "hexes": [
+      "#215e95"
+    ],
+    "imagem": asset_nairobi_cor_5.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#123e5e",
+    "hexes": [
+      "#123e5e"
+    ],
+    "imagem": asset_nairobi_cor_6.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#575a63",
+    "hexes": [
+      "#575a63"
+    ],
+    "imagem": asset_nairobi_cor_7.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#1a1710",
+    "hexes": [
+      "#1a1710"
+    ],
+    "imagem": asset_nairobi_cor_8.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -4226,42 +4852,42 @@ export const modelos: Modelo[] = [
     "descricao": "Jaqueta TÓQUIO disponível em 4 cores. Interior: 100% Poliéster (200 g/m²)",
     "composicao": "Interior: 100% Poliéster (200 g/m²) · Exterior: 70% Poliéster, 30% PVC (200 g/m²)",
     "referencia": "#TOK-TOK",
-    "imagem": "/__l5e/assets-v1/3157dcfc-e765-45e3-82d8-0c759bcdb4f5/ontario-vermelho.webp",
+    "imagem": asset_toquio_cor_1.url,
     "lifestyle": "/lifestyle/toquio-new.jpg",
     "cores": [
-      {
-        "nome": "Vermelho",
-        "hex": "#851624",
-        "hexes": [
-          "#851624"
-        ],
-        "imagem": "/__l5e/assets-v1/3157dcfc-e765-45e3-82d8-0c759bcdb4f5/ontario-vermelho.webp"
-      },
-      {
-        "nome": "Azul 1",
-        "hex": "#1c588f",
-        "hexes": [
-          "#1c588f"
-        ],
-        "imagem": "/__l5e/assets-v1/723e5cb1-9fb8-4349-82ae-e5b67bc32607/ontario-azul1.webp"
-      },
-      {
-        "nome": "Azul 2",
-        "hex": "#053351",
-        "hexes": [
-          "#053351"
-        ],
-        "imagem": "/__l5e/assets-v1/849cd4e8-6868-4a1e-ac76-e865438008ba/ontario-azul2.webp"
-      },
-      {
-        "nome": "Preto",
-        "hex": "#322d29",
-        "hexes": [
-          "#322d29"
-        ],
-        "imagem": "/__l5e/assets-v1/0e853d4a-e06f-42cb-b276-88bc0b32c98c/ontario-preto.webp"
-      }
+  {
+    "nome": "Vermelho",
+    "hex": "#782127",
+    "hexes": [
+      "#782127"
     ],
+    "imagem": asset_toquio_cor_1.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#2d5589",
+    "hexes": [
+      "#2d5589"
+    ],
+    "imagem": asset_toquio_cor_2.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#13314d",
+    "hexes": [
+      "#13314d"
+    ],
+    "imagem": asset_toquio_cor_3.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#131008",
+    "hexes": [
+      "#131008"
+    ],
+    "imagem": asset_toquio_cor_4.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -5133,20 +5759,132 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "crianca",
-    "descricao": "T-shirt BRUXELAS — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt BRUXELAS disponível em 15 cores..",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#BRU",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_bruxelas_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#d5d7db",
+    "hexes": [
+      "#d5d7db"
     ],
+    "imagem": asset_bruxelas_cor_1.url
+  },
+  {
+    "nome": "Verde lima",
+    "hex": "#95b85a",
+    "hexes": [
+      "#95b85a"
+    ],
+    "imagem": asset_bruxelas_cor_2.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#007155",
+    "hexes": [
+      "#007155"
+    ],
+    "imagem": asset_bruxelas_cor_3.url
+  },
+  {
+    "nome": "Amarelo claro",
+    "hex": "#f4e259",
+    "hexes": [
+      "#f4e259"
+    ],
+    "imagem": asset_bruxelas_cor_4.url
+  },
+  {
+    "nome": "Amarelo",
+    "hex": "#e7c100",
+    "hexes": [
+      "#e7c100"
+    ],
+    "imagem": asset_bruxelas_cor_5.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#c96505",
+    "hexes": [
+      "#c96505"
+    ],
+    "imagem": asset_bruxelas_cor_6.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#88152b",
+    "hexes": [
+      "#88152b"
+    ],
+    "imagem": asset_bruxelas_cor_7.url
+  },
+  {
+    "nome": "Rosa claro",
+    "hex": "#d7bbcd",
+    "hexes": [
+      "#d7bbcd"
+    ],
+    "imagem": asset_bruxelas_cor_8.url
+  },
+  {
+    "nome": "Rosa",
+    "hex": "#bf558c",
+    "hexes": [
+      "#bf558c"
+    ],
+    "imagem": asset_bruxelas_cor_9.url
+  },
+  {
+    "nome": "Azul claro",
+    "hex": "#8da9cc",
+    "hexes": [
+      "#8da9cc"
+    ],
+    "imagem": asset_bruxelas_cor_10.url
+  },
+  {
+    "nome": "Azul turquesa",
+    "hex": "#008bc7",
+    "hexes": [
+      "#008bc7"
+    ],
+    "imagem": asset_bruxelas_cor_11.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#005d9b",
+    "hexes": [
+      "#005d9b"
+    ],
+    "imagem": asset_bruxelas_cor_12.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#003356",
+    "hexes": [
+      "#003356"
+    ],
+    "imagem": asset_bruxelas_cor_13.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#9a9a9a",
+    "hexes": [
+      "#9a9a9a"
+    ],
+    "imagem": asset_bruxelas_cor_14.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#27231a",
+    "hexes": [
+      "#27231a"
+    ],
+    "imagem": asset_bruxelas_cor_15.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -6058,22 +6796,46 @@ export const modelos: Modelo[] = [
     "descricao": "Conjunto PEQUIM em preparação, fotografias e detalhes a adicionar brevemente.",
     "composicao": "T-shirt: 100% Algodão (160 g/m²) · Calças: 65% Poliéster, 35% Algodão (220 g/m²)",
     "referencia": "#PEQ-PEQ",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_pequim_tshirt_1.url,
     "pecas": [
       {
         "nome": "T-shirt",
         "composicao": "100% Algodão, Densidade: 160 g/m²",
-        "imagem": "/placeholder-modelo.svg",
+        "imagem": asset_pequim_tshirt_1.url,
         "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
-            ],
-            "imagem": "/placeholder-modelo.svg"
-          }
-        ],
+  {
+    "nome": "Caqui",
+    "hex": "#968960",
+    "hexes": [
+      "#968960"
+    ],
+    "imagem": asset_pequim_tshirt_1.url
+  },
+  {
+    "nome": "Verde caqui",
+    "hex": "#555137",
+    "hexes": [
+      "#555137"
+    ],
+    "imagem": asset_pequim_tshirt_2.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#335c9e",
+    "hexes": [
+      "#335c9e"
+    ],
+    "imagem": asset_pequim_tshirt_3.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#444646",
+    "hexes": [
+      "#444646"
+    ],
+    "imagem": asset_pequim_tshirt_4.url
+  }
+],
         "tamanhos": [
           [
             "Tamanho",
@@ -6118,17 +6880,41 @@ export const modelos: Modelo[] = [
       {
         "nome": "Calças",
         "composicao": "65% Poliéster, 35% Algodão, Densidade: 220 g/m²",
-        "imagem": "/placeholder-modelo.svg",
+        "imagem": asset_pequim_calcas_1.url,
         "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
-            ],
-            "imagem": "/placeholder-modelo.svg"
-          }
-        ],
+  {
+    "nome": "Caqui",
+    "hex": "#968960",
+    "hexes": [
+      "#968960"
+    ],
+    "imagem": asset_pequim_calcas_1.url
+  },
+  {
+    "nome": "Verde caqui",
+    "hex": "#555137",
+    "hexes": [
+      "#555137"
+    ],
+    "imagem": asset_pequim_calcas_2.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#335c9e",
+    "hexes": [
+      "#335c9e"
+    ],
+    "imagem": asset_pequim_calcas_3.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#444646",
+    "hexes": [
+      "#444646"
+    ],
+    "imagem": asset_pequim_calcas_4.url
+  }
+],
         "tamanhos": [
           [
             "Tamanho",
@@ -6175,15 +6961,39 @@ export const modelos: Modelo[] = [
       }
     ],
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Caqui",
+    "hex": "#968960",
+    "hexes": [
+      "#968960"
     ],
+    "imagem": asset_pequim_tshirt_1.url
+  },
+  {
+    "nome": "Verde caqui",
+    "hex": "#555137",
+    "hexes": [
+      "#555137"
+    ],
+    "imagem": asset_pequim_tshirt_2.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#335c9e",
+    "hexes": [
+      "#335c9e"
+    ],
+    "imagem": asset_pequim_tshirt_3.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#444646",
+    "hexes": [
+      "#444646"
+    ],
+    "imagem": asset_pequim_tshirt_4.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -6245,22 +7055,126 @@ export const modelos: Modelo[] = [
     "descricao": "Conjunto JACARTA em preparação, fotografias e detalhes a adicionar brevemente.",
     "composicao": "100% Poliéster, Densidade: 250 g/m²",
     "referencia": "#JAC-JAC",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_jacarta_casaco_1.url,
     "pecas": [
       {
         "nome": "T-shirt",
         "composicao": "100% Poliéster, Densidade: 250 g/m²",
-        "imagem": "/placeholder-modelo.svg",
+        "imagem": asset_jacarta_casaco_1.url,
         "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
-            ],
-            "imagem": "/placeholder-modelo.svg"
-          }
-        ],
+  {
+    "nome": "Branco",
+    "hex": "#c6c7cb",
+    "hexes": [
+      "#c6c7cb"
+    ],
+    "imagem": asset_jacarta_casaco_1.url
+  },
+  {
+    "nome": "Cinza pedra",
+    "hex": "#979589",
+    "hexes": [
+      "#979589"
+    ],
+    "imagem": asset_jacarta_casaco_2.url
+  },
+  {
+    "nome": "Verde lima",
+    "hex": "#99b25f",
+    "hexes": [
+      "#99b25f"
+    ],
+    "imagem": asset_jacarta_casaco_3.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#346c50",
+    "hexes": [
+      "#346c50"
+    ],
+    "imagem": asset_jacarta_casaco_4.url
+  },
+  {
+    "nome": "Verde escuro",
+    "hex": "#225244",
+    "hexes": [
+      "#225244"
+    ],
+    "imagem": asset_jacarta_casaco_5.url
+  },
+  {
+    "nome": "Amarelo",
+    "hex": "#e7d664",
+    "hexes": [
+      "#e7d664"
+    ],
+    "imagem": asset_jacarta_casaco_6.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#b85e2d",
+    "hexes": [
+      "#b85e2d"
+    ],
+    "imagem": asset_jacarta_casaco_7.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#7e212b",
+    "hexes": [
+      "#7e212b"
+    ],
+    "imagem": asset_jacarta_casaco_8.url
+  },
+  {
+    "nome": "Bordô",
+    "hex": "#5f1530",
+    "hexes": [
+      "#5f1530"
+    ],
+    "imagem": asset_jacarta_casaco_9.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#2e5086",
+    "hexes": [
+      "#2e5086"
+    ],
+    "imagem": asset_jacarta_casaco_10.url
+  },
+  {
+    "nome": "Azul claro",
+    "hex": "#7388b3",
+    "hexes": [
+      "#7388b3"
+    ],
+    "imagem": asset_jacarta_casaco_11.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#153451",
+    "hexes": [
+      "#153451"
+    ],
+    "imagem": asset_jacarta_casaco_12.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#3b3a40",
+    "hexes": [
+      "#3b3a40"
+    ],
+    "imagem": asset_jacarta_casaco_13.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#131005",
+    "hexes": [
+      "#131005"
+    ],
+    "imagem": asset_jacarta_casaco_14.url
+  }
+],
         "tamanhos": [
           [
             "Tamanho",
@@ -6320,17 +7234,121 @@ export const modelos: Modelo[] = [
       {
         "nome": "Calças",
         "composicao": "100% Poliéster, Densidade: 250 g/m²",
-        "imagem": "/placeholder-modelo.svg",
+        "imagem": asset_jacarta_calcas_1.url,
         "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
-            ],
-            "imagem": "/placeholder-modelo.svg"
-          }
-        ],
+  {
+    "nome": "Branco",
+    "hex": "#c6c7cb",
+    "hexes": [
+      "#c6c7cb"
+    ],
+    "imagem": asset_jacarta_calcas_1.url
+  },
+  {
+    "nome": "Cinza pedra",
+    "hex": "#979589",
+    "hexes": [
+      "#979589"
+    ],
+    "imagem": asset_jacarta_calcas_2.url
+  },
+  {
+    "nome": "Verde lima",
+    "hex": "#99b25f",
+    "hexes": [
+      "#99b25f"
+    ],
+    "imagem": asset_jacarta_calcas_3.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#346c50",
+    "hexes": [
+      "#346c50"
+    ],
+    "imagem": asset_jacarta_calcas_4.url
+  },
+  {
+    "nome": "Verde escuro",
+    "hex": "#225244",
+    "hexes": [
+      "#225244"
+    ],
+    "imagem": asset_jacarta_calcas_5.url
+  },
+  {
+    "nome": "Amarelo",
+    "hex": "#e7d664",
+    "hexes": [
+      "#e7d664"
+    ],
+    "imagem": asset_jacarta_calcas_6.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#b85e2d",
+    "hexes": [
+      "#b85e2d"
+    ],
+    "imagem": asset_jacarta_calcas_7.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#7e212b",
+    "hexes": [
+      "#7e212b"
+    ],
+    "imagem": asset_jacarta_calcas_8.url
+  },
+  {
+    "nome": "Bordô",
+    "hex": "#5f1530",
+    "hexes": [
+      "#5f1530"
+    ],
+    "imagem": asset_jacarta_calcas_9.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#2e5086",
+    "hexes": [
+      "#2e5086"
+    ],
+    "imagem": asset_jacarta_calcas_10.url
+  },
+  {
+    "nome": "Azul claro",
+    "hex": "#7388b3",
+    "hexes": [
+      "#7388b3"
+    ],
+    "imagem": asset_jacarta_calcas_11.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#153451",
+    "hexes": [
+      "#153451"
+    ],
+    "imagem": asset_jacarta_calcas_12.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#3b3a40",
+    "hexes": [
+      "#3b3a40"
+    ],
+    "imagem": asset_jacarta_calcas_13.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#131005",
+    "hexes": [
+      "#131005"
+    ],
+    "imagem": asset_jacarta_calcas_14.url
+  }
+],
         "tamanhos": [
           [
             "Tamanho",
@@ -6389,15 +7407,119 @@ export const modelos: Modelo[] = [
       }
     ],
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#c6c7cb",
+    "hexes": [
+      "#c6c7cb"
     ],
+    "imagem": asset_jacarta_casaco_1.url
+  },
+  {
+    "nome": "Cinza pedra",
+    "hex": "#979589",
+    "hexes": [
+      "#979589"
+    ],
+    "imagem": asset_jacarta_casaco_2.url
+  },
+  {
+    "nome": "Verde lima",
+    "hex": "#99b25f",
+    "hexes": [
+      "#99b25f"
+    ],
+    "imagem": asset_jacarta_casaco_3.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#346c50",
+    "hexes": [
+      "#346c50"
+    ],
+    "imagem": asset_jacarta_casaco_4.url
+  },
+  {
+    "nome": "Verde escuro",
+    "hex": "#225244",
+    "hexes": [
+      "#225244"
+    ],
+    "imagem": asset_jacarta_casaco_5.url
+  },
+  {
+    "nome": "Amarelo",
+    "hex": "#e7d664",
+    "hexes": [
+      "#e7d664"
+    ],
+    "imagem": asset_jacarta_casaco_6.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#b85e2d",
+    "hexes": [
+      "#b85e2d"
+    ],
+    "imagem": asset_jacarta_casaco_7.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#7e212b",
+    "hexes": [
+      "#7e212b"
+    ],
+    "imagem": asset_jacarta_casaco_8.url
+  },
+  {
+    "nome": "Bordô",
+    "hex": "#5f1530",
+    "hexes": [
+      "#5f1530"
+    ],
+    "imagem": asset_jacarta_casaco_9.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#2e5086",
+    "hexes": [
+      "#2e5086"
+    ],
+    "imagem": asset_jacarta_casaco_10.url
+  },
+  {
+    "nome": "Azul claro",
+    "hex": "#7388b3",
+    "hexes": [
+      "#7388b3"
+    ],
+    "imagem": asset_jacarta_casaco_11.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#153451",
+    "hexes": [
+      "#153451"
+    ],
+    "imagem": asset_jacarta_casaco_12.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#3b3a40",
+    "hexes": [
+      "#3b3a40"
+    ],
+    "imagem": asset_jacarta_casaco_13.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#131005",
+    "hexes": [
+      "#131005"
+    ],
+    "imagem": asset_jacarta_casaco_14.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -6680,22 +7802,118 @@ export const modelos: Modelo[] = [
     "descricao": "Conjunto SINGAPURA em preparação, fotografias e detalhes a adicionar brevemente.",
     "composicao": "100% Poliéster, Densidade: 150 g/m²",
     "referencia": "#SIN-SIN",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_singapura_cor_1.url,
     "pecas": [
       {
         "nome": "T-shirt",
         "composicao": "Composição a confirmar",
-        "imagem": "/placeholder-modelo.svg",
+        "imagem": asset_singapura_cor_1.url,
         "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
-            ],
-            "imagem": "/placeholder-modelo.svg"
-          }
-        ],
+  {
+    "nome": "Branco",
+    "hex": "#cdd0d6",
+    "hexes": [
+      "#cdd0d6"
+    ],
+    "imagem": asset_singapura_cor_1.url
+  },
+  {
+    "nome": "Verde lima",
+    "hex": "#93a961",
+    "hexes": [
+      "#93a961"
+    ],
+    "imagem": asset_singapura_cor_2.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#2a644e",
+    "hexes": [
+      "#2a644e"
+    ],
+    "imagem": asset_singapura_cor_3.url
+  },
+  {
+    "nome": "Verde escuro",
+    "hex": "#1f4d42",
+    "hexes": [
+      "#1f4d42"
+    ],
+    "imagem": asset_singapura_cor_4.url
+  },
+  {
+    "nome": "Amarelo",
+    "hex": "#d2d14b",
+    "hexes": [
+      "#d2d14b"
+    ],
+    "imagem": asset_singapura_cor_5.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#ab632d",
+    "hexes": [
+      "#ab632d"
+    ],
+    "imagem": asset_singapura_cor_6.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#701f29",
+    "hexes": [
+      "#701f29"
+    ],
+    "imagem": asset_singapura_cor_7.url
+  },
+  {
+    "nome": "Bordô",
+    "hex": "#530c2c",
+    "hexes": [
+      "#530c2c"
+    ],
+    "imagem": asset_singapura_cor_8.url
+  },
+  {
+    "nome": "Rosa",
+    "hex": "#a3547e",
+    "hexes": [
+      "#a3547e"
+    ],
+    "imagem": asset_singapura_cor_9.url
+  },
+  {
+    "nome": "Azul claro",
+    "hex": "#377dae",
+    "hexes": [
+      "#377dae"
+    ],
+    "imagem": asset_singapura_cor_10.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#225283",
+    "hexes": [
+      "#225283"
+    ],
+    "imagem": asset_singapura_cor_11.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#112f4e",
+    "hexes": [
+      "#112f4e"
+    ],
+    "imagem": asset_singapura_cor_12.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#28241e",
+    "hexes": [
+      "#28241e"
+    ],
+    "imagem": asset_singapura_cor_13.url
+  }
+],
         "tamanhos": [
           [
             "Tamanho",
@@ -6746,17 +7964,113 @@ export const modelos: Modelo[] = [
       {
         "nome": "Calças",
         "composicao": "Composição a confirmar",
-        "imagem": "/placeholder-modelo.svg",
+        "imagem": asset_singapura_cor_1.url,
         "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
-            ],
-            "imagem": "/placeholder-modelo.svg"
-          }
-        ],
+  {
+    "nome": "Branco",
+    "hex": "#cdd0d6",
+    "hexes": [
+      "#cdd0d6"
+    ],
+    "imagem": asset_singapura_cor_1.url
+  },
+  {
+    "nome": "Verde lima",
+    "hex": "#93a961",
+    "hexes": [
+      "#93a961"
+    ],
+    "imagem": asset_singapura_cor_2.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#2a644e",
+    "hexes": [
+      "#2a644e"
+    ],
+    "imagem": asset_singapura_cor_3.url
+  },
+  {
+    "nome": "Verde escuro",
+    "hex": "#1f4d42",
+    "hexes": [
+      "#1f4d42"
+    ],
+    "imagem": asset_singapura_cor_4.url
+  },
+  {
+    "nome": "Amarelo",
+    "hex": "#d2d14b",
+    "hexes": [
+      "#d2d14b"
+    ],
+    "imagem": asset_singapura_cor_5.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#ab632d",
+    "hexes": [
+      "#ab632d"
+    ],
+    "imagem": asset_singapura_cor_6.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#701f29",
+    "hexes": [
+      "#701f29"
+    ],
+    "imagem": asset_singapura_cor_7.url
+  },
+  {
+    "nome": "Bordô",
+    "hex": "#530c2c",
+    "hexes": [
+      "#530c2c"
+    ],
+    "imagem": asset_singapura_cor_8.url
+  },
+  {
+    "nome": "Rosa",
+    "hex": "#a3547e",
+    "hexes": [
+      "#a3547e"
+    ],
+    "imagem": asset_singapura_cor_9.url
+  },
+  {
+    "nome": "Azul claro",
+    "hex": "#377dae",
+    "hexes": [
+      "#377dae"
+    ],
+    "imagem": asset_singapura_cor_10.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#225283",
+    "hexes": [
+      "#225283"
+    ],
+    "imagem": asset_singapura_cor_11.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#112f4e",
+    "hexes": [
+      "#112f4e"
+    ],
+    "imagem": asset_singapura_cor_12.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#28241e",
+    "hexes": [
+      "#28241e"
+    ],
+    "imagem": asset_singapura_cor_13.url
+  }
+],
         "tamanhos": [
           [
             "Tamanho",
@@ -6806,15 +8120,111 @@ export const modelos: Modelo[] = [
       }
     ],
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#cdd0d6",
+    "hexes": [
+      "#cdd0d6"
     ],
+    "imagem": asset_singapura_cor_1.url
+  },
+  {
+    "nome": "Verde lima",
+    "hex": "#93a961",
+    "hexes": [
+      "#93a961"
+    ],
+    "imagem": asset_singapura_cor_2.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#2a644e",
+    "hexes": [
+      "#2a644e"
+    ],
+    "imagem": asset_singapura_cor_3.url
+  },
+  {
+    "nome": "Verde escuro",
+    "hex": "#1f4d42",
+    "hexes": [
+      "#1f4d42"
+    ],
+    "imagem": asset_singapura_cor_4.url
+  },
+  {
+    "nome": "Amarelo",
+    "hex": "#d2d14b",
+    "hexes": [
+      "#d2d14b"
+    ],
+    "imagem": asset_singapura_cor_5.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#ab632d",
+    "hexes": [
+      "#ab632d"
+    ],
+    "imagem": asset_singapura_cor_6.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#701f29",
+    "hexes": [
+      "#701f29"
+    ],
+    "imagem": asset_singapura_cor_7.url
+  },
+  {
+    "nome": "Bordô",
+    "hex": "#530c2c",
+    "hexes": [
+      "#530c2c"
+    ],
+    "imagem": asset_singapura_cor_8.url
+  },
+  {
+    "nome": "Rosa",
+    "hex": "#a3547e",
+    "hexes": [
+      "#a3547e"
+    ],
+    "imagem": asset_singapura_cor_9.url
+  },
+  {
+    "nome": "Azul claro",
+    "hex": "#377dae",
+    "hexes": [
+      "#377dae"
+    ],
+    "imagem": asset_singapura_cor_10.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#225283",
+    "hexes": [
+      "#225283"
+    ],
+    "imagem": asset_singapura_cor_11.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#112f4e",
+    "hexes": [
+      "#112f4e"
+    ],
+    "imagem": asset_singapura_cor_12.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#28241e",
+    "hexes": [
+      "#28241e"
+    ],
+    "imagem": asset_singapura_cor_13.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -6921,22 +8331,54 @@ export const modelos: Modelo[] = [
     "descricao": "Conjunto COLOMBO em preparação, fotografias e detalhes a adicionar brevemente.",
     "composicao": "100% Poliéster, Densidade: 150 g/m²",
     "referencia": "#COL-COL",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_colombo_cor_1.url,
     "pecas": [
       {
         "nome": "T-shirt",
         "composicao": "Composição a confirmar",
-        "imagem": "/placeholder-modelo.svg",
+        "imagem": asset_colombo_cor_1.url,
         "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
-            ],
-            "imagem": "/placeholder-modelo.svg"
-          }
-        ],
+  {
+    "nome": "Verde",
+    "hex": "#006347",
+    "hexes": [
+      "#006347"
+    ],
+    "imagem": asset_colombo_cor_1.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#751523",
+    "hexes": [
+      "#751523"
+    ],
+    "imagem": asset_colombo_cor_2.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#015389",
+    "hexes": [
+      "#015389"
+    ],
+    "imagem": asset_colombo_cor_3.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#002d4e",
+    "hexes": [
+      "#002d4e"
+    ],
+    "imagem": asset_colombo_cor_4.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#262119",
+    "hexes": [
+      "#262119"
+    ],
+    "imagem": asset_colombo_cor_5.url
+  }
+],
         "tamanhos": [
           [
             "Tamanho",
@@ -6987,17 +8429,49 @@ export const modelos: Modelo[] = [
       {
         "nome": "Calças",
         "composicao": "Composição a confirmar",
-        "imagem": "/placeholder-modelo.svg",
+        "imagem": asset_colombo_cor_1.url,
         "cores": [
-          {
-            "nome": "Branco",
-            "hex": "#eaedf1",
-            "hexes": [
-              "#eaedf1"
-            ],
-            "imagem": "/placeholder-modelo.svg"
-          }
-        ],
+  {
+    "nome": "Verde",
+    "hex": "#006347",
+    "hexes": [
+      "#006347"
+    ],
+    "imagem": asset_colombo_cor_1.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#751523",
+    "hexes": [
+      "#751523"
+    ],
+    "imagem": asset_colombo_cor_2.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#015389",
+    "hexes": [
+      "#015389"
+    ],
+    "imagem": asset_colombo_cor_3.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#002d4e",
+    "hexes": [
+      "#002d4e"
+    ],
+    "imagem": asset_colombo_cor_4.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#262119",
+    "hexes": [
+      "#262119"
+    ],
+    "imagem": asset_colombo_cor_5.url
+  }
+],
         "tamanhos": [
           [
             "Tamanho",
@@ -7047,15 +8521,47 @@ export const modelos: Modelo[] = [
       }
     ],
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Verde",
+    "hex": "#006347",
+    "hexes": [
+      "#006347"
     ],
+    "imagem": asset_colombo_cor_1.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#751523",
+    "hexes": [
+      "#751523"
+    ],
+    "imagem": asset_colombo_cor_2.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#015389",
+    "hexes": [
+      "#015389"
+    ],
+    "imagem": asset_colombo_cor_3.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#002d4e",
+    "hexes": [
+      "#002d4e"
+    ],
+    "imagem": asset_colombo_cor_4.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#262119",
+    "hexes": [
+      "#262119"
+    ],
+    "imagem": asset_colombo_cor_5.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -8279,17 +9785,25 @@ export const modelos: Modelo[] = [
     "descricao": "Jaleca de trabalho disponível de S a 3XL.",
     "composicao": "Composição a confirmar",
     "referencia": "#DOA-DOA",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_doa_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#c0c3ca",
+    "hexes": [
+      "#c0c3ca"
     ],
+    "imagem": asset_doa_cor_1.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#1d1a13",
+    "hexes": [
+      "#1d1a13"
+    ],
+    "imagem": asset_doa_cor_2.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -8348,17 +9862,89 @@ export const modelos: Modelo[] = [
     "descricao": "Colete desportivo em poliéster, disponível em criança, júnior e adulto.",
     "composicao": "100% Poliéster, Densidade: 150 g/m²",
     "referencia": "#JAM-JAM",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_jamena_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#c6c7c7",
+    "hexes": [
+      "#c6c7c7"
     ],
+    "imagem": asset_jamena_cor_1.url
+  },
+  {
+    "nome": "Verde lima",
+    "hex": "#9cb660",
+    "hexes": [
+      "#9cb660"
+    ],
+    "imagem": asset_jamena_cor_2.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#367258",
+    "hexes": [
+      "#367258"
+    ],
+    "imagem": asset_jamena_cor_3.url
+  },
+  {
+    "nome": "Amarelo",
+    "hex": "#e4dd4e",
+    "hexes": [
+      "#e4dd4e"
+    ],
+    "imagem": asset_jamena_cor_4.url
+  },
+  {
+    "nome": "Amarelo claro",
+    "hex": "#efdd67",
+    "hexes": [
+      "#efdd67"
+    ],
+    "imagem": asset_jamena_cor_5.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#bc622e",
+    "hexes": [
+      "#bc622e"
+    ],
+    "imagem": asset_jamena_cor_6.url
+  },
+  {
+    "nome": "Laranja claro",
+    "hex": "#ed7934",
+    "hexes": [
+      "#ed7934"
+    ],
+    "imagem": asset_jamena_cor_7.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#86222e",
+    "hexes": [
+      "#86222e"
+    ],
+    "imagem": asset_jamena_cor_8.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#305f97",
+    "hexes": [
+      "#305f97"
+    ],
+    "imagem": asset_jamena_cor_9.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#17140c",
+    "hexes": [
+      "#17140c"
+    ],
+    "imagem": asset_jamena_cor_10.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
@@ -8408,17 +9994,57 @@ export const modelos: Modelo[] = [
     "descricao": "Colete desportivo leve em poliéster, disponível em criança, júnior e adulto.",
     "composicao": "100% Poliéster, Densidade: 75 g/m²",
     "referencia": "#MOR-MOR",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_moroni_cor_1.url,
     "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
+  {
+    "nome": "Branco",
+    "hex": "#bcbcbc",
+    "hexes": [
+      "#bcbcbc"
     ],
+    "imagem": asset_moroni_cor_1.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#367153",
+    "hexes": [
+      "#367153"
+    ],
+    "imagem": asset_moroni_cor_2.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#b6582c",
+    "hexes": [
+      "#b6582c"
+    ],
+    "imagem": asset_moroni_cor_3.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#86222c",
+    "hexes": [
+      "#86222c"
+    ],
+    "imagem": asset_moroni_cor_4.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#315e97",
+    "hexes": [
+      "#315e97"
+    ],
+    "imagem": asset_moroni_cor_5.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#141109",
+    "hexes": [
+      "#141109"
+    ],
+    "imagem": asset_moroni_cor_6.url
+  }
+],
     "tamanhos": [
       [
         "Tamanho",
