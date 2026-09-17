@@ -10,3 +10,4 @@
 - [x] Aplicar as fotografias e cores reais aos modelos Cairo e Rabat.
 - [x] Aplicar as fotografias e cores reais aos modelos Manila, Melodias, Roma e Colombo.
 - [x] Aplicar as fotografias e cores do modelo Viena à versão de criança.
+- [x] Fazer os botões Voltar regressarem à última página visitada.

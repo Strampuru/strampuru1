@@ -1,4 +1,4 @@
-import { createFileRoute, notFound, Link } from "@tanstack/react-router";
+import { createFileRoute, notFound, Link, useNavigate } from "@tanstack/react-router";
 import { useRef, useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
 import { getModelo, getCategoria } from "@/lib/catalogo";
@@ -43,6 +43,29 @@ type Vista = {
   precos: [string, string][];
   lifestyle?: string | undefined;
 };
+
+function VoltarPaginaAnterior() {
+  const navigate = useNavigate();
+
+  const voltar = () => {
+    if (window.history.length > 1) {
+      window.history.back();
+      return;
+    }
+
+    void navigate({ to: "/" });
+  };
+
+  return (
+    <button
+      type="button"
+      onClick={voltar}
+      className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
+    >
+      ← Voltar
+    </button>
+  );
+}
 
 function ModeloPage() {
   const { modelo, categoria } = Route.useLoaderData();
@@ -254,22 +277,7 @@ function DetalheConjunto({
           </div>
         )}
 
-        {categoria ? (
-          <Link
-            to="/categoria/$categoria"
-            params={{ categoria: categoria.id }}
-            className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
-          >
-            ← Voltar a {categoria.titulo}
-          </Link>
-        ) : (
-          <Link
-            to="/"
-            className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
-          >
-            ← Voltar ao catálogo
-          </Link>
-        )}
+        <VoltarPaginaAnterior />
       </section>
     </>
   );
@@ -417,7 +425,7 @@ function ConfiguradorAbuDhabi({ modelo, categoria, pecas }: {
           )}
         </aside>
       </div>
-      <Link to="/categoria/$categoria" params={{ categoria: "conjuntos" }} className="inline-flex text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors">← Voltar a Conjuntos</Link>
+      <VoltarPaginaAnterior />
     </section>
   );
 }
@@ -647,22 +655,7 @@ function DetalheModelo({
             </div>
           )}
 
-          {categoria ? (
-            <Link
-              to="/categoria/$categoria"
-              params={{ categoria: categoria.id }}
-              className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
-            >
-              ← Voltar a {categoria.titulo}
-            </Link>
-          ) : (
-            <Link
-              to="/"
-              className="inline-flex items-center text-[11px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors"
-            >
-              ← Voltar ao catálogo
-            </Link>
-          )}
+          <VoltarPaginaAnterior />
         </div>
       </section>
 
