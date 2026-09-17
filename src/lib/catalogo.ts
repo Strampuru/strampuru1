@@ -159,6 +159,49 @@ import asset_colombo_cor_2 from "@/assets/colombo/colombo-cor-2.png.asset.json";
 import asset_colombo_cor_3 from "@/assets/colombo/colombo-cor-3.png.asset.json";
 import asset_colombo_cor_4 from "@/assets/colombo/colombo-cor-4.png.asset.json";
 import asset_colombo_cor_5 from "@/assets/colombo/colombo-cor-5.png.asset.json";
+import manila1 from "@/assets/manila/manila-1.jpg.asset.json";
+import manila2 from "@/assets/manila/manila-2.jpg.asset.json";
+import manila3 from "@/assets/manila/manila-3.jpg.asset.json";
+import manila4 from "@/assets/manila/manila-4.jpg.asset.json";
+import manila5 from "@/assets/manila/manila-5.jpg.asset.json";
+import manila6 from "@/assets/manila/manila-6.jpg.asset.json";
+import manila7 from "@/assets/manila/manila-7.jpg.asset.json";
+import manila8 from "@/assets/manila/manila-8.jpg.asset.json";
+import manila9 from "@/assets/manila/manila-9.jpg.asset.json";
+import manila10 from "@/assets/manila/manila-10.jpg.asset.json";
+import manila11 from "@/assets/manila/manila-11.jpg.asset.json";
+import melodias1 from "@/assets/melodias/melodias-1.jpg.asset.json";
+import melodias2 from "@/assets/melodias/melodias-2.jpg.asset.json";
+import melodias3 from "@/assets/melodias/melodias-3.jpg.asset.json";
+import melodias4 from "@/assets/melodias/melodias-4.jpg.asset.json";
+import melodias5 from "@/assets/melodias/melodias-5.jpg.asset.json";
+import melodias6 from "@/assets/melodias/melodias-6.jpg.asset.json";
+import melodias7 from "@/assets/melodias/melodias-7.jpg.asset.json";
+import melodias8 from "@/assets/melodias/melodias-8.jpg.asset.json";
+import melodias9 from "@/assets/melodias/melodias-9.jpg.asset.json";
+import melodias10 from "@/assets/melodias/melodias-10.jpg.asset.json";
+import melodias11 from "@/assets/melodias/melodias-11.jpg.asset.json";
+import melodias12 from "@/assets/melodias/melodias-12.jpg.asset.json";
+import melodias13 from "@/assets/melodias/melodias-13.jpg.asset.json";
+import melodias14 from "@/assets/melodias/melodias-14.jpg.asset.json";
+import melodias15 from "@/assets/melodias/melodias-15.jpg.asset.json";
+import melodias16 from "@/assets/melodias/melodias-16.jpg.asset.json";
+import melodias17 from "@/assets/melodias/melodias-17.jpg.asset.json";
+import melodias18 from "@/assets/melodias/melodias-18.jpg.asset.json";
+import melodias19 from "@/assets/melodias/melodias-19.jpg.asset.json";
+import melodias20 from "@/assets/melodias/melodias-20.jpg.asset.json";
+import melodias21 from "@/assets/melodias/melodias-21.jpg.asset.json";
+import melodias22 from "@/assets/melodias/melodias-22.jpg.asset.json";
+import melodias23 from "@/assets/melodias/melodias-23.jpg.asset.json";
+import melodias24 from "@/assets/melodias/melodias-24.jpg.asset.json";
+import melodias25 from "@/assets/melodias/melodias-25.jpg.asset.json";
+import roma1 from "@/assets/roma/roma-1.jpg.asset.json";
+import roma2 from "@/assets/roma/roma-2.jpg.asset.json";
+import colomboNew1 from "@/assets/colombo/colombo-1.jpg.asset.json";
+import colomboNew2 from "@/assets/colombo/colombo-2.jpg.asset.json";
+import colomboNew3 from "@/assets/colombo/colombo-3.jpg.asset.json";
+import colomboNew4 from "@/assets/colombo/colombo-4.jpg.asset.json";
+import colomboNew5 from "@/assets/colombo/colombo-5.jpg.asset.json";
 import asset_dacar_cor_1 from "@/assets/dacar/dacar-cor-1.png.asset.json";
 import asset_dacar_cor_2 from "@/assets/dacar/dacar-cor-2.png.asset.json";
 import asset_dacar_cor_3 from "@/assets/dacar/dacar-cor-3.png.asset.json";
@@ -1100,24 +1143,24 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt ROMA disponível em 2 cores. 95% Algodão",
     "composicao": "95% Algodão, 5% Elastano, Densidade: 190 g/m²",
     "referencia": "#ROM-ROM",
-    "imagem": "/__l5e/assets-v1/f504c71a-263d-4545-a48b-f4e9a2045f55/nappa-branco.webp",
+    "imagem": roma1.url,
     "lifestyle": "/lifestyle/roma-new.jpg",
     "cores": [
       {
         "nome": "Branco",
-        "hex": "#e9eaee",
+        "hex": "#c9cacc",
         "hexes": [
-          "#e9eaee"
+          "#c9cacc"
         ],
-        "imagem": "/__l5e/assets-v1/f504c71a-263d-4545-a48b-f4e9a2045f55/nappa-branco.webp"
+        "imagem": roma1.url
       },
       {
         "nome": "Preto",
-        "hex": "#322d29",
+        "hex": "#2f2c27",
         "hexes": [
-          "#322d29"
+          "#2f2c27"
         ],
-        "imagem": "/__l5e/assets-v1/6fbbeaf2-e6e2-4990-ad40-3858f34bab1b/nappa-preto.webp"
+        "imagem": roma2.url
       }
     ],
     "tamanhos": [
@@ -4760,208 +4803,208 @@ export const modelos: Modelo[] = [
     "descricao": "Sweatshirt MELODIAS disponível em 25 cores. 65% Poliéster",
     "composicao": "65% Poliéster, 35% Algodão, Densidade: 300 g/m²",
     "referencia": "#MEL-MEL",
-    "imagem": "/__l5e/assets-v1/65e2a488-b6b9-4d1d-b6d9-ec7527c57739/dublin-branco.webp",
+    "imagem": melodias1.url,
     "lifestyle": "/lifestyle/melodias-new.jpg",
     "cores": [
       {
         "nome": "Branco",
-        "hex": "#eaeaee",
+        "hex": "#c6c7cb",
         "hexes": [
-          "#eaeaee"
+          "#c6c7cb"
         ],
-        "imagem": "/__l5e/assets-v1/65e2a488-b6b9-4d1d-b6d9-ec7527c57739/dublin-branco.webp"
+        "imagem": melodias1.url
       },
       {
         "nome": "Bege",
-        "hex": "#adaa9b",
+        "hex": "#aca99b",
         "hexes": [
-          "#adaa9b"
+          "#aca99b"
         ],
-        "imagem": "/__l5e/assets-v1/f0b410d1-268b-43a0-b400-9dc54c7fa597/dublin-beje.webp"
+        "imagem": melodias2.url
       },
       {
         "nome": "Castanho",
-        "hex": "#9e8a67",
+        "hex": "#9d8966",
         "hexes": [
-          "#9e8a67"
+          "#9d8966"
         ],
-        "imagem": "/__l5e/assets-v1/ab90d930-6bde-4187-9ff0-63b21cc8f8e0/dublin-castanho.webp"
+        "imagem": melodias3.url
       },
       {
-        "nome": "Verde 1",
-        "hex": "#95b854",
+        "nome": "Verde lima",
+        "hex": "#94b853",
         "hexes": [
-          "#95b854"
+          "#94b853"
         ],
-        "imagem": "/__l5e/assets-v1/347175d5-1c9a-4f01-b96c-09fb7f31962e/dublin-verde1.webp"
+        "imagem": melodias4.url
       },
       {
-        "nome": "Verde 2",
-        "hex": "#1a714f",
+        "nome": "Verde",
+        "hex": "#156d4a",
         "hexes": [
-          "#1a714f"
+          "#156d4a"
         ],
-        "imagem": "/__l5e/assets-v1/ea10f7b5-29b3-4bb9-b3e1-acba07a2a5df/dublin-verde2.webp"
+        "imagem": melodias5.url
       },
       {
-        "nome": "Verde 3",
-        "hex": "#01483a",
+        "nome": "Verde escuro",
+        "hex": "#004032",
         "hexes": [
-          "#01483a"
+          "#004032"
         ],
-        "imagem": "/__l5e/assets-v1/0aa70b25-2e12-48c8-bf0e-d89ff56f92d1/dublin-verde3.webp"
+        "imagem": melodias6.url
       },
       {
-        "nome": "Verde 4",
-        "hex": "#535740",
+        "nome": "Verde tropa",
+        "hex": "#52563f",
         "hexes": [
-          "#535740"
+          "#52563f"
         ],
-        "imagem": "/__l5e/assets-v1/9c7f52e3-f914-41c3-91d1-8c9ad050d9d1/dublin-verde4.webp"
+        "imagem": melodias7.url
       },
       {
-        "nome": "Amarelo 1",
-        "hex": "#f6e03d",
+        "nome": "Amarelo",
+        "hex": "#f4de3c",
         "hexes": [
-          "#f6e03d"
+          "#f4de3c"
         ],
-        "imagem": "/__l5e/assets-v1/897b6d94-d71f-4e0c-8946-9a9d01456dea/dublin-amarelo1.webp"
+        "imagem": melodias8.url
       },
       {
-        "nome": "Amarelo 2",
-        "hex": "#e6bb17",
+        "nome": "Mostarda",
+        "hex": "#d7ae16",
         "hexes": [
-          "#e6bb17"
+          "#d7ae16"
         ],
-        "imagem": "/__l5e/assets-v1/41e552e8-6568-46a5-9ba9-e7b5b306dc9e/dublin-amarelo2.webp"
+        "imagem": melodias9.url
       },
       {
         "nome": "Laranja",
-        "hex": "#c6551d",
+        "hex": "#c5531a",
         "hexes": [
-          "#c6551d"
+          "#c5531a"
         ],
-        "imagem": "/__l5e/assets-v1/8394fb96-f47e-4c22-b149-b4fd22969721/dublin-laranja.webp"
+        "imagem": melodias10.url
       },
       {
-        "nome": "Vermelho 1",
-        "hex": "#8c1626",
+        "nome": "Vermelho",
+        "hex": "#7d151e",
         "hexes": [
-          "#8c1626"
+          "#7d151e"
         ],
-        "imagem": "/__l5e/assets-v1/02c7480a-a19e-4a7e-a559-12593316501d/dublin-vermelho1.webp"
+        "imagem": melodias11.url
       },
       {
-        "nome": "Vermelho 2",
-        "hex": "#680c30",
+        "nome": "Bordô",
+        "hex": "#680a2f",
         "hexes": [
-          "#680c30"
+          "#680a2f"
         ],
-        "imagem": "/__l5e/assets-v1/fb352df9-77a1-4e7b-a725-cf8c3a890c71/dublin-vermelho2.webp"
+        "imagem": melodias12.url
       },
       {
         "nome": "Rosa",
-        "hex": "#c44581",
+        "hex": "#c34381",
         "hexes": [
-          "#c44581"
+          "#c34381"
         ],
-        "imagem": "/__l5e/assets-v1/b8d5a22a-dc9f-4aec-87a1-9dbd7c1bca5e/dublin-rosa.webp"
+        "imagem": melodias13.url
       },
       {
-        "nome": "Roxo",
-        "hex": "#272963",
+        "nome": "Azul escuro",
+        "hex": "#252762",
         "hexes": [
-          "#272963"
+          "#252762"
         ],
-        "imagem": "/__l5e/assets-v1/0206cecf-8851-4523-a187-a5adb8090615/dublin-roxo.webp"
+        "imagem": melodias14.url
       },
       {
-        "nome": "Azul 1",
-        "hex": "#96b3d7",
+        "nome": "Azul claro",
+        "hex": "#95b2d6",
         "hexes": [
-          "#96b3d7"
+          "#95b2d6"
         ],
-        "imagem": "/__l5e/assets-v1/c4ff0616-b132-4059-8ce9-c7c97501ac77/dublin-azul1.webp"
+        "imagem": melodias15.url
       },
       {
-        "nome": "Azul 2",
-        "hex": "#058bc4",
+        "nome": "Turquesa",
+        "hex": "#008ac5",
         "hexes": [
-          "#058bc4"
+          "#008ac5"
         ],
-        "imagem": "/__l5e/assets-v1/567c2add-16bb-458a-9a34-0f9bb4549a31/dublin-azul2.webp"
+        "imagem": melodias16.url
       },
       {
-        "nome": "Azul 3",
-        "hex": "#1f5b95",
+        "nome": "Azul",
+        "hex": "#1b5a94",
         "hexes": [
-          "#1f5b95"
+          "#1b5a94"
         ],
-        "imagem": "/__l5e/assets-v1/9767da89-2be2-46c1-a1d5-18a2f3d1bbf5/dublin-azul3.webp"
+        "imagem": melodias17.url
       },
       {
-        "nome": "Azul 4",
-        "hex": "#083654",
+        "nome": "Azul petróleo",
+        "hex": "#063553",
         "hexes": [
-          "#083654"
+          "#063553"
         ],
-        "imagem": "/__l5e/assets-v1/85552041-954f-45a0-a678-a7df2ce3e395/dublin-azul4.webp"
+        "imagem": melodias18.url
       },
       {
-        "nome": "Cinzento 1",
-        "hex": "#dfdee4",
+        "nome": "Azul acinzentado",
+        "hex": "#737e97",
         "hexes": [
-          "#dfdee4"
+          "#737e97"
         ],
-        "imagem": "/__l5e/assets-v1/3cc0f320-c9ac-4125-ae9a-9d3210dd9e36/dublin-cinzento1.webp"
+        "imagem": melodias19.url
       },
       {
-        "nome": "Cinzento 2",
-        "hex": "#768099",
+        "nome": "Cinzento claro",
+        "hex": "#bbbbc0",
         "hexes": [
-          "#768099"
+          "#bbbbc0"
         ],
-        "imagem": "/__l5e/assets-v1/7eb139b7-bc02-48aa-a2fb-ac95be988ae2/dublin-cinzento2.webp"
+        "imagem": melodias20.url
       },
       {
-        "nome": "Cinzento 3",
-        "hex": "#b1afbb",
+        "nome": "Cinzento",
+        "hex": "#8f8d98",
         "hexes": [
-          "#b1afbb"
+          "#8f8d98"
         ],
-        "imagem": "/__l5e/assets-v1/39fc040b-b792-4d3c-b46f-fd2de892cac7/dublin-cinzento3.webp"
+        "imagem": melodias21.url
       },
       {
-        "nome": "Cinzento 4",
-        "hex": "#636b78",
+        "nome": "Cinzento azulado",
+        "hex": "#626a78",
         "hexes": [
-          "#636b78"
+          "#626a78"
         ],
-        "imagem": "/__l5e/assets-v1/88f54b31-1383-4f40-b294-b0e2e637dfbf/dublin-cinzento4.webp"
+        "imagem": melodias22.url
       },
       {
-        "nome": "Cinzento 5",
-        "hex": "#55545b",
+        "nome": "Cinzento escuro",
+        "hex": "#54535a",
         "hexes": [
-          "#55545b"
+          "#54535a"
         ],
-        "imagem": "/__l5e/assets-v1/ea680fae-9e84-4060-b239-9cb65a9bcf21/dublin-cinzento5.webp"
+        "imagem": melodias23.url
       },
       {
-        "nome": "Cinzento 6",
-        "hex": "#4c4c4d",
+        "nome": "Antracite",
+        "hex": "#484949",
         "hexes": [
-          "#4c4c4d"
+          "#484949"
         ],
-        "imagem": "/__l5e/assets-v1/675a2a61-de44-4edf-8775-e0c8d71b7eac/dublin-cinzento6.webp"
+        "imagem": melodias24.url
       },
       {
         "nome": "Preto",
-        "hex": "#322e2a",
+        "hex": "#312c28",
         "hexes": [
-          "#322e2a"
+          "#312c28"
         ],
-        "imagem": "/__l5e/assets-v1/1150ca26-4289-40ce-9d29-c1d8bb60ba4e/dublin-preto.webp"
+        "imagem": melodias25.url
       }
     ],
     "tamanhos": [
@@ -7885,23 +7928,114 @@ export const modelos: Modelo[] = [
     "categoria": "conjuntos",
     "subcategoria": "Conjuntos",
     "genero": "unissexo",
-    "descricao": "Conjunto MANILA em preparação, fotografias e detalhes a adicionar brevemente.",
+    "descricao": "Conjunto MANILA disponível em 11 cores.",
     "composicao": "100% Poliéster, Densidade: 150 g/m²",
     "referencia": "#MAN-MAN",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": manila1.url,
     "pecas": [
       {
         "nome": "T-shirt",
         "composicao": "Composição a confirmar",
-        "imagem": "/placeholder-modelo.svg",
+        "imagem": manila1.url,
         "cores": [
           {
-            "nome": "Branco",
-            "hex": "#eaedf1",
+            "nome": "Branco e preto",
+            "hex": "#cacccf",
             "hexes": [
-              "#eaedf1"
+              "#cacccf",
+              "#383330"
             ],
-            "imagem": "/placeholder-modelo.svg"
+            "imagem": manila1.url
+          },
+          {
+            "nome": "Azul e branco",
+            "hex": "#315e95",
+            "hexes": [
+              "#315e95",
+              "#f1f1ef"
+            ],
+            "imagem": manila2.url
+          },
+          {
+            "nome": "Preto e branco",
+            "hex": "#383330",
+            "hexes": [
+              "#383330",
+              "#f1f1ef"
+            ],
+            "imagem": manila3.url
+          },
+          {
+            "nome": "Verde lima e branco",
+            "hex": "#94ba5f",
+            "hexes": [
+              "#94ba5f",
+              "#f1f1ef"
+            ],
+            "imagem": manila4.url
+          },
+          {
+            "nome": "Verde lima e preto",
+            "hex": "#9fb865",
+            "hexes": [
+              "#9fb865",
+              "#383330"
+            ],
+            "imagem": manila5.url
+          },
+          {
+            "nome": "Verde e branco",
+            "hex": "#366f53",
+            "hexes": [
+              "#366f53",
+              "#f1f1ef"
+            ],
+            "imagem": manila6.url
+          },
+          {
+            "nome": "Amarelo e preto",
+            "hex": "#eede6d",
+            "hexes": [
+              "#eede6d",
+              "#383330"
+            ],
+            "imagem": manila7.url
+          },
+          {
+            "nome": "Laranja e branco",
+            "hex": "#b95e2d",
+            "hexes": [
+              "#b95e2d",
+              "#f1f1ef"
+            ],
+            "imagem": manila8.url
+          },
+          {
+            "nome": "Laranja e preto",
+            "hex": "#ba6134",
+            "hexes": [
+              "#ba6134",
+              "#383330"
+            ],
+            "imagem": manila9.url
+          },
+          {
+            "nome": "Bordô e branco",
+            "hex": "#81222c",
+            "hexes": [
+              "#81222c",
+              "#f1f1ef"
+            ],
+            "imagem": manila10.url
+          },
+          {
+            "nome": "Rosa e preto",
+            "hex": "#b65283",
+            "hexes": [
+              "#b65283",
+              "#383330"
+            ],
+            "imagem": manila11.url
           }
         ],
         "tamanhos": [
@@ -7954,15 +8088,106 @@ export const modelos: Modelo[] = [
       {
         "nome": "Calças",
         "composicao": "Composição a confirmar",
-        "imagem": "/placeholder-modelo.svg",
+        "imagem": manila1.url,
         "cores": [
           {
-            "nome": "Branco",
-            "hex": "#eaedf1",
+            "nome": "Branco e preto",
+            "hex": "#cacccf",
             "hexes": [
-              "#eaedf1"
+              "#cacccf",
+              "#383330"
             ],
-            "imagem": "/placeholder-modelo.svg"
+            "imagem": manila1.url
+          },
+          {
+            "nome": "Azul e branco",
+            "hex": "#315e95",
+            "hexes": [
+              "#315e95",
+              "#f1f1ef"
+            ],
+            "imagem": manila2.url
+          },
+          {
+            "nome": "Preto e branco",
+            "hex": "#383330",
+            "hexes": [
+              "#383330",
+              "#f1f1ef"
+            ],
+            "imagem": manila3.url
+          },
+          {
+            "nome": "Verde lima e branco",
+            "hex": "#94ba5f",
+            "hexes": [
+              "#94ba5f",
+              "#f1f1ef"
+            ],
+            "imagem": manila4.url
+          },
+          {
+            "nome": "Verde lima e preto",
+            "hex": "#9fb865",
+            "hexes": [
+              "#9fb865",
+              "#383330"
+            ],
+            "imagem": manila5.url
+          },
+          {
+            "nome": "Verde e branco",
+            "hex": "#366f53",
+            "hexes": [
+              "#366f53",
+              "#f1f1ef"
+            ],
+            "imagem": manila6.url
+          },
+          {
+            "nome": "Amarelo e preto",
+            "hex": "#eede6d",
+            "hexes": [
+              "#eede6d",
+              "#383330"
+            ],
+            "imagem": manila7.url
+          },
+          {
+            "nome": "Laranja e branco",
+            "hex": "#b95e2d",
+            "hexes": [
+              "#b95e2d",
+              "#f1f1ef"
+            ],
+            "imagem": manila8.url
+          },
+          {
+            "nome": "Laranja e preto",
+            "hex": "#ba6134",
+            "hexes": [
+              "#ba6134",
+              "#383330"
+            ],
+            "imagem": manila9.url
+          },
+          {
+            "nome": "Bordô e branco",
+            "hex": "#81222c",
+            "hexes": [
+              "#81222c",
+              "#f1f1ef"
+            ],
+            "imagem": manila10.url
+          },
+          {
+            "nome": "Rosa e preto",
+            "hex": "#b65283",
+            "hexes": [
+              "#b65283",
+              "#383330"
+            ],
+            "imagem": manila11.url
           }
         ],
         "tamanhos": [
@@ -8015,12 +8240,103 @@ export const modelos: Modelo[] = [
     ],
     "cores": [
       {
-        "nome": "Branco",
-        "hex": "#eaedf1",
+        "nome": "Branco e preto",
+        "hex": "#cacccf",
         "hexes": [
-          "#eaedf1"
+          "#cacccf",
+          "#383330"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": manila1.url
+      },
+      {
+        "nome": "Azul e branco",
+        "hex": "#315e95",
+        "hexes": [
+          "#315e95",
+          "#f1f1ef"
+        ],
+        "imagem": manila2.url
+      },
+      {
+        "nome": "Preto e branco",
+        "hex": "#383330",
+        "hexes": [
+          "#383330",
+          "#f1f1ef"
+        ],
+        "imagem": manila3.url
+      },
+      {
+        "nome": "Verde lima e branco",
+        "hex": "#94ba5f",
+        "hexes": [
+          "#94ba5f",
+          "#f1f1ef"
+        ],
+        "imagem": manila4.url
+      },
+      {
+        "nome": "Verde lima e preto",
+        "hex": "#9fb865",
+        "hexes": [
+          "#9fb865",
+          "#383330"
+        ],
+        "imagem": manila5.url
+      },
+      {
+        "nome": "Verde e branco",
+        "hex": "#366f53",
+        "hexes": [
+          "#366f53",
+          "#f1f1ef"
+        ],
+        "imagem": manila6.url
+      },
+      {
+        "nome": "Amarelo e preto",
+        "hex": "#eede6d",
+        "hexes": [
+          "#eede6d",
+          "#383330"
+        ],
+        "imagem": manila7.url
+      },
+      {
+        "nome": "Laranja e branco",
+        "hex": "#b95e2d",
+        "hexes": [
+          "#b95e2d",
+          "#f1f1ef"
+        ],
+        "imagem": manila8.url
+      },
+      {
+        "nome": "Laranja e preto",
+        "hex": "#ba6134",
+        "hexes": [
+          "#ba6134",
+          "#383330"
+        ],
+        "imagem": manila9.url
+      },
+      {
+        "nome": "Bordô e branco",
+        "hex": "#81222c",
+        "hexes": [
+          "#81222c",
+          "#f1f1ef"
+        ],
+        "imagem": manila10.url
+      },
+      {
+        "nome": "Rosa e preto",
+        "hex": "#b65283",
+        "hexes": [
+          "#b65283",
+          "#383330"
+        ],
+        "imagem": manila11.url
       }
     ],
     "tamanhos": [
@@ -8635,57 +8951,57 @@ export const modelos: Modelo[] = [
     "categoria": "conjuntos",
     "subcategoria": "Conjuntos",
     "genero": "unissexo",
-    "descricao": "Conjunto COLOMBO em preparação, fotografias e detalhes a adicionar brevemente.",
+    "descricao": "Conjunto COLOMBO disponível em 5 cores.",
     "composicao": "100% Poliéster, Densidade: 150 g/m²",
     "referencia": "#COL-COL",
-    "imagem": asset_colombo_cor_1.url,
+    "imagem": colomboNew1.url,
     "pecas": [
       {
         "nome": "T-shirt",
         "composicao": "Composição a confirmar",
-        "imagem": asset_colombo_cor_1.url,
+        "imagem": colomboNew1.url,
         "cores": [
-  {
-    "nome": "Verde",
-    "hex": "#006347",
-    "hexes": [
-      "#006347"
-    ],
-    "imagem": asset_colombo_cor_1.url
-  },
-  {
-    "nome": "Vermelho",
-    "hex": "#751523",
-    "hexes": [
-      "#751523"
-    ],
-    "imagem": asset_colombo_cor_2.url
-  },
-  {
-    "nome": "Azul",
-    "hex": "#015389",
-    "hexes": [
-      "#015389"
-    ],
-    "imagem": asset_colombo_cor_3.url
-  },
-  {
-    "nome": "Azul marinho",
-    "hex": "#002d4e",
-    "hexes": [
-      "#002d4e"
-    ],
-    "imagem": asset_colombo_cor_4.url
-  },
-  {
-    "nome": "Preto",
-    "hex": "#262119",
-    "hexes": [
-      "#262119"
-    ],
-    "imagem": asset_colombo_cor_5.url
-  }
-],
+          {
+            "nome": "Preto",
+            "hex": "#29251c",
+            "hexes": [
+              "#29251c"
+            ],
+            "imagem": colomboNew1.url
+          },
+          {
+            "nome": "Azul marinho",
+            "hex": "#002a4a",
+            "hexes": [
+              "#002a4a"
+            ],
+            "imagem": colomboNew2.url
+          },
+          {
+            "nome": "Azul",
+            "hex": "#004d81",
+            "hexes": [
+              "#004d81"
+            ],
+            "imagem": colomboNew3.url
+          },
+          {
+            "nome": "Vermelho",
+            "hex": "#711321",
+            "hexes": [
+              "#711321"
+            ],
+            "imagem": colomboNew4.url
+          },
+          {
+            "nome": "Verde",
+            "hex": "#006045",
+            "hexes": [
+              "#006045"
+            ],
+            "imagem": colomboNew5.url
+          }
+        ],
         "tamanhos": [
           [
             "Tamanho",
@@ -8736,49 +9052,49 @@ export const modelos: Modelo[] = [
       {
         "nome": "Calças",
         "composicao": "Composição a confirmar",
-        "imagem": asset_colombo_cor_1.url,
+        "imagem": colomboNew1.url,
         "cores": [
-  {
-    "nome": "Verde",
-    "hex": "#006347",
-    "hexes": [
-      "#006347"
-    ],
-    "imagem": asset_colombo_cor_1.url
-  },
-  {
-    "nome": "Vermelho",
-    "hex": "#751523",
-    "hexes": [
-      "#751523"
-    ],
-    "imagem": asset_colombo_cor_2.url
-  },
-  {
-    "nome": "Azul",
-    "hex": "#015389",
-    "hexes": [
-      "#015389"
-    ],
-    "imagem": asset_colombo_cor_3.url
-  },
-  {
-    "nome": "Azul marinho",
-    "hex": "#002d4e",
-    "hexes": [
-      "#002d4e"
-    ],
-    "imagem": asset_colombo_cor_4.url
-  },
-  {
-    "nome": "Preto",
-    "hex": "#262119",
-    "hexes": [
-      "#262119"
-    ],
-    "imagem": asset_colombo_cor_5.url
-  }
-],
+          {
+            "nome": "Preto",
+            "hex": "#29251c",
+            "hexes": [
+              "#29251c"
+            ],
+            "imagem": colomboNew1.url
+          },
+          {
+            "nome": "Azul marinho",
+            "hex": "#002a4a",
+            "hexes": [
+              "#002a4a"
+            ],
+            "imagem": colomboNew2.url
+          },
+          {
+            "nome": "Azul",
+            "hex": "#004d81",
+            "hexes": [
+              "#004d81"
+            ],
+            "imagem": colomboNew3.url
+          },
+          {
+            "nome": "Vermelho",
+            "hex": "#711321",
+            "hexes": [
+              "#711321"
+            ],
+            "imagem": colomboNew4.url
+          },
+          {
+            "nome": "Verde",
+            "hex": "#006045",
+            "hexes": [
+              "#006045"
+            ],
+            "imagem": colomboNew5.url
+          }
+        ],
         "tamanhos": [
           [
             "Tamanho",
@@ -8828,47 +9144,47 @@ export const modelos: Modelo[] = [
       }
     ],
     "cores": [
-  {
-    "nome": "Verde",
-    "hex": "#006347",
-    "hexes": [
-      "#006347"
+      {
+        "nome": "Preto",
+        "hex": "#29251c",
+        "hexes": [
+          "#29251c"
+        ],
+        "imagem": colomboNew1.url
+      },
+      {
+        "nome": "Azul marinho",
+        "hex": "#002a4a",
+        "hexes": [
+          "#002a4a"
+        ],
+        "imagem": colomboNew2.url
+      },
+      {
+        "nome": "Azul",
+        "hex": "#004d81",
+        "hexes": [
+          "#004d81"
+        ],
+        "imagem": colomboNew3.url
+      },
+      {
+        "nome": "Vermelho",
+        "hex": "#711321",
+        "hexes": [
+          "#711321"
+        ],
+        "imagem": colomboNew4.url
+      },
+      {
+        "nome": "Verde",
+        "hex": "#006045",
+        "hexes": [
+          "#006045"
+        ],
+        "imagem": colomboNew5.url
+      }
     ],
-    "imagem": asset_colombo_cor_1.url
-  },
-  {
-    "nome": "Vermelho",
-    "hex": "#751523",
-    "hexes": [
-      "#751523"
-    ],
-    "imagem": asset_colombo_cor_2.url
-  },
-  {
-    "nome": "Azul",
-    "hex": "#015389",
-    "hexes": [
-      "#015389"
-    ],
-    "imagem": asset_colombo_cor_3.url
-  },
-  {
-    "nome": "Azul marinho",
-    "hex": "#002d4e",
-    "hexes": [
-      "#002d4e"
-    ],
-    "imagem": asset_colombo_cor_4.url
-  },
-  {
-    "nome": "Preto",
-    "hex": "#262119",
-    "hexes": [
-      "#262119"
-    ],
-    "imagem": asset_colombo_cor_5.url
-  }
-],
     "tamanhos": [
       [
         "Tamanho",
