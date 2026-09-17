@@ -6031,18 +6031,66 @@ export const modelos: Modelo[] = [
     "categoria": "tshirts",
     "subcategoria": "Clássicas",
     "genero": "crianca",
-    "descricao": "T-shirt VIENA — modelo de criança em preparação, fotografias a adicionar brevemente.",
+    "descricao": "T-shirt VIENA — modelo de criança disponível em 7 cores.",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#VIE",
-    "imagem": "/placeholder-modelo.svg",
+    "imagem": asset_viena_cor_1.url,
     "cores": [
       {
         "nome": "Branco",
-        "hex": "#eaedf1",
+        "hex": "#c1c7cb",
         "hexes": [
-          "#eaedf1"
+          "#c1c7cb"
         ],
-        "imagem": "/placeholder-modelo.svg"
+        "imagem": asset_viena_cor_1.url
+      },
+      {
+        "nome": "Cinzento claro",
+        "hex": "#d8d8e1",
+        "hexes": [
+          "#d8d8e1"
+        ],
+        "imagem": asset_viena_cor_2.url
+      },
+      {
+        "nome": "Preto",
+        "hex": "#2d2824",
+        "hexes": [
+          "#2d2824"
+        ],
+        "imagem": asset_viena_cor_3.url
+      },
+      {
+        "nome": "Verde",
+        "hex": "#005445",
+        "hexes": [
+          "#005445"
+        ],
+        "imagem": asset_viena_cor_4.url
+      },
+      {
+        "nome": "Vermelho",
+        "hex": "#8e1426",
+        "hexes": [
+          "#8e1426"
+        ],
+        "imagem": asset_viena_cor_5.url
+      },
+      {
+        "nome": "Azul",
+        "hex": "#1f528d",
+        "hexes": [
+          "#1f528d"
+        ],
+        "imagem": asset_viena_cor_6.url
+      },
+      {
+        "nome": "Azul marinho",
+        "hex": "#063657",
+        "hexes": [
+          "#063657"
+        ],
+        "imagem": asset_viena_cor_7.url
       }
     ],
     "tamanhos": [
@@ -6099,7 +6147,7 @@ export const modelos: Modelo[] = [
     ],
     "caracteristicas": [
       "100% Algodão",
-      "Detalhes e cores a confirmar"
+      "Densidade: 160 g/m²"
     ]
   },
   {
