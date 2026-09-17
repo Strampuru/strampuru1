@@ -447,6 +447,27 @@ import asset_brasilia_6 from "@/assets/brasilia/brasilia-6.jpg.asset.json";
 import asset_brasilia_7 from "@/assets/brasilia/brasilia-7.jpg.asset.json";
 import asset_brasilia_8 from "@/assets/brasilia/brasilia-8.jpg.asset.json";
 import asset_brasilia_9 from "@/assets/brasilia/brasilia-9.jpg.asset.json";
+import asset_cairo_1 from "@/assets/cairo/cairo-1.png.asset.json";
+import asset_cairo_2 from "@/assets/cairo/cairo-2.png.asset.json";
+import asset_cairo_3 from "@/assets/cairo/cairo-3.png.asset.json";
+import asset_cairo_4 from "@/assets/cairo/cairo-4.png.asset.json";
+import asset_cairo_5 from "@/assets/cairo/cairo-5.png.asset.json";
+import asset_cairo_6 from "@/assets/cairo/cairo-6.png.asset.json";
+import asset_cairo_7 from "@/assets/cairo/cairo-7.png.asset.json";
+import asset_cairo_8 from "@/assets/cairo/cairo-8.png.asset.json";
+import asset_cairo_9 from "@/assets/cairo/cairo-9.png.asset.json";
+import asset_cairo_10 from "@/assets/cairo/cairo-10.png.asset.json";
+import asset_cairo_11 from "@/assets/cairo/cairo-11.png.asset.json";
+import asset_cairo_12 from "@/assets/cairo/cairo-12.png.asset.json";
+import asset_cairo_13 from "@/assets/cairo/cairo-13.png.asset.json";
+import asset_cairo_14 from "@/assets/cairo/cairo-14.png.asset.json";
+import asset_cairo_15 from "@/assets/cairo/cairo-15.png.asset.json";
+import asset_rabat_1 from "@/assets/rabat/rabat-1.png.asset.json";
+import asset_rabat_2 from "@/assets/rabat/rabat-2.png.asset.json";
+import asset_rabat_3 from "@/assets/rabat/rabat-3.png.asset.json";
+import asset_rabat_4 from "@/assets/rabat/rabat-4.png.asset.json";
+import asset_rabat_5 from "@/assets/rabat/rabat-5.png.asset.json";
+import asset_rabat_6 from "@/assets/rabat/rabat-6.png.asset.json";
 
 
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
@@ -570,6 +591,33 @@ export function getSubcategoriaModelo(modelo: Modelo, categoria: CategoriaId): s
 export function getFamiliaPorSubcategoria(nome: string | undefined): Categoria | undefined {
   return nome ? familias.find((f) => f.nome === nome) : undefined;
 }
+
+const coresCairo: Cor[] = [
+  { nome: "Branco", hex: "#dfe0e4", hexes: ["#dfe0e4"], imagem: asset_cairo_1.url },
+  { nome: "Caqui", hex: "#9b8866", hexes: ["#9b8866"], imagem: asset_cairo_2.url },
+  { nome: "Verde lima", hex: "#859e43", hexes: ["#859e43"], imagem: asset_cairo_3.url },
+  { nome: "Verde escuro", hex: "#005142", hexes: ["#005142"], imagem: asset_cairo_4.url },
+  { nome: "Laranja", hex: "#c1541a", hexes: ["#c1541a"], imagem: asset_cairo_5.url },
+  { nome: "Vermelho", hex: "#871526", hexes: ["#871526"], imagem: asset_cairo_6.url },
+  { nome: "Bordô", hex: "#680a2f", hexes: ["#680a2f"], imagem: asset_cairo_7.url },
+  { nome: "Rosa", hex: "#bf4580", hexes: ["#bf4580"], imagem: asset_cairo_8.url },
+  { nome: "Azul escuro", hex: "#24265f", hexes: ["#24265f"], imagem: asset_cairo_9.url },
+  { nome: "Azul claro", hex: "#7f98b7", hexes: ["#7f98b7"], imagem: asset_cairo_10.url },
+  { nome: "Azul turquesa", hex: "#2a85b2", hexes: ["#2a85b2"], imagem: asset_cairo_11.url },
+  { nome: "Azul", hex: "#1a578f", hexes: ["#1a578f"], imagem: asset_cairo_12.url },
+  { nome: "Azul petróleo", hex: "#053655", hexes: ["#053655"], imagem: asset_cairo_13.url },
+  { nome: "Cinzento", hex: "#636976", hexes: ["#636976"], imagem: asset_cairo_14.url },
+  { nome: "Preto", hex: "#332e2b", hexes: ["#332e2b"], imagem: asset_cairo_15.url },
+];
+
+const coresRabat: Cor[] = [
+  { nome: "Branco", hex: "#e0e1e5", hexes: ["#e0e1e5"], imagem: asset_rabat_1.url },
+  { nome: "Vermelho", hex: "#82212e", hexes: ["#82212e"], imagem: asset_rabat_2.url },
+  { nome: "Azul", hex: "#29537b", hexes: ["#29537b"], imagem: asset_rabat_3.url },
+  { nome: "Azul marinho", hex: "#233449", hexes: ["#233449"], imagem: asset_rabat_4.url },
+  { nome: "Cinzento claro", hex: "#adadad", hexes: ["#adadad"], imagem: asset_rabat_5.url },
+  { nome: "Preto", hex: "#28251e", hexes: ["#28251e"], imagem: asset_rabat_6.url },
+];
 
 
 export const modelos: Modelo[] = [
@@ -4126,20 +4174,11 @@ export const modelos: Modelo[] = [
     "categoria": "sweats",
     "subcategoria": "Com Capuz",
     "genero": "unissexo",
-    "descricao": "Hoodie CAIRO — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "Hoodie CAIRO disponível em 15 cores.",
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#CAI-CAI",
-    "imagem": "/placeholder-modelo.svg",
-    "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
-    ],
+    "imagem": asset_cairo_1.url,
+    "cores": coresCairo,
     "tamanhos": [
       [
         "Tamanho",
@@ -4194,7 +4233,7 @@ export const modelos: Modelo[] = [
     ],
     "caracteristicas": [
       "100% Poliéster",
-      "Detalhes e cores a confirmar"
+      "Disponível em 15 cores"
     ]
   },
   {
@@ -4204,20 +4243,11 @@ export const modelos: Modelo[] = [
     "categoria": "sweats",
     "subcategoria": "Com Capuz",
     "genero": "crianca",
-    "descricao": "Hoodie CAIRO — modelo em preparação, fotografias a adicionar brevemente. (tamanhos de criança)",
+    "descricao": "Hoodie CAIRO disponível em 15 cores. (tamanhos de criança)",
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#CAI-CAI-C",
-    "imagem": "/placeholder-modelo.svg",
-    "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
-    ],
+    "imagem": asset_cairo_1.url,
+    "cores": coresCairo,
     "tamanhos": [
       [
         "Tamanho",
@@ -4272,7 +4302,7 @@ export const modelos: Modelo[] = [
     ],
     "caracteristicas": [
       "100% Poliéster",
-      "Detalhes e cores a confirmar"
+      "Disponível em 15 cores"
     ]
   },
   {
@@ -4282,20 +4312,11 @@ export const modelos: Modelo[] = [
     "categoria": "sweats",
     "subcategoria": "Com Capuz",
     "genero": "unissexo",
-    "descricao": "Hoodie RABAT — modelo em preparação, fotografias a adicionar brevemente.",
+    "descricao": "Hoodie RABAT disponível em 6 cores.",
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#RAB-RAB",
-    "imagem": "/placeholder-modelo.svg",
-    "cores": [
-      {
-        "nome": "Branco",
-        "hex": "#eaedf1",
-        "hexes": [
-          "#eaedf1"
-        ],
-        "imagem": "/placeholder-modelo.svg"
-      }
-    ],
+    "imagem": asset_rabat_1.url,
+    "cores": coresRabat,
     "tamanhos": [
       [
         "Tamanho",
@@ -4341,7 +4362,7 @@ export const modelos: Modelo[] = [
     ],
     "caracteristicas": [
       "100% Poliéster",
-      "Detalhes e cores a confirmar"
+      "Disponível em 6 cores"
     ]
   },
   {
