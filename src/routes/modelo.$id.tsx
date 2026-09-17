@@ -269,10 +269,48 @@ function DetalheConjunto({
           </p>
         </div>
 
+        {/* Seletor de cor comum ao conjunto */}
+        {partilhamCores && (
+          <div className="space-y-3">
+            <h2 className="text-[11px] uppercase tracking-widest font-semibold">
+              Cor do conjunto
+            </h2>
+            <div className="flex flex-wrap items-center gap-2">
+              {coresConjunto.map((c, i) => (
+                <button
+                  key={c.nome}
+                  onClick={() => setCor(i)}
+                  aria-label={c.nome}
+                  aria-pressed={i === cor}
+                  className={`size-7 rounded-full transition-all ring-offset-2 ring-offset-background outline-none ${
+                    i === cor
+                      ? "ring-2 ring-foreground"
+                      : "ring-1 ring-black/10 hover:ring-foreground/30"
+                  }`}
+                  style={{
+                    background:
+                      c.hexes.length > 1
+                        ? `linear-gradient(180deg, ${c.hexes.join(", ")})`
+                        : c.hex,
+                  }}
+                />
+              ))}
+              <span className="text-[10px] uppercase tracking-widest text-muted-foreground ml-1">
+                {corAtual?.nome}
+              </span>
+            </div>
+          </div>
+        )}
+
         {/* Peças lado a lado */}
         <div className="grid sm:grid-cols-2 gap-8 md:gap-12 items-start">
           {pecas.map((p) => (
-            <PecaCard key={p.nome} peca={p} modelo={modelo} />
+            <PecaCard
+              key={p.nome}
+              peca={p}
+              modelo={modelo}
+              corControlada={partilhamCores ? cor : undefined}
+            />
           ))}
         </div>
 
