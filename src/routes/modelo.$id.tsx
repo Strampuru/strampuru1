@@ -150,7 +150,7 @@ function PecaCard({
         </div>
         <p className="text-[11px] text-muted-foreground">{peca.composicao}</p>
 
-        {peca.cores.length > 0 && (
+        {corControlada === undefined && peca.cores.length > 0 && (
           <div className="flex flex-wrap items-center gap-2 pt-1">
             {peca.cores.map((c, i) => (
               <button
