@@ -110,8 +110,17 @@ function ModeloPage() {
 
 /* ---------- Vista de conjunto: todas as peças visíveis, preço do conjunto ---------- */
 
-function PecaCard({ peca, modelo }: { peca: Peca; modelo: Modelo }) {
-  const [cor, setCor] = useState(0);
+function PecaCard({
+  peca,
+  modelo,
+  corControlada,
+}: {
+  peca: Peca;
+  modelo: Modelo;
+  corControlada?: number;
+}) {
+  const [corLocal, setCor] = useState(0);
+  const cor = corControlada ?? corLocal;
   const atual = peca.cores[cor] ?? peca.cores[0];
   const imagem = atual?.imagem ?? peca.imagem;
   const [cabecalho, ...linhas] = peca.tamanhos;
