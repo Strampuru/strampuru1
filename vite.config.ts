@@ -8,7 +8,7 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 // Build estático para GitHub Pages: GITHUB_PAGES=true npm run build
 // (definido no workflow .github/workflows/deploy-react.yml)
-const githubPages = process.env.GITHUB_PAGES === "true";
+const githubPages = process.env["GITHUB_PAGES"] === "true";
 
 export default defineConfig({
   tanstackStart: {
