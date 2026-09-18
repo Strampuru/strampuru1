@@ -631,9 +631,9 @@ export const familias: Categoria[] = [
 
 // As famílias originais continuam acessíveis pelas ligações existentes.
 export const categorias: Categoria[] = [
-  { id: "homem", nome: "Homem", titulo: "Homem", descricao: "Vestuário de adulto para personalizar.", imagem: "", subcategorias: ["T-shirts", "Sweats", "Jaquetas"] },
-  { id: "mulher", nome: "Mulher", titulo: "Mulher", descricao: "Vestuário de adulto para personalizar.", imagem: "", subcategorias: ["T-shirts", "Sweats", "Jaquetas"] },
-  { id: "crianca", nome: "Criança", titulo: "Criança", descricao: "Modelos disponíveis em tamanhos de criança.", imagem: "", subcategorias: ["T-shirts", "Sweats", "Babetes", "Bodies"] },
+  { id: "homem", nome: "Homem", titulo: "Homem", descricao: "Vestuário de adulto para personalizar.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Jaquetas"] },
+  { id: "mulher", nome: "Mulher", titulo: "Mulher", descricao: "Vestuário de adulto para personalizar.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Jaquetas"] },
+  { id: "crianca", nome: "Criança", titulo: "Criança", descricao: "Modelos disponíveis em tamanhos de criança.", imagem: "", subcategorias: ["T-shirts", "Polos", "Sweats", "Babetes", "Bodies"] },
   { id: "conjuntos", nome: "Conjuntos", titulo: "Conjuntos", descricao: "Coleções com várias peças.", imagem: "", subcategorias: [] },
   { id: "brindes", nome: "Outros", titulo: "Outros", descricao: "Outros artigos para personalizar.", imagem: "", subcategorias: ["Coletes desportivos", "Sacos", "Cozinha", "Canecas", "Bases", "Jogos"] },
 ];
