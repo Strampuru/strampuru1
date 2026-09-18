@@ -15,7 +15,8 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
   const visiveis = coresBase.slice(0, 6);
   const extra = coresBase.length - visiveis.length;
   const corAtiva = ativa === null ? undefined : coresBase[ativa];
-  const pecasVisiveis = mostraPecas ? pecas! : null;
+  // Com capa editorial, as peças só aparecem ao escolher uma cor; sem capa, sempre visíveis.
+  const pecasVisiveis = mostraPecas && (ativa !== null || !modelo.lifestyle) ? pecas! : null;
   const imagensPecas = pecasVisiveis
     ? pecasVisiveis.map((p) => {
         const idx = Math.min(ativa ?? 0, Math.max(p.cores.length - 1, 0));
