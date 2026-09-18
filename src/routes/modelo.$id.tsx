@@ -423,7 +423,10 @@ function ConfiguradorAbuDhabi({ modelo, categoria, pecas }: {
           <div className="grid md:grid-cols-2 gap-10">
             {/* Fotografia */}
             <div className="space-y-4">
-              <div className="aspect-[3/4] bg-secondary border border-border overflow-hidden">
+              <div
+                className="aspect-[3/4] bg-secondary border border-border overflow-hidden touch-pan-y"
+                {...(peca.cores.length > 1 ? swipeFoto : {})}
+              >
                 <img key={`${peca.nome}-${imagem}`} src={imagem}
                   alt={`${modelo.nome} — ${peca.nome}${corAtual ? ` — ${corAtual.nome}` : ""}`}
                   width={1024} height={1280} className="w-full h-full object-contain p-5" />
