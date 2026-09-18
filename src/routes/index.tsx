@@ -95,8 +95,7 @@ function Index() {
               </h2>
             </div>
             <Link
-              to="/categoria/$categoria"
-              params={{ categoria: categorias[0]?.id ?? "tshirts" }}
+              to="/catalogo"
               className="group flex items-center gap-4 md:gap-6 mt-6 md:mt-0"
             >
               <span className="text-[11px] tracking-widest text-muted-foreground uppercase group-hover:text-foreground transition-colors">
