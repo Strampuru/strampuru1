@@ -440,30 +440,33 @@ function ConfiguradorAbuDhabi({ modelo, categoria, pecas }: {
                 </div>
               )}
 
-              {cabecalho && (
-                <div className="space-y-5">
-                  <span className="text-[10px] tracking-[0.2em] uppercase font-bold text-accent block">Tamanhos — {peca.nome}</span>
-                  <div className="border border-border bg-card overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-                    <table className="w-full text-center text-[11px] border-collapse">
-                      <thead className="bg-secondary border-b border-border">
-                        <tr>{cabecalho.map((item) => <th key={item} className="py-3 px-3 font-bold text-muted-foreground border-r border-border last:border-r-0 whitespace-nowrap">{item}</th>)}</tr>
-                      </thead>
-                      <tbody>
-                        {linhas.map((linha) => (
-                          <tr key={linha[0]} className="border-t border-border first:border-t-0">
-                            {linha.map((item, indice) => (
-                              <td key={indice} className={`py-3 px-3 border-r border-border last:border-r-0 whitespace-nowrap ${indice === 0 ? "font-medium" : "text-muted-foreground"}`}>{item}</td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              )}
             </div>
           </div>
+
+          {cabecalho && (
+            <div className="space-y-5">
+              <span className="text-[10px] tracking-[0.2em] uppercase font-bold text-accent block">Tamanhos — {peca.nome}</span>
+              <div className="border border-border bg-card overflow-x-auto">
+                <table className="w-full min-w-max text-center text-[11px] border-collapse">
+                  <thead className="bg-secondary border-b border-border">
+                    <tr>{cabecalho.map((item) => <th key={item} className="py-3 px-4 font-bold text-muted-foreground border-r border-border last:border-r-0 whitespace-nowrap">{item}</th>)}</tr>
+                  </thead>
+                  <tbody>
+                    {linhas.map((linha) => (
+                      <tr key={linha[0]} className="border-t border-border first:border-t-0">
+                        {linha.map((item, indice) => (
+                          <td key={indice} className={`py-3 px-4 border-r border-border last:border-r-0 whitespace-nowrap ${indice === 0 ? "font-medium text-left" : "text-muted-foreground"}`}>{item}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-[10px] text-muted-foreground italic">Medidas em centímetros.</p>
+            </div>
+          )}
         </div>
+
 
         {/* Resumo */}
         <aside className="lg:col-span-4 bg-card border border-border p-8 md:p-10 space-y-8 lg:sticky lg:top-12 shadow-[0_10px_30px_-15px_rgba(0,0,0,0.05)]">
