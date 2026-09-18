@@ -120,7 +120,7 @@ function PecaCard({
   peca: Peca;
   modelo: Modelo;
   corControlada?: number | undefined;
-  onMudarCor?: (direcao: 1 | -1) => void;
+  onMudarCor?: ((direcao: 1 | -1) => void) | undefined;
 }) {
   const [corLocal, setCor] = useState(0);
   const cor = corControlada ?? corLocal;
