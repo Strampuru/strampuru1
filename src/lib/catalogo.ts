@@ -277,6 +277,12 @@ import asset_moroni_cor_5 from "@/assets/moroni/moroni-cor-5.png.asset.json";
 import asset_moroni_cor_6 from "@/assets/moroni/moroni-cor-6.png.asset.json";
 import jamenaEditorial from "@/assets/jamena-editorial.jpg";
 import moroniEditorial from "@/assets/moroni-editorial.jpg";
+import pequimEditorial from "@/assets/pequim-editorial.jpg";
+import jacartaEditorial from "@/assets/jacarta-editorial.jpg";
+import manilaEditorial from "@/assets/manila-editorial.jpg";
+import singapuraEditorial from "@/assets/singapura-editorial.jpg";
+import colomboEditorial from "@/assets/colombo-editorial.jpg";
+import abuDhabiEditorial from "@/assets/abu-dhabi-editorial.jpg";
 import asset_nairobi_cor_1 from "@/assets/nairobi/nairobi-cor-1.png.asset.json";
 import asset_nairobi_cor_2 from "@/assets/nairobi/nairobi-cor-2.png.asset.json";
 import asset_nairobi_cor_3 from "@/assets/nairobi/nairobi-cor-3.png.asset.json";
@@ -7197,6 +7203,7 @@ export const modelos: Modelo[] = [
     "descricao": "Conjunto PEQUIM em preparação, fotografias e detalhes a adicionar brevemente.",
     "composicao": "T-shirt: 100% Algodão (160 g/m²) · Calças: 65% Poliéster, 35% Algodão (220 g/m²)",
     "referencia": "#PEQ-PEQ",
+    "lifestyle": pequimEditorial,
     "imagem": asset_pequim_tshirt_1.url,
     "pecas": [
       {
@@ -7456,6 +7463,7 @@ export const modelos: Modelo[] = [
     "descricao": "Conjunto JACARTA em preparação, fotografias e detalhes a adicionar brevemente.",
     "composicao": "100% Poliéster, Densidade: 250 g/m²",
     "referencia": "#JAC-JAC",
+    "lifestyle": jacartaEditorial,
     "imagem": asset_jacarta_casaco_1.url,
     "pecas": [
       {
@@ -7982,6 +7990,7 @@ export const modelos: Modelo[] = [
     "descricao": "Conjunto MANILA disponível em 11 cores.",
     "composicao": "100% Poliéster, Densidade: 150 g/m²",
     "referencia": "#MAN-MAN",
+    "lifestyle": manilaEditorial,
     "imagem": manila1.url,
     "pecas": [
       {
@@ -8476,6 +8485,7 @@ export const modelos: Modelo[] = [
     "descricao": "Conjunto SINGAPURA em preparação, fotografias e detalhes a adicionar brevemente.",
     "composicao": "100% Poliéster, Densidade: 150 g/m²",
     "referencia": "#SIN-SIN",
+    "lifestyle": singapuraEditorial,
     "imagem": asset_singapura_cor_1.url,
     "pecas": [
       {
@@ -9005,6 +9015,7 @@ export const modelos: Modelo[] = [
     "descricao": "Conjunto COLOMBO disponível em 5 cores.",
     "composicao": "100% Poliéster, Densidade: 150 g/m²",
     "referencia": "#COL-COL",
+    "lifestyle": colomboEditorial,
     "imagem": colomboNew1.url,
     "pecas": [
       {
@@ -9342,6 +9353,7 @@ export const modelos: Modelo[] = [
         "descricao": "Conjunto ABU DHABI em preparação, fotografias e detalhes a adicionar brevemente.",
         "composicao": "Composição por peça (ver cada modelo)",
         "referencia": "#ABU-ABU",
+        "lifestyle": abuDhabiEditorial,
         "imagem": abu_tshirt_1.url,
         "pecas": [
             {
