@@ -10,6 +10,10 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 // Build estático para GitHub Pages: GITHUB_PAGES=true npm run build
 // (definido no workflow .github/workflows/deploy-react.yml)
 const githubPages = process.env["GITHUB_PAGES"] === "true";
+const githubRepository = process.env["GITHUB_REPOSITORY"]?.split("/").pop();
+const githubBase = githubRepository?.endsWith(".github.io")
+  ? "/"
+  : `/${githubRepository ?? "strampuru1"}/`;
 
 // Em modo SPA o TanStack Start pré-renderiza a "shell" através de um servidor
 // de pré-visualização que procura dist/server/server.js, mas o build nitro
@@ -59,7 +63,7 @@ export default defineConfig({
       : {}),
   },
   vite: {
-    base: githubPages ? "/strampuru1/" : "/",
+    base: githubPages ? githubBase : "/",
     plugins: [serverShimPlugin],
   },
 });
