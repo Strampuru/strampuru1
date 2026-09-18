@@ -19,8 +19,6 @@ export default defineConfig({
     ...(githubPages
       ? {
           spa: { enabled: true },
-          prerender: { enabled: true, crawlLinks: true },
-          pages: [{ path: "/" }],
         }
       : {}),
   },
