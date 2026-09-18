@@ -1,6 +1,7 @@
 import { createFileRoute, notFound, Link, useNavigate } from "@tanstack/react-router";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
+import { useSwipe } from "@/hooks/use-swipe";
 import { getModelo, getCategoria } from "@/lib/catalogo";
 import type { Categoria, Cor, Modelo, Peca } from "@/lib/catalogo";
 
@@ -114,10 +115,12 @@ function PecaCard({
   peca,
   modelo,
   corControlada,
+  onMudarCor,
 }: {
   peca: Peca;
   modelo: Modelo;
   corControlada?: number | undefined;
+  onMudarCor?: ((direcao: 1 | -1) => void) | undefined;
 }) {
   const [corLocal, setCor] = useState(0);
   const cor = corControlada ?? corLocal;
@@ -125,9 +128,25 @@ function PecaCard({
   const imagem = atual?.imagem ?? peca.imagem;
   const [cabecalho, ...linhas] = peca.tamanhos;
 
+  const mudar = (direcao: 1 | -1) => {
+    if (corControlada !== undefined && onMudarCor) {
+      onMudarCor(direcao);
+    } else {
+      setCor((c) => (c + direcao + peca.cores.length) % peca.cores.length);
+    }
+  };
+
+  const swipe = useSwipe({
+    onSwipeLeft: () => mudar(1),
+    onSwipeRight: () => mudar(-1),
+  });
+
   return (
     <article className="space-y-3">
-      <div className="relative aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden">
+      <div
+        className="relative aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden touch-pan-y"
+        {...(peca.cores.length > 1 ? swipe : {})}
+      >
         <img
           key={imagem}
           src={imagem}
@@ -304,14 +323,15 @@ function DetalheConjunto({
 
         {/* Peças lado a lado */}
         <div className="grid sm:grid-cols-2 gap-8 md:gap-12 items-start">
-          {pecas.map((p) => (
-            <PecaCard
-              key={p.nome}
-              peca={p}
-              modelo={modelo}
-              corControlada={partilhamCores ? cor : undefined}
-            />
-          ))}
+        {pecas.map((p) => (
+          <PecaCard
+            key={p.nome}
+            peca={p}
+            modelo={modelo}
+            corControlada={partilhamCores ? cor : undefined}
+            onMudarCor={partilhamCores ? (d) => setCor((c) => (c + d + coresConjunto.length) % coresConjunto.length) : undefined}
+          />
+        ))}
         </div>
 
         {/* Preço do conjunto completo */}
@@ -373,6 +393,11 @@ function ConfiguradorAbuDhabi({ modelo, categoria, pecas }: {
     setCor(0);
   };
 
+  const swipeFoto = useSwipe({
+    onSwipeLeft: () => setCor((c) => (c + 1) % peca.cores.length),
+    onSwipeRight: () => setCor((c) => (c - 1 + peca.cores.length) % peca.cores.length),
+  });
+
   const alterarQuantidade = (indice: number, valor: string) => {
     const quantidade = Math.max(0, Math.floor(Number(valor) || 0));
     setQuantidades((anteriores) =>
@@ -409,7 +434,10 @@ function ConfiguradorAbuDhabi({ modelo, categoria, pecas }: {
           <div className="grid md:grid-cols-2 gap-10">
             {/* Fotografia */}
             <div className="space-y-4">
-              <div className="aspect-[3/4] bg-secondary border border-border overflow-hidden">
+              <div
+                className="aspect-[3/4] bg-secondary border border-border overflow-hidden touch-pan-y"
+                {...(peca.cores.length > 1 ? swipeFoto : {})}
+              >
                 <img key={`${peca.nome}-${imagem}`} src={imagem}
                   alt={`${modelo.nome} — ${peca.nome}${corAtual ? ` — ${corAtual.nome}` : ""}`}
                   width={1024} height={1280} className="w-full h-full object-contain p-5" />
@@ -558,7 +586,6 @@ function DetalheModelo({
   ];
 
   const [slide, setSlide] = useState(0);
-  const toqueX = useRef<number | null>(null);
   const atual =
     slides[slide] ??
     slides[0] ?? {
@@ -587,6 +614,10 @@ function DetalheModelo({
   const seguinte = () => setSlide((s) => (s + 1) % slides.length);
 
   const [cabecalho, ...linhas] = vista.tamanhos;
+  const swipe = useSwipe({
+    onSwipeLeft: seguinte,
+    onSwipeRight: anterior,
+  });
 
   return (
     <>
@@ -595,18 +626,7 @@ function DetalheModelo({
         <div className="md:sticky md:top-32 space-y-2">
           <div
             className="relative w-full aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden group touch-pan-y"
-            onTouchStart={(e) => {
-              toqueX.current = e.touches[0]?.clientX ?? null;
-            }}
-            onTouchEnd={(e) => {
-              const inicio = toqueX.current;
-              const fim = e.changedTouches[0]?.clientX ?? null;
-              toqueX.current = null;
-              if (inicio === null || fim === null) return;
-              const dx = fim - inicio;
-              if (Math.abs(dx) < 40) return;
-              dx < 0 ? seguinte() : anterior();
-            }}
+            {...(slides.length > 1 ? swipe : {})}
           >
             <img
               key={atual.src}

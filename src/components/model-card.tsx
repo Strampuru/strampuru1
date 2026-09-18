@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type MouseEvent } from "react";
+import { useSwipe } from "@/hooks/use-swipe";
 import type { Modelo } from "@/lib/catalogo";
 
 export function ModelCard({ modelo }: { modelo: Modelo }) {
@@ -37,13 +38,31 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
     setAtiva(proximo === 0 ? null : proximo - 1);
   };
 
+  const swipe = useSwipe({
+    onSwipeLeft: () => {
+      const total = coresBase.length + 1;
+      const atual = ativa === null ? 0 : ativa + 1;
+      const proximo = (atual + 1 + total) % total;
+      setAtiva(proximo === 0 ? null : proximo - 1);
+    },
+    onSwipeRight: () => {
+      const total = coresBase.length + 1;
+      const atual = ativa === null ? 0 : ativa + 1;
+      const proximo = (atual - 1 + total) % total;
+      setAtiva(proximo === 0 ? null : proximo - 1);
+    },
+  });
+
   return (
     <Link
       to="/modelo/$id"
       params={{ id: modelo.id }}
       className="group block animate-fade-up"
     >
-      <div className="relative overflow-hidden rounded-sm bg-card ring-1 ring-black/5 aspect-[3/4] shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow duration-500 group-hover:shadow-[0_18px_40px_-18px_rgba(0,0,0,0.28)]">
+      <div
+        className="relative overflow-hidden rounded-sm bg-card ring-1 ring-black/5 aspect-[3/4] shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow duration-500 group-hover:shadow-[0_18px_40px_-18px_rgba(0,0,0,0.28)] touch-pan-y"
+        {...(coresBase.length > 1 ? swipe : {})}
+      >
         <div className="absolute inset-0 bg-gradient-to-b from-secondary/60 to-background" />
         {imagensPecas ? (
           <div
