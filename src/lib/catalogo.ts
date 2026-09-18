@@ -535,6 +535,12 @@ import asset_rabat_5 from "@/assets/rabat/rabat-5.png.asset.json";
 import asset_rabat_6 from "@/assets/rabat/rabat-6.png.asset.json";
 
 
+// Prefixo base do site ("/" na Lovable, "/strampuru1/" no GitHub Pages) para
+// imagens servidas a partir da pasta public/.
+const __base = import.meta.env.BASE_URL ?? "/";
+const pub = (p: string): string =>
+  __base === "/" ? p : __base.replace(/\/$/, "") + p;
+
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
 export type CategoriaId = FamiliaId | "homem" | "mulher" | "crianca" | "conjuntos" | "brindes";
 
