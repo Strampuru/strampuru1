@@ -115,10 +115,12 @@ function PecaCard({
   peca,
   modelo,
   corControlada,
+  onMudarCor,
 }: {
   peca: Peca;
   modelo: Modelo;
   corControlada?: number | undefined;
+  onMudarCor?: (direcao: 1 | -1) => void;
 }) {
   const [corLocal, setCor] = useState(0);
   const cor = corControlada ?? corLocal;
@@ -126,9 +128,17 @@ function PecaCard({
   const imagem = atual?.imagem ?? peca.imagem;
   const [cabecalho, ...linhas] = peca.tamanhos;
 
+  const mudar = (direcao: 1 | -1) => {
+    if (corControlada !== undefined && onMudarCor) {
+      onMudarCor(direcao);
+    } else {
+      setCor((c) => (c + direcao + peca.cores.length) % peca.cores.length);
+    }
+  };
+
   const swipe = useSwipe({
-    onSwipeLeft: () => setCor((c) => (c + 1) % peca.cores.length),
-    onSwipeRight: () => setCor((c) => (c - 1 + peca.cores.length) % peca.cores.length),
+    onSwipeLeft: () => mudar(1),
+    onSwipeRight: () => mudar(-1),
   });
 
   return (
