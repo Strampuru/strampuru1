@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "9db4e022-7b26-4889-b7e4-e87d1e75b547",
+  "asset_id": "0e0a36a4-d0a0-434a-aa97-6c3cdc670ef7",
   "project_id": "b91f0283-22d3-4367-9e85-37db06e0321c",
-  "url": "/__l5e/assets-v1/9db4e022-7b26-4889-b7e4-e87d1e75b547/abu-tshirt-9.png",
-  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/9db4e022-7b26-4889-b7e4-e87d1e75b547/abu-tshirt-9.png",
-  "original_filename": "abu-tshirt-9.png",
-  "size": 283182,
+  "url": "/__l5e/assets-v1/0e0a36a4-d0a0-434a-aa97-6c3cdc670ef7/tshirt-9.jpg",
+  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/0e0a36a4-d0a0-434a-aa97-6c3cdc670ef7/tshirt-9.jpg",
+  "original_filename": "tshirt-9.jpg",
+  "size": 303895,
   "content_type": "image/png",
-  "created_at": "2026-09-18T01:10:08Z"
+  "created_at": "2026-09-18T01:38:18Z"
 }
