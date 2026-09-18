@@ -7,11 +7,16 @@ import PesquisaModelos from "./components/ui/pesquisa-modelos";
 export default function App() {
   return (
     <SiteLayout>
+      {/* Secção de destaque rotativo */}
       <DestaqueRotativo />
+
+      {/* Barra de pesquisa */}
       <PesquisaModelos />
+
+      {/* Sidebar do catálogo */}
       <CatalogoSidebar />
 
-      {/* Aqui podes listar os teus modelos */}
+      {/* Exemplo de um modelo (podes repetir ou gerar dinamicamente) */}
       <div style={{ padding: "1rem" }}>
         <ModelCard />
       </div>
