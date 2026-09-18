@@ -596,6 +596,10 @@ function DetalheModelo({
   const seguinte = () => setSlide((s) => (s + 1) % slides.length);
 
   const [cabecalho, ...linhas] = vista.tamanhos;
+  const swipe = useSwipe({
+    onSwipeLeft: seguinte,
+    onSwipeRight: anterior,
+  });
 
   return (
     <>
@@ -604,18 +608,7 @@ function DetalheModelo({
         <div className="md:sticky md:top-32 space-y-2">
           <div
             className="relative w-full aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden group touch-pan-y"
-            onTouchStart={(e) => {
-              toqueX.current = e.touches[0]?.clientX ?? null;
-            }}
-            onTouchEnd={(e) => {
-              const inicio = toqueX.current;
-              const fim = e.changedTouches[0]?.clientX ?? null;
-              toqueX.current = null;
-              if (inicio === null || fim === null) return;
-              const dx = fim - inicio;
-              if (Math.abs(dx) < 40) return;
-              dx < 0 ? seguinte() : anterior();
-            }}
+            {...(slides.length > 1 ? swipe : {})}
           >
             <img
               key={atual.src}
