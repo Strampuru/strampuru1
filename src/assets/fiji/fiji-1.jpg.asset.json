@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "5a091d63-28a3-436a-8a8e-d8e236eb797f",
+  "asset_id": "bcfcd3a6-4bcb-4bc3-8294-5575e1db4aec",
   "project_id": "b91f0283-22d3-4367-9e85-37db06e0321c",
-  "url": "/__l5e/assets-v1/5a091d63-28a3-436a-8a8e-d8e236eb797f/fiji-1.jpg",
-  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/5a091d63-28a3-436a-8a8e-d8e236eb797f/fiji-1.jpg",
-  "original_filename": "fiji-1.jpg",
-  "size": 77843,
-  "content_type": "image/jpeg",
-  "created_at": "2026-09-15T22:28:15Z"
+  "url": "/__l5e/assets-v1/bcfcd3a6-4bcb-4bc3-8294-5575e1db4aec/fiji-1.png",
+  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/bcfcd3a6-4bcb-4bc3-8294-5575e1db4aec/fiji-1.png",
+  "original_filename": "fiji-1.png",
+  "size": 221637,
+  "content_type": "image/png",
+  "created_at": "2026-09-18T00:15:04Z"
 }

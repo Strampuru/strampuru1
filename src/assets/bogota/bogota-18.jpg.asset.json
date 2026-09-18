@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "77bc9e67-2917-4830-9b01-36e7ed7b16d8",
+  "asset_id": "6786e7ec-fdd6-4c25-ae4a-2d6094e872f3",
   "project_id": "b91f0283-22d3-4367-9e85-37db06e0321c",
-  "url": "/__l5e/assets-v1/77bc9e67-2917-4830-9b01-36e7ed7b16d8/bogota-18.jpg",
-  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/77bc9e67-2917-4830-9b01-36e7ed7b16d8/bogota-18.jpg",
-  "original_filename": "bogota-18.jpg",
-  "size": 77708,
-  "content_type": "image/jpeg",
-  "created_at": "2026-09-17T22:22:16Z"
+  "url": "/__l5e/assets-v1/6786e7ec-fdd6-4c25-ae4a-2d6094e872f3/bogota-18.png",
+  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/6786e7ec-fdd6-4c25-ae4a-2d6094e872f3/bogota-18.png",
+  "original_filename": "bogota-18.png",
+  "size": 354885,
+  "content_type": "image/png",
+  "created_at": "2026-09-18T00:06:29Z"
 }
