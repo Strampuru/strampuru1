@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "31def2df-0666-4ade-abf6-650daa6e432c",
+  "asset_id": "6e74fd15-62a2-4ef8-b1a1-7c40f6b6cd54",
   "project_id": "b91f0283-22d3-4367-9e85-37db06e0321c",
-  "url": "/__l5e/assets-v1/31def2df-0666-4ade-abf6-650daa6e432c/tonga-10.jpg",
-  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/31def2df-0666-4ade-abf6-650daa6e432c/tonga-10.jpg",
-  "original_filename": "tonga-10.jpg",
-  "size": 97732,
-  "content_type": "image/jpeg",
-  "created_at": "2026-09-15T22:19:18Z"
+  "url": "/__l5e/assets-v1/6e74fd15-62a2-4ef8-b1a1-7c40f6b6cd54/tonga-10.png",
+  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/6e74fd15-62a2-4ef8-b1a1-7c40f6b6cd54/tonga-10.png",
+  "original_filename": "tonga-10.png",
+  "size": 402503,
+  "content_type": "image/png",
+  "created_at": "2026-09-18T00:27:03Z"
 }
