@@ -21,9 +21,19 @@ const serverShimPlugin = {
   closeBundle() {
     if (!githubPages) return;
     mkdirSync("dist/server", { recursive: true });
+    // O build nitro usa o formato Cloudflare (fetch(request, env, ctx)); o
+    // servidor de pré-visualização chama fetch(request) sem env, daí os ??.
     writeFileSync(
       "dist/server/server.js",
-      'export { default } from "./index.mjs";\n',
+      [
+        'import handler from "./index.mjs";',
+        "export default {",
+        "  fetch(request, env, context) {",
+        "    return handler.fetch(request, env ?? {}, context ?? { waitUntil() {} });",
+        "  },",
+        "};",
+        "",
+      ].join("\n"),
     );
   },
 };
