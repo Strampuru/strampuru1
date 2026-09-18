@@ -18,10 +18,9 @@ export default defineConfig({
     // No GitHub Pages não há servidor: gera uma versão 100% estática do site.
     ...(githubPages
       ? {
-          spa: {
-            enabled: true,
-            prerender: { outputPath: "index.html", crawlLinks: true },
-          },
+          spa: { enabled: true },
+          prerender: { enabled: true, crawlLinks: true },
+          pages: [{ path: "/" }],
         }
       : {}),
   },
