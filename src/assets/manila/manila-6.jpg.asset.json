@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "455eecd7-39e0-4057-8ea6-72dd4813ee07",
+  "asset_id": "7b4f7a70-1de1-4eed-a129-adffffb8183b",
   "project_id": "b91f0283-22d3-4367-9e85-37db06e0321c",
-  "url": "/__l5e/assets-v1/455eecd7-39e0-4057-8ea6-72dd4813ee07/manila-6.jpg",
-  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/455eecd7-39e0-4057-8ea6-72dd4813ee07/manila-6.jpg",
-  "original_filename": "manila-6.jpg",
-  "size": 68329,
-  "content_type": "image/jpeg",
-  "created_at": "2026-09-17T23:34:33Z"
+  "url": "/__l5e/assets-v1/7b4f7a70-1de1-4eed-a129-adffffb8183b/manila-6.png",
+  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/7b4f7a70-1de1-4eed-a129-adffffb8183b/manila-6.png",
+  "original_filename": "manila-6.png",
+  "size": 392294,
+  "content_type": "image/png",
+  "created_at": "2026-09-18T00:20:55Z"
 }
