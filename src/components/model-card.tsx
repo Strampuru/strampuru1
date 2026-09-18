@@ -30,7 +30,7 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
   const navegar = (e: MouseEvent, dir: 1 | -1) => {
     e.preventDefault();
     e.stopPropagation();
-    const total = modelo.cores.length + 1; // +1 = imagem principal
+    const total = coresBase.length + 1; // +1 = imagem principal
     const atual = ativa === null ? 0 : ativa + 1;
     const proximo = (atual + dir + total) % total;
     setAtiva(proximo === 0 ? null : proximo - 1);
@@ -89,7 +89,7 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
         <span className="absolute right-3 bottom-3 rounded-full bg-foreground/85 px-2.5 py-1 text-[9px] uppercase tracking-[0.15em] text-background opacity-0 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
           Ver modelo
         </span>
-        {modelo.cores.length > 1 && (
+        {coresBase.length > 1 && (
           <>
             <button
               type="button"
@@ -119,7 +119,7 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
           {modelo.nome}
         </span>
         <span className="text-[9px] sm:text-[10px] text-muted-foreground uppercase tracking-widest whitespace-nowrap">
-          {modelo.cores.length} cores
+          {coresBase.length} cores
         </span>
       </div>
       <div className="mt-3 flex items-center gap-2.5 sm:gap-2">
