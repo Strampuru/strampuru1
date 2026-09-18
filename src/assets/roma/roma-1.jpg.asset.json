@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "f5879b37-a0d1-478d-98b0-6cf160f2d7a2",
+  "asset_id": "328bb9f1-f2c8-487c-846a-cc126e56aa90",
   "project_id": "b91f0283-22d3-4367-9e85-37db06e0321c",
-  "url": "/__l5e/assets-v1/f5879b37-a0d1-478d-98b0-6cf160f2d7a2/roma-1.jpg",
-  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/f5879b37-a0d1-478d-98b0-6cf160f2d7a2/roma-1.jpg",
-  "original_filename": "roma-1.jpg",
-  "size": 43798,
-  "content_type": "image/jpeg",
-  "created_at": "2026-09-17T23:36:04Z"
+  "url": "/__l5e/assets-v1/328bb9f1-f2c8-487c-846a-cc126e56aa90/roma-1.png",
+  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/328bb9f1-f2c8-487c-846a-cc126e56aa90/roma-1.png",
+  "original_filename": "roma-1.png",
+  "size": 204125,
+  "content_type": "image/png",
+  "created_at": "2026-09-18T00:40:53Z"
 }
