@@ -323,14 +323,15 @@ function DetalheConjunto({
 
         {/* Peças lado a lado */}
         <div className="grid sm:grid-cols-2 gap-8 md:gap-12 items-start">
-          {pecas.map((p) => (
-            <PecaCard
-              key={p.nome}
-              peca={p}
-              modelo={modelo}
-              corControlada={partilhamCores ? cor : undefined}
-            />
-          ))}
+        {pecas.map((p) => (
+          <PecaCard
+            key={p.nome}
+            peca={p}
+            modelo={modelo}
+            corControlada={partilhamCores ? cor : undefined}
+            onMudarCor={partilhamCores ? (d) => setCor((c) => (c + d + coresConjunto.length) % coresConjunto.length) : undefined}
+          />
+        ))}
         </div>
 
         {/* Preço do conjunto completo */}
