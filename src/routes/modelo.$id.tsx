@@ -1,6 +1,7 @@
 import { createFileRoute, notFound, Link, useNavigate } from "@tanstack/react-router";
 import { useRef, useState } from "react";
 import { SiteLayout } from "@/components/site-layout";
+import { useSwipe } from "@/hooks/use-swipe";
 import { getModelo, getCategoria } from "@/lib/catalogo";
 import type { Categoria, Cor, Modelo, Peca } from "@/lib/catalogo";
 
