@@ -2546,6 +2546,1224 @@ export const modelos: Modelo[] = [
     ]
   },
   {
+    "id": "patrol",
+    "nome": "Polo BOGOTÁ",
+    "referenciaNome": "BOGOTÁ",
+    "categoria": "polos",
+    "subcategoria": "Polos",
+    "genero": "unissexo",
+    "descricao": "Polo BOGOTÁ disponível em 25 cores. 100% Algodão",
+    "composicao": "100% Algodão, Densidade: 220 g/m²",
+    "referencia": "#BOG-BOG",
+    "imagem": asset_bogota_1.url,
+    "lifestyle": "/lifestyle/bogota-new.jpg",
+"cores": [
+      {
+        "nome": "Branco 1",
+        "hex": "#e4e4e4",
+        "hexes": [
+          "#e4e4e4"
+        ],
+        "imagem": asset_bogota_1.url
+      },
+      {
+        "nome": "Cinzento claro 1",
+        "hex": "#9c9c90",
+        "hexes": [
+          "#9c9c90"
+        ],
+        "imagem": asset_bogota_2.url
+      },
+      {
+        "nome": "Castanho",
+        "hex": "#54483c",
+        "hexes": [
+          "#54483c"
+        ],
+        "imagem": asset_bogota_3.url
+      },
+      {
+        "nome": "Amarelo 1",
+        "hex": "#a8b43c",
+        "hexes": [
+          "#a8b43c"
+        ],
+        "imagem": asset_bogota_4.url
+      },
+      {
+        "nome": "Turquesa",
+        "hex": "#308484",
+        "hexes": [
+          "#308484"
+        ],
+        "imagem": asset_bogota_5.url
+      },
+      {
+        "nome": "Verde",
+        "hex": "#0c603c",
+        "hexes": [
+          "#0c603c"
+        ],
+        "imagem": asset_bogota_6.url
+      },
+      {
+        "nome": "Verde escuro",
+        "hex": "#00483c",
+        "hexes": [
+          "#00483c"
+        ],
+        "imagem": asset_bogota_7.url
+      },
+      {
+        "nome": "Amarelo 2",
+        "hex": "#f0d848",
+        "hexes": [
+          "#f0d848"
+        ],
+        "imagem": asset_bogota_8.url
+      },
+      {
+        "nome": "Amarelo 3",
+        "hex": "#e4b40c",
+        "hexes": [
+          "#e4b40c"
+        ],
+        "imagem": asset_bogota_9.url
+      },
+      {
+        "nome": "Laranja",
+        "hex": "#b44818",
+        "hexes": [
+          "#b44818"
+        ],
+        "imagem": asset_bogota_10.url
+      },
+      {
+        "nome": "Bordô",
+        "hex": "#840c24",
+        "hexes": [
+          "#840c24"
+        ],
+        "imagem": asset_bogota_11.url
+      },
+      {
+        "nome": "Vinho",
+        "hex": "#540024",
+        "hexes": [
+          "#540024"
+        ],
+        "imagem": asset_bogota_12.url
+      },
+      {
+        "nome": "Rosa",
+        "hex": "#c03c78",
+        "hexes": [
+          "#c03c78"
+        ],
+        "imagem": asset_bogota_13.url
+      },
+      {
+        "nome": "Roxo",
+        "hex": "#300c48",
+        "hexes": [
+          "#300c48"
+        ],
+        "imagem": asset_bogota_14.url
+      },
+      {
+        "nome": "Azul claro",
+        "hex": "#90a8cc",
+        "hexes": [
+          "#90a8cc"
+        ],
+        "imagem": asset_bogota_15.url
+      },
+      {
+        "nome": "Azul 1",
+        "hex": "#185490",
+        "hexes": [
+          "#185490"
+        ],
+        "imagem": asset_bogota_16.url
+      },
+      {
+        "nome": "Azul 2",
+        "hex": "#486c9c",
+        "hexes": [
+          "#486c9c"
+        ],
+        "imagem": asset_bogota_17.url
+      },
+      {
+        "nome": "Azul petróleo 1",
+        "hex": "#184854",
+        "hexes": [
+          "#184854"
+        ],
+        "imagem": asset_bogota_18.url
+      },
+      {
+        "nome": "Azul marinho",
+        "hex": "#243054",
+        "hexes": [
+          "#243054"
+        ],
+        "imagem": asset_bogota_19.url
+      },
+      {
+        "nome": "Azul petróleo 2",
+        "hex": "#003048",
+        "hexes": [
+          "#003048"
+        ],
+        "imagem": asset_bogota_20.url
+      },
+      {
+        "nome": "Branco 2",
+        "hex": "#d8d8e4",
+        "hexes": [
+          "#d8d8e4"
+        ],
+        "imagem": asset_bogota_21.url
+      },
+      {
+        "nome": "Cinzento claro 2",
+        "hex": "#9c9ca8",
+        "hexes": [
+          "#9c9ca8"
+        ],
+        "imagem": asset_bogota_22.url
+      },
+      {
+        "nome": "Azul petróleo 3",
+        "hex": "#54606c",
+        "hexes": [
+          "#54606c"
+        ],
+        "imagem": asset_bogota_23.url
+      },
+      {
+        "nome": "Cinzento escuro",
+        "hex": "#484848",
+        "hexes": [
+          "#484848"
+        ],
+        "imagem": asset_bogota_24.url
+      },
+      {
+        "nome": "Preto",
+        "hex": "#242418",
+        "hexes": [
+          "#242418"
+        ],
+        "imagem": asset_bogota_25.url
+      }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "2",
+        "3",
+        "4/5",
+        "6/8",
+        "10/12",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      [
+        "Comprimento",
+        "41",
+        "46",
+        "51",
+        "55",
+        "60",
+        "65",
+        "69",
+        "73",
+        "77",
+        "81",
+        "84"
+      ],
+      [
+        "Largura",
+        "33",
+        "36",
+        "39",
+        "42",
+        "45",
+        "48",
+        "52",
+        "56",
+        "59",
+        "62",
+        "66"
+      ]
+    ],
+    "precos": [
+      [
+        "0–49 unidades",
+        "15,00€"
+      ],
+      [
+        "50–249 unidades",
+        "14,00€"
+      ],
+      [
+        "Mais de 249 unidades",
+        "12,50€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Densidade: 220 g/m²"
+    ]
+  },
+  {
+    "id": "kentucky",
+    "nome": "Polo BRASILIA",
+    "referenciaNome": "BRASILIA",
+    "categoria": "polos",
+    "subcategoria": "Polos",
+    "genero": "unissexo",
+    "descricao": "Polo BRASILIA disponível em 9 cores. 100% Poliéster",
+    "composicao": "100% Poliéster, Densidade: 170 g/m²",
+    "referencia": "#BRA-BRA",
+    "imagem": asset_brasilia_1.url,
+    "lifestyle": "/lifestyle/brasilia-new.jpg",
+"cores": [
+      {
+        "nome": "Preto",
+        "hex": "#242424",
+        "hexes": [
+          "#242424"
+        ],
+        "imagem": asset_brasilia_1.url
+      },
+      {
+        "nome": "Azul petróleo",
+        "hex": "#003048",
+        "hexes": [
+          "#003048"
+        ],
+        "imagem": asset_brasilia_2.url
+      },
+      {
+        "nome": "Azul",
+        "hex": "#185484",
+        "hexes": [
+          "#185484"
+        ],
+        "imagem": asset_brasilia_3.url
+      },
+      {
+        "nome": "Turquesa",
+        "hex": "#0084b4",
+        "hexes": [
+          "#0084b4"
+        ],
+        "imagem": asset_brasilia_4.url
+      },
+      {
+        "nome": "Vinho",
+        "hex": "#600024",
+        "hexes": [
+          "#600024"
+        ],
+        "imagem": asset_brasilia_5.url
+      },
+      {
+        "nome": "Bordô",
+        "hex": "#840c18",
+        "hexes": [
+          "#840c18"
+        ],
+        "imagem": asset_brasilia_6.url
+      },
+      {
+        "nome": "Laranja",
+        "hex": "#b44818",
+        "hexes": [
+          "#b44818"
+        ],
+        "imagem": asset_brasilia_7.url
+      },
+      {
+        "nome": "Verde lima",
+        "hex": "#84a848",
+        "hexes": [
+          "#84a848"
+        ],
+        "imagem": asset_brasilia_8.url
+      },
+      {
+        "nome": "Branco",
+        "hex": "#f0f0f0",
+        "hexes": [
+          "#f0f0f0"
+        ],
+        "imagem": asset_brasilia_9.url
+      }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      [
+        "Comprimento",
+        "69",
+        "72",
+        "75",
+        "78",
+        "81",
+        "84"
+      ],
+      [
+        "Largura",
+        "51",
+        "54",
+        "57",
+        "60",
+        "63",
+        "66"
+      ]
+    ],
+    "precos": [
+      [
+        "0–49 unidades",
+        "12,00€"
+      ],
+      [
+        "50–249 unidades",
+        "11,00€"
+      ],
+      [
+        "Mais de 249 unidades",
+        "9,50€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Densidade: 170 g/m²"
+    ]
+  },
+  {
+    "id": "sagano",
+    "nome": "Polo BUENOS AIRES",
+    "referenciaNome": "BUENOS AIRES",
+    "categoria": "polos",
+    "subcategoria": "Polos",
+    "genero": "homem",
+    "descricao": "Polo BUENOS AIRES disponível em 4 cores. 100% Poliéster",
+    "composicao": "100% Poliéster, Densidade: 170 g/m²",
+    "referencia": "#BUE-BUE",
+    "imagem": asset_buenos_aires_cor_1.url,
+    "lifestyle": "/lifestyle/buenos-aires-corrected.jpg",
+    "cores": [
+  {
+    "nome": "Branco e verde",
+    "hex": "#dfdee1",
+    "hexes": [
+      "#dfdee1"
+    ],
+    "imagem": asset_buenos_aires_cor_1.url
+  },
+  {
+    "nome": "Branco e azul",
+    "hex": "#5b8aa5",
+    "hexes": [
+      "#5b8aa5"
+    ],
+    "imagem": asset_buenos_aires_cor_2.url
+  },
+  {
+    "nome": "Branco e vermelho",
+    "hex": "#a2656d",
+    "hexes": [
+      "#a2656d"
+    ],
+    "imagem": asset_buenos_aires_cor_3.url
+  },
+  {
+    "nome": "Branco e verde água",
+    "hex": "#599292",
+    "hexes": [
+      "#599292"
+    ],
+    "imagem": asset_buenos_aires_cor_4.url
+  }
+],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      [
+        "Comprimento",
+        "69",
+        "72",
+        "75",
+        "78",
+        "81"
+      ],
+      [
+        "Largura",
+        "51",
+        "54",
+        "57",
+        "60",
+        "63"
+      ]
+    ],
+    "precos": [
+      [
+        "0–49 unidades",
+        "12,00€"
+      ],
+      [
+        "50–249 unidades",
+        "11,00€"
+      ],
+      [
+        "Mais de 249 unidades",
+        "9,50€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Densidade: 170 g/m²"
+    ]
+  },
+  {
+    "id": "strategy",
+    "nome": "Polo SANTIAGO",
+    "referenciaNome": "SANTIAGO",
+    "categoria": "polos",
+    "subcategoria": "Polos",
+    "genero": "homem",
+    "descricao": "Polo SANTIAGO disponível em 6 cores. 100% Poliéster",
+    "composicao": "100% Poliéster, Densidade: 170 g/m²",
+    "referencia": "#STR-SNT",
+    "imagem": asset_santiago_cor_1.url,
+    "lifestyle": "/lifestyle/santiago-corrected.jpg",
+    "cores": [
+  {
+    "nome": "Vermelho e branco",
+    "hex": "#7d1520",
+    "hexes": [
+      "#7d1520"
+    ],
+    "imagem": asset_santiago_cor_1.url
+  },
+  {
+    "nome": "Azul e branco",
+    "hex": "#1a5287",
+    "hexes": [
+      "#1a5287"
+    ],
+    "imagem": asset_santiago_cor_2.url
+  },
+  {
+    "nome": "Preto e branco",
+    "hex": "#2f2a26",
+    "hexes": [
+      "#2f2a26"
+    ],
+    "imagem": asset_santiago_cor_3.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#8b1428",
+    "hexes": [
+      "#8b1428"
+    ],
+    "imagem": asset_santiago_cor_4.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#1b5d97",
+    "hexes": [
+      "#1b5d97"
+    ],
+    "imagem": asset_santiago_cor_5.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#2e2925",
+    "hexes": [
+      "#2e2925"
+    ],
+    "imagem": asset_santiago_cor_6.url
+  }
+],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      [
+        "Comprimento",
+        "69",
+        "72",
+        "75",
+        "78",
+        "81"
+      ],
+      [
+        "Largura",
+        "51",
+        "54",
+        "57",
+        "60",
+        "63"
+      ]
+    ],
+    "precos": [
+      [
+        "0–49 unidades",
+        "12,00€"
+      ],
+      [
+        "50–249 unidades",
+        "11,00€"
+      ],
+      [
+        "Mais de 249 unidades",
+        "9,50€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Densidade: 170 g/m²"
+    ]
+  },
+  {
+    "id": "caracas",
+    "nome": "Polo CARACAS",
+    "referenciaNome": "CARACAS",
+    "categoria": "polos",
+    "subcategoria": "Polos",
+    "genero": "homem",
+    "descricao": "Polo CARACAS disponível em 18 cores..",
+    "composicao": "100% Algodão, Densidade: 220 g/m²",
+    "referencia": "#CAR-CAR",
+    "lifestyle": caracasEditorial,
+    "imagem": asset_caracas_cor_1.url,
+    "cores": [
+  {
+    "nome": "Branco",
+    "hex": "#cacbcf",
+    "hexes": [
+      "#cacbcf"
+    ],
+    "imagem": asset_caracas_cor_1.url
+  },
+  {
+    "nome": "Cinza pedra",
+    "hex": "#918f83",
+    "hexes": [
+      "#918f83"
+    ],
+    "imagem": asset_caracas_cor_2.url
+  },
+  {
+    "nome": "Castanho",
+    "hex": "#5b4d40",
+    "hexes": [
+      "#5b4d40"
+    ],
+    "imagem": asset_caracas_cor_3.url
+  },
+  {
+    "nome": "Verde lima",
+    "hex": "#aeb555",
+    "hexes": [
+      "#aeb555"
+    ],
+    "imagem": asset_caracas_cor_4.url
+  },
+  {
+    "nome": "Verde",
+    "hex": "#346b4d",
+    "hexes": [
+      "#346b4d"
+    ],
+    "imagem": asset_caracas_cor_5.url
+  },
+  {
+    "nome": "Verde escuro",
+    "hex": "#1b4539",
+    "hexes": [
+      "#1b4539"
+    ],
+    "imagem": asset_caracas_cor_6.url
+  },
+  {
+    "nome": "Amarelo claro",
+    "hex": "#ecd965",
+    "hexes": [
+      "#ecd965"
+    ],
+    "imagem": asset_caracas_cor_7.url
+  },
+  {
+    "nome": "Amarelo",
+    "hex": "#dab843",
+    "hexes": [
+      "#dab843"
+    ],
+    "imagem": asset_caracas_cor_8.url
+  },
+  {
+    "nome": "Laranja",
+    "hex": "#b2552a",
+    "hexes": [
+      "#b2552a"
+    ],
+    "imagem": asset_caracas_cor_9.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#7c2128",
+    "hexes": [
+      "#7c2128"
+    ],
+    "imagem": asset_caracas_cor_10.url
+  },
+  {
+    "nome": "Bordô",
+    "hex": "#5c152f",
+    "hexes": [
+      "#5c152f"
+    ],
+    "imagem": asset_caracas_cor_11.url
+  },
+  {
+    "nome": "Azul claro",
+    "hex": "#91a8c8",
+    "hexes": [
+      "#91a8c8"
+    ],
+    "imagem": asset_caracas_cor_12.url
+  },
+  {
+    "nome": "Azul",
+    "hex": "#2f588e",
+    "hexes": [
+      "#2f588e"
+    ],
+    "imagem": asset_caracas_cor_13.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#153250",
+    "hexes": [
+      "#153250"
+    ],
+    "imagem": asset_caracas_cor_14.url
+  },
+  {
+    "nome": "Cinzento claro",
+    "hex": "#8e8e98",
+    "hexes": [
+      "#8e8e98"
+    ],
+    "imagem": asset_caracas_cor_15.url
+  },
+  {
+    "nome": "Cinzento",
+    "hex": "#50555f",
+    "hexes": [
+      "#50555f"
+    ],
+    "imagem": asset_caracas_cor_16.url
+  },
+  {
+    "nome": "Cinzento escuro",
+    "hex": "#414046",
+    "hexes": [
+      "#414046"
+    ],
+    "imagem": asset_caracas_cor_17.url
+  },
+  {
+    "nome": "Preto",
+    "hex": "#110e03",
+    "hexes": [
+      "#110e03"
+    ],
+    "imagem": asset_caracas_cor_18.url
+  }
+],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "3",
+        "4/5",
+        "6/8",
+        "10/12",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "4XL"
+      ],
+      [
+        "Comprimento",
+        "46",
+        "51",
+        "55",
+        "60",
+        "65",
+        "69",
+        "73",
+        "77",
+        "81",
+        "84",
+        "87"
+      ],
+      [
+        "Largura",
+        "36",
+        "39",
+        "42",
+        "45",
+        "48",
+        "52",
+        "56",
+        "59",
+        "62",
+        "65",
+        "68"
+      ]
+    ],
+    "precos": [
+      [
+        "0–49 unidades",
+        "15,50€"
+      ],
+      [
+        "50–249 unidades",
+        "14,50€"
+      ],
+      [
+        "Mais de 249 unidades",
+        "12,75€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
+    "id": "sucre",
+    "nome": "Polo SUCRE",
+    "referenciaNome": "SUCRE",
+    "categoria": "polos",
+    "subcategoria": "Polos",
+    "genero": "mulher",
+    "descricao": "Polo SUCRE disponível em 5 cores..",
+    "composicao": "100% Algodão, Densidade: 220 g/m²",
+    "referencia": "#SUC-SUC",
+    "lifestyle": sucreEditorial,
+    "imagem": asset_sucre_cor_1.url,
+    "cores": [
+  {
+    "nome": "Preto",
+    "hex": "#120f06",
+    "hexes": [
+      "#120f06"
+    ],
+    "imagem": asset_sucre_cor_1.url
+  },
+  {
+    "nome": "Azul marinho",
+    "hex": "#023554",
+    "hexes": [
+      "#023554"
+    ],
+    "imagem": asset_sucre_cor_2.url
+  },
+  {
+    "nome": "Azul claro",
+    "hex": "#8099b8",
+    "hexes": [
+      "#8099b8"
+    ],
+    "imagem": asset_sucre_cor_3.url
+  },
+  {
+    "nome": "Vermelho",
+    "hex": "#841426",
+    "hexes": [
+      "#841426"
+    ],
+    "imagem": asset_sucre_cor_4.url
+  },
+  {
+    "nome": "Branco",
+    "hex": "#d5d6da",
+    "hexes": [
+      "#d5d6da"
+    ],
+    "imagem": asset_sucre_cor_5.url
+  }
+],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      [
+        "Comprimento",
+        "58",
+        "59",
+        "62",
+        "65",
+        "68",
+        "71"
+      ],
+      [
+        "Largura peito",
+        "46",
+        "48",
+        "50",
+        "52",
+        "55",
+        "58"
+      ],
+      [
+        "Largura cintura",
+        "40",
+        "42",
+        "44",
+        "46",
+        "49",
+        "52"
+      ]
+    ],
+    "precos": [
+      [
+        "0–49 unidades",
+        "15,00€"
+      ],
+      [
+        "50–249 unidades",
+        "14,00€"
+      ],
+      [
+        "Mais de 249 unidades",
+        "12,50€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Poliéster",
+      "Detalhes e cores a confirmar"
+    ]
+  },
+  {
+    "id": "patrol-crianca",
+    "nome": "Polo BOGOTÁ",
+    "referenciaNome": "BOGOTÁ",
+    "categoria": "polos",
+    "subcategoria": "Polos",
+    "genero": "crianca",
+    "descricao": "Polo BOGOTÁ disponível em 25 cores. 100% Algodão (tamanhos de criança)",
+    "composicao": "100% Algodão, Densidade: 220 g/m²",
+    "referencia": "#BOG-BOG-C",
+    "imagem": asset_bogota_1.url,
+    "lifestyle": "/lifestyle/bogota-new.jpg",
+"cores": [
+      {
+        "nome": "Branco 1",
+        "hex": "#e4e4e4",
+        "hexes": [
+          "#e4e4e4"
+        ],
+        "imagem": asset_bogota_1.url
+      },
+      {
+        "nome": "Cinzento claro 1",
+        "hex": "#9c9c90",
+        "hexes": [
+          "#9c9c90"
+        ],
+        "imagem": asset_bogota_2.url
+      },
+      {
+        "nome": "Castanho",
+        "hex": "#54483c",
+        "hexes": [
+          "#54483c"
+        ],
+        "imagem": asset_bogota_3.url
+      },
+      {
+        "nome": "Amarelo 1",
+        "hex": "#a8b43c",
+        "hexes": [
+          "#a8b43c"
+        ],
+        "imagem": asset_bogota_4.url
+      },
+      {
+        "nome": "Turquesa",
+        "hex": "#308484",
+        "hexes": [
+          "#308484"
+        ],
+        "imagem": asset_bogota_5.url
+      },
+      {
+        "nome": "Verde",
+        "hex": "#0c603c",
+        "hexes": [
+          "#0c603c"
+        ],
+        "imagem": asset_bogota_6.url
+      },
+      {
+        "nome": "Verde escuro",
+        "hex": "#00483c",
+        "hexes": [
+          "#00483c"
+        ],
+        "imagem": asset_bogota_7.url
+      },
+      {
+        "nome": "Amarelo 2",
+        "hex": "#f0d848",
+        "hexes": [
+          "#f0d848"
+        ],
+        "imagem": asset_bogota_8.url
+      },
+      {
+        "nome": "Amarelo 3",
+        "hex": "#e4b40c",
+        "hexes": [
+          "#e4b40c"
+        ],
+        "imagem": asset_bogota_9.url
+      },
+      {
+        "nome": "Laranja",
+        "hex": "#b44818",
+        "hexes": [
+          "#b44818"
+        ],
+        "imagem": asset_bogota_10.url
+      },
+      {
+        "nome": "Bordô",
+        "hex": "#840c24",
+        "hexes": [
+          "#840c24"
+        ],
+        "imagem": asset_bogota_11.url
+      },
+      {
+        "nome": "Vinho",
+        "hex": "#540024",
+        "hexes": [
+          "#540024"
+        ],
+        "imagem": asset_bogota_12.url
+      },
+      {
+        "nome": "Rosa",
+        "hex": "#c03c78",
+        "hexes": [
+          "#c03c78"
+        ],
+        "imagem": asset_bogota_13.url
+      },
+      {
+        "nome": "Roxo",
+        "hex": "#300c48",
+        "hexes": [
+          "#300c48"
+        ],
+        "imagem": asset_bogota_14.url
+      },
+      {
+        "nome": "Azul claro",
+        "hex": "#90a8cc",
+        "hexes": [
+          "#90a8cc"
+        ],
+        "imagem": asset_bogota_15.url
+      },
+      {
+        "nome": "Azul 1",
+        "hex": "#185490",
+        "hexes": [
+          "#185490"
+        ],
+        "imagem": asset_bogota_16.url
+      },
+      {
+        "nome": "Azul 2",
+        "hex": "#486c9c",
+        "hexes": [
+          "#486c9c"
+        ],
+        "imagem": asset_bogota_17.url
+      },
+      {
+        "nome": "Azul petróleo 1",
+        "hex": "#184854",
+        "hexes": [
+          "#184854"
+        ],
+        "imagem": asset_bogota_18.url
+      },
+      {
+        "nome": "Azul marinho",
+        "hex": "#243054",
+        "hexes": [
+          "#243054"
+        ],
+        "imagem": asset_bogota_19.url
+      },
+      {
+        "nome": "Azul petróleo 2",
+        "hex": "#003048",
+        "hexes": [
+          "#003048"
+        ],
+        "imagem": asset_bogota_20.url
+      },
+      {
+        "nome": "Branco 2",
+        "hex": "#d8d8e4",
+        "hexes": [
+          "#d8d8e4"
+        ],
+        "imagem": asset_bogota_21.url
+      },
+      {
+        "nome": "Cinzento claro 2",
+        "hex": "#9c9ca8",
+        "hexes": [
+          "#9c9ca8"
+        ],
+        "imagem": asset_bogota_22.url
+      },
+      {
+        "nome": "Azul petróleo 3",
+        "hex": "#54606c",
+        "hexes": [
+          "#54606c"
+        ],
+        "imagem": asset_bogota_23.url
+      },
+      {
+        "nome": "Cinzento escuro",
+        "hex": "#484848",
+        "hexes": [
+          "#484848"
+        ],
+        "imagem": asset_bogota_24.url
+      },
+      {
+        "nome": "Preto",
+        "hex": "#242418",
+        "hexes": [
+          "#242418"
+        ],
+        "imagem": asset_bogota_25.url
+      }
+    ],
+    "tamanhos": [
+      [
+        "Tamanho",
+        "2",
+        "3",
+        "4/5",
+        "6/8",
+        "10/12",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      [
+        "Comprimento",
+        "41",
+        "46",
+        "51",
+        "55",
+        "60",
+        "65",
+        "69",
+        "73",
+        "77",
+        "81",
+        "84"
+      ],
+      [
+        "Largura",
+        "33",
+        "36",
+        "39",
+        "42",
+        "45",
+        "48",
+        "52",
+        "56",
+        "59",
+        "62",
+        "66"
+      ]
+    ],
+    "precos": [
+      [
+        "0–49 unidades",
+        "15,00€"
+      ],
+      [
+        "50–249 unidades",
+        "14,00€"
+      ],
+      [
+        "Mais de 249 unidades",
+        "12,50€"
+      ]
+    ],
+    "caracteristicas": [
+      "100% Algodão",
+      "Densidade: 220 g/m²"
+    ]
+  },
+  {
     "id": "arizona",
     "incluiCrianca": true,
     "nome": "Hoodie LIMA",
