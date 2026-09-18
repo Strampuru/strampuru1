@@ -566,6 +566,7 @@ export type Modelo = {
   subcategoria: string;
   /** Género alvo. Omitido = unissexo. */
   genero?: "homem" | "mulher" | "crianca" | "unissexo";
+  incluiCrianca?: boolean;
   descricao: string;
   composicao: string;
   referencia: string;
@@ -1359,6 +1360,7 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "viena",
+    "incluiCrianca": true,
     "nome": "T-shirt VIENA",
     "referenciaNome": "VIENA",
     "categoria": "tshirts",
@@ -3773,6 +3775,7 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "arizona",
+    "incluiCrianca": true,
     "nome": "Hoodie LIMA",
     "referenciaNome": "LIMA",
     "categoria": "sweats",
@@ -4007,6 +4010,7 @@ export const modelos: Modelo[] = [
   },
   {
     "id": "cairo",
+    "incluiCrianca": true,
     "nome": "Hoodie CAIRO",
     "referenciaNome": "CAIRO",
     "categoria": "sweats",
@@ -11706,7 +11710,7 @@ export function getModelosPorCategoria(categoria: CategoriaId): Modelo[] {
       return genero === "unissexo" || genero === categoria;
     }
     if (categoria === "crianca") {
-      return m.genero === "crianca";
+      return m.genero === "crianca" || m.incluiCrianca === true;
     }
     return m.categoria === categoria;
   });
