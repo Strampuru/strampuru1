@@ -11,12 +11,14 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
   const mostraPecas =
     Boolean(pecas && pecas.length > 1) &&
     !["manila", "singapura", "colombo"].includes(modelo.id);
-  const imagensPecas = mostraPecas
-    ? pecas!.slice(0, 2).map((p) => {
+  const pecasVisiveis = mostraPecas ? pecas! : null;
+  const imagensPecas = pecasVisiveis
+    ? pecasVisiveis.map((p) => {
         const idx = Math.min(ativa ?? 0, Math.max(p.cores.length - 1, 0));
-        return p.cores[idx]?.imagem ?? p.imagem;
+        return { src: p.cores[idx]?.imagem ?? p.imagem, nome: p.nome };
       })
     : null;
+
   const src = corAtiva?.imagem ?? modelo.lifestyle ?? modelo.imagem;
   const emUso = !corAtiva && Boolean(modelo.lifestyle) && !mostraPecas;
 
