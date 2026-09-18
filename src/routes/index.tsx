@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site-layout";
 import { DestaqueRotativo } from "@/components/destaque-rotativo";
-import { categorias, modelos } from "@/lib/catalogo";
+import { modelos } from "@/lib/catalogo";
 import logo from "@/assets/strampuru-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -95,8 +95,7 @@ function Index() {
               </h2>
             </div>
             <Link
-              to="/categoria/$categoria"
-              params={{ categoria: categorias[0]?.id ?? "tshirts" }}
+              to="/catalogo"
               className="group flex items-center gap-4 md:gap-6 mt-6 md:mt-0"
             >
               <span className="text-[11px] tracking-widest text-muted-foreground uppercase group-hover:text-foreground transition-colors">
@@ -110,9 +109,9 @@ function Index() {
                   viewBox="0 0 24 24"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                   />
                 </svg>

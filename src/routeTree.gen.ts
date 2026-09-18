@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as CatalogoRouteImport } from './routes/catalogo'
 import { Route as ContactosRouteImport } from './routes/contactos'
 import { Route as CategoriaCategoriaRouteImport } from './routes/categoria.$categoria'
 import { Route as ModeloIdRouteImport } from './routes/modelo.$id'
@@ -17,6 +18,11 @@ import { Route as ModeloIdRouteImport } from './routes/modelo.$id'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CatalogoRoute = CatalogoRouteImport.update({
+  id: '/catalogo',
+  path: '/catalogo',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactosRoute = ContactosRouteImport.update({
@@ -37,12 +43,14 @@ const ModeloIdRoute = ModeloIdRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/catalogo': typeof CatalogoRoute
   '/contactos': typeof ContactosRoute
   '/categoria/$categoria': typeof CategoriaCategoriaRoute
   '/modelo/$id': typeof ModeloIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/catalogo': typeof CatalogoRoute
   '/contactos': typeof ContactosRoute
   '/categoria/$categoria': typeof CategoriaCategoriaRoute
   '/modelo/$id': typeof ModeloIdRoute
@@ -50,20 +58,29 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/catalogo': typeof CatalogoRoute
   '/contactos': typeof ContactosRoute
   '/categoria/$categoria': typeof CategoriaCategoriaRoute
   '/modelo/$id': typeof ModeloIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/contactos' | '/categoria/$categoria' | '/modelo/$id'
+  fullPaths:
+    '/' | '/catalogo' | '/contactos' | '/categoria/$categoria' | '/modelo/$id'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/contactos' | '/categoria/$categoria' | '/modelo/$id'
-  id: '__root__' | '/' | '/contactos' | '/categoria/$categoria' | '/modelo/$id'
+  to: '/' | '/catalogo' | '/contactos' | '/categoria/$categoria' | '/modelo/$id'
+  id:
+    | '__root__'
+    | '/'
+    | '/catalogo'
+    | '/contactos'
+    | '/categoria/$categoria'
+    | '/modelo/$id'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  CatalogoRoute: typeof CatalogoRoute
   ContactosRoute: typeof ContactosRoute
   CategoriaCategoriaRoute: typeof CategoriaCategoriaRoute
   ModeloIdRoute: typeof ModeloIdRoute
@@ -76,6 +93,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/catalogo': {
+      id: '/catalogo'
+      path: '/catalogo'
+      fullPath: '/catalogo'
+      preLoaderRoute: typeof CatalogoRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contactos': {
@@ -104,6 +128,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  CatalogoRoute: CatalogoRoute,
   ContactosRoute: ContactosRoute,
   CategoriaCategoriaRoute: CategoriaCategoriaRoute,
   ModeloIdRoute: ModeloIdRoute,
