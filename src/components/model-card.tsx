@@ -38,6 +38,21 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
     setAtiva(proximo === 0 ? null : proximo - 1);
   };
 
+  const swipe = useSwipe({
+    onSwipeLeft: () => {
+      const total = coresBase.length + 1;
+      const atual = ativa === null ? 0 : ativa + 1;
+      const proximo = (atual + 1 + total) % total;
+      setAtiva(proximo === 0 ? null : proximo - 1);
+    },
+    onSwipeRight: () => {
+      const total = coresBase.length + 1;
+      const atual = ativa === null ? 0 : ativa + 1;
+      const proximo = (atual - 1 + total) % total;
+      setAtiva(proximo === 0 ? null : proximo - 1);
+    },
+  });
+
   return (
     <Link
       to="/modelo/$id"
