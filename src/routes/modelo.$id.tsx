@@ -126,9 +126,17 @@ function PecaCard({
   const imagem = atual?.imagem ?? peca.imagem;
   const [cabecalho, ...linhas] = peca.tamanhos;
 
+  const swipe = useSwipe({
+    onSwipeLeft: () => setCor((c) => (c + 1) % peca.cores.length),
+    onSwipeRight: () => setCor((c) => (c - 1 + peca.cores.length) % peca.cores.length),
+  });
+
   return (
     <article className="space-y-3">
-      <div className="relative aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden">
+      <div
+        className="relative aspect-[4/5] bg-secondary ring-1 ring-black/5 overflow-hidden touch-pan-y"
+        {...(peca.cores.length > 1 ? swipe : {})}
+      >
         <img
           key={imagem}
           src={imagem}
