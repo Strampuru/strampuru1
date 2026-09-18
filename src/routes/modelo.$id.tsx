@@ -382,6 +382,11 @@ function ConfiguradorAbuDhabi({ modelo, categoria, pecas }: {
     setCor(0);
   };
 
+  const swipeFoto = useSwipe({
+    onSwipeLeft: () => setCor((c) => (c + 1) % peca.cores.length),
+    onSwipeRight: () => setCor((c) => (c - 1 + peca.cores.length) % peca.cores.length),
+  });
+
   const alterarQuantidade = (indice: number, valor: string) => {
     const quantidade = Math.max(0, Math.floor(Number(valor) || 0));
     setQuantidades((anteriores) =>
