@@ -1,6 +1,21 @@
 // Catálogo STRAM PURU — dados dos produtos (gerado a partir do catálogo original).
 
 import abujaEditorial from "@/assets/abuja-editorial.jpg";
+import tiranaEditorial from "@/assets/tirana-editorial.jpg";
+import vienaEditorial from "@/assets/viena-editorial.jpg";
+import parisEditorial from "@/assets/paris-editorial.jpg";
+import berlimEditorial from "@/assets/berlim-editorial.jpg";
+import dublinTshirtEditorial from "@/assets/dublin-tshirt-editorial.jpg";
+import caracasEditorial from "@/assets/caracas-editorial.jpg";
+import sucreEditorial from "@/assets/sucre-editorial.jpg";
+import cairoEditorial from "@/assets/cairo-editorial.jpg";
+import cairoCriancaEditorial from "@/assets/cairo-crianca-editorial.jpg";
+import rabatEditorial from "@/assets/rabat-editorial.jpg";
+import luandaEditorial from "@/assets/luanda-editorial.jpg";
+import bissauEditorial from "@/assets/bissau-editorial.jpg";
+import dacarEditorial from "@/assets/dacar-editorial.jpg";
+import vienaCriancaEditorial from "@/assets/viena-crianca-editorial.jpg";
+import bruxelasEditorial from "@/assets/bruxelas-editorial.jpg";
 import motuNuiEditorial from "@/assets/motu-nui-editorial.jpg";
 import suvaEditorial from "@/assets/suva-editorial.jpg";
 import suvaEditorial2 from "@/assets/suva-editorial-2.jpg";
@@ -1231,6 +1246,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt TIRANA disponível em 8 cores..",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#TIR-TIR",
+    "lifestyle": tiranaEditorial,
     "imagem": asset_tirana_cor_1.url,
     "cores": [
   {
@@ -1353,6 +1369,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt VIENA disponível em 7 cores..",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#VIE-VIE",
+    "lifestyle": vienaEditorial,
     "imagem": asset_viena_cor_1.url,
     "cores": [
   {
@@ -1479,6 +1496,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt PARIS disponível em 7 cores..",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#PAR-PAR",
+    "lifestyle": parisEditorial,
     "imagem": asset_paris_cor_1.url,
     "cores": [
   {
@@ -1605,6 +1623,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt BERLIM disponível em 9 cores.",
     "composicao": "95% Algodão, 5% Elastano, Densidade: 190 g/m²",
     "referencia": "#BER-BER",
+    "lifestyle": berlimEditorial,
     "imagem": asset_berlim_1.url,
 "cores": [
       {
@@ -2441,6 +2460,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt DUBLIN disponível em 5 cores..",
     "composicao": "90% Poliamida, 10% Elastano, Densidade: 230 g/m²",
     "referencia": "#MEL-MEL",
+    "lifestyle": dublinTshirtEditorial,
     "imagem": asset_dublin_cor_1.url,
     "cores": [
   {
@@ -3154,6 +3174,7 @@ export const modelos: Modelo[] = [
     "descricao": "Polo CARACAS disponível em 18 cores..",
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#CAR-CAR",
+    "lifestyle": caracasEditorial,
     "imagem": asset_caracas_cor_1.url,
     "cores": [
   {
@@ -3374,6 +3395,7 @@ export const modelos: Modelo[] = [
     "descricao": "Polo SUCRE disponível em 5 cores..",
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#SUC-SUC",
+    "lifestyle": sucreEditorial,
     "imagem": asset_sucre_cor_1.url,
     "cores": [
   {
@@ -4229,6 +4251,7 @@ export const modelos: Modelo[] = [
     "descricao": "Hoodie CAIRO disponível em 15 cores.",
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#CAI-CAI",
+    "lifestyle": cairoEditorial,
     "imagem": asset_cairo_1.url,
     "cores": coresCairo,
     "tamanhos": [
@@ -4298,6 +4321,7 @@ export const modelos: Modelo[] = [
     "descricao": "Hoodie CAIRO disponível em 15 cores. (tamanhos de criança)",
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#CAI-CAI-C",
+    "lifestyle": cairoCriancaEditorial,
     "imagem": asset_cairo_1.url,
     "cores": coresCairo,
     "tamanhos": [
@@ -4367,6 +4391,7 @@ export const modelos: Modelo[] = [
     "descricao": "Hoodie RABAT disponível em 6 cores.",
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#RAB-RAB",
+    "lifestyle": rabatEditorial,
     "imagem": asset_rabat_1.url,
     "cores": coresRabat,
     "tamanhos": [
@@ -4427,6 +4452,7 @@ export const modelos: Modelo[] = [
     "descricao": "Hoodie LUANDA disponível em 6 cores..",
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#LUA-LUA",
+    "lifestyle": luandaEditorial,
     "imagem": asset_luanda_cor_1.url,
     "cores": [
   {
@@ -4539,6 +4565,7 @@ export const modelos: Modelo[] = [
     "descricao": "Sweatshirt BISSAU disponível em 10 cores.",
     "composicao": "65% Poliéster, 35% Algodão, Densidade: 300 g/m²",
     "referencia": "#BIS-BIS",
+    "lifestyle": bissauEditorial,
     "imagem": asset_bissau_1.url,
 "cores": [
       {
@@ -4680,6 +4707,7 @@ export const modelos: Modelo[] = [
     "descricao": "Sweatshirt DACAR disponível em 9 cores..",
     "composicao": "65% Poliéster, 35% Algodão, Densidade: 300 g/m²",
     "referencia": "#DAC-DAC",
+    "lifestyle": dacarEditorial,
     "imagem": asset_dacar_cor_1.url,
     "cores": [
   {
@@ -6043,6 +6071,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt VIENA — modelo de criança disponível em 7 cores.",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#VIE",
+    "lifestyle": vienaCriancaEditorial,
     "imagem": asset_viena_cor_1.url,
     "cores": [
       {
@@ -6169,6 +6198,7 @@ export const modelos: Modelo[] = [
     "descricao": "T-shirt BRUXELAS disponível em 15 cores..",
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#BRU",
+    "lifestyle": bruxelasEditorial,
     "imagem": asset_bruxelas_cor_1.url,
     "cores": [
   {
@@ -11920,6 +11950,7 @@ export const modelos: Modelo[] = [
     "descricao": "Caneca mágica preta que revela a imagem com o calor da bebida.",
     "composicao": "Cerâmica com revestimento termossensível",
     "referencia": "#MOT-MOT",
+    "lifestyle": motuNuiEditorial,
     "imagem": motuNuiEditorial,
     "cores": [
       {
@@ -11962,6 +11993,7 @@ export const modelos: Modelo[] = [
     "descricao": "Caneca branca para sublimação, personalizada com a sua imagem.",
     "composicao": "Cerâmica para sublimação",
     "referencia": "#VAD-VAD",
+    "lifestyle": vaduzEditorial,
     "imagem": vaduzEditorial,
     "cores": [
       {
@@ -12004,6 +12036,7 @@ export const modelos: Modelo[] = [
     "descricao": "Base para canecas personalizável.",
     "composicao": "Material a confirmar",
     "referencia": "#ABU-ABU",
+    "lifestyle": abujaEditorial,
     "imagem": abujaEditorial,
     "cores": [
       {
