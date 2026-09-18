@@ -40,19 +40,32 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
       <div className="relative overflow-hidden rounded-sm bg-card ring-1 ring-black/5 aspect-[3/4] shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow duration-500 group-hover:shadow-[0_18px_40px_-18px_rgba(0,0,0,0.28)]">
         <div className="absolute inset-0 bg-gradient-to-b from-secondary/60 to-background" />
         {imagensPecas ? (
-          <div className="relative w-full h-full flex transition-transform duration-700 ease-out group-hover:scale-[1.07]">
-            {imagensPecas.map((imgSrc, i) => (
-              <img
-                key={i}
-                src={imgSrc}
-                alt={`${modelo.nome}${corAtiva ? ` — ${corAtiva.nome}` : ""} — peça ${i + 1}`}
-                loading="lazy"
-                width={400}
-                height={1067}
-                className="h-full w-1/2 object-contain p-3"
-              />
+          <div
+            className={`relative w-full h-full grid gap-1 p-2 transition-transform duration-700 ease-out group-hover:scale-[1.04] ${
+              imagensPecas.length > 4
+                ? "grid-cols-3"
+                : imagensPecas.length > 2
+                  ? "grid-cols-2"
+                  : "grid-cols-2 items-center"
+            }`}
+          >
+            {imagensPecas.map((peca, i) => (
+              <div key={i} className="relative min-h-0 flex flex-col items-center justify-center">
+                <img
+                  src={peca.src}
+                  alt={`${modelo.nome}${corAtiva ? ` — ${corAtiva.nome}` : ""} — ${peca.nome}`}
+                  loading="lazy"
+                  width={400}
+                  height={533}
+                  className="max-h-full w-full object-contain"
+                />
+                <span className="mt-0.5 max-w-full truncate text-[7px] uppercase tracking-[0.12em] text-muted-foreground">
+                  {peca.nome}
+                </span>
+              </div>
             ))}
           </div>
+
         ) : (
           <img
             src={src}
