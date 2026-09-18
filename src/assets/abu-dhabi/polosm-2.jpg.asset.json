@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "3c74b005-2bc7-41e8-98be-b0e16fd1503b",
+  "asset_id": "9c37fe76-812e-428f-9e46-6a4a3be5bf31",
   "project_id": "b91f0283-22d3-4367-9e85-37db06e0321c",
-  "url": "https://id-preview--b91f0283-22d3-4367-9e85-37db06e0321c.lovable.app/__l5e/assets-v1/3c74b005-2bc7-41e8-98be-b0e16fd1503b/polosm-2.jpg",
-  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/3c74b005-2bc7-41e8-98be-b0e16fd1503b/polosm-2.jpg",
+  "url": "/__l5e/assets-v1/9c37fe76-812e-428f-9e46-6a4a3be5bf31/polosm-2.jpg",
+  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/9c37fe76-812e-428f-9e46-6a4a3be5bf31/polosm-2.jpg",
   "original_filename": "polosm-2.jpg",
-  "size": 522522,
-  "content_type": "image/png",
-  "created_at": "2026-09-18T01:37:34Z"
+  "size": 460321,
+  "content_type": "image/jpeg",
+  "created_at": "2026-09-18T03:28:14Z"
 }

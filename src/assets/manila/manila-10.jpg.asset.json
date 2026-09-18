@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "f1b1a986-e113-4638-9328-44f2c332ee06",
+  "asset_id": "17ad5ad6-9182-4920-b94a-7c2e6ac464ae",
   "project_id": "b91f0283-22d3-4367-9e85-37db06e0321c",
-  "url": "https://id-preview--b91f0283-22d3-4367-9e85-37db06e0321c.lovable.app/__l5e/assets-v1/f1b1a986-e113-4638-9328-44f2c332ee06/manila-10.jpg",
-  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/f1b1a986-e113-4638-9328-44f2c332ee06/manila-10.jpg",
+  "url": "/__l5e/assets-v1/17ad5ad6-9182-4920-b94a-7c2e6ac464ae/manila-10.jpg",
+  "r2_key": "a/v1/b91f0283-22d3-4367-9e85-37db06e0321c/17ad5ad6-9182-4920-b94a-7c2e6ac464ae/manila-10.jpg",
   "original_filename": "manila-10.jpg",
-  "size": 332996,
-  "content_type": "image/png",
-  "created_at": "2026-09-18T01:47:33Z"
+  "size": 948840,
+  "content_type": "image/jpeg",
+  "created_at": "2026-09-18T03:27:27Z"
 }
