@@ -4,13 +4,17 @@ import type { Modelo } from "@/lib/catalogo";
 
 export function ModelCard({ modelo }: { modelo: Modelo }) {
   const [ativa, setAtiva] = useState<number | null>(null);
-  const visiveis = modelo.cores.slice(0, 6);
-  const extra = modelo.cores.length - visiveis.length;
-  const corAtiva = ativa === null ? undefined : modelo.cores[ativa];
   const pecas = modelo.pecas;
   const mostraPecas =
     Boolean(pecas && pecas.length > 1) &&
     !["manila", "singapura", "colombo"].includes(modelo.id);
+  const coresBase =
+    mostraPecas && (pecas![0]?.cores.length ?? 0) > modelo.cores.length
+      ? pecas![0]!.cores
+      : modelo.cores;
+  const visiveis = coresBase.slice(0, 6);
+  const extra = coresBase.length - visiveis.length;
+  const corAtiva = ativa === null ? undefined : coresBase[ativa];
   const pecasVisiveis = mostraPecas ? pecas! : null;
   const imagensPecas = pecasVisiveis
     ? pecasVisiveis.map((p) => {
@@ -18,6 +22,7 @@ export function ModelCard({ modelo }: { modelo: Modelo }) {
         return { src: p.cores[idx]?.imagem ?? p.imagem, nome: p.nome };
       })
     : null;
+
 
   const src = corAtiva?.imagem ?? modelo.lifestyle ?? modelo.imagem;
   const emUso = !corAtiva && Boolean(modelo.lifestyle) && !mostraPecas;
