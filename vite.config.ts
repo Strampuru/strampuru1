@@ -25,5 +25,12 @@ export default defineConfig({
   },
   vite: {
     base: githubPages ? "/strampuru1/" : "/",
+    build: {
+      // No build do GitHub Pages corremos primeiro `bun run build` (gera o
+      // servidor em dist/server, necessário à pré-renderização da shell SPA) e
+      // só depois o build estático; sem isto o segundo build apagaria o
+      // servidor antes de o usar.
+      emptyOutDir: false,
+    },
   },
 });
