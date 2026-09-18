@@ -4,11 +4,29 @@
 //     nitro (build-only using cloudflare as a default target), VITE_* env injection, @ path alias,
 //     React/TanStack dedupe, error logger plugins, and sandbox detection (port/host/strictPort).
 // You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
+import { writeFileSync, mkdirSync } from "node:fs";
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 // Build estático para GitHub Pages: GITHUB_PAGES=true npm run build
 // (definido no workflow .github/workflows/deploy-react.yml)
 const githubPages = process.env["GITHUB_PAGES"] === "true";
+
+// Em modo SPA o TanStack Start pré-renderiza a "shell" através de um servidor
+// de pré-visualização que procura dist/server/server.js, mas o build nitro
+// emite dist/server/index.mjs. Este plugin escreve uma ponte após cada
+// ambiente de build (o último a correr é o nitro, que limpa dist/server).
+const serverShimPlugin = {
+  name: "github-pages-server-shim",
+  apply: "build" as const,
+  closeBundle() {
+    if (!githubPages) return;
+    mkdirSync("dist/server", { recursive: true });
+    writeFileSync(
+      "dist/server/server.js",
+      'export { default } from "./index.mjs";\n',
+    );
+  },
+};
 
 export default defineConfig({
   tanstackStart: {
@@ -19,18 +37,11 @@ export default defineConfig({
     ...(githubPages
       ? {
           spa: { enabled: true },
-          prerender: { enabled: false },
         }
       : {}),
   },
   vite: {
     base: githubPages ? "/strampuru1/" : "/",
-    build: {
-      // No build do GitHub Pages corremos primeiro `bun run build` (gera o
-      // servidor em dist/server, necessário à pré-renderização da shell SPA) e
-      // só depois o build estático; sem isto o segundo build apagaria o
-      // servidor antes de o usar.
-      emptyOutDir: false,
-    },
+    plugins: [serverShimPlugin],
   },
 });
