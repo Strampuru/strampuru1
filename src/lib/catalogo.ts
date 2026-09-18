@@ -535,6 +535,12 @@ import asset_rabat_5 from "@/assets/rabat/rabat-5.png.asset.json";
 import asset_rabat_6 from "@/assets/rabat/rabat-6.png.asset.json";
 
 
+// Prefixo base do site ("/" na Lovable, "/strampuru1/" no GitHub Pages) para
+// imagens servidas a partir da pasta public/.
+const __base = import.meta.env.BASE_URL ?? "/";
+const pub = (p: string): string =>
+  __base === "/" ? p : __base.replace(/\/$/, "") + p;
+
 export type FamiliaId = "tshirts" | "polos" | "sweats" | "jaquetas";
 export type CategoriaId = FamiliaId | "homem" | "mulher" | "crianca" | "conjuntos" | "brindes";
 
@@ -688,7 +694,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#LIS-LIS",
     "imagem": "/__l5e/assets-v1/aa79323b-1815-4aae-a0d8-9d9d23713003/lisboa-1.png",
-    "lifestyle": "/lifestyle/lisboa-new.jpg",
+    "lifestyle": pub("/lifestyle/lisboa-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -1048,7 +1054,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 190 g/m²",
     "referencia": "#MAD-MAD",
     "imagem": asset_madrid_cor_1.url,
-    "lifestyle": "/lifestyle/madrid-new.jpg",
+    "lifestyle": pub("/lifestyle/madrid-new.jpg"),
     "cores": [
   {
     "nome": "Preto",
@@ -1157,7 +1163,7 @@ export const modelos: Modelo[] = [
     "composicao": "95% Algodão, 5% Elastano, Densidade: 190 g/m²",
     "referencia": "#ROM-ROM",
     "imagem": roma1.url,
-    "lifestyle": "/lifestyle/roma-new.jpg",
+    "lifestyle": pub("/lifestyle/roma-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -1757,7 +1763,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#ZAG-ZAG",
     "imagem": "/__l5e/assets-v1/e7b6f801-7e45-41f5-8496-e5cfe4cc7d5e/zagreb-24.png",
-    "lifestyle": "/lifestyle/zagreb-new.jpg",
+    "lifestyle": pub("/lifestyle/zagreb-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -1972,7 +1978,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#COP-COP",
     "imagem": "/__l5e/assets-v1/bea9f71a-db83-4911-9cb0-acc0485c6ea5/copenhaga-5.png",
-    "lifestyle": "/lifestyle/copenhaga-new.jpg",
+    "lifestyle": pub("/lifestyle/copenhaga-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -2061,7 +2067,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#BRA-BRA",
     "imagem": "/__l5e/assets-v1/cc8a9651-b300-4343-a886-b9f773ef66b6/bratislava-2.png",
-    "lifestyle": "/lifestyle/bratislava-new.jpg",
+    "lifestyle": pub("/lifestyle/bratislava-new.jpg"),
     "cores": [
       {
         "nome": "Verde",
@@ -2165,7 +2171,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#HEL-HEL",
     "imagem": "/__l5e/assets-v1/c2d5f353-c871-4d26-9fca-3fbd34c0f428/helsinquia-4.png",
-    "lifestyle": "/lifestyle/helsinquia-new.jpg",
+    "lifestyle": pub("/lifestyle/helsinquia-new.jpg"),
     "cores": [
       {
         "nome": "Verde",
@@ -2269,7 +2275,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#DUB-DUB",
     "imagem": "/__l5e/assets-v1/3d4760fa-28ca-4c8e-8c66-9dbf04567f1e/moscovo-5.png",
-    "lifestyle": "/lifestyle/moscovo-new.jpg",
+    "lifestyle": pub("/lifestyle/moscovo-new.jpg"),
     "cores": [
       {
         "nome": "Verde",
@@ -2367,7 +2373,7 @@ export const modelos: Modelo[] = [
     "composicao": "77% Poliamida, 23% Poliéster, Densidade: 180 g/m²",
     "referencia": "#BUD-BUD",
     "imagem": asset_budapeste_cor_1.url,
-    "lifestyle": "/lifestyle/budapeste-new.jpg",
+    "lifestyle": pub("/lifestyle/budapeste-new.jpg"),
     "cores": [
   {
     "nome": "Azul",
@@ -2556,7 +2562,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#BOG-BOG",
     "imagem": asset_bogota_1.url,
-    "lifestyle": "/lifestyle/bogota-new.jpg",
+    "lifestyle": pub("/lifestyle/bogota-new.jpg"),
 "cores": [
       {
         "nome": "Branco 1",
@@ -2833,7 +2839,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#BRA-BRA",
     "imagem": asset_brasilia_1.url,
-    "lifestyle": "/lifestyle/brasilia-new.jpg",
+    "lifestyle": pub("/lifestyle/brasilia-new.jpg"),
 "cores": [
       {
         "nome": "Preto",
@@ -2967,7 +2973,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#BUE-BUE",
     "imagem": asset_buenos_aires_cor_1.url,
-    "lifestyle": "/lifestyle/buenos-aires-corrected.jpg",
+    "lifestyle": pub("/lifestyle/buenos-aires-corrected.jpg"),
     "cores": [
   {
     "nome": "Branco e verde",
@@ -3058,7 +3064,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 170 g/m²",
     "referencia": "#STR-SNT",
     "imagem": asset_santiago_cor_1.url,
-    "lifestyle": "/lifestyle/santiago-corrected.jpg",
+    "lifestyle": pub("/lifestyle/santiago-corrected.jpg"),
     "cores": [
   {
     "nome": "Vermelho e branco",
@@ -3497,7 +3503,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 220 g/m²",
     "referencia": "#BOG-BOG-C",
     "imagem": asset_bogota_1.url,
-    "lifestyle": "/lifestyle/bogota-new.jpg",
+    "lifestyle": pub("/lifestyle/bogota-new.jpg"),
 "cores": [
       {
         "nome": "Branco 1",
@@ -3775,7 +3781,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 280 g/m²",
     "referencia": "#LIM-LIM",
     "imagem": "/__l5e/assets-v1/66db4335-a27f-4f27-bb32-a94d941e6b79/arizona-branco.webp",
-    "lifestyle": "/lifestyle/lima-new.jpg",
+    "lifestyle": pub("/lifestyle/lima-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -4529,7 +4535,7 @@ export const modelos: Modelo[] = [
     "composicao": "65% Poliéster, 35% Algodão, Densidade: 300 g/m²",
     "referencia": "#MEL-MEL",
     "imagem": melodias1.url,
-    "lifestyle": "/lifestyle/melodias-new.jpg",
+    "lifestyle": pub("/lifestyle/melodias-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -4803,7 +4809,7 @@ export const modelos: Modelo[] = [
     "composicao": "Interior: 100% Poliéster (225 g/m²) · Exterior: 70% Poliéster, 30% PVC (200 g/m²)",
     "referencia": "#NAI-NAI",
     "imagem": asset_nairobi_cor_1.url,
-    "lifestyle": "/lifestyle/nairobi-new.jpg",
+    "lifestyle": pub("/lifestyle/nairobi-new.jpg"),
     "cores": [
   {
     "nome": "Branco",
@@ -4928,7 +4934,7 @@ export const modelos: Modelo[] = [
     "composicao": "Interior: 100% Poliéster (200 g/m²) · Exterior: 70% Poliéster, 30% PVC (200 g/m²)",
     "referencia": "#TOK-TOK",
     "imagem": asset_toquio_cor_1.url,
-    "lifestyle": "/lifestyle/toquio-new.jpg",
+    "lifestyle": pub("/lifestyle/toquio-new.jpg"),
     "cores": [
   {
     "nome": "Vermelho",
@@ -5021,7 +5027,7 @@ export const modelos: Modelo[] = [
     "composicao": "Interior: 100% Poliéster (220 g/m²) · Exterior: 100% Poliéster (160 g/m²)",
     "referencia": "#MAP-MAP",
     "imagem": "/__l5e/assets-v1/dccb9ff8-49c8-485d-a2d7-9a2a6020b2be/balak-azul.webp",
-    "lifestyle": "/lifestyle/maputo-new.jpg",
+    "lifestyle": pub("/lifestyle/maputo-new.jpg"),
     "cores": [
       {
         "nome": "Azul",
@@ -5099,7 +5105,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#ZAG-MUL",
     "imagem": "/__l5e/assets-v1/e7b6f801-7e45-41f5-8496-e5cfe4cc7d5e/zagreb-24.png",
-    "lifestyle": "/lifestyle/zagreb-new.jpg",
+    "lifestyle": pub("/lifestyle/zagreb-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -5314,7 +5320,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 180 g/m²",
     "referencia": "#ATE-ATE",
     "imagem": "/__l5e/assets-v1/698bee58-9fd3-45e3-a306-242bf2ff1965/atenas-1.png",
-    "lifestyle": "/lifestyle/atenas-new.jpg",
+    "lifestyle": pub("/lifestyle/atenas-new.jpg"),
     "cores": [
       {
         "nome": "Cinzento",
@@ -5400,7 +5406,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#LIS-LIS",
     "imagem": "/__l5e/assets-v1/20ef2e18-6467-4bc7-a363-ba32dac9532f/racing-branco.webp",
-    "lifestyle": "/lifestyle/lisboa-new.jpg",
+    "lifestyle": pub("/lifestyle/lisboa-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -5948,7 +5954,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#BAK",
     "imagem": "/__l5e/assets-v1/780b9800-b5d8-4043-80e3-5b396b73ae98/baku-1.png",
-    "lifestyle": "/lifestyle/baku-new.jpg",
+    "lifestyle": pub("/lifestyle/baku-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -6052,7 +6058,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#OSL",
     "imagem": "/__l5e/assets-v1/a9c7c0f2-9519-4eea-bd2c-55f4ec29833c/oslo-1.png",
-    "lifestyle": "/lifestyle/oslo-new.jpg",
+    "lifestyle": pub("/lifestyle/oslo-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -6144,7 +6150,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 160 g/m²",
     "referencia": "#SAR",
     "imagem": "/__l5e/assets-v1/4b4f6f8b-ebed-4685-8e69-31ed71e22fae/saravejo-1.png",
-    "lifestyle": "/lifestyle/saravejo-corrected.jpg",
+    "lifestyle": pub("/lifestyle/saravejo-corrected.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -6242,7 +6248,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 210 g/m²",
     "referencia": "#SOF-SOF",
     "imagem": "/__l5e/assets-v1/b5778fc0-9542-4b92-bd47-8c98af392777/sofia-3.png",
-    "lifestyle": "/lifestyle/sofia-corrected.jpg",
+    "lifestyle": pub("/lifestyle/sofia-corrected.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -6316,7 +6322,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Algodão, Densidade: 210 g/m²",
     "referencia": "#RIG-RIG",
     "imagem": "/__l5e/assets-v1/76fa6a47-125a-427e-9589-c05a946c762b/riga-1.png",
-    "lifestyle": "/lifestyle/riga-new.jpg",
+    "lifestyle": pub("/lifestyle/riga-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -6378,7 +6384,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#ZAG-ZAG",
     "imagem": "/__l5e/assets-v1/e7b6f801-7e45-41f5-8496-e5cfe4cc7d5e/zagreb-24.png",
-    "lifestyle": "/lifestyle/zagreb-new.jpg",
+    "lifestyle": pub("/lifestyle/zagreb-new.jpg"),
     "cores": [
       {
         "nome": "Branco",
@@ -6593,7 +6599,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#HEL-HEL",
     "imagem": "/__l5e/assets-v1/c2d5f353-c871-4d26-9fca-3fbd34c0f428/helsinquia-4.png",
-    "lifestyle": "/lifestyle/helsinquia-new.jpg",
+    "lifestyle": pub("/lifestyle/helsinquia-new.jpg"),
     "cores": [
       {
         "nome": "Verde",
@@ -6697,7 +6703,7 @@ export const modelos: Modelo[] = [
     "composicao": "100% Poliéster, Densidade: 145 g/m²",
     "referencia": "#DUB-DUB",
     "imagem": "/__l5e/assets-v1/3d4760fa-28ca-4c8e-8c66-9dbf04567f1e/moscovo-5.png",
-    "lifestyle": "/lifestyle/moscovo-new.jpg",
+    "lifestyle": pub("/lifestyle/moscovo-new.jpg"),
     "cores": [
       {
         "nome": "Verde",
@@ -10078,7 +10084,7 @@ export const modelos: Modelo[] = [
                 "hexes": [
                     "#eaedf1"
                 ],
-                "imagem": "/placeholder-modelo.svg"
+                "imagem": pub("/placeholder-modelo.svg")
             }
         ],
         "tamanhos": [
@@ -11640,8 +11646,8 @@ export const modelos: Modelo[] = [
     "descricao": "Artigo TORRE DE MADEIRA da coleção Jogos em preparação, fotografias e detalhes a adicionar brevemente.",
     "composicao": "Composição a confirmar",
     "referencia": "#TOR-TOR",
-    "imagem": "/lifestyle/torre-de-madeira.jpg",
-    "lifestyle": "/lifestyle/torre-de-madeira.jpg",
+    "imagem": pub("/lifestyle/torre-de-madeira.jpg"),
+    "lifestyle": pub("/lifestyle/torre-de-madeira.jpg"),
     "cores": [
       {
         "nome": "Madeira",
@@ -11649,7 +11655,7 @@ export const modelos: Modelo[] = [
         "hexes": [
           "#c4a77d"
         ],
-        "imagem": "/lifestyle/torre-de-madeira.jpg"
+        "imagem": pub("/lifestyle/torre-de-madeira.jpg")
       }
     ],
     "tamanhos": [

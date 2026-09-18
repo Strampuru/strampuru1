@@ -1,5 +1,65 @@
-import { defineConfig } from "vite";
+// @lovable.dev/vite-tanstack-config already includes the following — do NOT add them manually
+// or the app will break with duplicate plugins:
+//   - TanStack devtools (dev-only, first), tanstackStart, viteReact, tailwindcss, tsConfigPaths,
+//     nitro (build-only using cloudflare as a default target), VITE_* env injection, @ path alias,
+//     React/TanStack dedupe, error logger plugins, and sandbox detection (port/host/strictPort).
+// You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
+import { writeFileSync, mkdirSync } from "node:fs";
+import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+
+// Build estático para GitHub Pages: GITHUB_PAGES=true npm run build
+// (definido no workflow .github/workflows/deploy-react.yml)
+const githubPages = process.env["GITHUB_PAGES"] === "true";
+
+// Em modo SPA o TanStack Start pré-renderiza a "shell" através de um servidor
+// de pré-visualização que procura dist/server/server.js, mas o build nitro
+// emite dist/server/index.mjs. Este plugin escreve uma ponte após cada
+// ambiente de build (o último a correr é o nitro, que limpa dist/server).
+const serverShimPlugin = {
+  name: "github-pages-server-shim",
+  apply: "build" as const,
+  closeBundle() {
+    if (!githubPages) return;
+    mkdirSync("dist/server", { recursive: true });
+    // O build nitro usa o formato Cloudflare (fetch(request, env, ctx)); o
+    // servidor de pré-visualização chama fetch(request) sem env, daí os ??.
+    writeFileSync(
+      "dist/server/server.js",
+      [
+        'import handler from "./index.mjs";',
+        "export default {",
+        "  fetch(request, env, context) {",
+        "    // O preset Cloudflare tenta escrever req.ip; o Request do servidor de",
+        "    // pré-visualização (srvx) tem apenas getter, por isso clonamos para",
+        "    // um Request simples, que é extensível.",
+        "    const req = new Request(request.url, {",
+        "      method: request.method,",
+        "      headers: request.headers,",
+        "      redirect: request.redirect,",
+        "    });",
+        "    return handler.fetch(req, env ?? {}, context ?? { waitUntil() {} });",
+        "  },",
+        "};",
+        "",
+      ].join("\n"),
+    );
+  },
+};
 
 export default defineConfig({
-  base: "/strampuru1/",
+  tanstackStart: {
+    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
+    // nitro/vite builds from this
+    server: { entry: "server" },
+    // No GitHub Pages não há servidor: gera uma versão 100% estática do site.
+    ...(githubPages
+      ? {
+          spa: { enabled: true },
+        }
+      : {}),
+  },
+  vite: {
+    base: githubPages ? "/strampuru1/" : "/",
+    plugins: [serverShimPlugin],
+  },
 });
