@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site-layout";
 import { DestaqueRotativo } from "@/components/destaque-rotativo";
-import { categorias, modelos } from "@/lib/catalogo";
+import { modelos } from "@/lib/catalogo";
 import logo from "@/assets/strampuru-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
