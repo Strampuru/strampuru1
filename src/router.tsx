@@ -5,8 +5,13 @@ import { routeTree } from "./routeTree.gen";
 export const getRouter = () => {
   const queryClient = new QueryClient();
 
+  // No GitHub Pages o site vive em /strampuru1/; na Lovable vive na raiz.
+  const base = import.meta.env.BASE_URL ?? "/";
+  const basepath = base === "/" ? "/" : base.replace(/\/$/, "");
+
   const router = createRouter({
     routeTree,
+    basepath,
     context: { queryClient },
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
