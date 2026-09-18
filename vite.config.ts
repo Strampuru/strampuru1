@@ -1,14 +1,5 @@
-import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  tanstackStart: {
-    server: { entry: "server" },
-  },
-
-  // 👇 ESTA PARTE É A QUE RESOLVE O ERRO DO ROLLDOWN
-  vite: {
-    build: {
-      rollupOptions: {}
-    }
-  }
+  base: "/strampuru1/",
 });
